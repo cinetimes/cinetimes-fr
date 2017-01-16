@@ -8,18 +8,15 @@ title: CinéTime.tv
 # subtitle: ex: <%- config.subtitle %>
 # description: ex: <%- config.description %>
 # author: John Doe
-language: [fr, es]
+language: fr
 # timezone:
-i18n:
-  type: [page, post]
-  generator: [tag, index, category]
-  
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://cinetime.tv
 root: /
-permalink: :lang/:title/
-permalink_defaults: 
+permalink: :title/
+permalink_defaults:
 
 # Directory
 source_dir: source
@@ -28,11 +25,11 @@ tag_dir: tags
 archive_dir: archives
 category_dir: category
 code_dir: downloads/code
-i18n_dir: :lang
+i18n_dir: 
 skip_render:
 
 # Writing
-new_post_name: :lang/:title.md # File name of new posts
+new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -53,7 +50,7 @@ category_map:
 
 tag_map:
   Popeye: popeye
-  
+
 tag_generator:
   per_page: 9
 
