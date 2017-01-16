@@ -1,0 +1,32 @@
+menu:
+  home: CineTime
+  movies: Films
+  docs: Documentaires
+  cartoons: Dessins Animés
+  lang: Langue
+ 
+menu_url:
+  home: /
+  movies: /category/movies
+  docs: /category/docs
+  cartoons: /category/cartoons
+  
+index:
+  title: CineTime.tv - Site de Streaming et de Téléchargement Gratuit
+  description: Venez passer un bon moment avec notre sélection de films, séries et dessins animés cultes et libre de droit. Popeye, Chaplin ou encore Hitchcock, venez voir ce qu il vous plaît.
+  
+excerpt:
+  lang: Langue
+  year: Année
+  es: Español
+  fr: Français
+  
+description:
+  title: Titre
+  origin: Origine
+  year: Année
+  length: Durée
+  download: Téléchargement
+  intro: Venez voir
+  released: Paru en
+  available: disponible ici en

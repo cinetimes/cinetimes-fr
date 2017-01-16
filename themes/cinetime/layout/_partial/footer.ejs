@@ -1,0 +1,43 @@
+        <footer>
+          <div id="footer_nav">
+            <div class="fContainer">
+                <h4>Catégories</h4>
+                
+                  <%- list_categories({show_count: false,depth: 0}) %>
+              <h1><%= site.categories.get %></h1>
+              <h1><%= Object.keys(site) %></h1>
+              <h1><%= site.categories.constructor %></h1>
+              <h1><%= site.categories.__proto__ %></h1>
+                
+            </div>
+            <div class="fContainer">
+                <h4>Réalisateus</h4>
+                <ul>
+        <%- list_posts() %>
+                </ul>
+            </div>
+            <div class="fContainer">
+                <h4>Populaires</h4>
+                <ul>
+        <% var categoryArray = []; %>
+ 		<% site.categories.each(function(category){ 
+                  categoryArray.push('<li><a href="' + url_for_lang(category.path) + '">' +category.name + "</a></li>");
+		 }); %>
+                  <%- categoryArray %>
+                </ul>
+            </div>
+          </div>
+          
+          <div id="footerBottom">
+            <p>&copy; CineTime</p>
+            <p></p>
+            <p>
+              <a href="/contact.html">
+<!--
+              <button class="contactbtn">Contactez Nous <span class="fa fa-envelope-o" aria-hidden="true"></span>
+              </button>
+-->
+              </a>
+            </p>
+          </div>
+        </footer>

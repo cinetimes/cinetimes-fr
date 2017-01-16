@@ -1,0 +1,40 @@
+<head>
+      <meta charset="utf-8" />
+      <title>
+		  <% if (page.title) { %> 
+		  <%- page.title %> | <%- config.title %>
+		  <% } else { %>
+		  <%- __('index.title') %><% } %>
+	  </title>
+      <meta name="description" content="<% if (page.subtitle) { %><%- __('description.intro') +' ' + page.title + ", " + page.subtitle + ", " + __('description.released') + ' ' + page.year + ", " + __('description.available') + ' ' + __('excerpt.' + page.lang) %><% } else { %> <%- __('index.description') %><% } %>">
+
+      <link rel="stylesheet" href="<%- url_for('css/style.css') %>" />
+      <!-- Font Awesome -->
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <!--Google Fonts-->
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto:700|Lato:300' rel='stylesheet' type='text/css'>
+	  <!-- videojs CSS -->
+	  <%- css('bower_components/video.js/dist/video-js.min.css') %>
+      <!-- favicon -->
+      <link rel="apple-touch-icon" sizes="57x57" href="<%- url_for('favicon/apple-icon-57x57.png') %>">
+      <link rel="apple-touch-icon" sizes="60x60" href="<%- url_for('favicon/apple-icon-60x60.png') %>">
+      <link rel="apple-touch-icon" sizes="72x72" href="<%- url_for('favicon/apple-icon-72x72.png') %>">
+      <link rel="apple-touch-icon" sizes="76x76" href="<%- url_for('favicon/apple-icon-76x76.png') %>">
+      <link rel="apple-touch-icon" sizes="114x114" href="<%- url_for('favicon/apple-icon-114x114.png') %>">
+      <link rel="apple-touch-icon" sizes="120x120" href="<%- url_for('favicon/apple-icon-120x120.png') %>">
+      <link rel="apple-touch-icon" sizes="144x144" href="<%- url_for('favicon/apple-icon-144x144.png') %>">
+      <link rel="apple-touch-icon" sizes="152x152" href="<%- url_for('favicon/apple-icon-152x152.png') %>">
+      <link rel="apple-touch-icon" sizes="180x180" href="<%- url_for('favicon/apple-icon-180x180.png') %>">
+      <link rel="icon" type="image/png" sizes="192x192"  href="<%- url_for('favicon/android-icon-192x192.png') %>">
+      <link rel="icon" type="image/png" sizes="32x32" href="<%- url_for('favicon/favicon-32x32.png') %>">
+      <link rel="icon" type="image/png" sizes="96x96" href="<%- url_for('favicon/favicon-96x96.png') %>">
+      <link rel="icon" type="image/png" sizes="16x16" href="<%- url_for('favicon/favicon-16x16.png') %>">
+      <link rel="manifest" href="<%- url_for('favicon/manifest.json') %>">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+
+		
+<!--	  <meta name="propeller" content="417390c24b0eae2dcf6870ed48a410cd" />-->
+		
+</head>

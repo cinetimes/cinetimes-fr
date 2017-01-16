@@ -1,0 +1,17 @@
+ <% if (page.layout == 'post') { %>
+
+<% } else { %>
+		<section id="mainSection">
+			<% if (page.lang === "fr") { %>
+            <p>
+        	    Bienvuene sur CineTime.tv <br />
+        	    Le premier site de streaming de contenu libre de droit
+            </p>
+			<% } else if (page.lang === "es") { %>
+			 <p>
+        	    Bienvenido à CineTime.tv <br />
+        	    La primera plataforma de cine de dominio público
+            </p>
+			<% } %>
+        </section>
+<% } %>

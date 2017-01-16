@@ -1,0 +1,31 @@
+ <% var whatCss = (function() {
+ var cssClass;
+ 	switch (item.category_bis) {
+ 		case "movies":
+ 		    cssClass = "film_rouge";
+ 			break;
+ 		case "docs":
+ 			cssClass = "cartoon_bleu";
+ 			break;
+ 		case "cartoons":
+ 			cssClass = "cartoon_bleu";
+ 			break;
+ 		default:
+ 			cssClass = "";
+ 	}
+ 	return cssClass;
+  }); %>
+
+
+<a href="<%- config.root %><%- item.path %>">
+	<div class="element">
+		<img class="<%- whatCss() %>" src="<%- url_for('img/')%><%- item.img_url %>" alt="<%- item.img_alt %>" tittle="<%- item.img_title %>"> </img>
+		<div class="description">
+			<h4> <%- item.title %> <span class="fa fa-play-circle" aria-hidden="true"></span></h4>
+			<p> <%- item.subtitle %> </p>
+			<p class="langueFiche"><%- __('excerpt.lang') %>: <%- __('excerpt.' + item.lang) %></p>
+			<p class="anneeFiche"><%- __('excerpt.year') %>: <%- item.year %></p>
+			<p class="longueurFiche"><%- item.length %></p>
+		</div>
+	</div>
+</a>

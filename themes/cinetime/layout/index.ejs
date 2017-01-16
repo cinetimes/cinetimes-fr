@@ -1,0 +1,21 @@
+<%- partial('_partial/p-presentation') %>
+
+<div id="background">
+<!--	<h2>Sur le site</h2>-->
+	<div id="vedette">
+
+		<% page.posts.each(function(item){ %>
+			<% if (item.lang == page.lang) {%>
+				<%- partial('_partial/article-excerpt', {item: item}) %>
+		    <% } %>
+		<% }); %>
+		
+		
+		<%- page.content %> 
+		
+		<%- partial('_partial/pagination') %>
+		
+	</div>
+</div>
+
+

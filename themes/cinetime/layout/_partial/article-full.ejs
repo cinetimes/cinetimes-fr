@@ -1,0 +1,55 @@
+<main id="video_et_description">
+	
+	<div class="videoDescription">
+        <h1><%- item.title %></h1>
+    </div>
+	
+	<div class="video">
+		<video id="my-video" class="video-js" controls preload="auto" width="640px" height="267px"
+              poster="<%- url_for('img/')%><%- item.img_url %>" data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "<%- item.youtube_url %>"}] }'>
+
+		</video>
+		<script src="<%- url_for('bower_components/video.js/dist/video.min.js') %>"></script>
+		<script src="<%- url_for('bower_components/videojs-youtube/dist/Youtube.min.js') %>"></script>
+	</div>
+	
+
+	
+    <div class="videoDescription">
+		<ul>
+			<li><%- __('description.title') %>: <span><%- item.title %></span></li>
+			<li><%- __('description.origin') %>: <span><%- item.origin %></span></li>
+			<li><%- __('description.year') %>: <span><%- item.year %></span></li>
+			<li><%- __('description.length') %>: <span><%- item.length %></span></li>
+			<li><%- __('menu.lang') %>: <span><%- item.lang %></span></li>
+		</ul>
+        <%- item.content %>
+    </div>    
+	
+	<div class="videoDescription">
+        <h1><%- __('description.download') %></h1>
+    </div>
+	
+
+	
+            
+    <div id="rs">
+      <button class="button share_twitter" data-url="<%- config.root %><%- item.path %>">
+        <span class="fa fa-twitter" aria-hidden="true"></span> Partager
+      </button>
+               
+      <button class="button share_facebook" data-url="<%- config.root %><%- item.path %>">
+        <span class="fa fa-facebook" aria-hidden="true"></span> Partager
+      </button>
+               
+    </div>
+	
+	 <!-- Tags and Categories links -->
+<!--      partial('article-tags', {item: item}) -->
+     <%- partial('article-categories', {item: item}) %>
+            
+<script src="<%- url_for('js/social.js') %>"></script>            
+            
+            
+</main>
+            

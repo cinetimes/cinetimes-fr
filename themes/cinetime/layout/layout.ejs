@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="<%- page.lang %>">
+	<!-- Head -->
+	<%- partial('_partial/head') %>
+
+    <body>
+      
+		<div id="main">
+      
+    
+	<!-- Navigation -->
+	<%- partial('_partial/menu') %>
+
+	<!-- Header (image poupeye) -->
+	<%- partial('_partial/header') %>
+
+    <!-- Main section ( Entre le jumbotron et le contenu ) -->
+    <%- partial('_partial/main-section') %>
+        
+        
+	
+			
+	<!-- Main content -->		
+	<%- body %>
+	
+
+
+
+	<!-- Footer -->
+	<%- partial('_partial/footer.ejs') %>
+
+		</div>
+	<!-- After footer scripts -->
+	<%- partial('_partial/after-footer') %>
+
+
+    </body>
+
+
+</html>
