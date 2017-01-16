@@ -23,9 +23,9 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
-category_dir: category
+category_dir: categorie
 code_dir: downloads/code
-i18n_dir: 
+i18n_dir:
 skip_render:
 
 # Writing
