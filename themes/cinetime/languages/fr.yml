@@ -20,6 +20,9 @@ excerpt:
   year: Année
   es: Español
   fr: Français
+  movies: Film
+  docs: Documentaire
+  cartoons: Dessin Animé
   
 description:
   title: Titre
@@ -30,3 +33,4 @@ description:
   intro: Venez voir
   released: Paru en
   available: disponible ici en
+  quality: Qualité

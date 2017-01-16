@@ -1,14 +1,12 @@
 <div id="background">
 
 	
-    <h2><%- page.tag + 'caca' %></h2>
+    <h2><%- page.tag %></h2>
 	
 	
 	<div id="vedette">
 		<% page.posts.each(function(item){ %>
-			<% if (item.lang == page.lang) {%>
 				<%- partial('_partial/article-excerpt', {item: item}) %>
-			<% } %>
 		<% }); %>
 
 		<%- partial('_partial/pagination') %>

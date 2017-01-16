@@ -1,7 +1,8 @@
 ---
 title: {{ title }}
-date: {{ date }}
 subtitle: 
+author:
+quality:
 lang: 
 year: 
 origin:

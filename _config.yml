@@ -13,7 +13,7 @@ language: fr
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://cinetime.tv
+url: http://cinetime.tv/
 root: /
 permalink: :title/
 permalink_defaults:
@@ -23,7 +23,7 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
-category_dir: categorie
+category_dir: category
 code_dir: downloads/code
 i18n_dir:
 skip_render:
@@ -47,6 +47,7 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+
 
 tag_map:
   Popeye: popeye

@@ -1,14 +1,11 @@
 ---
-title: Les Voyages de Gulliver
-lang: fr
-date: 2017-01-13 14:06:06
-subtitle: Dave Fleischer
+title: Les Voyages de Gulliver 
+author: Dave Fleischer
+lang: Français
 year: 1939
 length: 1h16mn
 origin: Américain
-img_alt:
-img_title: 
-img_url: gulliver.jpg
+img_url: gulliver
 youtube_url: https://www.youtube.com/watch?v=bQoZyiSohGQ
 tags:
 category: 

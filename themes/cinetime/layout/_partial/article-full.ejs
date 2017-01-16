@@ -6,7 +6,7 @@
 	
 	<div class="video">
 		<video id="my-video" class="video-js" controls preload="auto" width="640px" height="267px"
-              poster="<%- url_for('img/')%><%- item.img_url %>" data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "<%- item.youtube_url %>"}] }'>
+              poster="<%- url_for('img/')%><%- item.img_url %>.jpg" data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "<%- item.youtube_url %>"}] }'>
 
 		</video>
 		<script src="<%- url_for('bower_components/video.js/dist/video.min.js') %>"></script>
@@ -22,6 +22,8 @@
 			<li><%- __('description.year') %>: <span><%- item.year %></span></li>
 			<li><%- __('description.length') %>: <span><%- item.length %></span></li>
 			<li><%- __('menu.lang') %>: <span><%- item.lang %></span></li>
+			<li><%- __('description.quality') %>: <span><%- item.quality %></span></li>
+          
 		</ul>
         <%- item.content %>
     </div>    

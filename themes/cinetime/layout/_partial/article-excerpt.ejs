@@ -19,11 +19,14 @@
 
 <a href="<%- config.root %><%- item.path %>">
 	<div class="element">
-		<img class="<%- whatCss() %>" src="<%- url_for('img/')%><%- item.img_url %>" alt="<%- item.img_alt %>" tittle="<%- item.img_title %>"> </img>
+		<img class="<%- whatCss() %>" src="<%- url_for('img/')%><%- item.img_url %>.jpg" alt="Affiche du <%- __('excerpt.' + item.category_bis) %> de <%- item.author %>: <%- item.title %>" tittle="<%- item.title %>"> </img> 
 		<div class="description">
-			<h4> <%- item.title %> <span class="fa fa-play-circle" aria-hidden="true"></span></h4>
-			<p> <%- item.subtitle %> </p>
-			<p class="langueFiche"><%- __('excerpt.lang') %>: <%- __('excerpt.' + item.lang) %></p>
+			<h4> <%- item.title %> <%if(item.quality) { %> <span class="label label-default"> <%- item.quality %></span><% } %> </h4>
+			<p> <% if (item.subtitle) { %>
+                <%- item.subtitle %>
+              <% } else { %><%- item.author %> <% } %>
+               </p>
+			<p class="langueFiche"><%- __('excerpt.lang') %>: <%- item.lang %></p>
 			<p class="anneeFiche"><%- __('excerpt.year') %>: <%- item.year %></p>
 			<p class="longueurFiche"><%- item.length %></p>
 		</div>

@@ -1,7 +1,13 @@
 <div id="background">
 	<%
 	var title = '';
-	if (page.category) title = __( 'menu.' + page.category );
+	if (page.category) {
+      if (is_category('cartoons') || is_category('movies') || is_category('docs')) {
+          title = __( 'menu.' + page.category );
+          }
+      else {title = titlecase(page.category)}
+    }
+      
 	if (page.tag) title = page.tag;
 	if (page.archive){
 	if (page.year) title = page.year + (page.month ? '/' + page.month : '');
@@ -14,9 +20,7 @@
 	
 	<div id="vedette">
 		<% page.posts.each(function(item){ %>
-			<% if (item.lang == page.lang) {%>
 				<%- partial('_partial/article-excerpt', {item: item}) %>
-			<% } %>
 		<% }); %>
 
 		<%- partial('_partial/pagination') %>
