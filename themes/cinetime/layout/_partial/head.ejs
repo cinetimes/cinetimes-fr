@@ -6,7 +6,7 @@
 		  <% } else { %>
 		  <%- __('index.title') %><% } %>
 	  </title>
-      <meta name="description" content="<% if (page.subtitle) { %><%- __('description.intro') +' ' + page.title + ", " + page.subtitle + ", " + __('description.released') + ' ' + page.year + ", " + __('description.available') + ' ' + __('excerpt.' + page.lang) %><% } else { %> <%- __('index.description') %><% } %>">
+      <meta name="description" content="<% if (page.subtitle || page.author || page.year) { %><%- __('description.intro') +' ' + page.title + ", un " + __('excerpt.' + page.category_bis) + ", de " + page.author + ", "+ __('description.released') + ' ' + page.year + ", " + __('description.available') + ' ' +  page.lang %><% } else { %> <%- __('index.description') %><% } %>">
 
       <link rel="stylesheet" href="<%- url_for('css/style.css') %>" />
       <!-- Font Awesome -->
