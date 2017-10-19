@@ -9,7 +9,7 @@
 	  </title>
       <meta name="description" content="<% if (page.subtitle || page.author || page.year) { %><%- __('description.intro') +' ' + page.title + ", un " + __('excerpt.' + page.category_bis) + " de " + page.author + " "+ __('description.released') + ' ' + page.year + ", " + __('description.available') + ' ' +  page.lang %><% } else { %> <%- __('index.description') %><% } %>">
 
-      <link rel="stylesheet" href="<%- url_for('css/style.css') %>" />
+      <link rel="stylesheet" href="<%- url_for('/css/style.css') %>" />
       <!-- Font Awesome -->
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
       <!--Google Fonts-->
