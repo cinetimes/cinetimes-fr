@@ -1,6 +1,6 @@
 {
   "name": "videojs-youtube",
-  "version": "2.2.0",
+  "version": "2.4.1",
   "homepage": "https://github.com/eXon/videojs-youtube",
   "authors": [
     "Benoit Tremblay <trembl.ben@gmail.com>"
@@ -28,14 +28,13 @@
   "dependencies": {
     "video.js": "^5.0.0"
   },
-  "_release": "2.2.0",
+  "_release": "2.4.1",
   "_resolution": {
     "type": "version",
-    "tag": "v2.2.0",
-    "commit": "afa5bd54516b68407ffd28d8e010dc90441138f7"
+    "tag": "v2.4.1",
+    "commit": "0390d565fdea6666e2750fced371758cc1a724a6"
   },
   "_source": "https://github.com/eXon/videojs-youtube.git",
   "_target": "^2.2.0",
-  "_originalSource": "videojs-youtube",
-  "_direct": true
+  "_originalSource": "videojs-youtube"
 }

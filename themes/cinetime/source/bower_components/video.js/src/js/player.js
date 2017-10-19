@@ -413,6 +413,11 @@ class Player extends Component {
     // Make player easily findable by ID
     Player.players[this.id_] = this;
 
+    // Add a major version class to aid css in plugins
+    const majorVersion = require('../../package.json').version.split('.')[0];
+
+    this.addClass(`vjs-v${majorVersion}`);
+
     // When the player is first initialized, trigger activity so components
     // like the control bar show themselves if needed
     this.userActive(true);
@@ -473,13 +478,16 @@ class Player extends Component {
   createEl() {
     const tag = this.tag;
     let el;
-    const playerElIngest = this.playerElIngest_ = tag.parentNode && tag.parentNode.hasAttribute('data-vjs-player');
+    const playerElIngest = this.playerElIngest_ = tag.parentNode && tag.parentNode.hasAttribute && tag.parentNode.hasAttribute('data-vjs-player');
 
     if (playerElIngest) {
       el = this.el_ = tag.parentNode;
     } else {
       el = this.el_ = super.createEl('div');
     }
+
+    // set tabindex to -1 so we could focus on the player element
+    tag.setAttribute('tabindex', '-1');
 
     // Remove width/height attrs from tag so CSS can make it 100% width/height
     tag.removeAttribute('width');
@@ -819,6 +827,7 @@ class Player extends Component {
       'textTracks': this.textTracks_,
       'audioTracks': this.audioTracks_,
       'autoplay': this.options_.autoplay,
+      'playsinline': this.options_.playsinline,
       'preload': this.options_.preload,
       'loop': this.options_.loop,
       'muted': this.options_.muted,
@@ -1645,8 +1654,7 @@ class Player extends Component {
    *
    * @return {Player|number}
    *         - the current time in seconds when getting
-   *         - a reference to the current player object when
-   *           getting
+   *         - a reference to the current player object when setting
    */
   currentTime(seconds) {
     if (seconds !== undefined) {
@@ -1686,10 +1694,11 @@ class Player extends Component {
    */
   duration(seconds) {
     if (seconds === undefined) {
-      return this.cache_.duration || 0;
+      // return NaN if the duration is not known
+      return this.cache_.duration !== undefined ? this.cache_.duration : NaN;
     }
 
-    seconds = parseFloat(seconds) || 0;
+    seconds = parseFloat(seconds);
 
     // Standardize on Inifity for signaling video is live
     if (seconds < 0) {
@@ -2379,6 +2388,31 @@ class Player extends Component {
   }
 
   /**
+   * Set or unset the playsinline attribute.
+   * Playsinline tells the browser that non-fullscreen playback is preferred.
+   *
+   * @param {boolean} [value]
+   *        - true means that we should try to play inline by default
+   *        - false means that we should use the browser's default playback mode,
+   *          which in most cases is inline. iOS Safari is a notable exception
+   *          and plays fullscreen by default.
+   *
+   * @return {string|Player}
+   *         - the current value of playsinline
+   *         - the player when setting
+   *
+   * @see [Spec]{@link https://html.spec.whatwg.org/#attr-video-playsinline}
+   */
+  playsinline(value) {
+    if (value !== undefined) {
+      this.techCall_('setPlaysinline', value);
+      this.options_.playsinline = value;
+      return this;
+    }
+    return this.techGet_('playsinline');
+  }
+
+  /**
    * Get or set the loop attribute on the video element.
    *
    * @param {boolean} [value]
@@ -2984,6 +3018,20 @@ class Player extends Component {
     if (this.tech_) {
       return this.tech_.removeRemoteTextTrack(track);
     }
+  }
+
+  /**
+   * Gets available media playback quality metrics as specified by the W3C's Media
+   * Playback Quality API.
+   *
+   * @see [Spec]{@link https://wicg.github.io/media-playback-quality}
+   *
+   * @return {Object|undefined}
+   *         An object with supported media playback quality metrics or undefined if there
+   *         is no tech or the tech does not support it.
+   */
+  getVideoPlaybackQuality() {
+    return this.techGet_('getVideoPlaybackQuality');
   }
 
   /**

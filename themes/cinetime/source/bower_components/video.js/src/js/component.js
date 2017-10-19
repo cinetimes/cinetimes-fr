@@ -392,7 +392,7 @@ class Component {
 
     // If a name wasn't used to create the component, check if we can use the
     // name function of the component
-    componentName = componentName || (component.name && component.name());
+    componentName = componentName || (component.name && toTitleCase(component.name()));
 
     if (componentName) {
       this.childNameIndex_[componentName] = component;
@@ -1230,6 +1230,20 @@ class Component {
    */
   currentHeight() {
     return this.currentDimension('height');
+  }
+
+  /**
+   * Set the focus to this component
+   */
+  focus() {
+    this.el_.focus();
+  }
+
+  /**
+   * Remove the focus from this component
+   */
+  blur() {
+    this.el_.blur();
   }
 
   /**

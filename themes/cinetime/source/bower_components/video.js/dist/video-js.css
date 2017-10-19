@@ -248,11 +248,7 @@
   line-height: 1;
   font-weight: normal;
   font-style: normal;
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+  font-family: Arial, Helvetica, sans-serif; }
   .video-js:-moz-full-screen {
     position: absolute; }
   .video-js:-webkit-full-screen {
@@ -400,6 +396,9 @@ body.vjs-full-window {
 .vjs-using-native-controls .vjs-big-play-button,
 .vjs-error .vjs-big-play-button {
   display: none; }
+
+.vjs-has-started.vjs-paused.vjs-show-big-play-button-on-pause .vjs-big-play-button {
+  display: block; }
 
 .video-js button {
   background: none;
@@ -687,7 +686,7 @@ body.vjs-full-window {
 .video-js .vjs-progress-holder .vjs-load-progress div {
   position: absolute;
   display: block;
-  height: 0.3em;
+  height: 100%;
   margin: 0;
   padding: 0;
   width: 0;
@@ -791,6 +790,10 @@ body.vjs-full-window {
   cursor: pointer;
   padding: 0;
   margin: 0 0.45em 0 0.45em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   background-color: #73859f;
   background-color: rgba(115, 133, 159, 0.5); }
 
@@ -930,9 +933,6 @@ body.vjs-full-window {
 
 .vjs-audio.vjs-has-started .vjs-poster {
   display: block; }
-
-.vjs-controls-disabled .vjs-poster {
-  display: none; }
 
 .vjs-using-native-controls .vjs-poster {
   display: none; }
