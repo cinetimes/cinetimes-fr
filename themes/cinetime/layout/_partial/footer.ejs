@@ -2,26 +2,18 @@
           <div id="footer_nav">
             <div class="fContainer">
                 <h4>Catégories</h4>
-
-                  <%- list_categories({show_count: false,depth: 0}) %>
-
-            </div>
-            <!-- <div class="fContainer">
-                <h4>Réalisateus</h4>
                 <ul>
-
+                  <% var categoryArray = []; %>
+                    <% site.categories.each(function(category){
+                    categoryArray.push('<li><a href="' + url_for(category.path) + '">' +category.name + "</a></li>");
+                    }); %>
+                  <%- categoryArray %>
                 </ul>
             </div>
-            <div class="fContainer">
-                <h4>Populaires</h4>
-                <ul>
-
-                </ul>
-            </div> -->
           </div>
 
           <div id="footerBottom">
-            <p>&copy; CineTime</p>
+            <p>&copy; CineTimes</p>
             <p></p>
             <p>
 

@@ -4,7 +4,7 @@
 
 # Site
 
-title: CinéTime.tv
+title: Cinetimes.org
 # subtitle: ex: <%- config.subtitle %>
 # description: ex: <%- config.description %>
 # author: John Doe
@@ -13,7 +13,7 @@ language: fr
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://cinetime.tv/
+url: https://cinetimes.org/
 root: /
 permalink: :title/
 permalink_defaults:
