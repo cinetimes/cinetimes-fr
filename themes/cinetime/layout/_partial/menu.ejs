@@ -1,22 +1,15 @@
       <nav id="mainNav">
         <ul class="nav">
-			
-			    <li>
-					<a href="<%- __('menu_url.home') %>"> <%- __('menu.home') %> </a>
-				</li>			    
-			    <li>
-					<a href="<%- __('menu_url.movies') %>"> <%- __('menu.movies') %> </a>
-				</li>			    
-			    <li>
-					<a href="<%- __('menu_url.cartoons') %>"> <%- __('menu.cartoons') %> </a>
-				</li>			    
-			    <li>
-					<a href="<%- __('menu_url.docs') %>"> <%- __('menu.docs') %> </a>
-				</li>	
-			
+          
+        <% for (var link in site.data.menu) { %>
+          <li>
+					    <a href="<%= site.data.menu[link] %>"> <%= link %> </a>
+				  </li>
+        <% } %>
+
           <div class="dropdown">
             <button class="dropbtn">
-             <span class="fa fa-globe" aria-hidden="true"></span> 
+             <span class="fa fa-globe" aria-hidden="true"></span>
 		     <%- __('menu.lang') %>
 <!--              <span class="fa fa-caret-down" aria-hidden="true"></span>-->
             </button>
@@ -26,8 +19,8 @@
             </div>
           </div>
         </ul>
-        
-        
+
+
       </nav>
       <nav id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -37,8 +30,8 @@
         <a href="<%- __('menu_url.docs') %>"><%- __('menu.docs') %></a>
         <a href="<%- __('menu_url.home') %>"></a>
       </nav>
-      
-      
+
+
       <div id="mobileNav">
         <ul>
           <li>

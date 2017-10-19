@@ -5,7 +5,7 @@
 # Site
 
 title: Cinetimes.org
-# subtitle: ex: <%- config.subtitle %>
+subtitle: Site de Streaming et de Téléchargement Gratuit du Domaine Public #  ex: <%- config.subtitle %>
 # description: ex: <%- config.description %>
 # author: John Doe
 language: fr
