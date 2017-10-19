@@ -1,13 +1,21 @@
- <% var whatCss = (function() {
+
+<%
+
+  var categories = [];
+  item.categories.forEach(function(category){
+      categories.push(category.name);
+  });
+
+ var whatCss = (function() {
  var cssClass;
- 	switch (item.category_bis) {
- 		case "movies":
+ 	switch (categories[0]) {
+ 		case "Films":
  		    cssClass = "film_rouge";
  			break;
- 		case "docs":
- 			cssClass = "cartoon_bleu";
+ 		case "Documentaires":
+ 			cssClass = "documentaire_jaune";
  			break;
- 		case "cartoons":
+ 		case "Dessins Animés":
  			cssClass = "cartoon_bleu";
  			break;
  		default:
@@ -19,7 +27,7 @@
 
 <a href="<%- config.root %><%- item.path %>">
 	<div class="element">
-		<img class="<%- whatCss() %>" src="<%- url_for('img/')%><%- item.img_url %>.jpg" alt="Affiche du <%- __('excerpt.' + item.category_bis) %> de <%- item.author %>: <%- item.title %>" tittle="<%- item.title %>"> </img> 
+		<img class="<%- whatCss() %>" src="<%- url_for('img/')%><%- item.img_url %>.jpg" alt="Affiche du <%- __('excerpt.' + item.category_bis) %> de <%- item.author %>: <%- item.title %>" tittle="<%- item.title %>"> </img>
 		<div class="description">
 			<h4> <%- item.title %> <%if(item.quality) { %> <span class="label label-default"> <%- item.quality %></span><% } %> </h4>
 			<p> <% if (item.subtitle) { %>

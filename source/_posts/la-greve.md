@@ -3,20 +3,15 @@ title: "La Grève (Стачка)"
 quality: HD
 author: Sergueï Eisenstein
 lang: Français
-year: 1925 
+year: 1925
 length: 1h16mn
 origin: Russe
-img_alt:
-img_title: 
 img_url: lagreve
 youtube_url: https://youtu.be/NXjtToLepBo
-tags:
-category: 
-- movies
-  
-category_bis: movies
+category:
+- Films
 ---
- 
+
 
 # Synopsis et détails
 

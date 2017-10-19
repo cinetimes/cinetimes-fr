@@ -10,8 +10,6 @@ img_url: woody
 youtube_url: https://youtu.be/yatlGRRjkx8
 tags:
 category:
-- dessins animés
-- walter lantz
-- woody woodpecker
-category_bis: cartoons
+- Dessins Animés
+- Woody Woodpecker
 ---

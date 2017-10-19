@@ -2,13 +2,15 @@
           <div id="footer_nav">
             <div class="fContainer">
                 <h4>Catégories</h4>
-                <ul>
+                  <%- list_categories({show_count:false, depth:2, order:-1}) %>
+                <!-- <ul>
                   <% var categoryArray = []; %>
                     <% site.categories.each(function(category){
                     categoryArray.push('<li><a href="' + url_for(category.path) + '">' +category.name + "</a></li>");
                     }); %>
                   <%- categoryArray %>
-                </ul>
+                </ul> -->
+
             </div>
           </div>
 

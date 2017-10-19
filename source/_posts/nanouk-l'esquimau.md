@@ -8,11 +8,8 @@ length: 52mn47s
 origin: Franco-Américain
 img_url: nanouk
 youtube_url: https://youtu.be/XMjgWCsfD1M
-tags:
 category:
-- docs
-
-category_bis: docs
+- Documentaires
 ---
 
 # Synopsis et détails

@@ -1,6 +1,6 @@
       <nav id="mainNav">
         <ul class="nav">
-          
+
         <% for (var link in site.data.menu) { %>
           <li>
 					    <a href="<%= site.data.menu[link] %>"> <%= link %> </a>
@@ -10,7 +10,7 @@
           <div class="dropdown">
             <button class="dropbtn">
              <span class="fa fa-globe" aria-hidden="true"></span>
-		     <%- __('menu.lang') %>
+		     <%- site.data.excerpt["Langue"]  %>
 <!--              <span class="fa fa-caret-down" aria-hidden="true"></span>-->
             </button>
             <div class="dropdownContent">
