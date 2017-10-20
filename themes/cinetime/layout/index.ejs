@@ -1,19 +1,21 @@
-<%- partial('_partial/p-presentation') %>
+<!-- <%- partial('_partial/p-presentation') %> -->
 
-<div id="background">
-<!--	<h2>Sur le site</h2>-->
-	<div id="vedette">
+<div class="row">
+	<div class="col-md-3">
+	</div>
+	<div class="card-deck col-md-9">
 
 		<% page.posts.each(function(item){ %>
 				<%- partial('_partial/article-excerpt', {item: item}) %>
 		<% }); %>
-		
-		
-		<%- page.content %> 
-		
+
+
+		<%- page.content %>
+
 		<%- partial('_partial/pagination') %>
-		
+
 	</div>
 </div>
-
-
+<div class="row">
+	<%- partial('_partial/pagination') %>
+</div>

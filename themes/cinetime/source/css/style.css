@@ -77,14 +77,14 @@ a:visited {
 }
 
 /*          Navigation          */
-.nav {
+.main-nav {
   display: flex;
   margin: 0 auto;
   padding: 0;
   background-color: #346BC2;
 }
 
-.nav li {
+.main-nav li {
   margin: auto;
   padding: 14px 0 14px 0;
   display: inline;
@@ -96,12 +96,12 @@ a:visited {
   color: aliceblue;
 }
 
-.nav li:hover {
+.main-nav li:hover {
   background-color: #1551c4;
   padding: 14px 0 14px 0;
 }
 
-.nav li:First-of-type {
+.main-nav li:First-of-type {
   padding: 8px 0 8px 0;
   font-size: 1.5em;
   flex: 2 2 0;
@@ -112,18 +112,18 @@ a:visited {
 */
 }
 
-.nav li:first-of-type:hover {
+.main-nav li:first-of-type:hover {
   background-color: #1551c4;
-  padding: 9px 0 9px 0;
+  padding: 8px 0 8px 0;
 }
 
-li a {
+.main-nav li a {
   font-family: 'helsinkiregular';
   text-decoration: none;
   color: aliceblue;
 }
 
-ul li:first-child a {
+.main-nav li:first-child a {
   font-family: 'Fira Sans';
   font-weight: bold;
 }
@@ -895,4 +895,9 @@ a.label:focus {
 .label-danger[href]:hover,
 .label-danger[href]:focus {
   background-color: #c9302c;
+}
+
+.card {
+  min-width: 18rem !important;
+  max-width: 36rem!important;
 }
