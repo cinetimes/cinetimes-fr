@@ -1,21 +1,44 @@
-<!-- <%- partial('_partial/p-presentation') %> -->
-
-<div class="row">
-	<div class="col-md-3">
-	</div>
-	<div class="card-deck col-md-9">
-
-		<% page.posts.each(function(item){ %>
-				<%- partial('_partial/article-excerpt', {item: item}) %>
-		<% }); %>
+<%/*
+var categories = [];
+site.categories.forEach(function(category) {
+		categories.push(category.name);
+});
+categories = categories.reverse();
+*/%>
 
 
-		<%- page.content %>
+<%
+var categories = [];
+for (var category in site.data.categories) {
+	categories.push(category)
+}
+%>
 
-		<%- partial('_partial/pagination') %>
+<%- partial('_partial/p-presentation') %>
 
-	</div>
+<div class="container-fluid">
+		<div class="row">
+				<div class="col-3 mt-2">
+						<nav id="navbar-main-side" class="list-group sticky-top">
+							<% categories.forEach(function(category) { %>
+									<a class="list-group-item list-group-item-action" href="#<%- _.snakeCase(category) %>"><%- category %></a>
+							<% }); %>
+						</nav>
+				</div>
+
+				<div class="col-9" id="background">
+						<% categories.forEach(function(category) { %>
+							<h1 id="<%- _.snakeCase(category) %>"><strong><%- category %></strong></h1>
+								<div class="row" class="col-12 scrollspy-example" data-spy="scroll" data-target="#navbar-main-side" data-offset="40">
+											<div class="col-12 card-deck">
+													<% page.posts.each(function(item){ %>
+																<%- partial('_partial/article-excerpt', {item: item, category: category}) %>
+													<% }); %>
+											</div>
+								</div>
+						<% }); %>
+				</div>
+			</div>
 </div>
-<div class="row">
-	<%- partial('_partial/pagination') %>
-</div>
+
+<%- page.content %>

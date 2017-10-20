@@ -1,19 +1,21 @@
 <head>
-      <meta charset="utf-8" />
       <title>
-		  <% if (page.title) { %>
-		  <%- page.title %> | <%- config.title %>
-		  <% } else { %>
-		  <%- config.title %> | <%- config.subtitle %>  %>
-      <% } %>
-	  </title>
+  		  <% if (page.title) { %>
+  		  <%- page.title %> | <%- config.title %>
+  		  <% } else { %>
+  		  <%- config.title %> | <%- config.subtitle %>  %>
+        <% } %>
+	    </title>
+      <meta charset="utf-8" />
       <meta name="description" content="<% if (page.subtitle || page.author || page.year) { %><%- __('description.intro') +' ' + page.title + ", un " + __('excerpt.' + page.category_bis) + " de " + page.author + " "+ __('description.released') + ' ' + page.year + ", " + __('description.available') + ' ' +  page.lang %><% } else { %> <%- __('index.description') %><% } %>">
-
-      <!-- Stylesheet -->
-      <link rel="stylesheet" href="<%- url_for('/css/style.css') %>" />
+      <!-- Mobile first responsive -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
       <!-- Bootstrap 4.0.0 css -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+      <!-- Stylesheet -->
+      <link rel="stylesheet" href="<%- url_for('/css/style.css') %>" />
 
       <!-- Font Awesome -->
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">

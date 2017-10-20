@@ -1,60 +1,20 @@
 
 <%
-
   var categories = [];
   item.categories.forEach(function(category){
       categories.push(category.name);
   });
-
- var whatCss = (function() {
- var cssClass;
- 	switch (categories[0]) {
- 		case "Films":
- 		    cssClass = "film_rouge";
- 			break;
- 		case "Documentaires":
- 			cssClass = "documentaire_jaune";
- 			break;
- 		case "Dessins Animés":
- 			cssClass = "cartoon_bleu";
- 			break;
- 		default:
- 			cssClass = "";
- 	}
- 	return cssClass;
-  }); %>
+%>
 
 
-<!-- <a href="<%- config.root %><%- item.path %>">
-	<div class="element">
-		<img class="<%- whatCss() %>" src="<%- url_for('img/')%><%- item.img_url %>.jpg" alt="Affiche du <%- __('excerpt.' + item.category_bis) %> de <%- item.author %>: <%- item.title %>" tittle="<%- item.title %>"> </img>
-		<div class="description">
-			<h4> <%- item.title %> <%if(item.quality) { %> <span class="label label-default"> <%- item.quality %></span><% } %> </h4>
-			<p> <% if (item.subtitle) { %>
-                <%- item.subtitle %>
-              <% } else { %><%- item.author %> <% } %>
-               </p>
-			<p class="langueFiche"><%- __('excerpt.lang') %>: <%- item.lang %></p>
-			<p class="anneeFiche"><%- __('excerpt.year') %>: <%- item.year %></p>
-			<p class="longueurFiche"><%- item.length %></p>
-		</div>
-	</div>
-</a> -->
 
 
+<% if (categories[0] == category) { %>
   <div class="card">
     <img class="card-img-top" src="<%- url_for('img/')%><%- item.img_url %>.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title"><%- item.title %></h4>
-      <small>
-       <%- item.length %>
-      </small>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <small>
-       <cite title="Source Title"><%- item.author %></p></cite>
-      </small>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+      <h6 class="card-subtitle mb-2 text-muted"><%- _.startCase(item.author) %></h6>
     </div>
   </div>
+<% } %>

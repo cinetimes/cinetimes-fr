@@ -68,6 +68,10 @@ html, body {
     background-color: #FAFAFA;
 }
 
+body {
+  position: relative;
+}
+
 a {
   text-decoration: none;
 }
@@ -329,8 +333,6 @@ header
 }
 
 #background h2 {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
   color: #0E1E2B;
   font-size: 3em;
 }
@@ -898,6 +900,19 @@ a.label:focus {
 }
 
 .card {
-  min-width: 18rem !important;
-  max-width: 36rem!important;
+  min-width: 17rem;
+  max-width: 19rem;
+  margin-bottom: 2rem !important;
+}
+
+.card-img-top {
+  height: 70%;
+}
+
+.card-deck {
+  justify-content: flex-start;
+}
+
+.sticky-top {
+  top: 2rem;
 }
