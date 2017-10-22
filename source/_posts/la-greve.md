@@ -10,6 +10,10 @@ img_url: lagreve
 youtube_url: https://youtu.be/NXjtToLepBo
 category:
 - Films
+tags:
+- Muet
+- Noir et Blanc
+- Drame
 ---
 
 

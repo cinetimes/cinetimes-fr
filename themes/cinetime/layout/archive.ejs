@@ -12,11 +12,45 @@
 	<% if(title) { %>
     <h2><%- titlecase(title) %></h2>
 	<% } %>
+<%
+	var tags = [];
+	var authors = [];
+	page.posts.forEach(function(post){
+	    if (post.tags) {
+	        post.tags.forEach(function(tag) {
+						tags.push(tag.name)
+					});
+	    } else if (post.author) {
+	        authors.push(post.author)
+	    }
+	});
+%>
 
-	<div id="vedette">
-		<% page.posts.each(function(item){ %>
-				<%- partial('_partial/article-excerpt', {item: item}) %>
-		<% }); %>
+	<div class="container-fluid">
+			<div class="row">
+					<div class="col-md-3 col-xs-12 mt-2">
+							<nav id="navbar-main-side" class="list-group sticky-top">
+								<% tags.forEach(function(tag) { %>
+										<a class="list-group-item list-group-item-action" href="#<%- _.snakeCase(tag) %>"><%- tag %></a>
+								<% }); %>
+							</nav>
+					</div>
+
+					<div class="col-md-9 col-xs-12" id="background">
+							<% tags.forEach(function(tag) { %>
+								<h1 id="<%- _.snakeCase(tag) %>"><strong><%- tag %></strong></h1>
+									<div class="row" class="col-12 scrollspy-example" data-spy="scroll" data-target="#navbar-main-side" data-offset="40">
+												<div class="col-12 card-deck">
+														<% page.posts.each(function(item){ %>
+																	<%- partial('_partial/article-excerpt', {item: item, tag: tag}) %>
+														<% }); %>
+												</div>
+									</div>
+							<% }); %>
+					</div>
+				</div>
+	</div>
+
 
 		<%- partial('_partial/pagination') %>
 	</div>

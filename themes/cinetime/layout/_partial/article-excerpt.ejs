@@ -4,12 +4,40 @@
   item.categories.forEach(function(category){
       categories.push(category.name);
   });
+
+  var tags = [];
+  item.tags.forEach(function(tag){
+      tags.push(tag.name);
+  });
 %>
 
 
 
+<% if (is_home()) { %>
+    <% if (categories[0] == category) { %>
+      <div class="card">
+        <a href="<%- url_for(item.path) %>"><img class="card-img-top" src="<%- url_for('img/')%><%- item.img_url %>.jpg" alt="Card image cap"></a>
+        <div class="card-body">
+          <h4 class="card-title"><%- item.title %></h4>
+          <h6 class="card-subtitle mb-2 text-muted"><%- _.startCase(item.author) %></h6>
+        </div>
+      </div>
+    <% } %>
+<% } %>
 
-<% if (categories[0] == category) { %>
+<% if (is_category()) { %>
+  <% if (tags.includes(tag)) { %>
+    <div class="card">
+      <img class="card-img-top" src="<%- url_for('img/')%><%- item.img_url %>.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title"><%- item.title %></h4>
+        <h6 class="card-subtitle mb-2 text-muted"><%- _.startCase(item.author) %></h6>
+      </div>
+    </div>
+  <% } %>
+<% } %>
+
+<% if (is_tag()) { %>
   <div class="card">
     <img class="card-img-top" src="<%- url_for('img/')%><%- item.img_url %>.jpg" alt="Card image cap">
     <div class="card-body">

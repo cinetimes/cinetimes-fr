@@ -10,6 +10,9 @@ img_url: nanouk
 youtube_url: https://youtu.be/XMjgWCsfD1M
 category:
 - Documentaires
+tags:
+- Animaux
+- Nature
 ---
 
 # Synopsis et détails

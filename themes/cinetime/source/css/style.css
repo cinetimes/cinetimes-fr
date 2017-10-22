@@ -906,7 +906,7 @@ a.label:focus {
 }
 
 .card-img-top {
-  height: 70%;
+  height: 11.7rem
 }
 
 .card-deck {
@@ -915,4 +915,9 @@ a.label:focus {
 
 .sticky-top {
   top: 2rem;
+}
+
+.list-group-item.active {
+  background-color: #346BC2;
+  border-color: #346BC2;
 }
