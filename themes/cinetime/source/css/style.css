@@ -658,6 +658,15 @@ header
 
 @media all and (max-device-width: 480px) {
 
+  #background .btn-outline-danger {
+    margin-bottom: 2em;
+  }
+
+  .video-js {
+    min-height: 10px;
+  }
+
+
   /*.sidenav {padding-top: 7em;}
   .sidenav a {font-size: 4em;}*/
 
@@ -670,7 +679,7 @@ header
     line-height: 1em;
 }*/
 
-  #bEnConstruction {
+  /*#bEnConstruction {
     margin-top: 4em;
     font-size: 2em;
     display: none;
@@ -682,17 +691,17 @@ header
 
   #pPresentation {
     font-size: 3.1em;
-  }
+  }*/
 
 
-  .video-js, #my-video {
+  /*.video-js, #my-video {
     min-height:700px;
     font-size: 2em;
   }
 
   .vjs-default-skin .vjs-big-play-button {
     font-size: 4em;
-  }
+  }*/
 
 
   /*#video_et_description .videoDescription {
