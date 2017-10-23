@@ -1,15 +1,16 @@
 ---
 title: {{ title }}
-subtitle:
 author:
-quality:
-lang:
-year:
-origin:
-length:
-img_url:
+img_name:
 youtube_url:
-tags:
-
 category:
+-
+tags:
+-
+
+# Put the sources suggesting that the movie is in the public domain.
+is_pd:
+-
 ---
+
+# Synopsis

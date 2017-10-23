@@ -1,17 +1,19 @@
-<% if (page.layout == 'post') { %>
-
-<% } else { %>
-	<!-- <header>
+<% if (!(page.layout == 'post')) { %>
+	<header>
 		<div id="titre"></div>
-	</header> -->
+	</header>
+<% } %>
+
+<% if (false) { %>
 	<script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 	<link rel="import" href="/bower_components/paper-carousel/paper-carousel.html">
-	<paper-carousel items="3" responsive="600:2, 460:1" controls="true" dots="true" dotText="false">
-			<div class="paper-carousel-demo-indigo" data-text="#1"></div>
-			<div class="paper-carousel-demo-pink" data-text="#2"></div>
-			<div class="paper-carousel-demo-teal" data-text="#3"></div>
-			<div class="paper-carousel-demo-amber" data-text="#4"></div>
-			<div class="paper-carousel-demo-blue" data-text="#5"></div>
-			<div class="paper-carousel-demo-green" data-text="#6"></div>
-  </paper-carousel>
+	<div class="container">
+			<paper-carousel items="3" responsive="900:3, 600:2, 360:1" controls="true" dots="true" dotText="false">
+					<img class="mr-3" src="/img/39marches.png" draggable="false"/>
+					<img class="mr-3" src="/img/unefemmedisparait.png" draggable="false"/>
+					<img class="mr-3" src="/img/metropolis-maxi.png" draggable="false"/>
+					<img class="mr-3" src="/img/daughter_dr_jekyll.png" draggable="false"/>
+					<img class="mr-3" src="/img/thekid.png" draggable="false"/>
+		  </paper-carousel>
+</div>
 <% } %>

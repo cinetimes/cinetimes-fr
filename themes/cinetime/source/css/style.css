@@ -168,8 +168,8 @@ a:visited {
 
 }
 .dropdownContent a span {
-	position: relative;
-	bottom: 10px;
+	/*position: relative;
+	bottom: 10px;*/
 }
 
 .dropdownContent a:hover {
@@ -433,17 +433,17 @@ header
 
 #video_et_description {
   text-align: center;
-  margin: 1em 20% 1em 20%;
-  display: flex;
-  flex-direction: column;
+  margin: 1em 0;
+  /*display: flex;*/
+  /*flex-direction: column;*/
   }
 
 #video_et_description .videoDescription {
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 2px #171616;
-  margin: 1em auto;
+  /*box-shadow: 0px 0px 2px #171616;*/
+
+  margin: 0;
   text-align: center;
-  font-family: "helsinkiregular";
   padding: 0 0 0 4px;
   width: 100%;
   max-width: 640px;
@@ -451,15 +451,14 @@ header
 
 #video_et_description .videoDescription p {
 /*  text-align: left;*/
-  margin: auto 15px 10px 15px;
-  font-family: "roboto";
+  margin: auto 15px 15px 15px;
+  /*padding: 0 0 15px 0;*/
   text-align: justify;
 
 }
 
 .videoDescription ul, .videoDescription ol {
-  list-style-type: none;
-  text-align: center;
+  text-align: left;
 }
 
 #video_et_description .video video {
@@ -468,11 +467,8 @@ header
 }
 
 #video_et_description .videoDescription h1 {
-	color: #FF5527;
-}
-.videoDescription li span {
-	font-family: 'lato';
-	font-weight: 600;
+	color: #333;
+  font-weight: bolder;
 }
 
 .video-js {
@@ -641,11 +637,7 @@ header
     }
 
     #video_et_description .videoDescription {
-      background-color: rgb(255, 255, 255);
-      box-shadow: 0px 0px 2px #171616;
-      margin: 1em auto;
       text-align: center;
-      font-family: "Latoweb";
       padding: 0 0 0 4px;
       width: 100%;
       max-width: 1000px;
@@ -659,6 +651,7 @@ header
 
   #video_et_description {
     margin: 0;
+    padding: 0;
   }
 
 }
@@ -702,24 +695,24 @@ header
   }
 
 
-  #video_et_description .videoDescription {
+  /*#video_et_description .videoDescription {
     margin-bottom: 0px;
   }
 
   #video_et_description .videoDescription h5 {
   margin-top: 1em;
   font-size: 7em;
-  }
-
+  }*/
+/*
   #video_et_description .videoDescription p {
   font-size: 5em;
-  }
+  }*/
 
-  .button {
+  /*.button {
     height: 3em;
     width: 10em;
     font-size: 4em;
-  }
+  }*/
 
   footer {
     font-size: 4em;
@@ -920,4 +913,11 @@ a.label:focus {
 .list-group-item.active {
   background-color: #346BC2;
   border-color: #346BC2;
+}
+
+.underline-not{
+  text-decoration: none;
+}
+.underline-not:hover{
+  text-decoration: none;
 }

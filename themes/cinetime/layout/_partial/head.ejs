@@ -3,11 +3,22 @@
   		  <% if (page.title) { %>
   		  <%- page.title %> | <%- config.title %>
   		  <% } else { %>
-  		  <%- config.title %> | <%- config.subtitle %>  %>
+  		  <%- config.title %> | <%- config.subtitle %>
         <% } %>
 	    </title>
+
+      <%
+        if (is_post()) {
+          var categories = [];
+          page.categories.forEach(function(cat) {
+            categories.push(cat.name);
+          });
+          categories = categories[0];
+        }
+      %>
+
       <meta charset="utf-8" />
-      <meta name="description" content="<% if (page.subtitle || page.author || page.year) { %><%- __('description.intro') +' ' + page.title + ", un " + __('excerpt.' + page.category_bis) + " de " + page.author + " "+ __('description.released') + ' ' + page.year + ", " + __('description.available') + ' ' +  page.lang %><% } else { %> <%- __('index.description') %><% } %>">
+      <meta name="description" content="<% if (page.subtitle || page.author) { %><%- page.title + ", un " + site.data.metadata[categories] + " de " + page.author + ' disponible gratuitement sur ' + ' ' + config.title + ' ' + site.data.metadata.langue  %><% } else { %> <%- __('index.description') %><% } %>">
       <!-- Mobile first responsive -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 

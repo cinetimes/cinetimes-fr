@@ -15,7 +15,7 @@
             </button>
             <div class="dropdownContent">
               <a href="<%- url_for('/') %>"><img src="<%- url_for('img/france(1).png') %>"> <span>Français</span></a>
-              <a href="<%- url_for_lang('/es') %>"><img src="<%- url_for("img/spain(1).png") %>"> <span>Español</span></a>
+              <!-- <a href="<%- url_for_lang('/es') %>"><img src="<%- url_for("img/spain(1).png") %>"> <span>Español</span></a> -->
             </div>
           </div>
         </ul>
@@ -24,11 +24,9 @@
       </nav>
       <nav id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="<%- __('menu_url.home') %>"><%- __('menu.home') %></a>
-        <a href="<%- __('menu_url.movies') %>"><%- __('menu.movies') %></a>
-        <a href="<%- __('menu_url.cartoons') %>"><%- __('menu.cartoons') %></a>
-        <a href="<%- __('menu_url.docs') %>"><%- __('menu.docs') %></a>
-        <a href="<%- __('menu_url.home') %>"></a>
+        <% for (var link in site.data.menu) { %>
+					    <a href="<%- url_for(site.data.menu[link]) %>"> <%= link %> </a>
+        <% } %>
       </nav>
 
       <div id="mobileNav">
@@ -37,7 +35,7 @@
             <span onclick="openNav()"><span class="fa fa-bars" aria-hidden="true"></span></span>
           </li>
           <li>
-            <a href="#">CineTime</a>
+            <a href="<%- url_for(site.data.menu.Cinetimes) %>" class="underline-not">CineTimes</a>
           </li>
           <li>
 <!--            <span class="fa fa-search" aria-hidden="true"></span>-->
