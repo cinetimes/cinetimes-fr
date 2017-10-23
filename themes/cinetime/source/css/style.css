@@ -658,17 +658,17 @@ header
 
 @media all and (max-device-width: 480px) {
 
-  .sidenav {padding-top: 7em;}
-  .sidenav a {font-size: 4em;}
+  /*.sidenav {padding-top: 7em;}
+  .sidenav a {font-size: 4em;}*/
 
-  .closebtn {font-size: 4em !important;}
+  /*.closebtn {font-size: 4em !important;}*/
 
-  #mobileNav {
+  /*#mobileNav {
     top: 0px;
     width: 100%;
     font-size: 6.5em;
     line-height: 1em;
-}
+}*/
 
   #bEnConstruction {
     margin-top: 4em;
@@ -714,9 +714,9 @@ header
     font-size: 4em;
   }*/
 
-  footer {
+  /*footer {
     font-size: 4em;
-  }
+  }*/
 
   .element {
     height: 700px;
@@ -917,7 +917,9 @@ a.label:focus {
 
 .underline-not{
   text-decoration: none;
+  color: inherit;
 }
 .underline-not:hover{
   text-decoration: none;
+  color: inherit;
 }
