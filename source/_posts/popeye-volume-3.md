@@ -2,14 +2,17 @@
 title: Popeye Volume 3
 author: Studios Fleischer
 youtube_url: https://www.youtube.com/watch?v=pzdoZza0LX4&t=35s
+img_name: popeyevolume3.png
 category:
   - Dessins Animés
 tags:
   - Popeye
-img_name: popeyevolume3.png
+  - Fleischer
 ---
 
 # Synopsis
+
+[Popeye Volume 3 en DVD](https://www.amazon.fr/gp/product/B000EHS5EC/ref=as_li_tl?ie=UTF8&tag=ctimes-21&camp=1642&creative=6746&linkCode=as2&creativeASIN=B000EHS5EC&linkId=13e9196ed1cfe388051e9990085381d3)
 
 **Épisodes:**
 1. Aladdin et la lampe merveilleuse
