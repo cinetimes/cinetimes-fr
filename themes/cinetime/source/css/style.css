@@ -73,11 +73,11 @@ body {
 }
 
 a {
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 
 a:visited {
-  color: inherit;
+  /*color: inherit;*/
 }
 
 /*          Navigation          */
