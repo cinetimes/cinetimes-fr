@@ -48,31 +48,21 @@
 					<div class="row">
 						<h5 class="m-4">À suivre</h5>
 					</div>
-
-								<% site.posts.forEach(function(potentialPost) { %>
-										<!-- Iterate over potential related post tags -->
-										<% potentialPost.tags.forEach(function(potentialTag) { %>
-											<!-- Iterate over actual item tags -->
-											<% item.tags.forEach(function(tag) { %>
-													<% if ((tag.name == potentialTag.name) && (potentialPost.title != item.title)) { %>
-														<ul class="list-unstyled">
-															<li class="media">
-																<a href="<%- url_for(potentialPost.path) %>">
-																	<img class="mr-3" style="width:;height:;" width="168" src="<%- url_for('img/')%><%- potentialPost.img_name %>" alt="<%- potentialPost.title + ', ' + site.data.metadata.alt_intro %>">
-																</a>
-																<div class="media-body">
-																	<a href="<%- url_for(potentialPost.path) %>" class="underline-not">
-																	<h5 class="mt-0 mb-1"><%- potentialPost.title %></h5>
-																	<p><%- _.startCase(potentialPost.author) %></p>
-																  </a>
-																</div>
-															</li>
-														</ul>
-													<% } %>
-										  <% }); %>
-										<% }); %>
-								<% }); %>
-
+								<ul class="list-unstyled">
+								<% list_related_posts({maxCount: 10}).forEach(function(post) { %>
+									<li class="media mb-3">
+										<a href="<%- url_for(post.path) %>">
+											<img class="mr-3" width="168" src="<%- url_for('img/')%><%- post.img_name %>" alt="<%- post.title + ', ' + site.data.metadata.alt_intro %>">
+										</a>
+										<div class="media-body">
+											<a href="<%- url_for(post.path) %>" class="underline-not">
+											<h5 class="mt-0 mb-1"><%- post.title %></h5>
+											<p><%- _.startCase(post.author) %></p>
+											</a>
+										</div>
+									</li>
+								<% });	%>
+								</ul>
 				</div>
 		</div>
 	</div>

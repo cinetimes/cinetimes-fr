@@ -27,3 +27,23 @@
         <script>
         $('body').scrollspy({ target: '#navbar-main-side' })
         </script>
+
+        <!-- slickJS index -->
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+        <script>
+        	$(document).ready(function(){
+        		$('.hero-carousel').slick({
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 8000,
+              dots: true,
+              infinite: true,
+              speed: 300,
+              slidesToShow: 1,
+              centerMode: true,
+              variableWidth: true,
+              variableHeight: true
+        		});
+        	});
+        </script>
