@@ -507,8 +507,8 @@ header
 /*          Footer          */
 
 #footerBottom {
-    color: aliceblue;
-    background-color: #0E1E2B;
+    color: #FFFFFF;
+    background-color: #264A8F;
     font-family: "Open Sans", sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -545,7 +545,7 @@ header
 }
 
 #footer_nav {
-  background-color: #0E1E2B;
+  background-color: #264A8F;
   display: flex;
   flex-wrap: wrap;
 }
@@ -952,4 +952,8 @@ a.label:focus {
 
 .btn-outline-light:hover {
   color: #2557B7;
+}
+
+.fa-heart {
+  color: red;
 }
