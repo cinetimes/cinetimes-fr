@@ -3,6 +3,7 @@ title: {{ title }}
 author:
 img_name:
 youtube_url:
+webtorrent_magnet:
 category:
 -
 tags:

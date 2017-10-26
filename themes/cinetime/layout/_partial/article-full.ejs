@@ -5,14 +5,55 @@
 				        <h1 class="py-2"><%- item.title %></h1>
 				    </div>
 
-					<div class="video">
-						<video id="my-video" class="video-js vjs-16-9" controls preload="auto" width="640px" height="267px"
-				              poster="<%- url_for('img/')%><%- item.img_name %>" data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "<%- item.youtube_url %>"}] }'>
 
-						</video>
-						<script src="<%- url_for('bower_components/video.js/dist/video.min.js') %>"></script>
-						<script src="<%- url_for('bower_components/videojs-youtube/dist/Youtube.min.js') %>"></script>
+					<nav class="nav nav-tabs" id="myTab" role="tablist">
+					  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Youtube <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+					  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Webtorrent <i class="fa fa-heart" aria-hidden="true"></i></a></a>
+						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Vimeo <i class="fa fa-vimeo-square" aria-hidden="true"></i></a>
+					</nav>
+
+					<div class="tab-content" id="nav-tabContent">
+						<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+							<div class="video">
+								<video id="my-video" class="video-js vjs-16-9" controls preload="auto" width="640px" height="267px" poster="<%- url_for('img/')%><%- item.img_name %>" data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "<%- item.youtube_url %>"}] }'>
+								</video>
+								<script src="<%- url_for('bower_components/video.js/dist/video.min.js') %>"></script>
+								<script src="<%- url_for('bower_components/videojs-youtube/dist/Youtube.min.js') %>"></script>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+							<div class="video" id="video_webtorrent" >
+
+							</div>
+						</div>
+						<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+						</div>
 					</div>
+
+
+					<script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
+
+					<span id="magnet" class="d-none"><%- item.webtorrent_magnet %></span>
+
+					<script>
+
+					var client = new WebTorrent()
+
+					// Movie Magnet uri (string) or torrent file (buffer) or info hash (hex string or buffer) or parsed torrent (from parse-torrent) or http/https url to a torrent file (string);
+					var torrentId = document.getElementById("magnet").textContent;
+
+					client.add(torrentId, function (torrent) {
+						// Torrents can contain many files. Let's use the .mp4 file
+						var file = torrent.files.find(function (file) {
+							return file.name.endsWith('.mp4')
+						})
+						// Display the file by adding it to the DOM.
+						// Supports video, audio, image files, and more!
+						file.appendTo('#video_webtorrent',{autoplay:false})
+					})
+					</script>
+
 
 				    <div class="videoDescription">
 				        <%- item.content %>

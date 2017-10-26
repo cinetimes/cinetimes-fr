@@ -8,3 +8,9 @@ public/
 themes/cinetime/source/favicon 
 themes/cinetime/source/img 
 themes/cinetime/source/bower_components/
+jumbotest.html
+testwebt.html
+themes/cinetime/source/js/webtorrent.min.js
+webtorrent-complete.html
+webtorrent-quick.html
+webtorrent.html
