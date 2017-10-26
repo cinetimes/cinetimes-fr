@@ -1,44 +1,25 @@
-<% if ((page.layout == 'post')) { %>
-	<header>
-		<div id="titre"></div>
-	</header>
-<% } %>
+<% if (!(page.layout == 'post')) { %>
+	<div class="jumbotron bgblue mb-0 rounded-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 order-sm-12 order-md-1">
+					<div class="hero-carousel">
+						<div><img src="/img/39marches_big.jpg"/></div>
+						<div><img src="/img/metropolis-maxi.png"/></div>
+						<div><img src="/img/une_femme_disparait_big.jpg"/></div>
+						<!-- <div><img src="/img/fille_dr_jekyll.jpg"/></div> -->
 
-<% if (false) { %>
-	<script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
-	<link rel="import" href="/bower_components/paper-carousel/paper-carousel.html">
-	<div class="container">
-			<paper-carousel items="3" responsive="900:3, 600:2, 360:1" controls="true" dots="true" dotText="false">
-					<img class="mr-3" src="/img/39marches.png" draggable="false"/>
-					<img class="mr-3" src="/img/unefemmedisparait.png" draggable="false"/>
-					<img class="mr-3" src="/img/metropolis-maxi.png" draggable="false"/>
-					<img class="mr-3" src="/img/daughter_dr_jekyll.png" draggable="false"/>
-					<img class="mr-3" src="/img/thekid.png" draggable="false"/>
-		  </paper-carousel>
-</div>
-<% } %>
-
-
-<div class="jumbotron bgblue mb-0 rounded-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-sm-12 order-sm-12 order-md-1">
-				<div class="hero-carousel">
-					<div><img src="/img/39marches_big.jpg"/></div>
-					<div><img src="/img/metropolis-maxi.png"/></div>
-					<div><img src="/img/une_femme_disparait_big.jpg"/></div>
-					<div><img src="/img/fille_dr_jekyll.jpg"/></div>
-
+					</div>
 				</div>
-			</div>
-			<div class="col-md-6 col-sm-12 order-sm-1 order-md-12 offset-md-1">
-				<h1 class="display-4 helsinki cwhite"><strong>Cinetimes</strong></h1>
-				<hr class="my-4" style="background-color: white;">
-				<p class="lead cwhite">Bienvuene sur Cinetimes. Le premier site de streaming de contenu libre de droit</p>
-				<p class="lead">
-					<a class="btn btn-outline-light btn-lg" href="#" role="button">Voir un film</a>
-				</p>
+				<div class="col-md-6 col-sm-12 order-sm-1 order-md-12 offset-md-1">
+					<h1 class="display-4 helsinki cwhite"><strong>Cinetimes</strong></h1>
+					<hr class="my-4" style="background-color: white;">
+					<p class="lead cwhite">Bienvuene sur Cinetimes. Le premier site de streaming de contenu libre de droit</p>
+					<p class="lead">
+						<a class="btn btn-outline-light btn-lg" href="#background" role="button">Commencer</a>
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
+<% } %>
