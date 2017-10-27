@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-@font-face{
+/*@font-face{
     font-family: 'Fira Sans';
     src: url('../fonts/fira_sans/FiraSans-Regular.eot');
     src: url('../fonts/fira_sans/FiraSans-Regular.eot') format('embedded-opentype'),
@@ -43,7 +43,7 @@
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
-}
+}*/
 
 
 #bEnConstruction {
