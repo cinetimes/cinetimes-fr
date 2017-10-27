@@ -7,9 +7,13 @@
 
 
 					<nav class="nav nav-tabs" id="myTab" role="tablist">
+						<% if (item.youtube_url) { %>
 					  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Youtube <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-					  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Webtorrent <i class="fa fa-heart" aria-hidden="true"></i></a></a>
+						<% } if (item.webtorrent_magnet) { %>
+						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Webtorrent <i class="fa fa-heart" aria-hidden="true"></i></a></a>
+						<% } if (item.vimeo_url) { %>
 						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Vimeo <i class="fa fa-vimeo-square" aria-hidden="true"></i></a>
+						<% } %>
 					</nav>
 
 					<div class="tab-content" id="nav-tabContent">
