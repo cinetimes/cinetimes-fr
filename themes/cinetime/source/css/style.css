@@ -981,7 +981,9 @@ a.label:focus {
   height: 100%;
 }
 
-
+.next-link {
+  max-width: 170px;
+}
 
 
 /* Ridiculously Responsive Social Sharing Buttons CSS
