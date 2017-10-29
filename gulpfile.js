@@ -10,7 +10,7 @@ var gulp = require('gulp');
 var imageResize = require('gulp-image-resize');
 var rename = require('gulp-rename');
 var minifycss = require('gulp-clean-css');
-var uglify = require('gulp-uglify');
+// var uglify = require('gulp-uglify');
 var htmlmin = require('gulp-htmlmin');
 var htmlclean = require('gulp-htmlclean');
 var imagemin = require('gulp-imagemin');
@@ -121,8 +121,9 @@ gulp.task('thumbnail-cover', function(){
 });
 
 gulp.task('compress', function(cb) {
-    runSequence(['minify-html', 'minify-css', 'minify-js', 'minify-img'], cb);
+    runSequence(['minify-html', 'minify-css', 'minify-img'], cb);
 });
+//removed :  , 'minify-js'
 
 gulp.task('resize', function(){
     runSequence(['thumbnail-card', 'thumbnail-poster', 'thumbnail-cover', 'thumbnail-next']);
