@@ -1,7 +1,7 @@
 ---
 title: Popeye Volume 1
 author: Studios Fleischer
-img_name: popeyevolume1.png
+img_name: popeyeVolume1.png
 youtube_url: https://www.youtube.com/watch?v=3i4CWfnVwm0
 tags:
 - Popeye

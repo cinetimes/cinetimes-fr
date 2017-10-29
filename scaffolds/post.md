@@ -1,4 +1,5 @@
 ---
+## Obligaoire
 title: {{ title }}
 author:
 img_name:
@@ -8,8 +9,11 @@ category:
 -
 tags:
 -
-
+## Fiche Technique ( optionnel ) ##
 # Put the sources suggesting that the movie is in the public domain.
+
+
+date:
 is_pd:
 -
 ---

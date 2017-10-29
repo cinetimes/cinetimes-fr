@@ -18,6 +18,21 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.2.2",
+    "jquery": "^3.2.1",
+    "rrssb": "^1.14.0",
+    "slick-carousel": "^1.8.1",
     "webtorrent": "^0.98.20"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-htmlclean": "^2.7.15",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.2.0"
   }
 }

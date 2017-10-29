@@ -2,7 +2,7 @@
 title: Popeye Volume 3
 author: Studios Fleischer
 youtube_url: https://www.youtube.com/watch?v=pzdoZza0LX4&t=35s
-img_name: popeyevolume3.png
+img_name: popeyeVolume3.png
 category:
   - Dessins Animés
 tags:

@@ -2,7 +2,7 @@
 title: Popeye Volume 2
 author: Studios Fleischer
 youtube_url: 'https://youtu.be/Scu7cOHtT9g'
-img_name: popeyevolume2.png
+img_name: popeyeVolume2.png
 category:
   - Dessins Animés
 tags:

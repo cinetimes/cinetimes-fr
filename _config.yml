@@ -77,3 +77,10 @@ theme: cinetime
 deploy:
   type: git
   repo: https://github.com/cinetimes/cinetimes-fr
+
+# open graph
+twitter_site: '@cinetimeTV'
+twitter_creator: '@cinetimeTV'
+google_plus:
+fb_app_id:
+og_locale: fr_FR

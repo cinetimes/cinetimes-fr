@@ -3,7 +3,7 @@ title: 'Metropolis'
 author: Fritz Lang
 lang: Français
 year: 1927
-img_name: metropolis-mini.png
+img_name: metropolis.png
 youtube_url: https://youtu.be/hUhs1V_Dz7Y
 webtorrent_magnet: 'magnet:?xt=urn:btih:660febb2c05d7a7eb0a04c88acfd870c48f4b35a&dn=j57KIDZYi4nz.mp4&tr=udp://explodie.org:6969&tr=udp://tracker.coppersurfer.tk:6969&tr=udp://tracker.empire-js.us:1337&tr=udp://tracker.leechers-paradise.org:6969&tr=udp://tracker.opentrackr.org:1337&tr=wss://tracker.btorrent.xyz&tr=wss://tracker.fastcast.nz&tr=wss://tracker.openwebtorrent.com&as=https://seed01.bitchute.com/8929/j57KIDZYi4nz.mp4&as=https://seed02.bitchute.com/8929/j57KIDZYi4nz.mp4&as=https://seed03.bitchute.com/8929/j57KIDZYi4nz.mp4&xs=https://www.bitchute.com/torrent/8929/j57KIDZYi4nz.torrent'
 category:
