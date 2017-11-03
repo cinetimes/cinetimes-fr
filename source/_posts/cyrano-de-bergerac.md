@@ -14,4 +14,4 @@ tags:
 
 
 # Synopsis
-[Cyrano de Bergerac, de Michael Gordon](https://www.amazon.fr/gp/product/B006TFX0DO/ref=as_li_tl?ie=UTF8&tag=ctimes-21&camp=1642&creative=6746&linkCode=as2&creativeASIN=B006TFX0DO&linkId=9777f2712ead2ebac7aebc14557264bf).
+[Cyrano de Bergerac, de Michael Gordon](https://www.amazon.fr/gp/product/B006TFX0DO/ref=as_li_tl?ie=UTF8&tag=ctimes-21&camp=1642&creative=6746&linkCode=as2&creativeASIN=B006TFX0DO&linkId=9777f2712ead2ebac7aebc14557264bf). Paris, XVIIème siècle, les cadets de Gascogne sont répités pour leur bravoure et leur aisance à croiser le fer. L'un d'entre eux, et non, le moindre, Cyrano de Bergerac est plus connu pour son grandissime nez et pour sa verve que pour ses exploits de soldats. Malgrè l'amour secret qu'il porte pour sa cousine Roxane, Cyrano accepte de rédiger des lettres enflammées à la demande de son compagnon d'art Christian de Neuvillette, tombé lui aussi sous le charme de la jeune femme... 
