@@ -1,6 +1,6 @@
 ---
-title: 'L'Homme de la rue'
-author: Frank Capra
+title: "L'Homme de la rue"
+author: 'Frank Capra'
 lang: Français (VOSTFR)
 year: 1941
 img_name: lHommeDeLaRue.jpg
