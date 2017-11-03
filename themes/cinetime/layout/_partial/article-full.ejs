@@ -8,16 +8,18 @@
 
 					<nav class="nav nav-tabs" id="myTab" role="tablist">
 						<% if (item.youtube_url) { %>
-					  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Youtube <i class="fa fa-youtube-play mx-1" aria-hidden="true"></i></a>
+					  <a class="nav-item nav-link active" id="nav-youtube-tab" data-toggle="tab" href="#nav-youtube" role="tab" aria-controls="nav-youtube" aria-selected="true">Youtube <i class="fa fa-youtube-play mx-1" aria-hidden="true"></i></a>
 						<% } if (item.webtorrent_magnet) { %>
-						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Webtorrent <i class="fa fa-heart mx-1" aria-hidden="true"></i></a></a>
+						<a class="nav-item nav-link <% if (!item.youtube_url) { %> active <% } %>" id="nav-webtorrent-tab" data-toggle="tab" href="#nav-webtorrent" role="tab" aria-controls="nav-webtorrent" aria-selected="false">Webtorrent <i class="fa fa-heart mx-1" aria-hidden="true"></i></a></a>
 						<% } if (item.vimeo_url) { %>
-						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Vimeo <i class="fa fa-vimeo-square mx-1" aria-hidden="true"></i></a>
+						<a class="nav-item nav-link" id="nav-vimeo-tab" data-toggle="tab" href="#nav-vimeo" role="tab" aria-controls="nav-vimeo" aria-selected="false">Vimeo <i class="fa fa-vimeo-square mx-1" aria-hidden="true"></i></a>
 						<% } %>
 					</nav>
 
+
 					<div class="tab-content" id="nav-tabContent">
-						<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+					<% if (item.youtube_url) { %>
+						<div class="tab-pane fade show active" id="nav-youtube" role="tabpanel" aria-labelledby="nav-youtube-tab">
 							<div class="video">
 								<video id="my-video" class="video-js vjs-16-9" controls preload="auto" width="640px" height="267px" poster="<%- url_for('img/')%>poster_<%- item.img_name %>" data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "<%- item.youtube_url %>"}] }'>
 								</video>
@@ -25,14 +27,17 @@
 								<script src="<%- url_for('bower_components/videojs-youtube/dist/Youtube.min.js') %>"></script>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						<% } if (item.webtorrent_magnet) { %>
+						<div class="tab-pane fade <% if (!item.youtube_url) { %> show active <% } %>" id="nav-webtorrent" role="tabpanel" aria-labelledby="nav-webtorrent-tab">
 							<div class="video" id="video_webtorrent" >
 
 							</div>
 						</div>
-						<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+						<% } if (item.vimeo_url) { %>
+						<div class="tab-pane fade" id="nav-vimeo" role="tabpanel" aria-labelledby="nav-vimeo-tab">
 
 						</div>
+						<% } %>
 					</div>
 
 					<span id="magnet" class="d-none"><%- item.webtorrent_magnet %></span>
