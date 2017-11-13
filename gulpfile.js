@@ -10,13 +10,16 @@ var gulp = require('gulp');
 var imageResize = require('gulp-image-resize');
 var rename = require('gulp-rename');
 var minifycss = require('gulp-clean-css');
-// var uglify = require('gulp-uglify');
+var uglify = require('gulp-uglify');
 var htmlmin = require('gulp-htmlmin');
 var htmlclean = require('gulp-htmlclean');
 var imagemin = require('gulp-imagemin');
 var del = require('del');
 var runSequence = require('run-sequence');
 var Hexo = require('hexo');
+var gutil = require('gulp-util');
+var concat = require('gulp-concat');
+var babel = require('gulp-babel');
 
 
 gulp.task('clean', function() {
@@ -61,11 +64,15 @@ gulp.task('minify-html', function() {
         .pipe(gulp.dest('./public'));
 });
 
-gulp.task('minify-js', function() {
-    return gulp.src('./public/**/*.js')
-        .pipe(uglify())
-        .pipe(gulp.dest('./public'));
+gulp.task('minify-js', () => {
+  return gulp.src('./public/**/*.js')
+    .pipe(babel({
+      presets: ['es2015']
+    }))
+    .pipe(uglify())
+    .pipe(gulp.dest('./public'));
 });
+
 
 gulp.task('minify-img', function() {
     return gulp.src('./public/images/*')
@@ -121,7 +128,7 @@ gulp.task('thumbnail-cover', function(){
 });
 
 gulp.task('compress', function(cb) {
-    runSequence(['minify-html', 'minify-css', 'minify-img'], cb);
+    runSequence(['minify-html', 'minify-css', 'minify-img','minify-js'], cb);
 });
 //removed :  , 'minify-js'
 
