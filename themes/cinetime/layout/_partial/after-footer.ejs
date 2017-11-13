@@ -60,4 +60,20 @@
         	});
         </script>
 
+        <script>
+        	var movies = [
+        		 <% site.posts.each(function(post){ %>
+        			{
+        				"title": "<%- post.title %>",
+        				"author": "<%- post.author %>",
+        				"img": "<%- post.img_name %>",
+        				"url": "<%- post.permalink %>"
+        			},
+        		<% }); %>
+        	];
+        	// const cartoons = [];
+        	// const docs = [];
+        	console.log(movies);
+        </script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
