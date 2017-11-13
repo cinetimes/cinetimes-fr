@@ -64,14 +64,14 @@ gulp.task('minify-html', function() {
         .pipe(gulp.dest('./public'));
 });
 
-gulp.task('minify-js', () => {
-  return gulp.src('./public/**/*.js')
-    .pipe(babel({
-      presets: ['es2015']
-    }))
-    .pipe(uglify())
-    .pipe(gulp.dest('./public'));
-});
+// gulp.task('minify-js', () => {
+//   return gulp.src('./public/**/*.js')
+//     .pipe(babel({
+//       presets: ['es2015']
+//     }))
+//     .pipe(uglify())
+//     .pipe(gulp.dest('./public'));
+// });
 
 
 gulp.task('minify-img', function() {
@@ -128,7 +128,7 @@ gulp.task('thumbnail-cover', function(){
 });
 
 gulp.task('compress', function(cb) {
-    runSequence(['minify-html', 'minify-css', 'minify-img','minify-js'], cb);
+    runSequence(['minify-html', 'minify-css', 'minify-img'], cb);
 });
 //removed :  , 'minify-js'
 
