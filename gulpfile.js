@@ -19,7 +19,7 @@ var runSequence = require('run-sequence');
 var Hexo = require('hexo');
 var gutil = require('gulp-util');
 var concat = require('gulp-concat');
-var babel = require('gulp-babel');
+var minify = require("gulp-babel-minify");
 
 
 gulp.task('clean', function() {
@@ -64,15 +64,15 @@ gulp.task('minify-html', function() {
         .pipe(gulp.dest('./public'));
 });
 
-// gulp.task('minify-js', () => {
-//   return gulp.src('./public/**/*.js')
-//     .pipe(babel({
-//       presets: ['es2015']
-//     }))
-//     .pipe(uglify())
-//     .pipe(gulp.dest('./public'));
-// });
-
+gulp.task("minify-js", () => {
+  gulp.src('./public/**/*.js')
+    .pipe(minify({
+      mangle: {
+        keepClassName: true
+      }
+    }))
+    .pipe(gulp.dest("./public"));
+});
 
 gulp.task('minify-img', function() {
     return gulp.src('./public/images/*')
@@ -128,7 +128,7 @@ gulp.task('thumbnail-cover', function(){
 });
 
 gulp.task('compress', function(cb) {
-    runSequence(['minify-html', 'minify-css', 'minify-img'], cb);
+    runSequence(['minify-html', 'minify-css', 'minify-img', 'minify-js'], cb);
 });
 //removed :  , 'minify-js'
 
