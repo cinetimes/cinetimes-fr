@@ -1019,8 +1019,14 @@ a.label:focus {
 
     cursor: pointer;
     color: #fff;
-    background-color: #0097cf;*/
+    background-color: #0097cf;
+*/
 
+.slick-prev::before, .slick-next::before {
+  color: #346BC2 !important;
+  opacity: 1 !important;
+
+}
 
 /* Ridiculously Responsive Social Sharing Buttons CSS
  *
