@@ -33,8 +33,23 @@ for (var category in site.data.categories) {
 							</div>
 								<div class="row" class="col-12 scrollspy-example" data-spy="scroll" data-target="#navbar-main-side" data-offset="40">
 											<div class="col-12 card-deck">
+													<!-- Initiate a counter -->
+													<% var count = 0; %>
+												  <!-- For each post in the home page -->
 													<% page.posts.each(function(item){ %>
-																<%- partial('_partial/article-excerpt', {item: item, category: category}) %>
+																<!-- Create an array containing the item categories -->
+																<%
+																	var itemCategories = [];
+																	item.categories.forEach(function(category){
+																			itemCategories.push(category.name);
+																	});
+																%>
+																<!-- If the category match with the section displaying category -->
+																<% if ((itemCategories[0] == category) && (count < 6)) { %>
+																		<!-- Print the card to the section -->
+																		<%- partial('_partial/article-excerpt', {item: item, category: category}) %>
+																		<% count++; %>
+																<% } %>
 													<% }); %>
 											</div>
 								</div>

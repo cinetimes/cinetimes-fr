@@ -1,9 +1,9 @@
-<%
-  var categories = [];
+
+  <!-- var categories = [];
   item.categories.forEach(function(category){
       categories.push(category.name);
-  });
-
+  }); -->
+<%
   var tags = [];
   item.tags.forEach(function(tag){
       tags.push(tag.name);
@@ -13,7 +13,7 @@
 
 
 <% if (is_home()) { %>
-    <% if (categories[0] == category) { %>
+
       <div class="card">
         <a href="<%- url_for(item.path) %>"><img class="card-img-top" src="<%- url_for('img/')%>card_<%- item.img_name %>" alt="<%- item.title + ', ' + site.data.metadata.alt_intro %>"></a>
         <div class="card-body">
@@ -21,7 +21,7 @@
           <h6 class="card-subtitle mb-2 text-muted"><%- _.startCase(item.author) %></h6>
         </div>
       </div>
-    <% } %>
+
 <% } %>
 
 <% if (is_category()) { %>
