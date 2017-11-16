@@ -1025,7 +1025,10 @@ a.label:focus {
 .slick-prev::before, .slick-next::before {
   color: #346BC2 !important;
   opacity: 1 !important;
+}
 
+.movie-carousel {
+  padding: 0px !important;
 }
 
 /* Ridiculously Responsive Social Sharing Buttons CSS

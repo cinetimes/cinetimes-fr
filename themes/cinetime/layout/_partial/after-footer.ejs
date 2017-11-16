@@ -66,7 +66,27 @@
               infinite: false,
               centerMode: false,
               variableWidth: true,
-              variableHeight: true
+              variableHeight: true,
+              responsive: [
+                {
+                  breakpoint: 768,
+                  settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                    centerMode: true,
+                    // centerPadding: '40px',
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    arrows: false,
+                    centerPadding: '40px',
+                    slidesToShow: 1,
+                    centerMode: true,
+                  }
+                }
+              ]
         		});
         	});
         </script>
