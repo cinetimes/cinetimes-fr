@@ -128,9 +128,9 @@ gulp.task('thumbnail-cover', function(){
 });
 
 gulp.task('compress', function(cb) {
-    runSequence(['minify-html', 'minify-css', 'minify-img', 'minify-js'], cb);
+    runSequence([ 'minify-html', 'minify-css', 'minify-img', 'minify-js'], cb);
 });
-//removed :  , 'minify-js'
+//removed :
 
 gulp.task('resize', function(){
     runSequence(['thumbnail-card', 'thumbnail-poster', 'thumbnail-cover', 'thumbnail-next']);
@@ -138,7 +138,9 @@ gulp.task('resize', function(){
 
 //gulp.task('build', ['clean', 'generate', 'compress']);
 gulp.task('build', function(cb) {
-    runSequence('clean', 'resize', 'generate', 'compress', cb);
+    runSequence('clean', 'generate', 'compress', cb);
 });
+
+//removed :  'resize',
 
 gulp.task('default', []);
