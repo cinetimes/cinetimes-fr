@@ -583,6 +583,10 @@ header
       display: none;
     }
 
+    .no-padding-mobile{
+      padding: 0px !important;
+    }
+
     #mainSection {
       display: none;
     }
@@ -1030,6 +1034,10 @@ a.label:focus {
 .movie-carousel {
   padding: 0px !important;
 }
+
+.card-deck {
+    margin-right: 0px;
+    margin-left: 0px;
 
 /* Ridiculously Responsive Social Sharing Buttons CSS
  *
