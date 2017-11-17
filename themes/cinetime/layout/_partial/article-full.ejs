@@ -18,7 +18,7 @@
 
 					<script src="<%- url_for('bower_components/video.js/dist/video.min.js') %>"></script>
 					<script src="<%- url_for('bower_components/videojs-youtube/dist/Youtube.min.js') %>"></script>
-					
+
 					<div class="tab-content" id="nav-tabContent">
 					<% if (item.youtube_url) { %>
 						<div class="tab-pane fade show active" id="nav-youtube" role="tabpanel" aria-labelledby="nav-youtube-tab">
@@ -33,6 +33,13 @@
 
 							</div>
 						</div>
+						<script>
+								setTimeout(()=>{
+									// console.log('setting the poster image...');
+									document.getElementById('video_webtorrent').lastChild.setAttribute("poster","<%- url_for('img/')%>poster_<%- item.img_name %>")
+								}, 5000)
+
+						</script>
 						<% } if (item.vimeo_url) { %>
 						<div class="tab-pane fade" id="nav-vimeo" role="tabpanel" aria-labelledby="nav-vimeo-tab">
 
