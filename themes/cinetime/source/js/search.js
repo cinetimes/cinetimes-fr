@@ -8,7 +8,7 @@ $(function () {
     // prefetch: '/content.json'
     local: movies
   });
-  console.log('medias initialisated !');
+  // console.log('medias initialisated !');
 
 
   $('#q .typeahead').typeahead({
