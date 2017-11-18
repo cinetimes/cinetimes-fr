@@ -909,10 +909,12 @@ a.label:focus {
   min-width: 17rem;
   max-width: 19rem;
   margin-bottom: 2rem !important;
+  margin: 0 0 2rem 15px;
 }
 
 .card-img-top {
-  height: 11.7rem
+  height: 181px;
+  /*width: 302px;*/
 }
 
 .card-deck {
