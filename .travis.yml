@@ -22,4 +22,7 @@ deploy:
   keep-history: true
   local-dir: public
   on:
-    branch: master
+  repo: cinetimes/cinetimes-fr
+  branches:    # ← new!
+    only:      # ← new!
+      - master # ← new!
