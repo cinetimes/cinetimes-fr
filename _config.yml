@@ -85,3 +85,6 @@ twitter_creator: '@cinetimeTV'
 google_plus:
 fb_app_id:
 og_locale: fr_FR
+
+# Disqus Comments Shortname
+disqus_shortname: cinetimes
