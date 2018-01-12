@@ -4,7 +4,7 @@ author: 'Georges Méliès'
 lang: Français
 year: 1902
 img_name: voyageDansLaLune.jpg
-youtube_url: 'https://youtu.be/LZX1KCzuKL8'
+youtube_url: 'https://www.youtube.com/watch?v=aNcxCR7f2MQ'
 webtorrent_magnet: ''
 category:
 - Films

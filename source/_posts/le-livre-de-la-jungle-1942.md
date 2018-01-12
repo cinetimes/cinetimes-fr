@@ -4,7 +4,7 @@ author: Zoltan Korda
 lang: Français
 year: 1942
 img_name: leLivreDeLaJungle.jpg
-youtube_url: https://youtu.be/BMtcq4WnaNA
+youtube_url: ''
 webtorrent_magnet: 'magnet:?xt=urn:btih:3d85b267eb5f7388716102d0ab807da5ea2e496f&dn=rFFP9LAsWCzu.mp4&tr=udp://explodie.org:6969&tr=udp://tracker.coppersurfer.tk:6969&tr=udp://tracker.empire-js.us:1337&tr=udp://tracker.leechers-paradise.org:6969&tr=udp://tracker.opentrackr.org:1337&tr=wss://tracker.btorrent.xyz&tr=wss://tracker.fastcast.nz&tr=wss://tracker.openwebtorrent.com&as=https://seed01.bitchute.com/8929/rFFP9LAsWCzu.mp4&as=https://seed02.bitchute.com/8929/rFFP9LAsWCzu.mp4&as=https://seed03.bitchute.com/8929/rFFP9LAsWCzu.mp4&xs=https://www.bitchute.com/torrent/8929/rFFP9LAsWCzu.torrent'
 category:
 - Films

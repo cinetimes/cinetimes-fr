@@ -7,7 +7,7 @@ year: 1922
 length: 52mn47s
 origin: Franco-Américain
 img_name: nanouk.jpg
-youtube_url: https://youtu.be/XMjgWCsfD1M
+youtube_url: https://www.youtube.com/watch?v=5-oECMtfxGQ
 category:
 - Documentaires
 tags:

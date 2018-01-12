@@ -4,7 +4,7 @@ author: 'Edgar G. Ulmer'
 lang: Français (VOSTFR)
 year: 1957
 img_name: laFilleDuDocteurJekyll.jpg
-youtube_url: 'https://youtu.be/yGr2aoViOZo'
+youtube_url: 'https://www.youtube.com/watch?v=5NIzgPsi_iE'
 webtorrent_magnet: ''
 category:
 - Films

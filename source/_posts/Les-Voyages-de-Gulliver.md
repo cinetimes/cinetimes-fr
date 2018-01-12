@@ -6,7 +6,7 @@ year: 1939
 length: 1h16mn
 origin: Américain
 img_name: gulliver.jpg
-youtube_url: https://www.youtube.com/watch?v=bQoZyiSohGQ
+youtube_url: https://www.youtube.com/watch?v=N7gtUHyROxU
 category:
 - Dessins Animés
 tags:

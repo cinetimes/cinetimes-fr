@@ -2,7 +2,7 @@
 title: Popeye Volume 1
 author: Studios Fleischer
 img_name: popeyeVolume1.png
-youtube_url: https://www.youtube.com/watch?v=3i4CWfnVwm0
+youtube_url: 
 webtorrent_magnet: 'magnet:?xt=urn:btih:5a71d9e49cd16590f680c59b5b154e0e75915485&dn=3Q98ftdfiWqm.mp4&tr=udp://explodie.org:6969&tr=udp://tracker.coppersurfer.tk:6969&tr=udp://tracker.empire-js.us:1337&tr=udp://tracker.leechers-paradise.org:6969&tr=udp://tracker.opentrackr.org:1337&tr=wss://tracker.btorrent.xyz&tr=wss://tracker.fastcast.nz&tr=wss://tracker.openwebtorrent.com&as=https://seed01.bitchute.com/8929/3Q98ftdfiWqm.mp4&as=https://seed02.bitchute.com/8929/3Q98ftdfiWqm.mp4&as=https://seed03.bitchute.com/8929/3Q98ftdfiWqm.mp4&xs=https://www.bitchute.com/torrent/8929/3Q98ftdfiWqm.torrent'
 tags:
 - Popeye

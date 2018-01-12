@@ -7,7 +7,7 @@ year: 1940
 origin: Américain
 length: 6mn29
 img_name: woody.jpg
-youtube_url: https://youtu.be/yatlGRRjkx8
+youtube_url: 'https://www.youtube.com/watch?v=Trzteq6nMCY'
 tags:
 - Woody Woodpecker
 category:
