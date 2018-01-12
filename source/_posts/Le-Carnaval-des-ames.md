@@ -4,7 +4,7 @@ author: Herk Harvey
 lang: Français
 year: 1962
 img_name: carnivalOfSouls.jpg
-youtube_url: 'https://youtu.be/Ywlbsm-rfEk'
+youtube_url: 'https://www.youtube.com/watch?v=1Ys0MeSYGvs&t=1s'
 webtorrent_magnet: ''
 category:
 - Films
