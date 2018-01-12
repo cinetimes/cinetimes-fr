@@ -1,26 +1,28 @@
 language: node_js
 node_js:
 - 6.0.0
-
+github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
 
 install: npm install
 
-# before_script:
-#   - git config --global user.name "katre"
-#   - git config --global user.email "contact@cinetimes.org"
-#   - sed -i'' "s~https://github.com/cinetimes/cinetimes-fr~https://${GITHUB_TOKEN}:x-oauth-basic@github.com/cinetimes/cinetimes-fr.git~" _config.yml
+before_script:
+  - git config --global user.name "katre"
+  - git config --global user.email "contact@cinetimes.org"
+  - sed -i'' "s~https://github.com/cinetimes/cinetimes-fr~https://${GITHUB_TOKEN}:x-oauth-basic@github.com/cinetimes/cinetimes-fr.git~" _config.yml
 script: 
   - npm run build
+  - hexo deploy
 
 
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
-  keep-history: true
-  local-dir: public
-  on:
-  repo: cinetimes/cinetimes-fr
-  branches:    # ← new!
-    only:      # ← new!
-      - master # ← new!
+
+  # provider: pages
+  # skip-cleanup: true
+  # 
+  # keep-history: true
+  # local-dir: public
+  # on:
+  # repo: cinetimes/cinetimes-fr
+  # branches:    # ← new!
+  #   only:      # ← new!
+  #     - master # ← new!
