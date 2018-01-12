@@ -10,6 +10,6 @@ install: npm install
 before_script:
   - git config --global user.name "katre"
   - git config --global user.email "contact@cinetimes.org"
-  - sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
+  - sed -i'' "s~https://github.com/cinetimes/cinetimes-fr~https://${GITHUB_TOKEN}:x-oauth-basic@github.com/cinetimes/cinetimes-fr.git~" _config.yml
 script: 
   - npm run build

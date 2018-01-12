@@ -77,7 +77,7 @@ theme: cinetime
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://__GITHUB_TOKEN__@github.com/cinetimes/cinetimes-fr
+  repo: https://github.com/cinetimes/cinetimes-fr
   branch: master
 
 # open graph
