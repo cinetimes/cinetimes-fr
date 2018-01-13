@@ -18,5 +18,6 @@ before_script:
 - sed -i'' "s~https://github.com/cinetimes/cinetimes-fr~https://${GH_TOKEN}:x-oauth-basic@github.com/cinetimes/cinetimes-fr.git~" _config.yml
 
 script:
+- gulp resize
 - npm run build
 
