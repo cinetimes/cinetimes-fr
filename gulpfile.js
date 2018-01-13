@@ -139,9 +139,9 @@ gulp.task('resize', function(){
 
 //gulp.task('build', ['clean', 'generate', 'compress']);
 gulp.task('build', function(cb) {
-    runSequence('clean', 'generate', 'resize', 'compress', cb);
+    runSequence('clean', 'generate', cb);
 });
 
-//removed :  'resize',
+//removed :  'resize', 'compress',
 
 gulp.task('default', []);
