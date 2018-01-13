@@ -7,7 +7,7 @@ env:
 node_js:
 - 6.0.0
 
-github-token: "$GITHUB_TOKEN"
+
 install: npm install
 before_script:
 - git config --global user.name "MiKatre"
