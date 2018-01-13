@@ -8,7 +8,9 @@ node_js:
 - 6.0.0
 
 
-install: npm install
+install: 
+- npm install
+- npm install imagemagick
 before_script:
 - git config --global user.name "MiKatre"
 - git config --global user.email "contact@cinetimes.org"
