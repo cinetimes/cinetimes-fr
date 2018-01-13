@@ -1,3 +1,4 @@
+os: osx
 language: node_js
 
 env:
@@ -10,7 +11,8 @@ node_js:
 
 install: 
 - npm install
-- sudo apt-get install imagemagick graphicsmagick
+# - sudo apt-get update && sudo apt-get install imagemagick graphicsmagick
+- sudo brew install imagemagick
 - pwd
 - ls
 
