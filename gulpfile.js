@@ -80,6 +80,7 @@ gulp.task('minify-img', function() {
         .pipe(gulp.dest('./public/images'));
 });
 
+// cinetimes-fr/themes/cinetime/source/img/16-9/
 gulp.task('thumbnail-card', function(){
     gulp.src('./themes/cinetime/source/img/16-9/*')
       .pipe(imageResize({
