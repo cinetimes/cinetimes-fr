@@ -23,5 +23,9 @@ script:
 - pwd
 - ls
 - gulp resize
+- pwd
+- ls
 - npm run build
+- pwd
+- ls
 
