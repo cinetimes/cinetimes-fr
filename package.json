@@ -42,7 +42,7 @@
     "run-sequence": "^2.2.0"
   },
   "scripts": {
-    "build": "gulp build && gulp resize && gulp compress && hexo deploy"
+    "build": "gulp resize && gulp build && gulp compress && hexo deploy"
   }
 }
 
