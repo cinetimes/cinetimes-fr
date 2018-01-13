@@ -1,4 +1,4 @@
-os: osx
+# os: osx
 language: node_js
 
 env:
@@ -13,8 +13,8 @@ install:
 - npm install
 - npm install -g gulp-cli
 - npm install -g gulp
-# - sudo apt-get update && sudo apt-get install imagemagick graphicsmagick
-- sudo brew install imagemagick
+- sudo apt-get update && sudo apt-get install imagemagick graphicsmagick
+# - sudo brew install imagemagick
 
 
 before_script:
@@ -25,6 +25,4 @@ before_script:
 script:
 - gulp resize
 - npm run build
-- pwd
-- ls
 
