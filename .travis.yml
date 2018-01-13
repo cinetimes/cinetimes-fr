@@ -11,6 +11,8 @@ node_js:
 install: 
 - npm install
 - sudo apt-get install imagemagick graphicsmagick
+- pwd
+- ls
 
 before_script:
 - git config --global user.name "MiKatre"
@@ -18,6 +20,8 @@ before_script:
 - sed -i'' "s~https://github.com/cinetimes/cinetimes-fr~https://${GH_TOKEN}:x-oauth-basic@github.com/cinetimes/cinetimes-fr.git~" _config.yml
 
 script:
+- pwd
+- ls
 - gulp resize
 - npm run build
 
