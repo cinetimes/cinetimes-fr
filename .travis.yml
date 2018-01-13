@@ -1,4 +1,4 @@
-os: osx
+# os: osx
 language: node_js
 
 env:
@@ -11,10 +11,10 @@ node_js:
 
 install: 
 - npm install
-# - sudo apt-get update && sudo apt-get install imagemagick graphicsmagick
-- sudo brew install imagemagick
-- pwd
-- ls
+- npm install -g gulp gulp-cli
+- sudo apt-get update && sudo apt-get install imagemagick graphicsmagick
+# - sudo brew install imagemagick
+
 
 before_script:
 - git config --global user.name "MiKatre"
@@ -22,11 +22,7 @@ before_script:
 - sed -i'' "s~https://github.com/cinetimes/cinetimes-fr~https://${GH_TOKEN}:x-oauth-basic@github.com/cinetimes/cinetimes-fr.git~" _config.yml
 
 script:
-- pwd
-- ls
 - gulp resize
-- pwd
-- ls
 - npm run build
 - pwd
 - ls

@@ -81,9 +81,8 @@ gulp.task('minify-img', function() {
 });
 
 
-// ./themes/cinetime/source/img/16-9/*
 gulp.task('thumbnail-card', function(){
-    gulp.src('themes/cinetime/source/img/16-9/*')
+    gulp.src('./themes/cinetime/source/img/16-9/*')
       .pipe(imageResize({
         width: 302,
         height: 181,
@@ -91,7 +90,7 @@ gulp.task('thumbnail-card', function(){
       .pipe(rename(function(path){
         path.basename = "card_" + path.basename;
       }))
-      .pipe(gulp.dest('themes/cinetime/source/img/'));
+      .pipe(gulp.dest('./themes/cinetime/source/img/'));
 });
 
 gulp.task('thumbnail-poster', function(){
@@ -106,10 +105,9 @@ gulp.task('thumbnail-poster', function(){
       .pipe(gulp.dest('./themes/cinetime/source/img/'));
 });
 
-// ./themes/cinetime/source/img/16-9/
 
 gulp.task('thumbnail-next', function(){
-    gulp.src('cinetimes-fr/img/16-9/*')
+    gulp.src('./themes/cinetime/source/img/16-9/*')
       .pipe(imageResize({
         width: 168,
         // height: 101,
@@ -142,9 +140,9 @@ gulp.task('resize', function(){
 
 //gulp.task('build', ['clean', 'generate', 'compress']);
 gulp.task('build', function(cb) {
-    runSequence('clean', 'generate', cb);
+    runSequence('clean', 'generate', 'compress', cb);
 });
 
-//removed :  'resize', 'compress',
+//removed :  'resize',
 
 gulp.task('default', []);
