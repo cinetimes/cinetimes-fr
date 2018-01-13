@@ -105,8 +105,10 @@ gulp.task('thumbnail-poster', function(){
       .pipe(gulp.dest('./themes/cinetime/source/img/'));
 });
 
+// ./themes/cinetime/source/img/16-9/
+
 gulp.task('thumbnail-next', function(){
-    gulp.src('./themes/cinetime/source/img/16-9/*')
+    gulp.src('cinetimes-fr/img/16-9/*')
       .pipe(imageResize({
         width: 168,
         // height: 101,
