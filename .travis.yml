@@ -10,7 +10,7 @@ node_js:
 
 install: 
 - npm install
-- sudo apt-get install imagemagick
+- sudo apt-get install imagemagick graphicsmagick
 
 before_script:
 - git config --global user.name "MiKatre"
