@@ -139,7 +139,7 @@ gulp.task('resize', function(){
 
 //gulp.task('build', ['clean', 'generate', 'compress']);
 gulp.task('build', function(cb) {
-    runSequence('clean', 'generate', 'compress', cb);
+    runSequence('clean', 'generate', 'resize', 'compress', cb);
 });
 
 //removed :  'resize',
