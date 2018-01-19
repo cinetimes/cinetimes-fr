@@ -1,17 +1,22 @@
 <head>
       <%
       var title = '';
-      if (page.title) {
-        title = page.title + (page.author ? ' - ' + page.author + ' | ' + config.title : ' | ' + config.title);
-      }
-      else if (page.category) {
-        title = page.category + ' | ' + config.title;
-      }
-      else if (page.tag) {
-        title = page.tag + ' | ' + config.title;
+      if (page.serp) {
+        title = page.serp
       }
       else {
-        title = config.title + ' | ' + config.subtitle;
+        if (page.title) {
+          title = page.title + (page.author ? ' - ' + page.author + ' | ' + config.title : ' | ' + config.title);
+        }
+        else if (page.category) {
+          title = page.category + ' | ' + config.title;
+        }
+        else if (page.tag) {
+          title = page.tag + ' | ' + config.title;
+        }
+        else {
+          title = config.title + ' | ' + config.subtitle;
+        }
       }
       %>
       <title> <%- title %> </title>
