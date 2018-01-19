@@ -2,6 +2,7 @@
 title: Nanouk l'Esquimau
 quality: SD
 author: Robert Flaherty
+serp: Nanouk l'Esquimau (Premier Film Documentaire) - Robert Flaherty
 lang: Français
 year: 1922
 length: 52mn47s

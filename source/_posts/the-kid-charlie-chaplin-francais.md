@@ -1,6 +1,7 @@
 ---
 title: 'Le Kid (The Kid)'
 author: Charlie Chaplin
+serp: The Kid - Charles Chaplin (Streaming) (Français HD)
 lang: Français
 year: 1921
 img_name: theKid.jpg
