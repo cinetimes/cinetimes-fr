@@ -1,4 +1,4 @@
-<% if(config.disqus_shortname){ %>
+<% if((config.disqus_shortname) && !(page.comments == false)){ %>
         <div id="disqus_thread"></div>
         <script>
         var disqus_config = function () {
