@@ -1,7 +1,7 @@
 layout: blog
 title: A Propos
-<!-- serp: hello world! -->
-<!-- description: hello -->
+<!-- serp:  -->
+<!-- description: -->
 <!-- data: plugins -->
 <!-- partial: js-miner -->
 comments: false
