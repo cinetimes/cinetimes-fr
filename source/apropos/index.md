@@ -1,9 +1,9 @@
 layout: blog
 title: A Propos
-<!-- serp:  -->
-<!-- description: -->
-<!-- data: plugins -->
-<!-- partial: js-miner -->
+<!-- serp: 
+description:
+data: 
+partial:  -->
 comments: false
 minning: true
 ---
