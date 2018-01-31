@@ -1043,6 +1043,16 @@ a.label:focus {
     margin-right: 0px;
     margin-left: 0px;
 }
+
+.bg-color-white {
+  background-color: #FFFFFF;
+}
+
+.fa-pencil {
+  color: grey;
+  font-size: 0.7em !important;
+}
+
 /* Ridiculously Responsive Social Sharing Buttons CSS
  *
  * https://github.com/kni-labs/rrssb
