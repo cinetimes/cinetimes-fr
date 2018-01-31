@@ -9,6 +9,7 @@ origin: Américain
 img_name: gulliver.jpg
 youtube_url: https://www.youtube.com/watch?v=N7gtUHyROxU
 webtorrent_magnet: 'magnet:?xt=urn:btih:9f4a657320500dbe14cb12454c01d4a213921807&dn=JQMx4JxCqceh.mp4&tr=udp://explodie.org:6969&tr=udp://tracker.coppersurfer.tk:6969&tr=udp://tracker.empire-js.us:1337&tr=udp://tracker.leechers-paradise.org:6969&tr=udp://tracker.opentrackr.org:1337&tr=wss://tracker.btorrent.xyz&tr=wss://tracker.fastcast.nz&tr=wss://tracker.openwebtorrent.com&as=https://seed01.bitchute.com/8929/JQMx4JxCqceh.mp4&as=https://seed02.bitchute.com/8929/JQMx4JxCqceh.mp4&as=https://seed03.bitchute.com/8929/JQMx4JxCqceh.mp4&xs=https://www.bitchute.com/torrent/8929/JQMx4JxCqceh.webtorrent'
+# archive_url: 'https://seed01.bitchute.com/8929/JQMx4JxCqceh.mp4'
 category:
 - Dessins Animés
 tags:

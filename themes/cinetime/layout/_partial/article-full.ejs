@@ -24,10 +24,11 @@
 					<div class="tab-content" id="nav-tabContent">
 					<% if (item.youtube_url) { %>
 						<div class="tab-pane fade show active" id="nav-youtube" role="tabpanel" aria-labelledby="nav-youtube-tab">
-							<div class="video">
+							<!-- <div class="video">
 								<video id="my-video" class="video-js vjs-16-9" controls preload="auto" width="640px" height="267px" poster="<%- url_for('img/')%>poster_<%- item.img_name %>" data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "<%- item.youtube_url %>"}] }'>
 								</video>
-							</div>
+							</div> -->
+							<div data-type="youtube" data-video-id="<%- item.youtube_url %>"></div>
 						</div>
 						<% } if (item.webtorrent_magnet) { %>
 						<div class="tab-pane fade <% if (!item.youtube_url) { %> show active <% } %>" id="nav-webtorrent" role="tabpanel" aria-labelledby="nav-webtorrent-tab">
@@ -48,10 +49,11 @@
 						</div>
 						<% } if (item.archive_url) { %>
 							<div class="tab-pane fade" id="nav-archive" role="tabpanel" aria-labelledby="nav-archive-tab" >
-								<div class="video">
-										<%- item.archive_url %>
-								</div>
+								<video poster="<%- url_for('img/')%>poster_<%- item.img_name %>" controls>
+									<source src="<%- item.archive_url %>" type="video/mp4">
+								</video>
 							</div>
+			
 						<% } %>
 					</div>
 
@@ -167,3 +169,6 @@
 		</div>
 	</div>
 </div>
+
+<script src="<%- url_for('bower_components/plyr/dist/plyr.js') %>"></script>
+<script>plyr.setup();</script>
