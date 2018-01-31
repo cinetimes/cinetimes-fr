@@ -30,7 +30,9 @@
           categories = categories[0];
         }
         var description = '';
-        if (page.subtitle || page.author) {
+        if (page.description) {
+          description = page.description;
+        } else if (page.subtitle || page.author) {
           description = page.title + ", un " + site.data.metadata[categories] + " de " + page.author + ' disponible gratuitement sur ' + ' ' + config.title + ' ' + site.data.metadata.langue;
         }
         else {
