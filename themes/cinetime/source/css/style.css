@@ -1044,6 +1044,14 @@ a.label:focus {
     margin-left: 0px;
 }
 
+.tag-title {
+  font-weight: bold;
+  margin: 0 auto 1em auto;
+  text-align: center;
+}
+
+/* BLOG POST */
+
 .bg-color-white {
   background-color: #FFFFFF;
 }
@@ -1051,6 +1059,10 @@ a.label:focus {
 .fa-pencil {
   color: grey;
   font-size: 0.7em !important;
+}
+
+.blog-post h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
 }
 
 /* Ridiculously Responsive Social Sharing Buttons CSS
