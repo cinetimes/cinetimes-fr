@@ -12,17 +12,17 @@
                 </ul> -->
 
 
-
-
                 <div class="container-fluid">
                   <div class="row">
                     <div class="col-sm-12 col-md-3 col-lg-4">
 
                         <h3><a href="<%- url_for('blog') %>" class="text-white">Blog</a></h3>
                         <ul class="list-unstyled">
-                            <% featured.forEach((post) => { %>
+                            <% site.posts.forEach((post) => { %>
+                              <% if(post.featured) { %>
                                 <li class="mb-2"> <a class="text-light" href="<%- url_for(post.path) %>"><%- post.title %></a> </li>
-                            <% }); %>
+                              <% } %>
+                             <% }); %>
                         </ul>
 
                     </div>
