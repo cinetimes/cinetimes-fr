@@ -1,11 +1,13 @@
-layout: blog
+---
+layout: blog-post
 title: 'Les Meilleurs Films du Domaine Public'
 serp: 'Les 5 Meilleurs Films du Domaine Public (Et leur lien de streaming)'
 description: 'Découvrez notre liste des meilleurs films du domaine public, que vous pourrez voir en streaming ou télécharger gratuitement.'
+share: true
+# img_name: theKid.jpg
 ---
 
-*Liste des Meilleurs films du domaine public, ordonnés par nombre de vues sur Cinetimes.*
-<br>
+*Liste des Meilleurs films du domaine public, ordonnés par nombre de vues sur Cinetimes.* 
 ###  **1.** Le Kid, Charles Chaplin
 <a class="d-flex" href="http://cinetimes.org/the-kid-charlie-chaplin-francais/" ><img src="/img/poster_theKid.jpg" alt="Couverture de charles chaplin, the kid" title="Meilleurs Films du Domaine Public" class="mw-100 mr-md-5 mx-xs-0" ></a>
 

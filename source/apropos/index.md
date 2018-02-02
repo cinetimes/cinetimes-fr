@@ -1,9 +1,5 @@
-layout: blog
+layout: written
 title: A Propos
-<!-- serp: 
-description:
-data: 
-partial:  -->
 comments: false
 minning: true
 ---
