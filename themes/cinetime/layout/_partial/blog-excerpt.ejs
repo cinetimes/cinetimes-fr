@@ -1,0 +1,31 @@
+<!-- Passed page as item to this template -->
+
+<!-- If the post has a featured image -->
+<% if (item.img_name) { %>
+<div class="card card-blog mb-3">
+    <img class="card-img-top card-img-blog" data-src="<%- url_for('img/')%>card_<%- item.img_name %>" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title"><%- item.title %></h5>
+        <p class="card-text"><%- item.description %>
+            <br>
+            <a href="<%- url_for(item.path) %>"><%- site.data.translation['readMore'] %></a>
+        </p>
+        <p class="card-text">
+            <small class="text-muted"><%- site.data.translation['updated'] + ' ' + full_date(item.updated, 'Do MMMM YYYY') %> </small>
+        </p>
+    </div>
+</div>
+<% } else {%>
+<div class="card card-blog mb-3">
+    <div class="card-body">
+        <h5 class="card-title"> <%- item.title %> </h5>
+        <p class="card-text"><%- item.description %>
+            <br>
+            <a href="<%- url_for(item.path) %>"><%- site.data.translation['readMore'] %></a>
+        </p>
+        <p class="card-text">
+                <small class="text-muted"><%- site.data.translation['updated'] + ' ' + full_date(item.updated, 'Do MMMM YYYY') %> </small>
+        </p>
+    </div>
+</div>
+<% } %>
