@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: "13 Films Gratuits à Voir en ligne (en streaming)"
+title: "13 Films Gratuits à Voir en ligne (streaming)"
 description: "Des Films gratuits. Ça vous tente? Tant mieux car des millers de films sont tombés dans le domaine public et n'attendent plus que vous"
 share: true
 topshare: true
