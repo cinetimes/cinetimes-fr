@@ -1,27 +1,52 @@
-<div class="col-md-8 col-xs-12 mx-auto py-3 px-md-5 px-xs-1 mb-2 bg-color-white blog-post">
-    <h1 class="text-center my-5 font-weight-bold"> 
-        <%- page.title %> 
-        <a href=" <%- raw_link(page.source) %> "> <span class="fa fa-pencil"></span> </a>
-    </h1>
+<% 
+    blogPosts = [];
+    featured = [];
+    site.posts.forEach((post) => {
+        if(post.layout == 'blog-post') {
+            blogPosts.push(post)
+        } 
+        if(post.featured) {
+            featured.push(post);
+        } 
+    })
     
-    <div class="mb-5">
-        <%- page.content %>
-        <% if (page.minning) { %>
-            <%- partial('_partial/ui-miner') %>
-        <% } %>
+    blogPosts.sort(function compare(a, b) {
+    var dateA = new Date(a.updated);
+    var dateB = new Date(b.updated);
+    return dateA - dateB;
+    });
+
+    blogPosts.reverse();
+    featured.reverse();
+
+    // Creating a recent post list with 5 links in it
+    recentBlogPosts = blogPosts.slice(0, 5);
+
+%>
+
+<h1 class="blog-title"><%- page.layout %></h1>
+<div class="container-fluid my-4 blog">
+    <div class="row">
+        <div class="col-md-7 offset-md-1">
+            <% blogPosts.forEach((post) => { %>
+                    <%- partial('_partial/blog-excerpt', {item: post}) %>
+            <% }); %>
+        </div>
+        <div class="col-md-3">
+
+            <h5><%- site.data.translation['recentBlogPosts'] %></h5>
+            <ul class="list-unstyled">
+                <% recentBlogPosts.forEach((post) => { %>
+                    <li class="mb-2"> <a class="text-dark" href="<%- url_for(post.path) %>"><%- post.title %></a> </li>
+                <% }); %>
+            </ul>
+
+            <h5 class="mt-5"><%- site.data.translation['featured'] %></h5>
+            <ul class="list-unstyled">
+                <% featured.forEach((post) => { %>
+                    <li class="mb-2"> <a class="text-dark" href="<%- url_for(post.path) %>"><%- post.title %></a> </li>
+                <% }); %>
+            </ul>
+        </div>
     </div>
 </div>
-
-
-
-<% if((config.disqus_shortname) && !(page.comments == false)){ %>
-    <div class="col-md-8 col-xs-12 mx-auto py-3 px-5 mb-1">
-            <h3 class="text-center my-2 font-weight-bold">Laisser un commentaire</h3>
-    </div>
-
-    <div class="col-md-8 col-xs-12 mx-auto py-3 px-5 mb-5 bg-color-white">
-        <!-- Comments -->
-        <%- partial('_partial/comments') %>
-    </div>
-<% } %>
-
