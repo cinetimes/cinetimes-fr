@@ -13,9 +13,9 @@ featured: true
 - **Woody Woodpecker**  - [Gratuit](http://cinetimes.org/Woody-Woodpecker-Le-ballet-nautique/) - Le ballet nautique, Seul épisode de woody présentement dans le domaine public.
 *autres liens*: [streaming](https://archive.org/details/woody_woodpecker_pantry_panic)
 
-##### Dessins Animés Gratuits d'une Qualité à Couper le Soufle
+##### Dessins Animés Gratuits d'une Qualité à Couper le Souffle
 - **Agent 327** [HD] - [Gratuit](https://agent327.com/) - Agent 327 Opération Barbershop est un court métrage hilarant de *Bleder Institute*, basé sur l'univers de Martin Lodewijk. Ce court métrage est un teaser, en attandant la sortie du long métrage, qui sera lui aussi gratuit.
-- **Tears of Steel** [HD] - [Gratuit](https://www.youtube.com/watch?v=41hv2tW5Lc4) - Quatrième court métrage produit par le *Blender Institute*. Il dure 12 minutes et est sorti en 2012. Thom à commis sans le vouloir un erreur qui a eu de terribles conséquences. 40 ans plus tard, il va essayer de la réparer
+- **Tears of Steel** [HD] - [Gratuit](https://www.youtube.com/watch?v=41hv2tW5Lc4) - Quatrième court métrage produit par le *Blender Institute*. Il dure 12 minutes et est sorti en 2012. Tom à commis sans le vouloir une erreur qui a eu de terribles conséquences. 40 ans plus tard, il va essayer de la réparer
 - **Big Buck Bunny** [HD] - [Gratuit](https://www.youtube.com/watch?v=aqz-KE-bpKQ) - Deuxième dessin animé de l'institut *Blender*. Raconte l'histoire en HD d'un lapin énorme avec un coeur encore plus grand.
 - **Sintel** [HD] - [Gratuit](https://www.youtube.com/watch?v=Hl43ZAThocQ) - L'histoire déchirante de Sintel, une chasseresse solitaire bravant tout les dangers pour retrouver son ami scales. Son voyage a duré plus de temps qu'elle ne le réalise. Vas-t-elle reconnaître son ami lorsqu'elle le retrouveras ?
 - **Caminandes 1** [HD] - [Gratuit](https://www.youtube.com/watch?v=JOhiWY7XmoY) - Première partie du Court métrage Creative Commons réalisé par Pablo Vazquez, Beorn Leonard, and Francesco Siddi ou l'on suit les drôles d'aventures d'un lama et d'une souris. Rapelle les courts métrages de *Scrat*, l'écureil de l'âge de Glace.
