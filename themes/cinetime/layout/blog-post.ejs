@@ -1,0 +1,42 @@
+<div class="col-md-8 col-xs-12 mx-auto py-3 px-md-5 px-xs-1 mb-2 bg-color-white blog-post">
+    <h1 class="text-center my-5 font-weight-bold"> 
+        <%- page.title %> 
+        <a href=" <%- raw_link(page.source) %> "> <span class="fa fa-pencil position-absolute ml-2 mt-2"></span> </a>
+        <br>
+        <small class="text-muted subtitle">
+                <%- site.data.translation['updated'] %>  
+                <%- full_date(page.updated, 'Do MMMM YYYY') %>  
+        </small>
+    </h1>
+
+    <% if (page.topshare) { %>
+        <div style="max-width: 600px;margin: -2rem auto auto auto;" class="mb-5">
+            <%- partial('_partial/share', {item: page}) %>
+        </div>
+    <% } %>
+    
+
+    <div class="mb-5">
+        <%- page.content %>
+        <% if (page.minning) { %>
+            <%- partial('_partial/ui-miner') %>
+        <% } %>
+    </div>
+    <% if (page.share) { %>
+        <%- partial('_partial/share', {item: page}) %>
+    <% } %>
+</div>
+
+
+
+<% if((config.disqus_shortname) && !(page.comments == false)){ %>
+    <div class="col-md-8 col-xs-12 mx-auto py-3 px-5 mb-1">
+            <h3 class="text-center my-2 font-weight-bold"><%- site.data.translation['comment'] %> </h3>
+    </div>
+
+    <div class="col-md-8 col-xs-12 mx-auto py-3 px-5 mb-5 bg-color-white">
+        <!-- Comments -->
+        <%- partial('_partial/comments') %>
+    </div>
+<% } %>
+
