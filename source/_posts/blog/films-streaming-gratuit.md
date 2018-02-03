@@ -8,7 +8,7 @@ comments: true
 featured: true
 ---
 
-- **12 Hommes en colère** - [Gratuit](https://archive.org/details/TWELVE-ANGRY-MEN) - Premier film de Sidney Lumet, sorti en 1957. Nominé aux oscars en 1958. Gagnant du prix Edgar-Allan-Poe du meilleur scénario pour Reginald Rose.
+- **12 Hommes en colère** - [Gratuit](https://archive.org/details/TWELVE-ANGRY-MEN) - Premier film de Sidney Lumet, sorti en 1957. Nominé aux oscars en 1958. Gagnant du prix Edgar-Allan-Poe du meilleur scénario pour Reginald Rose. 
 
 - **Bon Voyage** - [Gratuit](http://cinetimes.org/bon-voyage-alfred-hitchcock/) - Court-métrage de propagande britannique l'un des deux seuls que *Alfred Hitchcock* ait réalisé avec *Aventure Malgache*. Bon voyage est sorti en 1944
 *Autres liens*: [Gratuit](https://archive.org/details/BonVoyage1944)
