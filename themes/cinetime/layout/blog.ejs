@@ -29,6 +29,8 @@
     <div class="row">
         <div class="col-md-7 offset-md-1">
             <% blogPosts.forEach((post) => { %>
+                <% var date = new Date(post.updated) %>
+                <p><%- date %> </p>
                     <%- partial('_partial/blog-excerpt', {item: post}) %>
             <% }); %>
         </div>
