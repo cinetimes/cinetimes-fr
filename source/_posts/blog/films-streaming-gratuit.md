@@ -6,6 +6,7 @@ share: true
 topshare: true
 comments: true
 featured: true
+updated: 02/04/2018
 ---
 
 - **12 Hommes en colère** - [Gratuit](https://archive.org/details/TWELVE-ANGRY-MEN) - Premier film de Sidney Lumet, sorti en 1957. Nominé aux oscars en 1958. Gagnant du prix Edgar-Allan-Poe du meilleur scénario pour Reginald Rose. 
