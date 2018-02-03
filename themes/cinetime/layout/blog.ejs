@@ -30,7 +30,7 @@
         <div class="col-md-7 offset-md-1">
             <% blogPosts.forEach((post) => { %>
                 <% var date = new Date(post.date) %>
-                <% var update = new Date(post.update) %>
+                <% var update = new Date(post.updated) %>
                 <p><%- date %> </p>
                 <p><%- update %> </p>
                     <%- partial('_partial/blog-excerpt', {item: post}) %>
