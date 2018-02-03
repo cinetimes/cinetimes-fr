@@ -11,8 +11,8 @@
     })
     
     blogPosts.sort(function compare(a, b) {
-    var dateA = a.updated;
-    var dateB = b.updated;
+    var dateA = new Date(a.updated);
+    var dateB = new Date(b.updated);
     return dateA - dateB;
     });
 
@@ -29,10 +29,6 @@
     <div class="row">
         <div class="col-md-7 offset-md-1">
             <% blogPosts.forEach((post) => { %>
-                <% var date = post.date %>
-                <% var update = post.updated %>
-                <p>created: <%- date %> </p>
-                <p>updated: <%- update %> </p>
                     <%- partial('_partial/blog-excerpt', {item: post}) %>
             <% }); %>
         </div>
