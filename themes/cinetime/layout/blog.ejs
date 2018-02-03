@@ -11,8 +11,8 @@
     })
     
     blogPosts.sort(function compare(a, b) {
-    var dateA = new Date(a.updated);
-    var dateB = new Date(b.updated);
+    var dateA = a.updated;
+    var dateB = b.updated;
     return dateA - dateB;
     });
 
