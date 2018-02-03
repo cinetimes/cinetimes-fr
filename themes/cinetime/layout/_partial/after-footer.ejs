@@ -93,4 +93,16 @@
         	});
         </script>
 
+        <!-- Plyr from cdn with fallback from bower -->
+        <script src="https://cdn.plyr.io/2.0.18/plyr.js"></script>
+        <script>
+          var path = "<%- url_for('bower_components/plyr/dist/plyr.js') %>";
+          var script = "<script src=" + "'" + path + "'" + "><\/script>";
+          window.plyr || document.write("'" + script + "'")
+          // window.plyr || document.write("")
+        </script>
+        <script>
+          plyr.setup();
+        </script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>

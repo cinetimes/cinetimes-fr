@@ -45,5 +45,3 @@
     "build": "gulp build && gulp compress && hexo deploy"
   }
 }
-
-
