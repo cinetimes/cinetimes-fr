@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: "38 Films Gratuits à Voir en Ligne"
+title: "39 Films Gratuits à Voir en Ligne"
 description: "Des Films gratuits. Ça vous tente? Tant mieux car des millers de films sont tombés dans le domaine public et n'attendent plus que vous"
 share: true
 topshare: true
@@ -61,9 +61,11 @@ updated: 02/04/2018
 - **Le Kid** - [Gratuit](http://cinetimes.org/the-kid-charlie-chaplin-francais/) - *Charles Chaplin* a écrit produit et réalisé *Le kid (The kid en anglais)*. C'est aussi son premier long métrage. Il remporte un succès phénoménal dès sa sortie en 1921.
 *Autres lien: [Gratuit](https://vimeo.com/163164359) - [Gratuit](https://archive.org/details/Brzdac1921) - [Gratuit](https://www.youtube.com/watch?v=TqXfTsagqKw)*
 
-- **Le Président** [Gratuit](https://archive.org/details/LePresident-1961-HenriVerneuil) - Film français réalisé par Henri Verneuil. C'est un des rares films de politique-fiction du cinema français
+- **Le Livre de la Jungle** - [Gratuit](http://cinetimes.org/le-livre-de-la-jungle-1942/) - Réalisé par Zoltan Korda, tourné avec des animaux sauvages. (1942)
 
-- **Le Voyage dans la Lune** [Gratuit](http://cinetimes.org/le-voyage-dans-la-lune/) - Film de [Science-Fiction](http://cinetimes.org/categorie/films/#science_fiction), réalisé par Georges Méliès, inspiré des romans De la Terre à la Lune de Jules Verne et Les Premiers Hommes dans la Lune de H. G. Wells. 
+- **Le Président** [Gratuit](https://archive.org/details/LePresident-1961-HenriVerneuil) - Film français réalisé par Henri Verneuil. C'est un des rares films de politique-fiction du cinema français(1961)
+
+- **Le Voyage dans la Lune** [Gratuit](http://cinetimes.org/le-voyage-dans-la-lune/) - Film de [Science-Fiction](http://cinetimes.org/categorie/films/#science_fiction), réalisé par Georges Méliès, inspiré des romans De la Terre à la Lune de Jules Verne et Les Premiers Hommes dans la Lune de H. G. Wells. (1902)
 
 - **Les 39 Marches** - [Gratuit](http://cinetimes.org/les-39-marches/) - Film Britanique réalisé par Alfred Hitchcock, sorti en 1935, Hitchcock fait un caméo à la septième minute du film. 
 
@@ -105,26 +107,3 @@ updated: 02/04/2018
 - [Youpi ! 6000 films et 180 000 images sont disponibles gratuitement - TV5 Monde](http://information.tv5monde.com/info/web-6000-films-et-180-000-images-disponibles-gratuitement-84641)
 - [1,150 Free Movies Online - Open Culture](http://www.openculture.com/freemoviesonline)
 - [Films dans le Domaine Public - Wikipédia](https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Film_dans_le_domaine_public)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
