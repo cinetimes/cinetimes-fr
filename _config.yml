@@ -45,6 +45,13 @@ highlight:
   auto_detect: false
   tab_replace:
 
+#links
+nofollow:
+	enable: true
+	exclude:
+    - cinetimes.org
+
+
 # Category & Tag
 default_category: uncategorized
 category_map:
