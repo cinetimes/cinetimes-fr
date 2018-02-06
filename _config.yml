@@ -50,6 +50,12 @@ nofollow:
 	enable: true
 	exclude:
     - cinetimes.org
+    - archive.org
+    - openculture.com
+    - wikipedia.org
+    - wikia.com
+    - wikimedia.org
+    - upload.wikimedia.org
 
 
 # Category & Tag
