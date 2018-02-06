@@ -17,18 +17,11 @@
 						<a class="nav-item nav-link" id="nav-archive-tab" data-toggle="tab" href="#nav-archive" role="tab" aria-controls="nav-archive" aria-selected="false">Archive.org <i class="fa fa-university mx-1" aria-hidden="true"></i></a>
 						<% } %>
 					</nav>
-<!-- 
-					<script src="<%- url_for('bower_components/video.js/dist/video.min.js') %>"></script>
-					<script src="<%- url_for('bower_components/videojs-youtube/dist/Youtube.min.js') %>"></script> -->
 
 					<div class="tab-content" id="nav-tabContent">
 					<% if (item.youtube_url) { %>
 						<div class="tab-pane fade show active" id="nav-youtube" role="tabpanel" aria-labelledby="nav-youtube-tab">
-							<!-- <div class="video">
-								<video id="my-video" class="video-js vjs-16-9" controls preload="auto" width="640px" height="267px" poster="<%- url_for('img/')%>poster_<%- item.img_name %>" data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "<%- item.youtube_url %>"}] }'>
-								</video>
-							</div>
-							<div data-type="youtube" data-video-id="<%- item.youtube_url %>"></div> -->
+
 
 							<!-- plyr -->
 							<div data-type="youtube" data-video-id="<%- item.youtube_url %>"></div>
