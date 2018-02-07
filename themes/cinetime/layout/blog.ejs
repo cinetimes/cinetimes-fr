@@ -4,9 +4,9 @@
     site.posts.forEach((post) => {
         if(post.layout == 'blog-post') {
             blogPosts.push(post)
-        } 
-        if(post.featured) {
-            featured.push(post);
+            if(post.featured) {
+                featured.push(post);
+            } 
         } 
     })
     
@@ -44,7 +44,9 @@
             <h5 class="mt-5"><%- site.data.translation['featured'] %></h5>
             <ul class="list-unstyled">
                 <% featured.forEach((post) => { %>
+                    <% if(post.layout == "blog-post") { %>
                     <li class="mb-2"> <a class="text-dark" href="<%- url_for(post.path) %>"><%- post.title %></a> </li>
+                    <% } %>
                 <% }); %>
             </ul>
         </div>
