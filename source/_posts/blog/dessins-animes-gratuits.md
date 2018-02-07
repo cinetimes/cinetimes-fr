@@ -71,3 +71,9 @@ updated: 02/03/2018
 - Mais c’est une ruine 
 - Ça ce sont des chaussons de danse (the green dancing shoes) 
 - Ski de haut vol 
+
+###### Sources utilisées pour créer cette liste
+...
+- [Public Domain Films - Looneytunes Wikia](http://looneytunes.wikia.com/wiki/Category:Public_domain_films)
+- [Looney tunes dans le Domaine Public](https://web.archive.org/web/20160326103626/http://looney.goldenagecartoons.com/DVDvideo/PD)
+- [Cartoons in the public domain](http://looneytunes.wikia.com/wiki/List_of_cartoons_that_are_currently_in_the_Public_Domain)
