@@ -5,7 +5,6 @@ db.json
 node_modules/
 public/
 .deploy*/
-themes/cinetime/source/favicon 
 themes/cinetime/source/img/next*
 themes/cinetime/source/img/card*
 themes/cinetime/source/img/poster*
