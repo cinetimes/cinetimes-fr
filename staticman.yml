@@ -19,7 +19,7 @@
 # allowedOrigins: ["localhost", "cinetimes.org"]
 
 posts:
-  allowedFields: ["title", "author", "body"]
+  allowedFields: ["title", "author", "body", "img"]
   allowedOrigins: ["localhost", "cinetimes.org"]
   branch: "source"
   generatedFields:
