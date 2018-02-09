@@ -37,4 +37,4 @@ posts:
   filename: "{fields.slug}"
   # requiredFields: ["title", "body"]
   transforms:
-body: "frontmatterContent"
+    body: "frontmatterContent"
