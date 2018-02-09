@@ -1,0 +1,40 @@
+# branch: "source"
+# commitMessage: "Add Post with Staticman"
+# moderation: true
+# name: "Cinetimes"
+
+# filename: "{@id}"
+# path: "source/_drafts/{fields.title}"
+# format: "yml"
+
+# allowedFields: ["title", "author", "year", "img_name", "youtube_url", "vimeo_url", "webtorrent_magnet", "category", "tags", "synopsis"]
+# requiredFields: ["title", "author", "year", "img_name", "category", "tags", "synopsis"]
+# generatedFields:
+#   someField: "some string" # Simple field (string)
+#   date: # Extended field (date)
+#     type: date
+#     options:
+#       format: "iso8601"
+
+# allowedOrigins: ["localhost", "cinetimes.org"]
+
+posts:
+  allowedFields: ["title", "author", "body"]
+  allowedOrigins: ["localhost", "cinetimes.org"]
+  branch: "source"
+  generatedFields:
+    date:
+      type: date
+    slug:
+      type: slugify
+      options:
+        field: title
+    tags: ["user-generated"]
+  format: "yml"
+  moderation: true
+  name: "Cinetimes"
+  path: "source/_drafts"
+  filename: "{fields.slug}"
+  # requiredFields: ["title", "body"]
+  transforms:
+body: "frontmatterContent"
