@@ -99,7 +99,10 @@
           window.plyr || document.write("<script src=" + " <%- url_for('bower_components/plyr/dist/plyr.js') %>" + "><\/script>")
         </script>
         <script>
-          plyr.setup();
+            options = {
+              enabled: true
+            }
+            plyr.setup(document.querySelectorAll('.js-player'), options);
         </script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
