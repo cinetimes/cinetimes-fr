@@ -19,7 +19,7 @@
 # allowedOrigins: ["localhost", "cinetimes.org"]
 
 posts:
-  # allowedFields: ["title", "author", "body", "img"]
+  allowedFields: ["title", "author", "synopsis", "img_url", "tmdb_id", "tag1", "tag2", "tag3", "tag4"]
   allowedOrigins: ["localhost", "cinetimes.org"]
   # requiredFields: ["title", "body"]
   branch: "source"
@@ -35,11 +35,12 @@ posts:
   name: "Cinetimes"
   path: "source/_drafts"
   filename: "{fields.slug}"
-  transforms:
-    synopsis: "frontmatterContent"
   img_url: "{fields.img_url}"
+  tmdb_id: "{fields.tmdb_id}"
   tags:
   - "{fields.tag1}" 
   - "{fields.tag2}" 
   - "{fields.tag3}" 
   - "{fields.tag4}" 
+  transforms:
+    synopsis: "frontmatterContent"
