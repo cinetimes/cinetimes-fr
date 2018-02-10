@@ -19,7 +19,7 @@
 # allowedOrigins: ["localhost", "cinetimes.org"]
 
 posts:
-  allowedFields: ["title", "author", "synopsis", "img_url", "tmdb_id", "genres", "release_date", "original_title"]
+  allowedFields: ["title", "author", "synopsis", "img_url", "tmdb_id", "genres", "release_date", "original_title", "youtube_url", "webtorrent_magnet", "vimeo_url", "archive_url", "other_url"]
   allowedOrigins: ["localhost", "cinetimes.org"]
   # requiredFields: ["title", "body"]
   branch: "source"
@@ -42,3 +42,10 @@ posts:
   original_title: "{fields.original_title}"
   transforms:
     synopsis: "frontmatterContent"
+
+
+  youtube_url: "{fields.youtube_url}"
+  webtorrent_magnet: "{fields.webtorrent_magnet}"
+  vimeo_url: "{fields.vimeo_url}"
+  archive_url: "{fields.archive_url}"
+  other_url: "{fields.other_url}"
