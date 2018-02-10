@@ -38,9 +38,9 @@ posts:
   img_url: "{fields.img_url}"
   tmdb_id: "{fields.tmdb_id}"
   tags:
-  - "{fields.tag1}" 
-  - "{fields.tag2}" 
-  - "{fields.tag3}" 
-  - "{fields.tag4}" 
+    - "{fields.tag1}" 
+    - "{fields.tag2}" 
+    - "{fields.tag3}" 
+    - "{fields.tag4}" 
   transforms:
     synopsis: "frontmatterContent"
