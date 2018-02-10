@@ -37,7 +37,7 @@ posts:
   filename: "{fields.slug}"
   img_url: "{fields.img_url}"
   tmdb_id: "{fields.tmdb_id}"
-  tags: "{fields.genres}"
+  genres: "{fields.genres}"
   release_date: "{fields.release_date}"
   original_title: "{fields.original_title}"
   transforms:
