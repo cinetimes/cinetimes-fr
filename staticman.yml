@@ -19,8 +19,9 @@
 # allowedOrigins: ["localhost", "cinetimes.org"]
 
 posts:
-  allowedFields: ["title", "author", "body", "img"]
+  # allowedFields: ["title", "author", "body", "img"]
   allowedOrigins: ["localhost", "cinetimes.org"]
+  # requiredFields: ["title", "body"]
   branch: "source"
   generatedFields:
     date:
@@ -29,12 +30,16 @@ posts:
       type: slugify
       options:
         field: title
-    tags: ["user-generated"]
   format: "yml"
   moderation: true
   name: "Cinetimes"
   path: "source/_drafts"
   filename: "{fields.slug}"
-  # requiredFields: ["title", "body"]
   transforms:
-    body: "frontmatterContent"
+    synopsis: "frontmatterContent"
+  img_url: "{fields.img_url}"
+  tags:
+  - "{fields.tag1}" 
+  - "{fields.tag2}" 
+  - "{fields.tag3}" 
+  - "{fields.tag4}" 
