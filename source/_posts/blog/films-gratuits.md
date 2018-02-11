@@ -17,9 +17,16 @@ updated: 02/11/2018
 # 39 Films Gratuits À Voir en streaming (ou à télécharger)
 ---
 
-Voir des Films gratuits. Ça vous tente?
-Des millers de films sont tombés dans le domaine public et son disponibles en ligne pour voir en streaming ou encore télécharger.
+Des Films gratuits. Ça vous tente?
+
+Plusieurs millers de films sont tombés dans le domaine public...
+
+...vous pouvez maintenant les voir gratuitement en ligne ou les télécharger!
+
 Voici une liste régulièrement mise à jour contenant déja plus de 60 films gratuits à voir en streaming.
+
+Pour des documentaires, voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/)  
+
 
 - **12 Hommes en colère** - [Gratuit](https://archive.org/details/TWELVE-ANGRY-MEN) - Premier film de Sidney Lumet, sorti en 1957. Nominé aux oscars en 1958. Gagnant du prix Edgar-Allan-Poe du meilleur scénario pour Reginald Rose. 
 
