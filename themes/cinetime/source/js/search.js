@@ -63,7 +63,8 @@ $(function () {
     var tmdb_id = document.getElementById("input-tmdb_id");
     var author = document.getElementById("input-author");
     var synopsis = document.getElementById("input-synopsis");
-    var img = document.getElementById("input-img");
+    var poster_path = document.getElementById("input-poster_path");
+    var backdrop_path =document.getElementById("input-backdrop_path");
     var tags = document.getElementById("input-tags");
     var release_date = document.getElementById("input-release_date");
 
@@ -75,7 +76,8 @@ $(function () {
         title.value = result.title;
         original_title.value = result.original_title;
         synopsis.value = result.overview;
-        img.value = `https://image.tmdb.org/t/p/w500${result.poster_path}`;
+        poster_path.value = `https://image.tmdb.org/t/p/w500${result.poster_path}`;
+        backdrop_path.value = `https://image.tmdb.org/t/p/w500${result.backdrop_path}`;
         author.value = result.credits.crew[0].name;
         release_date.value = result.release_date;
         tags.value = result.genres.map((genre) => {return genre.name});
