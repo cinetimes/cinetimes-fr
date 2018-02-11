@@ -1,0 +1,33 @@
+---
+layout: written
+title: Ajouter un film
+comments: false
+---
+
+
+<!-- https://api.staticman.net/v2/entry/{GITHUB USERNAME}/{GITHUB REPOSITORY}/{BRANCH}/{PROPERTY (optional)} -->
+<form method="POST" action="https://api.staticman.net/v2/entry/cinetimes/cinetimes-fr/source/posts">
+  <div class="form-group">
+    <label>Chercher un film (Remplissage automatique)<input class="awesomplete form-control" name="fields[tmdb_id]" id="tmdb-search" /></label>
+    <label>Titre<input id="input-title" name="fields[title]" type="text" class="form-control" ></label>
+    <label>Titre original<input id="input-original_title" name="fields[original_title]" type="text" class="form-control" ></label>
+    <label>Auteur<input id="input-author" name="fields[author]" type="text" class="form-control" ></label>
+    <label>Image url<input id="input-img" name="fields[img_url]" type="text" class="form-control" ></label>
+    <label>Sortie<input id="input-release_date" name="fields[release_date]" type="text" class="form-control" ></label>
+    <label>Synopsis<textarea id="input-synopsis" name="fields[synopsis]" class="form-control" ></textarea></label>
+    <label>Genres<input id="input-tags" name="fields[genres]" type="text" class="form-control"  ></label>
+    
+    <label>url youtube<input id="input-youtube_url" name="fields[youtube_url]" type="text" class="form-control"  ></label>
+    <label>url vimeo<input id="input-vimeo_url" name="fields[vimeo_url]" type="text" class="form-control"  ></label>
+    <label>url archve.org<input id="input-archive_url" name="fields[archive_url]" type="text" class="form-control"  ></label>
+    <label>url webtorrent (magnet)<input id="input-webtorrent_magnet" name="fields[webtorrent_magnet]" type="text" class="form-control"  ></label>
+    <label>Autre lien<input id="input-webtorrent_magnet" name="fields[webtorrent_magnet]" type="text" class="form-control" placeholder="lien vers un fichier .mp4 ou .webm"  ></label>
+
+  </div>
+    <button type="submit" class="btn btn-primary">Créer</button> 
+
+    <span>Fourni par TMDB</span>
+</form>
+
+
+
