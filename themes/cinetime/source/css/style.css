@@ -1198,6 +1198,24 @@ a.label:focus {
 
 }
 
+.awesomplete {
+  display: block !important;
+}
+
+.awesomplete mark {
+  background: #2557B7 !important;
+  color: #FFFFFF;
+  font-weight: bolder;
+}
+.awesomplete li:hover mark {
+  background: #2557B7 !important;
+}
+
+.awesomplete > ul {
+  z-index: 3 !important;
+}
+
+
 /* Ridiculously Responsive Social Sharing Buttons CSS
  *
  * https://github.com/kni-labs/rrssb
