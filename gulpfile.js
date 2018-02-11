@@ -96,8 +96,8 @@ gulp.task('thumbnail-card', function(){
 gulp.task('thumbnail-poster', function(){
     gulp.src('./themes/cinetime/source/img/16-9/*')
       .pipe(imageResize({
-        width: 1280,
-        height: 720,
+        width: 170,
+        height: 225,
       }))
       .pipe(rename(function(path){
         path.basename = "poster_" + path.basename;
@@ -105,6 +105,8 @@ gulp.task('thumbnail-poster', function(){
       .pipe(gulp.dest('./themes/cinetime/source/img/'));
 });
 
+// width: 1280,
+// height: 720,
 
 gulp.task('thumbnail-next', function(){
     gulp.src('./themes/cinetime/source/img/16-9/*')

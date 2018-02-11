@@ -5,9 +5,10 @@ db.json
 node_modules/
 public/
 .deploy*/
-themes/cinetime/source/img/next*
-themes/cinetime/source/img/card*
-themes/cinetime/source/img/poster*
+themes/cinetime/source/img/next_*
+themes/cinetime/source/img/card_*
+themes/cinetime/source/img/poster_*
+themes/cinetime/source/img/cover_*
 jumbotest.html
 testwebt.html
 themes/cinetime/source/js/webtorrent.min.js
