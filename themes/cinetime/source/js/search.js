@@ -76,8 +76,8 @@ $(function () {
         title.value = result.title;
         original_title.value = result.original_title;
         synopsis.value = result.overview;
-        poster_path.value = `https://image.tmdb.org/t/p/w500${result.poster_path}`;
-        backdrop_path.value = `https://image.tmdb.org/t/p/w500${result.backdrop_path}`;
+        poster_path.value = `https://image.tmdb.org/t/p/original${result.poster_path}`;
+        backdrop_path.value = `https://image.tmdb.org/t/p/original${result.backdrop_path}`;
         author.value = result.credits.crew[0].name;
         release_date.value = result.release_date;
         tags.value = result.genres.map((genre) => {return genre.name});
