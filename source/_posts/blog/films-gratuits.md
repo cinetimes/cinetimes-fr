@@ -25,7 +25,7 @@ Plusieurs millers de films sont tombés dans le domaine public...
 
 Voici une liste régulièrement mise à jour contenant déja plus de 60 films gratuits à voir en streaming.
 
-Pour des documentaires, voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/)  
+Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
 
 - **12 Hommes en colère** - [Gratuit](https://archive.org/details/TWELVE-ANGRY-MEN) - Premier film de Sidney Lumet, sorti en 1957. Nominé aux oscars en 1958. Gagnant du prix Edgar-Allan-Poe du meilleur scénario pour Reginald Rose. 
