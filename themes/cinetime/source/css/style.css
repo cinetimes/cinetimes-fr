@@ -1215,6 +1215,34 @@ a.label:focus {
   z-index: 3 !important;
 }
 
+.poster-wrapper {
+  margin: 0 10px 0 0;
+  width: 170px;
+  display: none !important;
+}
+
+.poster-wrapper > a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.poster-image {
+  height: 225px !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 5px;
+}
+
+.poster-image:hover {
+  filter: brightness(120%);
+}
+
+.poster-title {
+  margin: auto;
+  text-align: center;
+}
 
 /* Ridiculously Responsive Social Sharing Buttons CSS
  *

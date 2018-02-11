@@ -8,6 +8,7 @@
   item.tags.forEach(function(tag){
       tags.push(tag.name);
   });
+  img_path = item.poster_path ? item.poster_path : url_for("img/") + 'cover_' + item.img_name ;
 %>
 
 
@@ -32,6 +33,15 @@
         <h4 class="card-title"><%- item.title %></h4>
         <h6 class="card-subtitle text-muted"><%- _.startCase(item.author) %></h6>
       </div>
+    </div>
+    <div class="poster-wrapper">
+      <a href="<%- url_for(item.path) %>">
+        <div style="background-image: url('<%- img_path %>');" class="poster-image">
+          
+        </div>
+        
+        <div class="poster-title text-dark"> <%- item.title %> </div>
+      </a>
     </div>
   <% } %>
 <% } %>
