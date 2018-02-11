@@ -67,6 +67,11 @@ $(function () {
     var backdrop_path =document.getElementById("input-backdrop_path");
     var tags = document.getElementById("input-tags");
     var release_date = document.getElementById("input-release_date");
+    
+    var cast = document.getElementById("input-cast");
+    var crew = document.getElementById("input-crew");
+    var imdb_id = document.getElementById("input-imdb_id");
+    var adult = document.getElementById("input-adult");
 
     fetch(`https://api.themoviedb.org/3/movie/${event.text.value}?api_key=ef1989df4882fcb115198b492739c7d2&language=fr-FR&append_to_response=credits`, {method:"GET"})
     .then(res => res.json())
@@ -81,6 +86,11 @@ $(function () {
         author.value = result.credits.crew[0].name;
         release_date.value = result.release_date;
         tags.value = result.genres.map((genre) => {return genre.name});
+
+        cast.value = result.credits.cast.map((actor) => { return actor.name }).slice(0, 5);
+        crew.value = result.credits.crew.map((member) => { return member.name }).slice(0, 5);
+        imdb_id.value = result.imdb_id;
+        adult.value = result.adult;
       }
     )
   });
