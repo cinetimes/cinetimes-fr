@@ -1,6 +1,6 @@
 (() => {
 
-    var images = document.querySelectorAll('.card-img-top');
+    var images = document.querySelectorAll('.card-img-top, .lazy');
 
     if(!('IntersectionObserver' in window)) {
       images.forEach((image) => {
