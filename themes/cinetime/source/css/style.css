@@ -1079,16 +1079,16 @@ a.label:focus {
     max-width: 151px;
   }
 
-  .movie-carousel .card-body {
+  .category .card-body {
     padding: 0.8rem;
   }
 
-  .movie-carousel .card-title {
+  .category .card-title {
     font-size: 16px;
     height: 40px;
     overflow: hidden;
   }
-  .movie-carousel .card-subtitle {
+  .category .card-subtitle {
     font-size: 10.5px;
     height: 15px;
     overflow: hidden;
@@ -1229,6 +1229,7 @@ a.label:focus {
 
 .poster-image {
   height: 225px !important;
+  width: 170px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
