@@ -30,20 +30,29 @@ posts:
       type: slugify
       options:
         field: title
-  format: "yml"
+  format: "yaml"
   moderation: true
   name: "Cinetimes"
   path: "source/_drafts"
   filename: "{fields.slug}"
+
   img_url: "{fields.backdrop_path}"
   poster_path: "{fields.poster_path}"
+
   tmdb_id: "{fields.tmdb_id}"
-  genres: "{fields.genres}"
+  imdb_id: "{fields.imdb_id}"
+  adult: "{fields.adult}"
+
   release_date: "{fields.release_date}"
   original_title: "{fields.original_title}"
   transforms:
     synopsis: "frontmatterContent"
 
+  cast: ["{fields.cast}"]
+  crew: ["{fields.crew}"]
+  genres: "{fields.genres}"
+  category:
+    - Films
 
   youtube_url: "{fields.youtube_url}"
   webtorrent_magnet: "{fields.webtorrent_magnet}"
@@ -51,7 +60,6 @@ posts:
   archive_url: "{fields.archive_url}"
   other_url: "{fields.other_url}"
 
-  cast: "{fields.cast}"
-  crew: "{fields.crew}"
-  imdb_id: "{fields.imdb_id}"
-  adult: "{fields.adult}"
+
+
+
