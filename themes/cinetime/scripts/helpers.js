@@ -14,7 +14,7 @@ hexo.extend.helper.register('get_title', function (page, config, site) {
 			title = page.title + (page.author ? ' - ' + page.author + ' | ' + config.title : ' | ' + config.title);
 		}
 		else if (page.category) {
-			title = (site.data.categories[`${page.category}_Title`] ? site.data.categories[`${page.category}_Title`] : page.category + ' - ' + config.title);
+			title = (site.data.metadata[`${page.category}_Title`] ? site.data.metadata[`${page.category}_Title`] : page.category + ' - ' + config.title); 
 		}
 		else if (page.tag) {
 			title = page.tag + ' | ' + config.title;
@@ -36,8 +36,8 @@ hexo.extend.helper.register('get_description', function(page, config, site) {
 	}
 	var description = '';
 
-	if (site.data.categories[`${page.category}_Description`]) {
-		return site.data.categories[`${page.category}_Description`]; 
+	if (site.data.metadata[`${page.category}_Description`]) {
+		return site.data.metadata[`${page.category}_Description`]; 
 	}
 		
 	if (page.description) {
