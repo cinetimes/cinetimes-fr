@@ -45,7 +45,7 @@
 											<a href="<%- url_for(config.tag_dir +  '/' + _.kebabCase(tag)) %>/"><button type="button" class="btn btn-outline-danger mb-md-0"><%- site.data.excerpt.Voir_plus %></button></a>
 									</div>
 										<div class="row pl-md-4" class="col-12 scrollspy-example" data-spy="scroll" data-target="#navbar-main-side" data-offset="40">
-													<div class="col-12 card-deck movie-carousel">
+													<div class="col-12 card-deck y-scroll">
 															<% page.posts.each(function(item){ %>
 																		<%- partial('_partial/article-excerpt', {item: item, tag: tag}) %>
 															<% }); %>
