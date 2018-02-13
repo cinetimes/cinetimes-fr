@@ -17,10 +17,10 @@ hexo.extend.helper.register('get_title', function (page, config, site) {
 			title = (site.data.metadata[`${page.category}_Title`] ? site.data.metadata[`${page.category}_Title`] : page.category + ' - ' + config.title); 
 		}
 		else if (page.tag) {
-			title = page.tag + ' | ' + config.title;
+			title = page.tag + ' - ' + config.title;
 		}
 		else {
-			title = config.title + ' | ' + config.subtitle;
+			title = config.subtitle + ' - ' + config.title;
 		}
 	}
 	return title;
@@ -45,7 +45,7 @@ hexo.extend.helper.register('get_description', function(page, config, site) {
 	} else if (page.subtitle || page.author) {
 		description = page.title + ", un " + site.data.metadata[categories] + " de " + page.author + ' disponible gratuitement sur ' + ' ' + config.title + ' ' + site.data.metadata.langue;
 	} else {
-		description = config.subtitle
+		description = config.description;
 	}
 	return description;
 });
