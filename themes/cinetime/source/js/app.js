@@ -37,12 +37,15 @@ function lazyLoadImages(images) {
 // Google Anlaytics Events
 (() => {
 	// Play webtorrent video
-	document.getElementById('video_webtorrent').onclick = () => {
-		ga('send', {
-			hitType: 'event',
-			eventCategory: 'Videos',
-			eventAction: 'play',
-			eventLabel: 'Webtorrent'
-		  });
-	} 
+	setTimeout(() => {
+		document.querySelector("#video_webtorrent video").onplay = () => {
+			console.log("Webtorrent event sent");
+			ga('send', {
+				hitType: 'event',
+				eventCategory: 'Videos',
+				eventAction: 'play',
+				eventLabel: 'Webtorrent'
+			  });
+		} 
+	}, 5000)
 })();
