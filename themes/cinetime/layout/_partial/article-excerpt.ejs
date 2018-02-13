@@ -20,6 +20,15 @@
           <h6 class="card-subtitle text-muted"><%- _.startCase(item.author) %></h6>
         </div>
       </div>
+
+    <div class="poster-wrapper">
+      <a href="<%- url_for(item.path) %>">
+        <div class="poster-image">
+          <img class="lazy" data-src="<%- poster_path %>" style="width:170px; height:225px; border-radius:5px">
+        </div>
+        <div class="poster-title text-dark"> <%- item.title %> </div>
+      </a>
+    </div>
 <% } %>
 
 <% if (is_category()) { %>
