@@ -44,7 +44,7 @@ function lazyLoadImages(images) {
 				hitType: 'event',
 				eventCategory: 'Videos',
 				eventAction: 'play',
-				eventLabel: 'Webtorrent'
+				eventLabel: 'webtorrent'
 			  });
 		} 
 	}, 5000)
