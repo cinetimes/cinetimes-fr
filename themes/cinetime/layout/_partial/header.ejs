@@ -34,12 +34,14 @@
 <script>
 	var movies = [
 		 <% site.posts.each(function(post){ %>
-			{
-				"title": "<%- post.title %>",
-				"author": "<%- post.author %>",
-				"img": "<%- post.img_name %>",
-				"url": "<%- post.permalink %>"
-			},
+			<% if(post.layout == "post") { %>
+				{
+					"title": "<%- post.title %>",
+					"author": "<%- post.author %>",
+					"img": "<%- post.img_name %>",
+					"url": "<%- post.permalink %>"
+				},
+			<% } %>
 		<% }); %>
 	];
 	// const cartoons = [];
