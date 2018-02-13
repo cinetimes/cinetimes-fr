@@ -97,10 +97,23 @@
           window.plyr || document.write("<script src=" + " <%- url_for('bower_components/plyr/dist/plyr.js') %>" + "><\/script>")
         </script>
         <script>
-            options = {
-              enabled: true
+            var players = plyr.setup(document.querySelectorAll('.js-player'));
+            players.forEach(player => {
+              player.on('play', () => {
+                handleEvent(player.getType())
+              }) 
+            });
+
+            function handleEvent(source) {
+              ga('send', {
+                hitType: 'event',
+                eventCategory: 'Videos',
+                eventAction: 'play',
+                eventLabel: source,
+              });
+              // console.log(`played = ${source}`);
             }
-            plyr.setup(document.querySelectorAll('.js-player'), options);
+            
         </script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
