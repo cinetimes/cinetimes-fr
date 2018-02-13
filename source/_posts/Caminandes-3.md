@@ -3,7 +3,7 @@ title: "Caminandes 3: Llamigos"
 author: Blender Institute
 serp: "Caminandes 3: Llamigos (Dessin Animé HD) - Open Blender Movies"
 year: 2014
-length: 0h1mn
+runtime: 0h1mn
 img_name: caminandes3.jpg
 youtube_url: https://www.youtube.com/watch?v=SkVqJ1SGeL0
 category:

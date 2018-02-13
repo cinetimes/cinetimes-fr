@@ -114,3 +114,20 @@
 	</div>
 </div>
 
+<script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "VideoObject",
+	  "name": "<%- page.serp || page.title %>",
+	  "description": "<%- item.synopsis || get_description(item, config, site) %>",
+	  "thumbnailUrl": [
+		"<%- `${config.url}/img/poster_${item.img_name}` %>",
+		"<%- `${config.url}/img/card_${item.img_name}` %>",
+		"<%- `${config.url}/img/next_${item.img_name}` %>"
+	  ],
+	  "uploadDate": "<%- item.date %>",
+	  "duration": "<%- item.runtime %>",
+	  "contentUrl": "<%- item.video_path ? item.video_path : '' %>",
+	  "embedUrl": "<%- item.youtube_url || item.vimeo_url || item.archive_url %>"
+	}
+  </script>

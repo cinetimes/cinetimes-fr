@@ -3,7 +3,7 @@ title: "Glass Half"
 author: Blender Institute
 serp: "Glass Half (Dessin Animé HD) - Open Blender Movies"
 year: 2014
-length: 0h03mn
+runtime: 0h03mn
 img_name: glassHalf.jpg
 youtube_url: https://www.youtube.com/watch?v=lqiN98z6Dak
 category:

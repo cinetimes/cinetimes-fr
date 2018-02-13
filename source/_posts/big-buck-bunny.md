@@ -3,7 +3,7 @@ title: "Big Buck Bunny"
 author: Blender Institute
 serp: Big Buck Bunny (Dessin Animé HD) - Open Blender Movies
 year: 2014
-length: 0h10mn
+runtime: 0h10mn
 img_name: bigBuckBunny.jpg
 youtube_url: https://www.youtube.com/watch?v=aqz-KE-bpKQ
 category:

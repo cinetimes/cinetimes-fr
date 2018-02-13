@@ -3,7 +3,7 @@ title: "Caminandes 1: Llama Drama"
 author: Blender Institute
 serp: "Caminandes 1: Llama Drama (Dessin Animé HD) - Open Blender Movies"
 year: 2014
-length: 0h1mn
+runtime: 0h1mn
 img_name: caminandes2.jpg
 youtube_url: https://www.youtube.com/watch?v=JOhiWY7XmoY
 category:

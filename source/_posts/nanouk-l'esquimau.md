@@ -5,7 +5,7 @@ author: Robert Flaherty
 serp: Nanouk l'Esquimau (Premier Film Documentaire) - Robert Flaherty
 lang: Français
 year: 1922
-length: 52mn47s
+runtime: 52mn47s
 origin: Franco-Américain
 img_name: nanouk.jpg
 youtube_url: https://www.youtube.com/watch?v=5-oECMtfxGQ

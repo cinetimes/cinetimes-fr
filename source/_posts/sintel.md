@@ -3,7 +3,7 @@ title: "Sintel"
 author: Blender Institute
 serp: Sintel (Dessin Animé HD) - Open Blender Movies
 year: 2014
-length: 0h10mn
+runtime: 0h10mn
 img_name: sintel.jpg
 youtube_url: https://www.youtube.com/watch?v=Hl43ZAThocQ
 category:

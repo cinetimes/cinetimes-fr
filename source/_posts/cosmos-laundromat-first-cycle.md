@@ -3,7 +3,7 @@ title: "Cosmos Laundromat - First Cycle"
 author: Blender Institute
 serp: "Cosmos Laundromat - First Cycle (Dessin Animé HD) - Open Blender Movies"
 year: 2015
-length: 0h12mn
+runtime: 0h12mn
 img_name: cosmosLaundromat.jpg
 youtube_url: https://www.youtube.com/watch?v=lqiN98z6Dak
 category:

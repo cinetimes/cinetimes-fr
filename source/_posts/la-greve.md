@@ -4,7 +4,7 @@ quality: HD
 author: Sergueï Eisenstein
 lang: Français
 year: 1925
-length: 1h16mn
+runtime: 1h16mn
 origin: Russe
 img_name: laGreve.jpg
 youtube_url: https://www.youtube.com/watch?v=4rZaROa45x8

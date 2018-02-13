@@ -3,7 +3,7 @@ title: "Tears of Steel"
 author: Blender Institute
 serp: Tears of Steel (Dessin Animé HD) - Open Blender Movies
 year: 2012
-length: 0h12mn
+runtime: 0h12mn
 img_name: tearsOfSteel.jpg
 youtube_url: https://www.youtube.com/watch?v=41hv2tW5Lc4
 category:
