@@ -8,7 +8,8 @@ comments: false
 <!-- https://api.staticman.net/v2/entry/{GITHUB USERNAME}/{GITHUB REPOSITORY}/{BRANCH}/{PROPERTY (optional)} -->
 <form method="POST" action="https://api.staticman.net/v2/entry/cinetimes/cinetimes-fr/source/posts">
   <div class="form-group">
-    <label>Chercher un film (Remplissage automatique)<input class="awesomplete form-control" name="fields[tmdb_id]" id="tmdb-search" /></label>
+    <label>Chercher un film<input class="awesomplete form-control" name="fields[tmdb_id]" id="tmdb-search" /></label>
+    <h5 class="mt-5 mb-4">Champs générés automatiquent</h5>
     <label>Titre<input id="input-title" name="fields[title]" type="text" class="form-control" ></label>
     <label>Titre original<input id="input-original_title" name="fields[original_title]" type="text" class="form-control" ></label>
     <label>Auteur<input id="input-author" name="fields[author]" type="text" class="form-control" ></label>
@@ -17,11 +18,12 @@ comments: false
     <label>Synopsis<textarea id="input-synopsis" name="fields[synopsis]" class="form-control" ></textarea></label>
     <label>Genres<input id="input-tags" name="fields[genres]" type="text" class="form-control"  ></label>
     
-    <label>url youtube<input id="input-youtube_url" name="fields[youtube_url]" type="text" class="form-control"  ></label>
-    <label>url vimeo<input id="input-vimeo_url" name="fields[vimeo_url]" type="text" class="form-control"  ></label>
-    <label>url archve.org<input id="input-archive_url" name="fields[archive_url]" type="text" class="form-control"  ></label>
-    <label>url webtorrent (magnet)<input id="input-webtorrent_magnet" name="fields[webtorrent_magnet]" type="text" class="form-control"  ></label>
-    <label>Autre lien<input id="input-webtorrent_magnet" name="fields[webtorrent_magnet]" type="text" class="form-control" placeholder="lien vers un fichier .mp4 ou .webm"  ></label>
+    <h5 class="mt-5 mb-4">Mettez un ou plusieurs liens vers le film</h5>
+    <label>Youtube<input id="input-youtube_url" name="fields[youtube_url]" type="text" class="form-control"  ></label>
+    <label>Vimeo<input id="input-vimeo_url" name="fields[vimeo_url]" type="text" class="form-control"  ></label>
+    <label>Archive.org<input id="input-archive_url" name="fields[archive_url]" type="text" class="form-control"  ></label>
+    <label>Webtorrent (magnet)<input id="input-webtorrent_magnet" name="fields[webtorrent_magnet]" type="text" class="form-control"  ></label>
+    <label>Lien vers un fichier<input id="input-webtorrent_magnet" name="fields[webtorrent_magnet]" type="text" class="form-control" placeholder="ex: https://site-web.org/fichier.mp4"  ></label>
 
     <input id="input-backdrop_path" name="fields[backdrop_path]" type="text" class="form-control d-none">
     
@@ -31,9 +33,10 @@ comments: false
     <input id="input-adult" name="fields[adult]" type="text" class="form-control d-none">
 
   </div>
+  <div class="w-100">
     <button type="submit" class="btn btn-primary">Créer</button> 
-
-    <span>Fourni par TMDB</span>
+    <span class="text-right">Grâce à <a href="https://www.themoviedb.org/">TMDB</a></span>
+  </div>
 </form>
 
 

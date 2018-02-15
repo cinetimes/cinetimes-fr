@@ -35,13 +35,14 @@ posts:
   name: "Cinetimes"
   path: "source/_drafts"
   filename: "{fields.slug}"
-
-  img_url: "{fields.backdrop_path}"
-  poster_path: "{fields.poster_path}"
+  runtime: "{fields.runtime}"
 
   tmdb_id: "{fields.tmdb_id}"
   imdb_id: "{fields.imdb_id}"
   adult: "{fields.adult}"
+
+  img_url: "{fields.backdrop_path}"
+  poster_path: "{fields.poster_path}"
 
   release_date: "{fields.release_date}"
   original_title: "{fields.original_title}"
