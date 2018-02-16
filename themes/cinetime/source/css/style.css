@@ -222,7 +222,7 @@ a:visited {
 }
 
 /*Change la couleur des liens au survol de la souris*/
-.sidenav a:hover, offcanvas, a:focus {
+.sidenav a:hover, offcanvas, .sidenav a:focus {
   color: #f1f1f1
 }
 
@@ -446,7 +446,7 @@ header
   text-align: center;
   padding: 0 0 0 4px;
   width: 100%;
-  max-width: 640px;
+  /* max-width: 640px; */
 }
 
 #video_et_description .videoDescription p {
@@ -1218,7 +1218,7 @@ a.label:focus {
 .poster-wrapper {
   margin: 0 10px 0 0;
   width: 170px;
-  display: none !important;
+  /* display: none !important; */
 }
 
 .poster-wrapper > a {
@@ -1243,6 +1243,23 @@ a.label:focus {
 .poster-title {
   margin: auto;
   text-align: center;
+}
+
+/* Fiche Technique */
+.read-more-target {
+  display: none;
+}
+
+#read-more:checked + label + .read-more-target {
+  display: flex;
+}
+
+#read-more ~ .read-more-trigger::before {
+  content: 'Ouvrir fiche technique';
+}
+
+#read-more:checked ~ .read-more-trigger::before {
+  content: 'Fermer fiche technique';
 }
 
 /* Ridiculously Responsive Social Sharing Buttons CSS
