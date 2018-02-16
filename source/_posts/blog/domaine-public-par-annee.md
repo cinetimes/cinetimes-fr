@@ -1,7 +1,7 @@
 ---
 layout: blog-post
-title: Oeuvres dans le Domaine Public en 2018
-serp: "Quand les droits d'auteur d'une oeuvre expirent, elle entre dans le domaine public...Voici les oeuvres qui sont tombées dans le domaine public au 1er janvier 2018"
+title: Nouveau dans le Domaine Public en 2018
+serp: "Nouveau dans le Domaine Public en 2018"
 description: "Quand les droits d'auteur d'une oeuvre expirent, elle entre dans le domaine public...Voici les oeuvres qui sont tombées dans le domaine public au 1er janvier 2018"
 share: true
 topshare: true
@@ -14,16 +14,17 @@ updated: 02/16/2018
 *...En France et dans la plupart des pays d'Europe (excepté la Biélorussie et L'Espagne), c'est 70 ans après de décès de l'auteur.*
 
 *Voici les auteurs, décédés en 1947 dont les oeuvres sont tombées dans le domaine public au 1er janvier 2018:*
-________
 
-## En Vedette
-_________
+### En Vedette
+****
+
 ##### William Moulton Marston {% img /css/flag-icon-css/flags/4x3/us.svg 18 %}
+
 Principales réalisations:
 - **Wonder Woman**
 - DISC assessment
-
 *****
+
 ##### **Winston Churchill** {% img /css/flag-icon-css/flags/4x3/us.svg 18 %}
 Principales réalisations:
 - The Celebrity
@@ -43,10 +44,9 @@ Principales réalisations:
 - Lucy Gayheart (1935)
 - Sapphira and the Slave Girl (1940)
 
-_____
 
 
-## Français
+### Français
 *****
 ##### Anatole de Monzie {% img /css/flag-icon-css/flags/4x3/fr.svg 18 %}
 - Les veuves abusives (1936)
@@ -87,9 +87,10 @@ Principales réalisations:
 ##### Tristan Bernard {% img /css/flag-icon-css/flags/4x3/fr.svg 18 %}
 Principales réalisations:
 - Mémoires d'un jeune homme rangé
-_____
 
-## Tous, dans le monde entier
+
+
+### Tous, dans le monde entier
 
 _____
 
