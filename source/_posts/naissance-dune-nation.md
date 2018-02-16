@@ -1,11 +1,12 @@
 ---
 _id: 36fcfcf0-1260-11e8-936c-053a4ee5c3bb
 tmdb_id: '618'
+imdb_id: tt0004972
 title: La Naissance d'une Nation
 original_title: The Birth of a Nation
 author: D. W. Griffith
-# poster_path: 'naissancedUneNation.jpg'
 img_name: naissancedUneNation.jpg
+backdrop_path: 'https://image.tmdb.org/t/p/original/dKG1T7AOOm4B6GwhcZyObLI5lSe.jpg'
 release_date: '1915-02-08'
 synopsis: >-
   La guerre de Sécession. Deux familles éprouvées : les Stoneman (favorables au
@@ -23,11 +24,10 @@ youtube_url: 'https://www.youtube.com/watch?v=AzJLFQwpQTI'
 vimeo_url: ''
 archive_url: ''
 webtorrent_magnet: ''
-backdrop_path: 'https://image.tmdb.org/t/p/original/dKG1T7AOOm4B6GwhcZyObLI5lSe.jpg'
 cast: 'Lillian Gish,Mae Marsh,Henry B. Walthall,Miriam Cooper,Mary Alden'
 crew: 'Frank E. Woods,H.E. Aitken,Joseph Carl Breil,Jon Mirsalis,Billy Bitzer'
-imdb_id: tt0004972
 adult: 'false'
 date: '2018-02-15T14:55:09.009Z'
 slug: naissance-dune-nation
+amazon: 'http://amzn.to/2HlMW2U'
 ---
