@@ -13,13 +13,13 @@
 
 
 <% if (is_home()) { %>
-      <div class="card">
+      <!-- <div class="card">
         <a href="<%- url_for(item.path) %>"><img width="302" height="181" class="card-img-top" data-src="<%- url_for('img/')%>card_<%- item.img_name %>" alt="<%- item.title + ', ' + site.data.metadata.alt_intro %>"></a>
         <div class="card-body">
           <h4 class="card-title"><%- item.title %></h4>
           <h6 class="card-subtitle text-muted"><%- _.startCase(item.author) %></h6>
         </div>
-      </div>
+      </div> -->
 
     <div class="poster-wrapper">
       <a href="<%- url_for(item.path) %>">
@@ -34,13 +34,13 @@
 <% if (is_category()) { %>
   <% if (tags.includes(tag)) { %>
     <!-- CARD -->
-    <div class="card">
+    <!-- <div class="card">
       <a href="<%- url_for(item.path) %>"><img width="302" height="181" class="card-img-top" data-src="<%- url_for('img/')%>card_<%- item.img_name %>" alt="<%- item.title + ', ' + site.data.metadata.alt_intro %>"></a>
       <div class="card-body">
         <h4 class="card-title"><%- item.title %></h4>
         <h6 class="card-subtitle text-muted"><%- _.startCase(item.author) %></h6>
       </div>
-    </div>
+    </div> -->
     <!-- POSTER as BACKGROUND -->
     <!-- <div class="poster-wrapper">
       <a href="<%- url_for(item.path) %>">
