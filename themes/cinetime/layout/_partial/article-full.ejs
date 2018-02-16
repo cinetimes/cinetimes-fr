@@ -40,17 +40,38 @@
 						<% } %>
 					</div>
 
-					<nav class="nav " id="myTab" role="tablist">
-						<% if (item.youtube_url) { %>
-					  	<a class="nav-item nav-link active text-dark" id="nav-youtube-tab" data-toggle="tab" href="#nav-youtube" role="tab" aria-controls="nav-youtube" aria-selected="true"> Youtube <i class="fa fa-youtube-play mx-1" aria-hidden="true"></i></a>
-						<% } if (item.vimeo_url) { %>
-						<a class="nav-item nav-link text-dark" id="nav-vimeo-tab" data-toggle="tab" href="#nav-vimeo" role="tab" aria-controls="nav-vimeo" aria-selected="false">Vimeo <i class="fa fa-vimeo-square mx-1" style="color:#00ADEF;" aria-hidden="true"></i></a>
-						<% } if (item.webtorrent_magnet) { %>
-						<a class="nav-item nav-link text-dark" id="nav-webtorrent-tab" data-toggle="tab" href="#nav-webtorrent" role="tab" aria-controls="nav-webtorrent" aria-selected="false">Webtorrent <i class="fa fa-heart mx-1" aria-hidden="true"></i></a></a>
-						<% } if (item.archive_url) { %>
-						<a class="nav-item nav-link text-dark" id="nav-archive-tab" data-toggle="tab" href="#nav-archive" role="tab" aria-controls="nav-archive" aria-selected="false">Archive.org <i class="fa fa-university mx-1" aria-hidden="true"></i></a>
-						<% } %>
-					</nav>
+					<div class="row mx-0">
+						<div class="col-12 px-0">
+							<nav class="nav " id="myTab" role="tablist">
+								<% if (item.youtube_url) { %>
+								  <a class="nav-item nav-link active text-dark" id="nav-youtube-tab" data-toggle="tab" href="#nav-youtube" role="tab" aria-controls="nav-youtube" aria-selected="true"> Youtube <i class="fab fa-youtube mx-1" aria-hidden="true"></i></a>
+								<% } if (item.vimeo_url) { %>
+								<a class="nav-item nav-link text-dark" id="nav-vimeo-tab" data-toggle="tab" href="#nav-vimeo" role="tab" aria-controls="nav-vimeo" aria-selected="false">Vimeo <i class="fab fa-vimeo-square mx-1" style="color:#00ADEF;" aria-hidden="true"></i></a>
+								<% } if (item.webtorrent_magnet) { %>
+								<a class="nav-item nav-link text-dark" id="nav-webtorrent-tab" data-toggle="tab" href="#nav-webtorrent" role="tab" aria-controls="nav-webtorrent" aria-selected="false">Webtorrent <i class="fa fa-heart mx-1" aria-hidden="true"></i></a></a>
+								<% } if (item.archive_url) { %>
+								<a class="nav-item nav-link text-dark" id="nav-archive-tab" data-toggle="tab" href="#nav-archive" role="tab" aria-controls="nav-archive" aria-selected="false">Archive.org <i class="fa fa-university mx-1" aria-hidden="true"></i></a>
+								<% } %>
+							</nav>
+						</div>
+
+						<!-- <div class="col-4 px-0">
+							<form class="m-2 text-right" method="POST" action="https://api.staticman.net/v2/entry/cinetimes/cinetimes-fr/source/like">
+								<input name="options[redirect]" type="hidden" value="https://my-site.com">
+
+								<input name="options[slug]" type="hidden" value="<%- item.slug %>">
+								<input type="checkbox" class="d-none" name="fields[date]" value="1" checked>
+								<label for="like" class="m-auto"> <span class="far fa-heart my-auto"> <span class="text-dark">10</span> </span> </label>
+								<input type="submit" id="like" class="d-none"> </span> </input>
+							</form>
+							<% var likes = 0 %>
+							<% for (var value in site.data ) { %>
+								<% if (value.includes( item.slug )) { %>
+									<% likes ++ %>
+								<% } %>
+							<% } %>
+						</div> -->
+					</div>
 
 					<span id="magnet" class="d-none"><%- item.webtorrent_magnet %></span>
 

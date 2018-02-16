@@ -61,6 +61,11 @@ posts:
   archive_url: "{fields.archive_url}"
   other_url: "{fields.other_url}"
 
-
-
-
+like:
+  allowedFields: ['like']
+  branch: "source"
+  format: "yml"
+  allowedOrigins: ["localhost", "cinetimes.org"]
+  moderation: false
+  path: "_data/likes/{options.slug}"
+  filename: "{@timestamp}{options.slug}"
