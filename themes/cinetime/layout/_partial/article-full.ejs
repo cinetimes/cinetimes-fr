@@ -77,8 +77,8 @@
 				    <div class="videoDescription px-4 pb-2 text-left">
 						<% if(item.synopsis) { %>
 							<% 
-							var cast = item.cast.split(',') 
-							var crew = item.crew.split(',') 
+							var cast = item.cast ? item.cast.split(',') : '';
+							var crew = item.crew ? item.crew.split(',') : '';
 							%>
 							<h4 class="text-left">Synopsis</h4>
 							<p class="text-left"> 
@@ -86,6 +86,9 @@
 								<br>
 								<% if(item.amazon) { %><span><a href="<%- item.amazon %>"><%- item.title %> en DVD</a></span> <% } %>
 							</p>
+
+							<%- item.content %>
+
 							<input type="checkbox" id="read-more" class="d-none">
 							<label for="read-more" class="read-more-trigger btn btn-secondary btn-sm"></label>
 							<div class="text-left read-more-target">
@@ -95,21 +98,24 @@
 									<li> <span class="font-weight-bold">Date de sortie</span>: <%- full_date(item.release_date, 'Do MMMM YYYY') %> </li>
 									<li> <span class="font-weight-bold">Réalisateur</span>:  <%- item.author %> </li>
 									<li> <span class="font-weight-bold">Casting</span>:</li>
+									<% if(item.cast) { %>
 									<ul class=" ml-2">
 										<% cast.forEach(castMember => { %>
 											<li>  <%- castMember %> </li>
 										<% }) %>
 									</ul>
+									<% } if(item.cast) { %>
 									<li> <span class="font-weight-bold">Équipe technique</span>:</li>
 									<ul class="">
 										<% crew.forEach(crewMember => { %>
 											<li>  <%- crewMember %> </li>
 										<% }) %>
 									</ul>
+									<% } %>
 								</ul>
 							</div>
 
-							<%- item.content %>
+							
 		
 						<% } else { %>
 							<div class="font-weight-light">
