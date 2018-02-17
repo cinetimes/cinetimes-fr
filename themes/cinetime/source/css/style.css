@@ -956,11 +956,11 @@ a.label:focus {
 
 
 
-/* Making webtorrent Video keep a 16:9 ratio */
-#video_webtorrent {
+/* Making webtorrent (& archive.org iframe) Video keep a 16:9 ratio */
+#video_webtorrent, #nav-archive {
   position: relative;
   padding-bottom: 56.25%; /*16:9*/
-  padding-top: 30px;
+  /* padding-top: 30px; */
   height: 0;
   overflow: hidden;
 }
@@ -968,7 +968,8 @@ a.label:focus {
 #video_webtorrent iframe,
 #video_webtorrent object,
 #video_webtorrent embed,
-#video_webtorrent video {
+#video_webtorrent video,
+#nav-archive iframe {
   position: absolute;
   top: 0;
   left: 0;
