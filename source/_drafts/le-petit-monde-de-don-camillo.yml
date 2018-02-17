@@ -1,0 +1,29 @@
+_id: 944c5070-143d-11e8-bad5-27d0ae215d77
+tmdb_id: '11972'
+title: 'Comment for {fields.slug} at {@timestamp}'
+original_title: Don Camillo
+author: Julien Duvivier
+poster_path: 'https://image.tmdb.org/t/p/original/3vygSD1GAC4VaJGVRSLOpL3gPxK.jpg'
+release_date: '1952-03-28'
+synopsis: >-
+  D'âpres rivalités de clocher font bouillonner le petit village italien de la
+  Bassa. Le maire, Peppone, un communiste, vient de triompher aux élections et
+  son succès est dur à Don Camillo, sympathique curé de choc, qui, dans l'ombre
+  du presbytère, s'entretient presque amicalement avec Dieu.
+genres: Comédie
+youtube_url: ''
+vimeo_url: ''
+archive_url: 'https://archive.org/embed/DonCamillojulienDuvivier1952'
+webtorrent_magnet:
+  - ''
+  - ''
+backdrop_path: 'https://image.tmdb.org/t/p/original/xoqwDF6FC0JkDgMhGp8UBazSfKA.jpg'
+cast: 'Fernandel,Gino Cervi,Vera Talchi,Franco Interlenghi,Sylvie'
+crew: >-
+  Julien Duvivier,Giovanni Guareschi,Julien Duvivier,René Barjavel,Giuseppe
+  Amato
+imdb_id: tt0043918
+adult: 'false'
+date: '2018-02-17T23:52:15.172Z'
+slug: le-petit-monde-de-don-camillo
+approved: false
