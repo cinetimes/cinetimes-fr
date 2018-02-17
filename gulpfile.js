@@ -96,8 +96,8 @@ gulp.task('thumbnail-card', function(){
 gulp.task('thumbnail-poster', function(){
     gulp.src('./themes/cinetime/source/img/16-9/*')
       .pipe(imageResize({
-        width: 170,
-        height: 225,
+        width: 1280,
+        height: 720,
       }))
       .pipe(rename(function(path){
         path.basename = "poster_" + path.basename;
@@ -107,12 +107,14 @@ gulp.task('thumbnail-poster', function(){
 
 // width: 1280,
 // height: 720,
+// width: 170,
+// height: 225,
 
 gulp.task('thumbnail-next', function(){
     gulp.src('./themes/cinetime/source/img/16-9/*')
       .pipe(imageResize({
-        width: 168,
-        // height: 101,
+        width: 256,
+        height: 144,
       }))
       .pipe(rename(function(path){
         path.basename = "next_" + path.basename;
