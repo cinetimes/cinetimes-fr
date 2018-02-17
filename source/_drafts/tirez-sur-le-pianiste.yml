@@ -1,0 +1,27 @@
+_id: 1bb71750-143b-11e8-bad5-27d0ae215d77
+tmdb_id: '1818'
+title: 'Comment for {fields.slug} at {@timestamp}'
+original_title: Tirez sur le pianiste
+author: David Goodis
+poster_path: 'https://image.tmdb.org/t/p/original/i6rOpMfeW1bht1aGyhN2hoEQ3Dq.jpg'
+release_date: '1960-10-21'
+synopsis: >-
+  Un pianiste de bar commence a avoir des ennuis lorsque deux gangsters s'en
+  prennent a son frere.
+genres: 'Drame,Thriller,Crime'
+youtube_url: ''
+vimeo_url: ''
+archive_url: 'https://archive.org/embed/TirezSurLePianistefrancoisTruffaut1960'
+webtorrent_magnet:
+  - ''
+  - ''
+backdrop_path: 'https://image.tmdb.org/t/p/original/gweZZlLcU9fxosxj6HfCWsgsxlG.jpg'
+cast: 'Charles Aznavour,Marie Dubois,Nicole Berger,Michèle Mercier,Serge Davri'
+crew: >-
+  David Goodis,François Truffaut,François Truffaut,Pierre Braunberger,Georges
+  Delerue
+imdb_id: tt0054389
+adult: 'false'
+date: '2018-02-17T23:34:33.870Z'
+slug: tirez-sur-le-pianiste
+approved: false
