@@ -1,0 +1,30 @@
+_id: 1c7d8680-1439-11e8-bad5-27d0ae215d77
+tmdb_id: '22613'
+title: 'Comment for {fields.slug} at {@timestamp}'
+original_title: The Outlaw
+author: Howard Hughes
+poster_path: 'https://image.tmdb.org/t/p/original/aQ1jGCpK78Ch42fJgdpYIASHudn.jpg'
+release_date: '1943-02-05'
+synopsis: >-
+  Pat Garrett et Doc Holliday sont de vieux amis. Leur amitié va être mise à mal
+  lorsque Billy the Kid vole le cheval de Doc. S'ensuit un jeu du chat et de la
+  souris entre les trois hommes et une relation « je t'aime - je te hais » entre
+  le Kid et Doc. Relation beaucoup plus sulfureuse que la poitrine de Jane
+  Russell ! Tous les protagonistes sont sous le charme de Billy tout en tentant
+  à plusieurs reprises de le tuer... lui-même semblant indifférent à tous et à
+  tout... sauf à "Red", le cheval volé à Doc.
+genres: 'Action,Aventure,Western'
+youtube_url: ''
+vimeo_url: ''
+archive_url: 'https://archive.org/embed/TheOutlawvostfr'
+webtorrent_magnet:
+  - ''
+  - ''
+backdrop_path: 'https://image.tmdb.org/t/p/original/zpjQ0DwpqRa7dXKLidr2fG2wGfT.jpg'
+cast: 'Jane Russell,Jack Buetel,Thomas Mitchell,Walter Huston,Mimi Aguglia'
+crew: 'Howard Hughes,Howard Hughes,Jules Furthman,Gregg Toland,Wallace Grissell'
+imdb_id: tt0036241
+adult: 'false'
+date: '2018-02-17T23:20:16.252Z'
+slug: le-banni
+approved: false
