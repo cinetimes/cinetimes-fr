@@ -85,7 +85,7 @@
 							<p> 
 								<%- item.synopsis %> 
 								<br>
-								<span><a href="<%- item.amazon %>"><%- item.title %> en DVD</a></span>
+								<% if(item.amazon) { %><span><a href="<%- item.amazon %>"><%- item.title %> en DVD</a></span> <% } %>
 							</p>
 							<input type="checkbox" id="read-more" class="d-none">
 							<label for="read-more" class="read-more-trigger btn btn-secondary btn-sm"></label>
@@ -109,6 +109,8 @@
 									</ul>
 								</ul>
 							</div>
+
+							<%- item.content %>
 		
 						<% } else { %>
 							<%- item.content %>
