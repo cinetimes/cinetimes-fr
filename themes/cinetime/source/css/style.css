@@ -434,27 +434,14 @@ header
 #video_et_description {
   text-align: center;
   margin: 1em 0;
-  /*display: flex;*/
-  /*flex-direction: column;*/
   }
 
 #video_et_description .videoDescription {
   background-color: rgb(255, 255, 255);
-  /*box-shadow: 0px 0px 2px #171616;*/
-
   margin: 0;
   text-align: center;
   padding: 0 0 0 4px;
   width: 100%;
-  /* max-width: 640px; */
-}
-
-#video_et_description .videoDescription p {
-/*  text-align: left;*/
-  margin: auto 15px 15px 15px;
-  /*padding: 0 0 15px 0;*/
-  text-align: justify;
-
 }
 
 .videoDescription ul, .videoDescription ol {
@@ -469,6 +456,7 @@ header
 #video_et_description .videoDescription h1 {
 	color: #333;
   font-weight: bolder;
+  font-size: 1.7em;
 }
 
 .video-js {
@@ -1166,7 +1154,16 @@ a.label:focus {
     overflow: hidden;
   }
 
+
 }
+
+@media (min-width: 768px) { 
+  #video-title {
+    font-size: 2em !important;
+  }
+ }
+
+
 
 .blog-post .subtitle {
   font-size: 0.5em;
@@ -1255,11 +1252,11 @@ a.label:focus {
 }
 
 #read-more ~ .read-more-trigger::before {
-  content: 'Ouvrir fiche technique';
+  content: 'Ouvrir fiche technique \2193';
 }
 
 #read-more:checked ~ .read-more-trigger::before {
-  content: 'Fermer fiche technique';
+  content: 'Fermer fiche technique \2191';
 }
 
 /* Ridiculously Responsive Social Sharing Buttons CSS

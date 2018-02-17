@@ -1,11 +1,6 @@
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-lg-8 col-xs-12" id="video_et_description">
-					<div class="videoDescription">
-				        <h1 class="py-2"><%- item.title %></h1>
-				    </div>
-
-
+		<div class="col-lg-8 col-xs-12 pr-lg-0" id="video_et_description">
 
 					<div class="tab-content" id="nav-tabContent">
 					<% if (item.youtube_url) { %>
@@ -73,23 +68,27 @@
 						</div> -->
 					</div>
 
+					<div class="videoDescription px-4 text-left">
+						<h1 class="py-2 mb-0" id="video-title"><%- item.title %></h1>
+					</div>
+					
 					<span id="magnet" class="d-none"><%- item.webtorrent_magnet %></span>
 
-				    <div class="videoDescription pt-3 pb-4">
+				    <div class="videoDescription px-4 pb-2 text-left">
 						<% if(item.synopsis) { %>
 							<% 
 							var cast = item.cast.split(',') 
 							var crew = item.crew.split(',') 
 							%>
-							<h1>Synopsis</h1>
-							<p> 
+							<h4 class="text-left">Synopsis</h4>
+							<p class="text-left"> 
 								<%- item.synopsis %> 
 								<br>
 								<% if(item.amazon) { %><span><a href="<%- item.amazon %>"><%- item.title %> en DVD</a></span> <% } %>
 							</p>
 							<input type="checkbox" id="read-more" class="d-none">
 							<label for="read-more" class="read-more-trigger btn btn-secondary btn-sm"></label>
-							<div class="text-left px-3 read-more-target">
+							<div class="text-left read-more-target">
 								<ul class="list-unstyled">
 									<li><span class="font-weight-bold">Titre</span>: <%- item.title %> </li>
 									<li><span class="font-weight-bold">Titre original</span>: <%- item.original_title %> </li>
@@ -102,7 +101,7 @@
 										<% }) %>
 									</ul>
 									<li> <span class="font-weight-bold">Équipe technique</span>:</li>
-									<ul class=" ml-2">
+									<ul class="">
 										<% crew.forEach(crewMember => { %>
 											<li>  <%- crewMember %> </li>
 										<% }) %>
@@ -113,10 +112,13 @@
 							<%- item.content %>
 		
 						<% } else { %>
-							<%- item.content %>
+							<div class="font-weight-light">
+								<%- item.content %>
+							</div>
+							
 						<% } %>
-						<div class="text-left px-3">
-								<a href=" <%- raw_link(page.source) %> "> <button class="btn btn-dark">Modifier</button> </a>
+						<div class="text-right px-3">
+								<a href=" <%- raw_link(page.source) %> "> <i class="far fa-edit text-dark"></i> </a>
 						</div>
 				    </div>
 
@@ -129,7 +131,7 @@
 
 				<script src="<%- url_for('js/social.js') %>"></script>
 
-				<!-- Comments -->
+				<!-- Comments
 				<% if(!(page.comments == false)){ %>
 				<div class="col-md-8 col-xs-12 mx-auto py-3 px-5 mb-1">
 						<h3 class="text-center my-2 font-weight-bold">Laisser un commentaire</h3>
@@ -137,21 +139,12 @@
 				<div class="col-md-12 col-xs-12 mx-auto py-3 px-md-3 px-sm-1 mb-5 bg-color-white">
 					<%- partial('comments') %>
 				</div>
-				<% } %>
+				<% } %> -->
 		</div>
 
 		<div class="col-lg-4 col-xs-12">
 				<div class="d-flex flex-column">
-					<!-- <div class="media">
-					<img class="mr-3" src="/img/lagreve.jpg" alt="Generic placeholder image">
-							<div class="media-body">
-									<h6 class="mt-0">Media heading</h6>
-							</div>
-					</div> -->
-					<div class="row">
-						<h5 class="m-4">À suivre</h5>
-					</div>
-					<ul class="list-unstyled">
+					<ul class="list-unstyled mt-3">
 						<% list_related_posts({maxCount: 12}).forEach(function(post) { %>
 							<% if(post.layout != 'blog-post') { %>
 								<li class="media mb-3">
@@ -174,6 +167,17 @@
 					</ul>
 				</div>
 		</div>
+
+			<!-- Comments -->
+			<% if(!(page.comments == false)){ %>
+				<div class="col-lg-8 col-xs-12">
+						<h3 class="text-center my-2 font-weight-bold">Laisser un commentaire</h3>
+				</div>
+				<div class="col-lg-8 col-xs-12 py-3 px-md-3 px-sm-1 mb-5 mx-3 bg-color-white">
+					<%- partial('comments') %>
+				</div>
+			<% } %>
+
 	</div>
 </div>
 
