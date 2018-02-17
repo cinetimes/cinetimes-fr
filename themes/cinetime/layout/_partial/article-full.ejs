@@ -13,10 +13,10 @@
 							<div data-type="vimeo" class="js-player" data-video-id="<%- item.vimeo_url %>"></div>
 						</div>
 						<% } if (item.archive_url) { %>
-						<div class="tab-pane fade <%- (item.vimeo_url || item.youtube_url)  ? '' : 'show active' %>"" id="nav-archive" role="tabpanel" aria-labelledby="nav-archive-tab" >
-							<video poster="<%- url_for('img/')%>poster_<%- item.img_name %>" controls>
-								<source src="<%- item.archive_url %>" type="video/mp4">
-							</video>
+						<div class="tab-pane fade <%- (item.vimeo_url || item.youtube_url)  ? '' : 'show active' %>" id="nav-archive" role="tabpanel" aria-labelledby="nav-archive-tab">
+							
+							<iframe src="<%- item.archive_url %>" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
 						</div>
 						<% } if (item.webtorrent_magnet) { %>
 						<div class="tab-pane fade <%- (item.vimeo_url || item.youtube_url || item.archive_url)  ? '' : 'show active' %>" id="nav-webtorrent" role="tabpanel" aria-labelledby="nav-webtorrent-tab">
