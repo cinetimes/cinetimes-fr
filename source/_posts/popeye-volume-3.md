@@ -9,7 +9,7 @@ category:
 tags:
   - Popeye
   - Fleischer
-  date: '2018-02-18T23:58:44.720Z'
+date: '2018-02-18T23:58:44.720Z'
 ---
 
 # Synopsis

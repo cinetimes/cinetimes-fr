@@ -29,6 +29,5 @@ crew: 'Frank E. Woods,H.E. Aitken,Joseph Carl Breil,Jon Mirsalis,Billy Bitzer'
 adult: 'false'
 date: '2018-02-15T14:55:09.009Z'
 slug: naissance-dune-nation
-date: '2018-02-16T23:58:44.720Z'
 amazon: 'http://amzn.to/2HlMW2U'
 ---
