@@ -1,0 +1,25 @@
+_id: b8e72730-143c-11e8-bad5-27d0ae215d77
+tmdb_id: '22733'
+title: 'Comment for {fields.slug} at {@timestamp}'
+original_title: Beat the Devil
+author: John Huston
+poster_path: 'https://image.tmdb.org/t/p/original/kNMTqdMpTuINY2clqOdnuSN6pRS.jpg'
+release_date: '1953-11-24'
+synopsis: >-
+  Un bateau navigue vers les côtes d'Afrique. A son bord, des passagers plus ou
+  moins assortis veulent acquérir des terres pour en extraire de l'uranium.
+genres: 'Action,Aventure,Comédie,Crime,Drame,Romance'
+youtube_url: ''
+vimeo_url: ''
+archive_url: 'https://archive.org/embed/BeatTheDevilplusFortQueLeDiable-Vost-fr'
+webtorrent_magnet:
+  - ''
+  - ''
+backdrop_path: 'https://image.tmdb.org/t/p/original/mv54tbOkaUoKU0QyYE0GVqHZ3Nw.jpg'
+cast: 'Humphrey Bogart,Jennifer Jones,Gina Lollobrigida,Robert Morley,Peter Lorre'
+crew: 'John Huston,John Huston,Franco Mannino,Oswald Morris,Ralph Kemplen'
+imdb_id: tt0046414
+adult: 'false'
+date: '2018-02-17T23:46:07.103Z'
+slug: plus-fort-que-le-diable
+approved: false
