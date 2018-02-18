@@ -1,0 +1,23 @@
+_id: 7a321a50-143b-11e8-bad5-27d0ae215d77
+tmdb_id: '108292'
+title: 'Comment for {fields.slug} at {@timestamp}'
+original_title: Le voyage de Gulliver à Lilliput et chez les géants
+author: Georges Méliès
+poster_path: 'https://image.tmdb.org/t/p/original/jhro1BUAPkDw4QXlKaBSTn4cahN.jpg'
+release_date: '1902-01-01'
+synopsis: ''
+genres: Fantastique
+youtube_url: ''
+vimeo_url: ''
+archive_url: 'https://archive.org/embed/LeVoyageDeGulliverLilliputEtChezLesGGants'
+webtorrent_magnet:
+  - ''
+  - ''
+backdrop_path: 'https://image.tmdb.org/t/p/originalnull'
+cast: ''
+crew: 'Georges Méliès,Jonathan Swift'
+imdb_id: tt0229024
+adult: 'false'
+date: '2018-02-17T23:37:12.384Z'
+slug: le-voyage-de-gulliver-a-lilliput-et-chez-les-geants
+approved: false
