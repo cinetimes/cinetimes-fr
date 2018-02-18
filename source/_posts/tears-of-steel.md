@@ -10,6 +10,7 @@ category:
 - Dessins Animés
 tags:
 - Open Blender Movies
+date: '2018-01-10T23:58:44.720Z'
 ---
 
 # Synopsis
