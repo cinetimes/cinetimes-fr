@@ -54,7 +54,7 @@
     <div class="poster-wrapper">
       <a href="<%- url_for(item.path) %>">
         <div class="poster-image">
-          <img class="lazy" data-src="<%- poster_path %>" style="width:170px; height:225px; border-radius:5px" alt="<%- item.title + ', ' + item.author +', ' + site.data.metadata.alt_intro %>" >
+          <img class="lazy" data-src="<%- poster_path %>" style="width:170px; height:225px; border-radius:5px" alt="<%- `${item.title}, ${site.data.metadata.free_movie_from} ${item.author} ${site.data.metadata.in_streaming}` %>" >
         </div>
         <div class="poster-title text-dark"> <%- item.title %> </div>
       </a>
