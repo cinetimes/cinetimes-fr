@@ -1,0 +1,27 @@
+_id: b939d050-1416-11e8-bad5-27d0ae215d77
+tmdb_id: '45745'
+title: Comment
+original_title: Sintel
+author: Colin Levy
+poster_path: 'https://image.tmdb.org/t/p/original/iJQy5tF9eMRU1Id3OqCvimazJZl.jpg'
+release_date: '2010-09-30'
+synopsis: >-
+  Une jeune femme solitaire, Sintel, probablement orpheline, secourt et se lie
+  d'amitié avec un dragonneau, qu'elle nomme Scales. Mais lorsque celui-ci se
+  fait enlever par un dragon adulte, Sintel décide de se lancer dans une
+  dangereuse quête pour retrouver son compagnon.
+genres: 'Animation,Fantastique'
+youtube_url: ''
+vimeo_url: ''
+archive_url: ''
+webtorrent_magnet:
+  - ''
+  - ''
+backdrop_path: 'https://image.tmdb.org/t/p/original/cgCQGM3Ir2av5ihymK9SmPuAbf7.jpg'
+cast: 'Halina Reijn,Thom Hoffman'
+crew: 'Colin Levy,Ton Roosendaal,Esther Wouda,Jan Morgenstern'
+imdb_id: tt1727587
+adult: 'false'
+date: '2018-02-17T19:14:06.851Z'
+slug: sintel
+approved: false
