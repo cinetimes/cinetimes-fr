@@ -44,6 +44,7 @@ posts:
   img_url: "{fields.backdrop_path}"
   poster_path: "{fields.poster_path}"
 
+  title: "{fields.title}"
   release_date: "{fields.release_date}"
   original_title: "{fields.original_title}"
   transforms:
