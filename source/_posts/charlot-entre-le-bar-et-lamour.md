@@ -1,0 +1,31 @@
+---
+# _id: def08210-143b-11e8-bad5-27d0ae215d77
+tmdb_id: '53371'
+title: "Charlot entre le bar et l'amour"
+original_title: 'His Favorite Pastime'
+author: Charles Chaplin
+# poster_path: 'https://image.tmdb.org/t/p/original/xLRbvaM9BQIsw1nUaywnH8vjJrc.jpg'
+img_name: hisFavouritePastTime.jpg
+release_date: '1914-03-16'
+synopsis: >-
+  Charlie passe le temps dans son bar habituel, ivre, il crée une bagarre. Mis à
+  la porte, il voit une jolie jeune fille dans un taxi. Il la suit chez elle et
+  veut la séduire, malheureusement le mari de cette dernière le surprend.
+category:
+- Films
+tags: 
+- Comédie
+youtube_url: ''
+vimeo_url: ''
+archive_url: 'https://archive.org/embed/CC_1914_03_16_HisFavoritePasttime'
+webtorrent_magnet:
+# backdrop_path: 'https://image.tmdb.org/t/p/original/5gyMwrjgRKvVhuqK8baonPQGL1f.jpg'
+cast: >-
+  Charlie Chaplin,Roscoe 'Fatty' Arbuckle,Peggy Pearce,Frank Opperman,Helen
+  Carruthers
+crew: 'George Nichols,Craig Hutchinson,Charlie Chaplin,Frank D. Williams,Mack Sennett'
+imdb_id: tt0004091
+adult: 'false'
+date: '2018-02-17T23:40:01.391Z'
+slug: charlot-entre-le-bar-et-lamour
+---
