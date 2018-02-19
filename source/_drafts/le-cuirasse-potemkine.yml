@@ -1,0 +1,32 @@
+_id: ed1bc060-1586-11e8-968d-8b90fd88d642
+tmdb_id: '643'
+title: Le Cuirassé Potemkine
+original_title: Броненосец «Потёмкин»
+author: Sergei M. Eisenstein
+poster_path: 'https://image.tmdb.org/t/p/original/a2gHhuh9GslbHYd88gliD60aL2i.jpg'
+release_date: '1925-12-24'
+synopsis: >-
+  En janvier 1905, éclate la première révolution russe, suivie le 14 juin de la
+  révolte des marins du "Potemkine". Ce qui au départ s'annonçait comme une
+  petite protestation d'un équipage lassé et furieux de n'avoir à manger que de
+  la viande pourrrie a dégénéré en une véritable insurrection dans le port
+  d'Odessa.
+genres: 'Drame,Histoire'
+youtube_url: 'https://www.youtube.com/watch?v=Q360hYU2zG8'
+vimeo_url: ''
+archive_url: 'https://archive.org/embed/BattleshipPotemkin'
+webtorrent_magnet:
+  - >-
+    magnet:?xt=urn:btih:61f1a8fc65aa12ac7a583e893658825fb28214be&dn=8eX1mqKVeosQ.mp4&tr=udp://explodie.org:6969&tr=udp://tracker.coppersurfer.tk:6969&tr=udp://tracker.empire-js.us:1337&tr=udp://tracker.leechers-paradise.org:6969&tr=udp://tracker.opentrackr.org:1337&tr=wss://tracker.btorrent.xyz&tr=wss://tracker.fastcast.nz&tr=wss://tracker.openwebtorrent.com&as=https://seed01.bitchute.com/8929/8eX1mqKVeosQ.mp4&as=https://seed02.bitchute.com/8929/8eX1mqKVeosQ.mp4&as=https://seed03.bitchute.com/8929/8eX1mqKVeosQ.mp4&xs=https://www.bitchute.com/torrent/8929/8eX1mqKVeosQ.webtorrent
+  - ''
+backdrop_path: 'https://image.tmdb.org/t/p/original/nS2tyCL7unTVhNJBFgBdg2Ii5Yr.jpg'
+cast: >-
+  Aleksandr Antonov,Vladimir Barsky,Grigori Aleksandrov,Ivan Bobrov,Mikhail
+  Gomorov
+crew: >-
+  Sergei M. Eisenstein,Grigori Aleksandrov,Sergei M. Eisenstein,Vasili
+  Rakhals,Edmund Meisel
+imdb_id: tt0015648
+adult: 'false'
+date: '2018-02-19T15:09:48.587Z'
+slug: le-cuirasse-potemkine
