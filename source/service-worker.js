@@ -4,13 +4,18 @@ var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
     '/',
     '/css/style.css',
+    '/bower_components/plyr/dist/plyr.css',
+    '/bower_components/slick-carousel/slick/slick.css',
+    '/bower_components/slick-carousel/slick/slick-theme.css',
+    '/lib/awesomplete-gh-pages/awesomplete.css',
+
     '/js/app.js',
     '/js/bundle.js',
+    '/bower_components/corejs-typeahead/dist/typeahead.bundle.min.js',
 
     '/img/cover_woody.jpg',
     '/img/cover_18655295.jpg',
     '/img/cover_19828885.jpg',
-    '/img/cover_agent327.jpg',
     '/img/cover_bigBuckBunny.jpg',
     '/img/cover_bonVoyage.jpg',
     '/img/cover_caminandes1.jpg',
@@ -95,7 +100,7 @@ self.addEventListener('install', function(event) {
 // });
 
 // Retrieve results cached by our service worker &&
-// Cache new request cumulatively
+// Cache new request cumulatively (dynamic caching)
 self.addEventListener('fetch', function(event) {
     event.respondWith(
         caches.match(event.request)
