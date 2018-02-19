@@ -1,3 +1,25 @@
+if('serviceWorker' in navigator) {
+	window.addEventListener('load', function() {
+		navigator.serviceWorker.register('/service-worker.js').then(function(registration){
+			// Registration was successfull
+			console.log('Service Worker registration was successfull with scope: ', registration.scope);
+		}, function(err) {
+			// Registration failed :<
+			console.log('Service Worker registration failed: ', err);
+		});
+	});
+}
+
+
+
+
+
+
+
+
+
+
+
 // Lazy load images with the intersection observer
 (() => {
 	var images = document.querySelectorAll('.card-img-top, .lazy');
