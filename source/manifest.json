@@ -1,4 +1,31 @@
 {
+  "name": "Cinetimes",
+  "short_name": "Cinetimes",
+  "icons": [{
+    "src": "/favicon/apple-icon-114x114.png",
+      "sizes": "114x114",
+      "type": "image/png"
+    }, {
+    "src": "/favicon/apple-icon-120x120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    }, {
+      "src": "/favicon/apple-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "/favicon/apple-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "/favicon/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#2557B7",
+  "theme_color": "#346BC2",
   "gcm_sender_id": "482941778795",
   "gcm_sender_id_comment": "Do not change the GCM Sender ID"
 }

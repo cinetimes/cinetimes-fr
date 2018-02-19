@@ -7,7 +7,7 @@ var urlsToCache = [
     '/bower_components/plyr/dist/plyr.css',
     '/bower_components/slick-carousel/slick/slick.css',
     '/bower_components/slick-carousel/slick/slick-theme.css',
-    '/lib/awesomplete-gh-pages/awesomplete.css',
+
 
     '/js/app.js',
     '/js/bundle.js',
