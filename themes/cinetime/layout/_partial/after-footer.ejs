@@ -101,4 +101,23 @@
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
 
+        <script>
+          // Plyr setup
+          var players = plyr.setup(document.querySelectorAll('.js-player'));
+          players.forEach(player => {
+            player.on('play', () => {
+            handleEvent(player.getType())
+            }) 
+          });
+        
+          function handleEvent(source) {
+            ga('send', {
+            hitType: 'event',
+            eventCategory: 'Videos',
+            eventAction: 'play',
+            eventLabel: source,
+            });
+            // console.log(`played = ${source}`);
+          }
+        </script>
         <!-- <%- js('lib/awesomplete-gh-pages/awesomplete.min.js') %> -->
