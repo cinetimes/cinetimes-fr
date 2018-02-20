@@ -94,29 +94,11 @@
 
         <!-- Plyr from cdn with fallback from bower -->
         <!-- <script src="https://cdn.plyr.io/2.0.18/plyr.js"></script> -->
-        <script>
+        <!-- <script>
           window.plyr || document.write("<script src=" + " <%- url_for('bower_components/plyr/dist/plyr.js') %>" + "><\/script>")
-        </script>
-        <script>
-            var players = plyr.setup(document.querySelectorAll('.js-player'));
-            players.forEach(player => {
-              player.on('play', () => {
-                handleEvent(player.getType())
-              }) 
-            });
-
-            function handleEvent(source) {
-              ga('send', {
-                hitType: 'event',
-                eventCategory: 'Videos',
-                eventAction: 'play',
-                eventLabel: source,
-              });
-              // console.log(`played = ${source}`);
-            }
-            
-        </script>
+        </script> -->
+        <script src="<%- url_for('bower_components/plyr/dist/plyr.js') %>"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
 
-        <%- js('lib/awesomplete-gh-pages/awesomplete.min.js') %>
+        <!-- <%- js('lib/awesomplete-gh-pages/awesomplete.min.js') %> -->

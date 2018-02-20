@@ -13,13 +13,6 @@ if('serviceWorker' in navigator) {
 
 
 
-
-
-
-
-
-
-
 // Lazy load images with the intersection observer
 (() => {
 	var images = document.querySelectorAll('.card-img-top, .lazy');

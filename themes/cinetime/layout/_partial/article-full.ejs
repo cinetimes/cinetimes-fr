@@ -187,6 +187,27 @@
 	</div>
 </div>
 
+
+<script>
+	// Plyr setup
+	var players = plyr.setup(document.querySelectorAll('.js-player'));
+	players.forEach(player => {
+		player.on('play', () => {
+		handleEvent(player.getType())
+		}) 
+	});
+
+	function handleEvent(source) {
+		ga('send', {
+		hitType: 'event',
+		eventCategory: 'Videos',
+		eventAction: 'play',
+		eventLabel: source,
+		});
+		// console.log(`played = ${source}`);
+	}
+</script>
+
 <script type="application/ld+json">
 	{
 	  "@context": "http://schema.org",
