@@ -2,7 +2,7 @@
 	<%
 	var title = '';
 
-  if (page.category) title = page.category;
+    if (page.category) title = page.category + ' gratuits en streaming';
 	if (page.tag) title = page.tag;
 	if (page.archive){
 	if (page.year) title = page.year + (page.month ? '/' + page.month : '');
@@ -10,7 +10,7 @@
     	}
 	%>
 	<% if(title) { %>
-    <h2><%- titlecase(title) %></h2>
+    <h2 class="text-center archive-title"><em><%- titlecase(title) %></em></h2>
 	<% } %>
 <%
 	var tags = [];
@@ -45,11 +45,11 @@
 											<a href="<%- url_for(config.tag_dir +  '/' + _.kebabCase(tag)) %>/"><button type="button" class="btn btn-outline-danger mb-md-0"><%- site.data.excerpt.Voir_plus %></button></a>
 									</div>
 										<div class="row pl-md-4" class="col-12 scrollspy-example" data-spy="scroll" data-target="#navbar-main-side" data-offset="40">
-													<div class="col-12 card-deck y-scroll">
-															<% page.posts.each(function(item){ %>
-																		<%- partial('_partial/article-excerpt', {item: item, tag: tag}) %>
-															<% }); %>
-													</div>
+											<div class="col-12 card-deck y-scroll">
+												<% page.posts.each(function(item){ %>
+															<%- partial('_partial/article-excerpt', {item: item, tag: tag}) %>
+												<% }); %>
+											</div>
 										</div>
 								<% }); %>
 						</div>
