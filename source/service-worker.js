@@ -1,6 +1,6 @@
 'use strict'
 
-var CACHE_NAME = 'my-site-cache-v1';
+var CACHE_NAME = 'my-site-cache-v2';
 var urlsToCache = [
     '/',
     '/css/style.css',
@@ -85,19 +85,36 @@ self.addEventListener('install', function(event) {
 });
 
 
-// Retrieve results cached by our service worker 
-// self.addEventListener('fetch', function(event) {
-//     event.respondWith(
-//         caches.match(event.request)
-//         .then(function(response) {
-//             // Cache hit - return response
-//             if (response) {
-//                 return response;
-//             }
-//             return fetch(event.request);
+// self.addEventListener("activate", function (e) {
+//     var t = new Set(urlsToCacheKeys.values());
+//     e.waitUntil(caches.open(cacheName).then(function (e) {
+//         return e.keys().then(function (n) {
+//             return Promise.all(n.map(function (n) {
+//                 if (!t.has(n.url)) return e.delete(n)
+//             }))
 //         })
-//     );
-// });
+//     }).then(function () {
+//         return self.clients.claim()
+//     }))
+// })
+
+self.addEventListener('activate', function(event) {
+    // Delete any cache that is not in the whitelist
+    var cacheWhiteList = CACHE_NAME;
+
+    event.waitUntil(
+        caches.keys().then(function(keys) {
+            return Promise.all(keys.map(function(key) {
+                if (!cacheWhiteList.includes(key)) {
+                    return caches.delete(key);
+                }
+            }));
+        }).then(function() {
+            console.log(`${CACHE_NAME} takes over from now`);
+        })
+    );
+});
+
 
 // Retrieve results cached by our service worker &&
 // Cache new request cumulatively (dynamic caching)
