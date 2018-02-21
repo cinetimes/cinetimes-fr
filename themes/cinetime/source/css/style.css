@@ -1260,6 +1260,16 @@ a.label:focus {
   content: 'Fermer fiche technique \2191';
 }
 
+.archive-title {
+  font-weight: bold;
+}
+@media (max-width: 768px) { 
+  .archive-title {
+    font-size: 2em !important;
+    margin: 1em 5px;
+  }
+ }
+
 /* Ridiculously Responsive Social Sharing Buttons CSS
  *
  * https://github.com/kni-labs/rrssb
