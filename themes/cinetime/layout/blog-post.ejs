@@ -1,12 +1,14 @@
 <div class="col-md-8 col-xs-12 mx-auto py-3 px-md-5 px-xs-1 mb-2 bg-color-white blog-post">
     <h1 class="text-center my-5 font-weight-bold"> 
         <%- page.title %> 
-        <a href=" <%- raw_link(page.source) %> "> <span class="far fa-edit fa-xs text-dark"></span> </a>
+        <a href=" <%- raw_link(page.source) %> " class="ml-2"> <span class="far fa-edit fa-xs text-dark"></span> </a>
         <br>
+        <% if (!page.hide_date) { %>
         <small class="text-muted subtitle">
                 <%- site.data.translation['updated'] %>  
                 <%- full_date(page.updated, 'Do MMMM YYYY') %>  
         </small>
+        <% } %>
     </h1>
 
     <% if (page.topshare) { %>
