@@ -27,60 +27,78 @@ comments: false
     </div>
 
     <br>
+
+    <div class="alert alert-danger" role="alert" class>
+        Nous ne sommes pas en mesure d'accepter les notifications de tiers à travers cet outil. 
+        Veuillez rediriger le titulaire des droits vers cette page ou contactez nous par courriel 
+        en suivant les instructions à l'adresse suivante: 
+        <a href="https://cinetimes.org/apropos/copyright/">https://cinetimes.org/apropos/copyright/</a>
+    </div>
+
     <h4>Vidéo à supprimer</h4>
     <div class="row">
         <div class="col">
             <label>
+                    URL de la vidéo présumée en infraction à supprimer :
+                    <input type="url" class="form-control" required required>
+            </label>
+        </div>
+    </div>
+
+    <h4>Vos information</h4>
+    <div class="row">
+        <div class="col">
+            <label>
                 Nom du titulaire des droits d'auteur (Nom légal du titulaire ou nom de l'entreprise)
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" required>
             </label>
             <label>
                     Status, titre ou poste vous autorisant à déposer cette réclamation
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" required>
             </label>
             <label>
                     Adresse e-mail principale :
-                <input type="email" class="form-control">
+                <input type="email" class="form-control" required>
             </label>
             <label>
                     Adresse e-mail secondaire :
-                <input type="email" class="form-control">
+                <input type="email" class="form-control" required>
             </label>
             <label>
                 Téléphone
-                <input type="tel" class="form-control" id="code_postal">
+                <input type="tel" class="form-control" required id="code_postal">
             </label>
         </div>
         <div class="col">
             <label>
                 Votre nom légal complet (vos nom et prénom, pas le nom d'une entreprise) :
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" required>
             </label>
             <label>
                 Adresse postale :
-                <input type="text" class="form-control" id="adress1">
-                <input type="text" class="form-control" id="adress2">
+                <input type="text" class="form-control" required id="adress1">
+                <input type="text" class="form-control" required id="adress2">
             </label>
             <label>
                 Ville
-                <input type="text" class="form-control" id="city">
+                <input type="text" class="form-control" required id="city">
             </label>
             <div class="row">
                 <div class="col">
                     <label>
                         Province
-                        <input type="text" class="form-control" id="province">
+                        <input type="text" class="form-control" required id="province">
                     </label>
                 </div>
                 <div class="col">
                     <label>
                         Code Postal
-                        <input type="text" class="form-control" id="code_postal">
+                        <input type="text" class="form-control" required id="code_postal">
                     </label>
                 </div>
             </div>
             <label for="country">Pays :</label>
-            <select id="country" name="country" class="simple-value-validation" data-mark-required="id_country_select_field">
+            <select id="country" name="country" class="simple-value-validation" data-mark-required="id_country_select_field" required>
                     <option value="">
                         Sélectionnez un pays&nbsp;:
                     </option>
@@ -343,7 +361,3 @@ comments: false
     </div>
     
 </form>
-
-<script>
-
-</script>

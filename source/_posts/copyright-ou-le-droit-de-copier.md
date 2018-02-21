@@ -3,8 +3,6 @@ tmdb_id: '74174'
 title: 'COPYRIGHT, ou le droit de copier'
 original_title: '¡Copiad, Malditos!'
 author: Stéphane M. Grueso
-poster_path: 'https://image.tmdb.org/t/p/original/tMCoE4usNC4DYPQS7E303mea3vY.jpg'
-backdrop_path: 'https://image.tmdb.org/t/p/original/7GN4ThXcOfha2EIComY4W6q2rjf.jpg'
 img_name: copiadMalditos.jpg
 release_date: '2011-03-11'
 synopsis: >-
