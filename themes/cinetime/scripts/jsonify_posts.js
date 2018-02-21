@@ -11,7 +11,8 @@ hexo.extend.generator.register('json-content', site => {
 			title: post.title,
 			author: post.author,
 			img: post.img_name,
-			url: post.permalink
+      url: post.permalink,
+      tmdb_id: post.tmdb_id,
     };
     json.push(item);
   })
