@@ -1,18 +1,18 @@
-# backend:
-#   name: git-gateway
-#   branch: netlify # Branch to update (optional; defaults to master)
-
-
 backend:
-  name: github
-  repo: cinetimes/cinetimes-fr # Path to your Github repository
-  branch: netlify
+  name: git-gateway
+  branch: netlify # Branch to update (optional; defaults to master)
+
+
+# backend:
+#   name: github
+#   repo: cinetimes/cinetimes-fr # Path to your Github repository
+#   branch: netlify
 
 
 
 publish_mode: editorial_workflow
 media_folder: "themes/cinetime/source/img/cover" # Media files will be stored in the repo under images/uploads
-public_folder: "/img/cover/" # The src attribute for uploaded media will begin with /images/uploads
+public_folder: "" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
   - name: "post" # Used in routes, e.g., /admin/collections/blog
@@ -37,15 +37,11 @@ collections:
         name: "tags"
         widget: "list"
         default: ["Action", "Aventure", "Animation"]
-      - label: "Liens vers la vidéo"
-        name: "videos"
-        widget: "object"
-        fields:
-          - {label: "Youtube", name: "youtube_url", widget: "string"}
-          - {label: "Vimeo", name: "vimeo_url", widget: "string"}
-          - {label: "Archive.org", name: "archive_url", widget: "string"}
-          - {label: "Dailymotion", name: "dailymotion_url", widget: "string"}
-          - {label: "Webtorrent (lien magnet)", name: "webtorrent_magnet", widget: "string"}
+      - {label: "Youtube", name: "youtube_url", widget: "string"}
+      - {label: "Vimeo", name: "vimeo_url", widget: "string"}
+      - {label: "Archive.org", name: "archive_url", widget: "string"}
+      - {label: "Dailymotion", name: "dailymotion_url", widget: "string"}
+      - {label: "Webtorrent (lien magnet)", name: "webtorrent_magnet", widget: "string"}
       - label: "Acteurs"
         name: "cast"
         widget: "list"
@@ -53,7 +49,7 @@ collections:
       - label: "Équipe Technique"
         name: "crew"
         widget: "list"
-        default: ["Charles Chaplin", "James, Cameron", "..."]
+        default: ["Charles Chaplin", "James Cameron", "..."]
 
 
 
@@ -83,3 +79,12 @@ collections:
     #         widget: "select"
     #         options: ["Action", "Aventure", "Comédie", "Comédie Dramatique", "Crime", "Drame", "Espionnage", "Épouvante-Horreur", "Fantastique", "Guerre", "Histoire", "Muet", "Policier", "Propagande", "Romance", "Science-Fiction", "Thriller", "Western", ]
  
+      # - label: "Liens vers la vidéo"
+      #   name: "videos"
+      #   widget: "object"
+      #   fields:
+      #     - {label: "Youtube", name: "youtube_url", widget: "string"}
+      #     - {label: "Vimeo", name: "vimeo_url", widget: "string"}
+      #     - {label: "Archive.org", name: "archive_url", widget: "string"}
+      #     - {label: "Dailymotion", name: "dailymotion_url", widget: "string"}
+      #     - {label: "Webtorrent (lien magnet)", name: "webtorrent_magnet", widget: "string"}
