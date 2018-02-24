@@ -12,7 +12,7 @@ backend:
 
 publish_mode: editorial_workflow
 media_folder: "themes/cinetime/source/img/cover" # Media files will be stored in the repo under images/uploads
-public_folder: "" # The src attribute for uploaded media will begin with /images/uploads
+public_folder: "/img/" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
   - name: "post" # Used in routes, e.g., /admin/collections/blog
@@ -28,7 +28,7 @@ collections:
       - {label: "Réalisateur", name: "author", widget: "string"}
       - {label: "Date de sortie", name: "release_date", widget: "date", format: "MMM Do YY"}
       - {label: "Synopsis", name: "synopsis", widget: "text"}
-      - {label: "Image de Couverture", name: "img_name", widget: "image"}
+      - {label: "Image de Couverture", name: "img_path", widget: "image"}
       - {label: "Note de 1 à 10", name: "rating", widget: "number", min: "0", max: "10", valueType: "float"}
       - label: "Categorie"
         name: "category"
