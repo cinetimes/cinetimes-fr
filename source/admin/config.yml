@@ -38,11 +38,11 @@ collections:
         name: "tags"
         widget: "list"
         default: ["Action", "Aventure", "Animation"]
-      - {label: "Youtube", name: "youtube_url", widget: "string"}
-      - {label: "Vimeo", name: "vimeo_url", widget: "string"}
-      - {label: "Archive.org", name: "archive_url", widget: "string"}
-      - {label: "Dailymotion", name: "dailymotion_url", widget: "string"}
-      - {label: "Webtorrent (lien magnet)", name: "webtorrent_magnet", widget: "string"}
+      - {label: "Youtube", name: "youtube_url", widget: "string", required: false}
+      - {label: "Vimeo", name: "vimeo_url", widget: "string", required: false}
+      - {label: "Archive.org", name: "archive_url", widget: "string", required: false}
+      - {label: "Dailymotion", name: "dailymotion_url", widget: "string", required: false}
+      - {label: "Webtorrent (lien magnet)", name: "webtorrent_magnet", widget: "string", required: false}
       # - label: "Acteurs"
       #   name: "cast"
       #   widget: "list"
