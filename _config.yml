@@ -29,6 +29,8 @@ code_dir: downloads/code
 i18n_dir:
 skip_render:
   - README.md
+  - admin/**
+  - source/admin/**
 
 # Writing
 new_post_name: :title.md # File name of new posts

@@ -1,0 +1,54 @@
+backend:
+  name: git-gateway
+  branch: source # Branch to update (optional; defaults to master)
+  site_domain: cms.netlify.com
+
+# backend:
+#   name: github
+#   repo: cinetimes/cinetimes-fr # Path to your Github repository
+#   branch: source
+#   site_domain: cinetimes.org
+
+
+publish_mode: editorial_workflow
+media_folder: "themes/cinetime/source/img/cover" # Media files will be stored in the repo under images/uploads
+public_folder: "/img/cover/" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "post" # Used in routes, e.g., /admin/collections/blog
+    label: "post" # Used in the UI
+    folder: "/source/_posts/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Titre Original", name: "original_title", widget: "string"}
+      - {label: "Réalisateur", name: "author", widget: "string"}
+      - {label: "Date de sortie", name: "release_date", widget: "date", format:"MMM Do YY"}
+      # - {label: "Image de Couverture", name: "thumbnail", widget: "image"}
+      - {label: "Image de Couverture", name: "img_name", widget: "image"}
+      - {label: "Note ( 1 à 10 )", name: "rating", widget: "number"}
+      - label: "Categorie"
+        name: "category"
+        widget: "select"
+        options: ["Films", "Dessins Animés", "Documentaires"]
+      - label: "Genre"
+        name: "tags"
+        widget: "select"
+        options: ["Action", "Aventure", "Comédie", "..."]
+      - {label: "Description", name: "synopsis", widget: "markdown"}
+
+
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "blog" # Used in the UI
+    folder: "/source/_posts/blog/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date de sortie", name: "release_date", widget: "datetime"}
+      - {label: "Image de Couverture", name: "thumbnail", widget: "image"}
+      - {label: "Fiche", name: "body", widget: "markdown"}
+
