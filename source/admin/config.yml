@@ -1,13 +1,13 @@
 backend:
   name: git-gateway
-  branch: source # Branch to update (optional; defaults to master)
-  site_domain: cms.netlify.com
+  branch: netlify # Branch to update (optional; defaults to master)
+#   # site_domain: cms.netlify.com
 
 # backend:
 #   name: github
 #   repo: cinetimes/cinetimes-fr # Path to your Github repository
-#   branch: source
-#   site_domain: cinetimes.org
+#   branch: netlify
+  # site_domain: cinetimes.org
 
 
 publish_mode: editorial_workflow
@@ -16,7 +16,7 @@ public_folder: "/img/cover/" # The src attribute for uploaded media will begin w
 
 collections:
   - name: "post" # Used in routes, e.g., /admin/collections/blog
-    label: "post" # Used in the UI
+    label: "Films" # Used in the UI
     folder: "/source/_posts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -26,22 +26,55 @@ collections:
       - {label: "Titre Original", name: "original_title", widget: "string"}
       - {label: "Réalisateur", name: "author", widget: "string"}
       - {label: "Date de sortie", name: "release_date", widget: "date", format:"MMM Do YY"}
+      - {label: "Synopsis", name: "synopsis", widget: "text"}
       # - {label: "Image de Couverture", name: "thumbnail", widget: "image"}
       - {label: "Image de Couverture", name: "img_name", widget: "image"}
-      - {label: "Note ( 1 à 10 )", name: "rating", widget: "number"}
+      - {label: "Note (1 à 10)", name: "rating", widget: "number", min: "0", max: "10", default: "0", valueType: "float"}
       - label: "Categorie"
         name: "category"
         widget: "select"
         options: ["Films", "Dessins Animés", "Documentaires"]
+      - label: "Genres"
+        name: "hello"
+        widget: "list"
+        fields:
+          - label: "Genre"
+            name: "tags"
+            widget: "select"
+            options: ["Action", "Aventure", "Comédie", "Comédie Dramatique", "Crime", "Drame", "Espionnage", "Épouvante-Horreur", "Fantastique", "Guerre", "Histoire", "Muet", "Policier", "Propagande", "Romance", "Science-Fiction", "Thriller", "Western", ]
+      - label: "Lien vers la vidéo"
+        name: "urls"
+        widget: "object"
+        fields:
+          - {label: "Youtube", name: "youtube_url", widget: "string"}
+          - {label: "Vimeo", name: "vimeo_url", widget: "string"}
+          - {label: "Archive.org", name: "archive_url", widget: "string"}
+          - {label: "Dailymotion", name: "dailymotion_url", widget: "string"}
+          - {label: "Webtorrent (lien magnet)", name: "webtorrent_magnet", widget: "string"}
+      - label: "Acteurs"
+        name: "casting"
+        widget: "object"
+        fields:
+          - {label: "Youtube", name: "youtube_url", widget: "string"}
+          - {label: "Vimeo", name: "vimeo_url", widget: "string"}
+          - {label: "Archive.org", name: "archive_url", widget: "string"}
+          - {label: "Dailymotion", name: "dailymotion_url", widget: "string"}
+          - {label: "Webtorrent (lien magnet)", name: "webtorrent_magnet", widget: "string"}
       - label: "Genre"
         name: "tags"
-        widget: "select"
-        options: ["Action", "Aventure", "Comédie", "..."]
-      - {label: "Description", name: "synopsis", widget: "markdown"}
+        widget: "list"
+        default: ["Action", "Aventure", "Animation"]
+
+
+
+
+
+
+      # - {label: "Description", name: "synopsis", widget: "markdown"}
 
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "blog" # Used in the UI
+    label: "Blog" # Used in the UI
     folder: "/source/_posts/blog/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
