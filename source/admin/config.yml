@@ -1,13 +1,13 @@
-backend:
-  name: git-gateway
-  branch: netlify # Branch to update (optional; defaults to master)
-
-
 # backend:
-#   name: github
-#   repo: cinetimes/cinetimes-fr # Path to your Github repository
-#   branch: netlify
-  # site_domain: cinetimes.org
+#   name: git-gateway
+#   branch: netlify # Branch to update (optional; defaults to master)
+
+
+backend:
+  name: github
+  repo: cinetimes/cinetimes-fr # Path to your Github repository
+  branch: netlify
+
 
 
 publish_mode: editorial_workflow
@@ -27,7 +27,6 @@ collections:
       - {label: "Réalisateur", name: "author", widget: "string"}
       - {label: "Date de sortie", name: "release_date", widget: "date", format:"MMM Do YY"}
       - {label: "Synopsis", name: "synopsis", widget: "text"}
-      # - {label: "Image de Couverture", name: "thumbnail", widget: "image"}
       - {label: "Image de Couverture", name: "img_name", widget: "image"}
       - {label: "Note (1 à 10)", name: "rating", widget: "number", min: "0", max: "10", default: "0", valueType: "float"}
       - label: "Categorie"
@@ -38,16 +37,8 @@ collections:
         name: "tags"
         widget: "list"
         default: ["Action", "Aventure", "Animation"]
-      - label: "Genres"
-        name: "tags"
-        widget: "list"
-        fields:
-          - label: "Genre"
-            name: 
-            widget: "select"
-            options: ["Action", "Aventure", "Comédie", "Comédie Dramatique", "Crime", "Drame", "Espionnage", "Épouvante-Horreur", "Fantastique", "Guerre", "Histoire", "Muet", "Policier", "Propagande", "Romance", "Science-Fiction", "Thriller", "Western", ]
       - label: "Liens vers la vidéo"
-        name: "urls"
+        name: "videos"
         widget: "object"
         fields:
           - {label: "Youtube", name: "youtube_url", widget: "string"}
@@ -56,17 +47,13 @@ collections:
           - {label: "Dailymotion", name: "dailymotion_url", widget: "string"}
           - {label: "Webtorrent (lien magnet)", name: "webtorrent_magnet", widget: "string"}
       - label: "Acteurs"
-        name: "casting"
-        widget: "object"
-        fields:
-          - {label: "Youtube", name: "youtube_url", widget: "string"}
-          - {label: "Vimeo", name: "vimeo_url", widget: "string"}
-          - {label: "Archive.org", name: "archive_url", widget: "string"}
-          - {label: "Dailymotion", name: "dailymotion_url", widget: "string"}
-          - {label: "Webtorrent (lien magnet)", name: "webtorrent_magnet", widget: "string"}
-
-
-
+        name: "cast"
+        widget: "list"
+        default: ["Brad Pitt", "..."]
+      - label: "Équipe Technique"
+        name: "crew"
+        widget: "list"
+        default: ["Charles Chaplin", "James, Cameron", "..."]
 
 
 
@@ -86,3 +73,13 @@ collections:
       - {label: "Image de Couverture", name: "thumbnail", widget: "image"}
       - {label: "Fiche", name: "body", widget: "markdown"}
 
+
+    #  - label: "Genres"
+    #     name: "tags"
+    #     widget: "list"
+    #     fields:
+    #       - label: "Genre"
+    #         name: tags
+    #         widget: "select"
+    #         options: ["Action", "Aventure", "Comédie", "Comédie Dramatique", "Crime", "Drame", "Espionnage", "Épouvante-Horreur", "Fantastique", "Guerre", "Histoire", "Muet", "Policier", "Propagande", "Romance", "Science-Fiction", "Thriller", "Western", ]
+ 
