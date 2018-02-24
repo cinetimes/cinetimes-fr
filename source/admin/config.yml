@@ -35,11 +35,10 @@ collections:
         widget: "select"
         options: ["Films", "Dessins Animés", "Documentaires"]
       - label: "Genres"
-        name: "hello"
+        name: "tags"
         widget: "list"
         fields:
           - label: "Genre"
-            name: "tags"
             widget: "select"
             options: ["Action", "Aventure", "Comédie", "Comédie Dramatique", "Crime", "Drame", "Espionnage", "Épouvante-Horreur", "Fantastique", "Guerre", "Histoire", "Muet", "Policier", "Propagande", "Romance", "Science-Fiction", "Thriller", "Western", ]
       - label: "Lien vers la vidéo"
