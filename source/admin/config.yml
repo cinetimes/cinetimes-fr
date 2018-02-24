@@ -21,14 +21,15 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
+      - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Titre Original", name: "original_title", widget: "string"}
       - {label: "Réalisateur", name: "author", widget: "string"}
-      - {label: "Date de sortie", name: "release_date", widget: "date", format:"MMM Do YY"}
+      - {label: "Date de sortie", name: "release_date", widget: "date", format: "MMM Do YY"}
       - {label: "Synopsis", name: "synopsis", widget: "text"}
       - {label: "Image de Couverture", name: "img_name", widget: "image"}
-      - {label: "Note (1 à 10)", name: "rating", widget: "number", min: "0", max: "10", default: "0", valueType: "float"}
+      - {label: "Note de 1 à 10", name: "rating", widget: "number", min: "0", max: "10", valueType: "float"}
       - label: "Categorie"
         name: "category"
         widget: "select"
@@ -42,19 +43,17 @@ collections:
       - {label: "Archive.org", name: "archive_url", widget: "string"}
       - {label: "Dailymotion", name: "dailymotion_url", widget: "string"}
       - {label: "Webtorrent (lien magnet)", name: "webtorrent_magnet", widget: "string"}
-      - label: "Acteurs"
-        name: "cast"
-        widget: "list"
-        default: ["Brad Pitt", "..."]
-      - label: "Équipe Technique"
-        name: "crew"
-        widget: "list"
-        default: ["Charles Chaplin", "James Cameron", "..."]
-
-
-
-
-      # - {label: "Description", name: "synopsis", widget: "markdown"}
+      # - label: "Acteurs"
+      #   name: "cast"
+      #   widget: "list"
+      #   default: ["Brad Pitt", "..."]
+      - {label: "Acteurs", name: "cast", widget: "string", default: "Brad Pitt, ..."}
+      # - label: "Équipe Technique"
+      #   name: "crew"
+      #   widget: "list"
+      #   default: ["Charles Chaplin", "James Cameron", "..."]
+      - {label: "Équipe Technique", name: "crew", widget: "string", default: "Charles Chaplin, James Cameron, ..."}
+      - {label: "Description (optionnel)", name: "content", widget: "markdown", required: false}
 
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
