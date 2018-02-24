@@ -39,6 +39,7 @@ collections:
         widget: "list"
         fields:
           - label: "Genre"
+          
             widget: "select"
             options: ["Action", "Aventure", "Comédie", "Comédie Dramatique", "Crime", "Drame", "Espionnage", "Épouvante-Horreur", "Fantastique", "Guerre", "Histoire", "Muet", "Policier", "Propagande", "Romance", "Science-Fiction", "Thriller", "Western", ]
       - label: "Lien vers la vidéo"
@@ -59,10 +60,10 @@ collections:
           - {label: "Archive.org", name: "archive_url", widget: "string"}
           - {label: "Dailymotion", name: "dailymotion_url", widget: "string"}
           - {label: "Webtorrent (lien magnet)", name: "webtorrent_magnet", widget: "string"}
-      - label: "Genre"
-        name: "tags"
-        widget: "list"
-        default: ["Action", "Aventure", "Animation"]
+      # - label: "Genre"
+      #   name: "tags"
+      #   widget: "list"
+      #   default: ["Action", "Aventure", "Animation"]
 
 
 
