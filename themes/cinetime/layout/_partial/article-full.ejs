@@ -68,8 +68,11 @@
 						</div> -->
 					</div>
 
-					<div class="videoDescription px-4 text-left">
+					<div class="videoDescription px-4 text-left d-flex justify-content-between">
 						<h1 class="py-2 mb-0" id="video-title"><%- item.title %></h1>
+						<div class="text-right my-auto">
+								<a href=" <%- raw_link(page.source) %> "> <i class="far fa-edit text-dark"></i> </a>
+						</div>
 					</div>
 					
 					<span id="magnet" class="d-none"><%- item.webtorrent_magnet %></span>
@@ -121,9 +124,6 @@
 							</div>
 							
 						<% } %>
-						<div class="text-right px-3">
-								<a href=" <%- raw_link(page.source) %> "> <i class="far fa-edit text-dark"></i> </a>
-						</div>
 
 						<!-- Google ad -->
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
