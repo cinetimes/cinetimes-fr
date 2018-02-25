@@ -1,10 +1,13 @@
-_id: ff0e9b90-1440-11e8-bad5-27d0ae215d77
+---
 tmdb_id: '250658'
-title: 'Comment for {fields.slug} at {@timestamp}'
-original_title: 'The Internet''s Own Boy: The Story of Aaron Swartz'
+title: >-
+  The Internet's Own Boy: L'histoire d'Aaron Swartz
+original_title: >-
+  The Internet's Own Boy: The Story of Aaron Swartz
 author: Brian Knappenberger
-poster_path: 'https://image.tmdb.org/t/p/original/sfhevmkFxxYiDy3E2uH6Hmq5mlv.jpg'
+img_name: InternetOwnBoy.jpg
 release_date: '2014-06-27'
+lang: ["VOSTES", "FR"]
 synopsis: >-
   Ce film raconte l'histoire de Aaron Swartz, programmeur de génie et activiste
   de l'information. Depuis l'aide qu'il a apporté au développement de RSS, l'un
@@ -18,14 +21,14 @@ synopsis: >-
   lesquelles il était une célébrité. Ce film est une histoire personnelle à
   propos de ce que nous perdons lorsque nous restons sourds à la technologie et
   à ses relations à nos libertés civiles.
-genres: 'Crime,Documentaire'
-youtube_url: ''
+category:
+- Documentaires
+tags:
+- Crime
+youtube_url: 'https://www.youtube.com/watch?v=y_CQATGOX2w'
 vimeo_url: 'https://vimeo.com/101275885'
 archive_url: ''
-webtorrent_magnet:
-  - ''
-  - ''
-backdrop_path: 'https://image.tmdb.org/t/p/original/7QKfwBGPORgHY5UfP5Dn46L687P.jpg'
+webtorrent_magnet: 
 cast: 'Aaron Swartz,Tim Berners-Lee,Cory Doctorow,Peter Eckersley,Lawrence Lessig'
 crew: >-
   Brian Knappenberger,Brian Knappenberger,Brian Knappenberger,Brian
@@ -34,6 +37,5 @@ imdb_id: tt3268458
 adult: 'false'
 date: '2018-02-18T00:16:42.872Z'
 slug: the-internets-own-boy-lhistoire-daaron-swartz
-approved: false
 layout: post
-message: ' '
+---
