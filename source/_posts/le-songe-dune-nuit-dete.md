@@ -1,19 +1,21 @@
-_id: 2a606b50-143e-11e8-bad5-27d0ae215d77
+---
 tmdb_id: '2796'
-title: 'Comment for {fields.slug} at {@timestamp}'
+title: Le Songe d'une nuit d'été
 original_title: Le Songe d'une nuit d'été
 author: Jean-Christophe Averty
-poster_path: 'https://image.tmdb.org/t/p/original/sNt9GpjstC3ZO5wlfrrHszKfK3B.jpg'
+img_name: leSongedUneNuitdEte.jpg
 release_date: '1969-12-25'
-synopsis: ''
-genres: Comédie
+synopsis: >-
+  Le Songe d'une nuit d'été est un téléfilm de Jean-Christophe Averty d'après la pièce Le Songe d'une nuit d'été de William Shakespeare. Il est diffusé pour la première fois le 25 décembre 1969.
+  Ce téléfilm féerique constitue l'une des premières œuvres de l'art vidéo. -Wikipédia
+tags: 
+- Comédie
+category:
+- Films
 youtube_url: ''
 vimeo_url: ''
 archive_url: 'https://archive.org/embed/LeSongeDuneNuitDtt1969DrouotJadeDelaroche'
 webtorrent_magnet:
-  - ''
-  - ''
-backdrop_path: 'https://image.tmdb.org/t/p/originalnull'
 cast: >-
   Claude Jade,Christine Delaroche,Jean-Claude Drouot,Christiane Minazzoli,Michel
   Ruhl
@@ -24,4 +26,4 @@ date: '2018-02-17T23:56:26.954Z'
 slug: le-songe-dune-nuit-dete
 approved: false
 layout: post
-message: ' '
+---
