@@ -150,9 +150,32 @@
 
 		<div class="col-lg-4 col-xs-12">
 				<div class="d-flex flex-column">
+
+					<!-- Adsense ADS -->
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Related-Media -->
+					<ins class="adsbygoogle"
+						style="display:block"
+						data-ad-client="ca-pub-3093835180445554"
+						data-ad-slot="9851887562"
+						data-ad-format="auto"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+
 					<ul class="list-unstyled mt-3">
 						<% list_related_posts({maxCount: 12}).forEach(function(post) { %>
 							<% if(post.layout != 'blog-post') { %>
+								<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<ins class="adsbygoogle"
+									style="display:block"
+									data-ad-format="fluid"
+									data-ad-layout-key="-hl+2+9-1i+1i"
+									data-ad-client="ca-pub-3093835180445554"
+									data-ad-slot="1571795069"></ins>
+								<script>
+									(adsbygoogle = window.adsbygoogle || []).push({});
+								</script> -->
 								<li class="media mb-3">
 									<a href="<%- url_for(post.path) %>" class="next-link" title="<%- post.title %>">
 										<img class="mr-3" width="168" height="95" src="<%- url_for('img/')%>next_<%- post.img_name %>" alt="<%- post.title + ', ' + site.data.metadata.alt_intro %>">
