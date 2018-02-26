@@ -1,7 +1,7 @@
 ---
 layout: blog-post
-title: "67 Films Gratuits en Français à Voir en Streaming"
-serp: "67 Films Gratuits en Français à Voir en Streaming (où à Télécharger)"
+title: "70 Films Gratuits en Français à Voir en Streaming"
+serp: "70 Films Gratuits en Français à Voir en Streaming (où à Télécharger)"
 description: "Des Films gratuits. Ça vous tente ? Tant mieux car des millers de films sont tombés dans le domaine public et n'attendent plus que vous. Des Films gratuits en français etc."
 share: true
 topshare: true
@@ -13,8 +13,6 @@ updated: 02/11/2018
 # films streaming gratuit illimité      100k - 1M
 # film streaming gratuit                10k - 100k
 # telecharger film gratuit              10k - 100k
-# 39 Films en streaming (À voir et télécharger gratuitement)
-# 39 Films Gratuits À Voir en streaming (ou à télécharger)
 ---
 
 Des Films gratuits. Ça vous tente?
@@ -52,6 +50,8 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 
 - **La Question** [Gratuit](https://archive.org/details/algeria_memory) - Adaptation du livre homonyme d'Henri Alleg, La question est un film français, réalisé Laurent Heynemann, sorti en 1977 avec une interdiction aux moins de 18 ans.
 
+- **La Marie du port** - [Gratuit](https://archive.org/details/LaMarieDuPort1950) Film en français, genre Drame et policier, de  Marcel Carné avec Jean Gabin. Sorti en 1950.
+
 - **La Rivière** - [Gratuit](https://archive.org/details/La.Riviere.2001) - Il n'y a plus que des femmes, les hommes ont disparu court métrage réalisé par Michel Houellebecq et diffusé pour la première fois en 2001.
 
 - **La souriante madame Beudet** - [Gratuit](https://archive.org/details/LaSourianteMadameBeudet) - Le premier véritable film féministe. Film muet français réalisé par Germaine Dulac. (1923) 
@@ -75,6 +75,8 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 
 - **Le Petit Monde de Don Camillo** - [Gratuit](https://cinetimes.org/le-petit-monde-de-don-camillo/) - Film franco-italien de Julien Duvivier avec Fernandel et Gino Cervi dans les rôles principaux. En raison de son succès, [quatre suites](https://www.amazon.fr/gp/product/B00KQ6EUQS/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=ctimes-21&creative=6746&linkCode=as2&creativeASIN=B00KQ6EUQS&linkId=73eeb7524aba6b3f05e7fd115820a99a) ont été tournées. (1952)
 
+- **Les Portes de la nuit** - [Gratuit](https://archive.org/details/LesPortesDeLaNuit1946) Film dramatique de Marcel Carné avec Pierre Brasseur, sorti en 1946
+
 - **Les Vieux de la vieille** [Gratuit](https://archive.org/details/LesVieuxDeLaVieille-1960-GillesGrangier) - Adaptation du roman éponyme de René Fallet, réalisé par Gilles Grangier en 1960
 
 - **Ménilmontant** - [Gratuit](https://cinetimes.org/menilmontant/) - Film muet ne contenant pas d'intertitres. C'est le film le plus connu de Dimitri Kirsanoff. Il tire son nom du quartier de Ménilmontant à Paris.(1926)
@@ -85,6 +87,8 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 *autres liens: *[partie 1](https://www.youtube.com/watch?v=nTmKQ-JsJkA) - [partie 2](https://www.youtube.com/watch?v=xSyhjnU2gt0)*
 
 - **Nuit noire, 17 octobre 1961** - [Gratuit](https://archive.org/details/algeria_memory) - Téléfilm français réalisé par Alain Tasma
+
+- **Rue des prairies** (1959) - [Gratuit](https://archive.org/details/RueDesPrairies1959) Comédie dramatique de Denys de La Patellière avec Renée Faure, Paul Frankeur et Roger Treville
 
 - **Touchez pas au grisbi** - [Gratuit](https://archive.org/details/TouchezPasAuGrisbi-1954-JacquesBecker) - Film français de Jacques Becker, adaptation du roman homonyme d'Albert Simonin. Jean Gabin remporte la Coupe Volpi pour la meilleure interprétation masculine, pour son incarnation de Max le menteur dans le film. (1954)
 
@@ -98,6 +102,7 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 - **Va, vis et deviens** [Gratuit](https://archive.org/details/Va.Vis.Et.Deviens.ethiopie.juive.French) - Film dramatique franco-israélien réalisé par Radu Mihaileanu. Basé sur l'histoire vraie des Falashas.
 
 - **Zéro de conduite** - [Gratuit](https://archive.org/details/zero_de_conduite) -  Film français de Jean Vigo pour lequel il s'est inspiré de ses propres souvenirs. Il a été interdit par la censure de sa sortie en 1933 jusqu'en 1945.
+
 
 ## Films Muets
 
@@ -243,30 +248,7 @@ Comédie, drame et romance.
 Max Ophüls avec Claude Dauphin, Gaby Morlay, Madeleine Renaud
 https://archive.org/details/LePlaisir1952
 
-**La Marie du port** (1950) - [Gratuit]()
-Drame et policier.
-Film de Marcel Carné avec Jean Gabin, Julien Carette, Nicole Courcel
-https://archive.org/details/LaMarieDuPort1950
 
-
-
-
-
-
-
-
-
-
-
-**Les Portes de la nuit** (1946) - [Gratuit]()
-Drame.
-Marcel Carné avec Pierre Brasseur, Serge Reggiani, Yves Montand
-https://archive.org/details/LesPortesDeLaNuit1946
-
-**Rue des prairies** (1959) - [Gratuit]()
-Comédie dramatique.
-Denys de La Patellière avec Renée Faure, Paul Frankeur, Roger Treville
-https://archive.org/details/RueDesPrairies1959
 
 **Le Baron de l'écluse** (1960) - [Gratuit]()
 Comédie.
