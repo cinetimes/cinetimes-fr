@@ -1,8 +1,8 @@
 ---
 layout: blog-post
-title: "67 Films Gratuits à Voir en Streaming"
-serp: "67 Films Gratuits À Voir en Streaming (où à Télécharger) - Cinetimes.org"
-description: "Des Films gratuits. Ça vous tente? Tant mieux car des millers de films sont tombés dans le domaine public et n'attendent plus que vous"
+title: "67 Films Gratuits en Français à Voir en Streaming"
+serp: "67 Films Gratuits en Français à Voir en Streaming (où à Télécharger)"
+description: "Des Films gratuits. Ça vous tente ? Tant mieux car des millers de films sont tombés dans le domaine public et n'attendent plus que vous. Des Films gratuits en français etc."
 share: true
 topshare: true
 comments: true
@@ -21,42 +21,21 @@ Des Films gratuits. Ça vous tente?
 
 Plusieurs millers de films sont tombés dans le domaine public...
 
-...vous pouvez maintenant les voir gratuitement en ligne ou les télécharger!
+... des films gratuits en français, des films du domaine public en vostfr, des 'vieux' films gratuits etc.
+
+Vous pouvez maintenant les voir gratuitement en ligne ou les télécharger!
 
 Voici une liste régulièrement mise à jour contenant déja plus de 60 films gratuits à voir en streaming.
 
 Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
-
-- **12 Hommes en colère** - [Gratuit](https://archive.org/details/TWELVE-ANGRY-MEN) - Premier film de Sidney Lumet, sorti en 1957. Nominé aux oscars en 1958. Gagnant du prix Edgar-Allan-Poe du meilleur scénario pour Reginald Rose. 
-
+## Films Gratuits en Français
 - **Archimède le clochard** - [Gratuit](https://archive.org/details/ArchimedeLeClochard-1959-GillesGrangier) - Film français réalisé par Gilles Grangier, avec un scénarion de Jean Gabin qu'il signera de son véritale nom: Jean Moncorgé. Sorti en 1959
 *autres liens: [gratuit](https://www.youtube.com/watch?v=4xreawXS4DU)*
 
-- **Association criminelle** (1955) - [Gratuit](https://archive.org/details/TheBigCombo-Vostr-fr) (The Big Combo) est un [Thriller](http://cinetimes.org/tags/thriller/) [policier](http://cinetimes.org/tags/policier/) sorti en 1955, réalisé par Joseph H. Lewis avec Jean Wallace.
-
-- **Cyrano de Bergerac** - [Gratuit](http://cinetimes.org/cyrano-de-bergerac/) - Une des nombreuses adaptations cinématographiques de la célèbre pièce de théatre éponyme de Edmond Rostand. Réalisé par **Michael Gordon**, sorti en 1950.
-
-- **Decay** - [Gratuit](https://www.youtube.com/watch?v=n-NwLUPZWZc) - Film HD de zomies réalisé par des doctorants en physique au Grand collisionneur de hadrons (Large Hadron Collider ou LHC) , sous license creative commons (2012) [télécharger](http://www.decayfilm.com/pages/download.html)
-
-- **Détour** - [Gratuit](https://archive.org/details/DetourVostfr) - Film noir réalisé par Edgar George Ulmer, Adaptation du roman éponyme de Martin Goldsmith. Sorti en 1945.
-
-- **De près, personne n'est normal** - [Gratuit](https://vimeo.com/65807754) - Film Espagnol sorti en 2009, réalisé par Marcelo Mosenson. 
-
 - **En attendant Godot** [Gratuit](https://archive.org/details/SamuelBeckett_En-attendant-Godot) - Pièce de théatre en français écrite en 1948 par l'écrivain, poète et dramaturge irlandais *Samuel Beckett*.
 
-- **Faust, une légende allemande** - [Gratuit](http://cinetimes.org/faust-friedrich-wilhelm-murnau-1926/) - Film de 1926, réalisé par Friedrich Wilhelm Murnau. Un démon nommé Mephisto pari avec Dieu qu'il peut corrompre une âme humaine.
-
-- **Il marchait la nuit** (1948) - [Gratuit](https://archive.org/details/HeWalkedByNight) (He Walked By Night) est un [Thriller](http://cinetimes.org/tags/thriller/)  [policier](http://cinetimes.org/tags/policier/) réalisé par Alfred Werker et Anthony Mann avec Richard Basehart sorti en 1948.
-
-- **Ivan le Terrible** - [Gratuit partie 1](https://www.youtube.com/watch?v=kyGVNXC9yzo) [Gratuit partie 2](https://www.youtube.com/watch?v=XEfDe4fvfFA) - Film épique réalisé par Sergueï Eisenstein. Ce fut son dernier film. La première partie est sortie en 1945. La deuxième, bloquée par la censure n'est sortie que 13 ans plus tard en 1958, bénéficiant au passage de certaines scènes en couleur.
-
-- **L'Ange et le mauvais garçon** - [Gratuit](https://archive.org/details/LangeEtLeMauvaisGaronVostr-fr) Romance et western sorti en 1947 réalisé par James Edward Grant avec John Wayne
-
 - **L'Atlante** - [Gratuit](https://archive.org/details/JeanVigoLAtalante19342) - Film Français réalisé par Jean Vigo, sorti en 1934. Ce sera son seul long métrage.
-
-- **L'Homme de la rue** - [Gratuit](http://cinetimes.org/L'Homme-de-la-rue/) - Réalisé par Frank Capra, sorti en 1941, a été nommé à L'Oscar de la meilleure histoire originale
-*Autres liens*: [Gratuit](https://upload.wikimedia.org/wikipedia/commons/f/f4/Meet_John_Doe_%281941%29.webm)
 
 - **L'Opium et le Baton** - [Gratuit](https://archive.org/details/algeria_memory) - Film algérien se déroulant pendant la guère d'Algérie réalisé par Ahmed Rachedi, sortie en 1971.
 *autres liens: [gratuit](https://www.youtube.com/watch?v=8fe87a3gzxs)*
@@ -66,18 +45,8 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 - **La Classe Américaine, le grand détournement** [Gratuit](https://vimeo.com/26249810) - Téléfilm français sorti en 1993, composé exclusivement d'extraits de films de Warner Bros afin de créer un film inédit. 
 *Autres liens: [Gratuit](https://www.youtube.com/watch?v=l44WKAtZLjI)*
 
-- **La femme en vert** (1945) - [Gratuit](https://archive.org/details/SherlockHolmes-TheWomanInGreenVost-fr) (The Woman in green) ou Sherlock Holmes et la femme en vert est un film [policier](http://cinetimes.org/tags/policier/) américain sorti en 1945 réalisé par Roy William Neill.
-
-- **La Fille du Docteur Jekyll** - [Gratuit](http://cinetimes.org/La_Fille_du_Docteur_Jekyll/) - Long métrage en [noir et blanc](http://cinetimes.org/categorie/films/#noir_et_blanc) réalisé par Edgar G. Ulmer sorti en 1957
-
 - **La Grêve** - [Gratuit](http://cinetimes.org/la-greve/) - Réalisé en 1924 par le cinéaste Russe *Sergueï Eisenstein*. C'est le premier long métrage qu'il ait réalisé. C'est un remarquable film de propagande destiné à éduquer les masses.
 *Autres liens*: [Gratuit](https://upload.wikimedia.org/wikipedia/commons/c/c9/Strike_%281925%29.webm)
-
-- **La Nuit Des Morts Vivants** - [Gratuit](https://archive.org/details/night_of_the_living_dead_dvd) - Film d'[épouvante](http://cinetimes.org/categorie/films/#epouvante_horreur) réalisé par George A. Romero en 1968. Le succès de ce film a petit budget en a fait le film le plus rentable du cinéma indépendant. Ce film est dans le domaine public suite a un oubli d'insertion du copyright lors d'un changement de titre.
-*Autres liens*: [wikimedia](https://upload.wikimedia.org/wikipedia/commons/2/24/Night_of_the_Living_Dead_%281968%29.webm)
-
-- **La Passion de Jeanne d'Arc** - [Gratuit](https://archive.org/details/DreyersThePassionOfJoanOfArc) - Film francçais réalisé par Carl Theodor Dreyer en 1927. Il fut initialement conçu comme un film parlant, mais les limitations techniques du studio on limité la réalisation à un film [muet](http://cinetimes.org/categorie/films/#muet).
-*Autres liens*: [Internet Archive](https://archive.org/details/DreyersThePassionOfJoanOfArc) - [vimeo](https://vimeo.com/169369684)
 
 - **La Petite marchande d'allumettes** - [Gratuit](https://archive.org/details/theLittleMatchGirllaPetiteMarchandeDallumettes1928 )- Film français réalisé par Jean Renoir, sorti en 1928
 
@@ -87,67 +56,104 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 
 - **La souriante madame Beudet** - [Gratuit](https://archive.org/details/LaSourianteMadameBeudet) - Le premier véritable film féministe. Film muet français réalisé par Germaine Dulac. (1923) 
 
-- **La Vallée de la vengeance** (1951) - [Gratuit](https://archive.org/details/TheVengeanceValley-Vost-fr) - *Vengeance Valley* en anglais est un Western de Richard Thorpe avec Burt Lancaster, Robert Walker, Joanne Dru.
-*autres liens: [Gratuit](https://archive.org/details/TheVengeanceValley-Vost-fr)*
-
-- **Le Banni** - [Gratuit](http://archive.org/details/TheOutlawvostfr) - *The Outlaw* est un western américain de 1943 réalisé et produit par le milliardaire Howard Hughes. 
-*autres liens: [streaming](https://upload.wikimedia.org/wikipedia/commons/3/3f/The_Outlaw_%281943%29.webm)*
-
-- **Le Carnaval des âmes** - [Gratuit](http://cinetimes.org/Le-Carnaval-des-ames/) - Film [Fantastique](http://cinetimes.org/tags/fantastique/) américain réalisé par Herk Harvey, sorti en 1962.
-*Autres liens*: [Gratuit](https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Carnival_of_Souls%2C_1962.ogv/Carnival_of_Souls%2C_1962.ogv.240p.webm)
-
 - **Le Cave se rebiffe** - [Gratuit](https://archive.org/details/LeCaveSeRebiffe-1961-GillesGrangier) - Film français réalisé par Gilles Grangier, tiré du roman homonyme d'Albert Simonin sorti en 1961. Ce film de comédie policière fut un succés public dès sa sortie en salles.
 
-- **Le Clan des Siciliens** - [Gratuit](https://archive.org/details/LeClanDesSiciliens-1969-HenriVerneuil) - Film [policier](http://cinetimes.org/tags/policier/) franco-italien, par le réalisateur et scénariste français Henri Verneuil, Sorti en 1969, il est un succès immédiat en europe, bien qu'il ne réussise a conquérir le public états-unien.
+- **Le Clan des Siciliens** - [Gratuit](https://cinetimes.org/le-clan-des-siciliens/) - Film [policier](http://cinetimes.org/tags/policier/) franco-italien, par le réalisateur et scénariste français Henri Verneuil, Sorti en 1969, il est un succès immédiat en europe, bien qu'il ne réussise a conquérir le public états-unien.
 
 - **Le Fantôme de l'Opéra** - [Gratuit](https://www.bitchute.com/video/n9Xu3GOO6KlI/) - Film américain, réalisé par Rupert Julian, en 1925, d'après le roman fantastique éponyme de Gaston Leroux. 
 *Autres liens*: [Gratuit](https://upload.wikimedia.org/wikipedia/commons/c/c4/The_Phantom_of_the_Opera_%281925%29.webm)
 
-- **Le Livre de la Jungle** - [Gratuit](http://cinetimes.org/le-livre-de-la-jungle-1942/) - Réalisé par Zoltan Korda, tourné avec des animaux sauvages. (1942)
+- **Le Président** [Gratuit](https://cinetimes.org/le-president/) - Film français réalisé par Henri Verneuil. C'est un des rares films de politique-fiction du cinema français(1961)
 
-- **Le Président** [Gratuit](https://archive.org/details/LePresident-1961-HenriVerneuil) - Film français réalisé par Henri Verneuil. C'est un des rares films de politique-fiction du cinema français(1961)
-
-- **Le songe d'une nuit d'été** - [Gratuit](https://archive.org/details/LeSongeDuneNuitDtt1969DrouotJadeDelaroche) - Téléfilm de Jean-Christophe Averty d'après la pièce Le Songe d'une nuit d'été de William Shakespeare. Diffusé pour la première fois en 1969. 
+- **Le songe d'une nuit d'été** - [Gratuit](https://cinetimes.org/le-songe-dune-nuit-dete/) - Téléfilm de Jean-Christophe Averty d'après la pièce Le Songe d'une nuit d'été de William Shakespeare. Diffusé pour la première fois en 1969. 
 
 - **Les Dieux sont tombés sur la tête** [Gratuit](https://vimeo.com/85044941) - Comédie botswanaise et sud-africaine écrite et réalisée par Jamie Uys, sorti en 1980. Gagnant du Grand prix du Festival de Chamrousse 1982
 *Autres liens: [Gratuit](https://archive.org/details/LesDieuxSontTombsSurLaTte)*
 
 - **Les Grandes Familles** [Gratuit](https://www.youtube.com/watch?v=LwjtkPbMc0s) - Film [dramatique](http://cinetimes.org/tags/drame/) en [noir et blanc](http://cinetimes.org/tags/noir-et-blanc/) réalisé par Denys de La Patellière, interprété par Jean Gabin et Pierre Brasseur, Sorti en 1958.
- *Autres liens: [Gratuit](https://archive.org/details/LesGrandesFamilles-1958-DenysDeLaPatelliere)*
+*Autres liens: [Gratuit](https://archive.org/details/LesGrandesFamilles-1958-DenysDeLaPatelliere)*
 
-- **Le juif Süss** - [Gratuit](http://archive.org/details/LeJuifSussVostfr) - *(en allemand : Jud Süß)* est un film de propagande nazie, [antisémite et anti-féministe](https://fr.wikipedia.org/wiki/Le_Juif_S%C3%BCss_(film,_1940) paru en 1940. Lors de sa projection en france en 1941, les étudiants catholiques lyonnais perturbent la projection au cri de : *« Pas de films nazis : rendez-nous nos pommes de terre et gardez vos navets ! »*
-
-- **Le Petit Monde de Don Camillo** - [Gratuit](https://archive.org/details/DonCamillojulienDuvivier1952) - Film franco-italien de Julien Duvivier avec Fernandel et Gino Cervi dans les rôles principaux. En raison de son succès, [quatre suites](https://www.amazon.fr/gp/product/B00KQ6EUQS/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=ctimes-21&creative=6746&linkCode=as2&creativeASIN=B00KQ6EUQS&linkId=73eeb7524aba6b3f05e7fd115820a99a) ont été tournées. (1952)
+- **Le Petit Monde de Don Camillo** - [Gratuit](https://cinetimes.org/le-petit-monde-de-don-camillo/) - Film franco-italien de Julien Duvivier avec Fernandel et Gino Cervi dans les rôles principaux. En raison de son succès, [quatre suites](https://www.amazon.fr/gp/product/B00KQ6EUQS/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=ctimes-21&creative=6746&linkCode=as2&creativeASIN=B00KQ6EUQS&linkId=73eeb7524aba6b3f05e7fd115820a99a) ont été tournées. (1952)
 
 - **Les Vieux de la vieille** [Gratuit](https://archive.org/details/LesVieuxDeLaVieille-1960-GillesGrangier) - Adaptation du roman éponyme de René Fallet, réalisé par Gilles Grangier en 1960
 
-- **Ménilmontant** - [Gratuit](https://archive.org/details/menilmontant1924-25) - Film muet ne contenant pas d'intertitres. C'est le film le plus connu de Dimitri Kirsanoff. Il tire son nom du quartier de Ménilmontant à Paris.(1926)
+- **Ménilmontant** - [Gratuit](https://cinetimes.org/menilmontant/) - Film muet ne contenant pas d'intertitres. C'est le film le plus connu de Dimitri Kirsanoff. Il tire son nom du quartier de Ménilmontant à Paris.(1926)
 
-- **Metropolis** - [Gratuit](http://cinetimes.org/metropolis-fritz-lang/) - Réalisé en 1927 par *Fritz Lang*, un cinéaste autrichien, *Metropolis* est un film de [science fiction](http://cinetimes.org/tags/science-fiction/), [muet](http://cinetimes.org/tags/muet/) et en [noir et blanc](http://cinetimes.org/tags/noir-et-blanc/) écrit par Fritz Lang et sa femme Thea von Harbou.
+- **Morgane et ses nymphes** [Gratuit](https://cinetimes.org/morgane-et-ses-nymphes/) - Film fantastico-érotique français réalisé par Bruno Gantillon, sorti en 1971. La distrubution de ce films est quasi-exclusivement féminine.
 
-- **Morgane et ses nymphes** [Gratuit](https://archive.org/details/GirlSlavesOfMorganaLeFay1971) - Film fantastico-érotique français réalisé par Bruno Gantillon, sorti en 1971. La distrubution de ce films est quasi-exclusivement féminine.
-
-- **Napoléon** - [partie 1](https://www.youtube.com/watch?v=nTmKQ-JsJkA) - [partie 2](https://www.youtube.com/watch?v=xSyhjnU2gt0) - film historique franco-italien exposant la vie de Napoléon de 1769 à 1821. Sorti en 1955
-*autres liens: [Gratuit](https://archive.org/details/Napoleon_)*
+- **Napoléon** - [Gratuit](https://cinetimes.org/morgane-et-ses-nymphes/) - film historique franco-italien exposant la vie de Napoléon de 1769 à 1821. Sorti en 1955
+*autres liens: *[partie 1](https://www.youtube.com/watch?v=nTmKQ-JsJkA) - [partie 2](https://www.youtube.com/watch?v=xSyhjnU2gt0)*
 
 - **Nuit noire, 17 octobre 1961** - [Gratuit](https://archive.org/details/algeria_memory) - Téléfilm français réalisé par Alain Tasma
 
-- **Plus Fort Que Le Diable** - [Gratuit](https://archive.org/details/BeatTheDevilplusFortQueLeDiable-Vost-fr) - Film américano-britannique réalisé par John Huston, sorti en 1953. Son titre original est *Beat the devil*
-
 - **Touchez pas au grisbi** - [Gratuit](https://archive.org/details/TouchezPasAuGrisbi-1954-JacquesBecker) - Film français de Jacques Becker, adaptation du roman homonyme d'Albert Simonin. Jean Gabin remporte la Coupe Volpi pour la meilleure interprétation masculine, pour son incarnation de Max le menteur dans le film. (1954)
 
-- **Un Chien Andalou** - [Gratuit](https://archive.org/details/LuisBunuelUnChienAndalou1928YouTube) - Film de Luis Buñuel inspiré des rêves de Salvador Dalí avec qui il a coscénarisé le film.
+- **Un Chien Andalou** - [Gratuit](https://cinetimes.org/un-chien-andalou/) - Film de Luis Buñuel inspiré des rêves de Salvador Dalí avec qui il a coscénarisé le film.
 *Version restaurée*: [Gratuit](https://vimeo.com/18540575)
 
 - **J'attendrais le suivant** - [Gratuit](https://www.youtube.com/watch?v=VqwgeZooUmQ) - Court-métrage français nominé a la 75e cérémonie des Oscars Meilleur court-métrage mais n'a pas gagné. (2002)
 
-- **Judex** - [Gratuit](https://archive.org/details/Judex1963) Film [Fantastique](http://cinetimes.org/tags/fantastique/) franco-italien réalisé par Georges Franju, sorti en 1963. À reçu la Coupe Jean George Auriol 1963 à l'unanimité du jury.
+- **Judex** - [Gratuit](https://cinetimes.org/judex/) Film [Fantastique](http://cinetimes.org/tags/fantastique/) franco-italien réalisé par Georges Franju, sorti en 1963. À reçu la Coupe Jean George Auriol 1963 à l'unanimité du jury.
 
 - **Va, vis et deviens** [Gratuit](https://archive.org/details/Va.Vis.Et.Deviens.ethiopie.juive.French) - Film dramatique franco-israélien réalisé par Radu Mihaileanu. Basé sur l'histoire vraie des Falashas.
 
 - **Zéro de conduite** - [Gratuit](https://archive.org/details/zero_de_conduite) -  Film français de Jean Vigo pour lequel il s'est inspiré de ses propres souvenirs. Il a été interdit par la censure de sa sortie en 1933 jusqu'en 1945.
 
-##### Alfred Hitchcock
+## Films Muets
+
+- **Faust, une légende allemande** - [Gratuit](http://cinetimes.org/faust-friedrich-wilhelm-murnau-1926/) - Film de 1926, réalisé par Friedrich Wilhelm Murnau. Un démon nommé Mephisto pari avec Dieu qu'il peut corrompre une âme humaine.
+
+- **La Passion de Jeanne d'Arc** - [Gratuit](https://cinetimes.org/la-passion-de-jeanne-darc/) - Film francçais réalisé par Carl Theodor Dreyer en 1927. Il fut initialement conçu comme un film parlant, mais les limitations techniques du studio on limité la réalisation à un film [muet](http://cinetimes.org/categorie/films/#muet).
+*Autres liens*: [Internet Archive](https://archive.org/details/DreyersThePassionOfJoanOfArc) - [vimeo](https://vimeo.com/169369684)
+
+- **Metropolis** - [Gratuit](http://cinetimes.org/metropolis-fritz-lang/) - Réalisé en 1927 par *Fritz Lang*, un cinéaste autrichien, *Metropolis* est un film de [science fiction](http://cinetimes.org/tags/science-fiction/), [muet](http://cinetimes.org/tags/muet/) et en [noir et blanc](http://cinetimes.org/tags/noir-et-blanc/) écrit par Fritz Lang et sa femme Thea von Harbou.
+
+
+## 'Vieux' Films Domaine Public VOSTFR 
+
+- **12 Hommes en colère** - [Gratuit](https://cinetimes.org/12-hommes-en-colere/) - Premier film de Sidney Lumet, sorti en 1957. Nominé aux oscars en 1958. Gagnant du prix Edgar-Allan-Poe du meilleur scénario pour Reginald Rose. 
+
+- **Association criminelle** (1955) - [Gratuit](https://archive.org/details/TheBigCombo-Vostr-fr) (The Big Combo) est un [Thriller](http://cinetimes.org/tags/thriller/) [policier](http://cinetimes.org/tags/policier/) sorti en 1955, réalisé par Joseph H. Lewis avec Jean Wallace.
+
+- **Cyrano de Bergerac** - [Gratuit](http://cinetimes.org/cyrano-de-bergerac/) - Une des nombreuses adaptations cinématographiques de la célèbre pièce de théatre éponyme de Edmond Rostand. Réalisé par **Michael Gordon**, sorti en 1950.
+
+- **Decay** - [Gratuit](https://cinetimes.org/decay/) - Film HD de zomies réalisé par des doctorants en physique au Grand collisionneur de hadrons (Large Hadron Collider ou LHC) , sous license creative commons (2012) [télécharger](http://www.decayfilm.com/pages/download.html)
+
+- **Détour** - [Gratuit](https://archive.org/details/DetourVostfr) - Film noir réalisé par Edgar George Ulmer, Adaptation du roman éponyme de Martin Goldsmith. Sorti en 1945.
+
+- **De près, personne n'est normal** - [Gratuit](https://vimeo.com/65807754) - Film Espagnol sorti en 2009, réalisé par Marcelo Mosenson. 
+
+- **Il marchait la nuit** (1948) - [Gratuit](https://archive.org/details/HeWalkedByNight) (He Walked By Night) est un [Thriller](http://cinetimes.org/tags/thriller/)  [policier](http://cinetimes.org/tags/policier/) réalisé par Alfred Werker et Anthony Mann avec Richard Basehart sorti en 1948.
+
+- **Ivan le Terrible** - [Gratuit partie 1](https://www.youtube.com/watch?v=kyGVNXC9yzo) [Gratuit partie 2](https://www.youtube.com/watch?v=XEfDe4fvfFA) - Film épique réalisé par Sergueï Eisenstein. Ce fut son dernier film. La première partie est sortie en 1945. La deuxième, bloquée par la censure n'est sortie que 13 ans plus tard en 1958, bénéficiant au passage de certaines scènes en couleur.
+
+- **L'Ange et le mauvais garçon** - [Gratuit](https://archive.org/details/LangeEtLeMauvaisGaronVostr-fr) Romance et western sorti en 1947 réalisé par James Edward Grant avec John Wayne
+
+- **L'Homme de la rue** - [Gratuit](http://cinetimes.org/L'Homme-de-la-rue/) - Réalisé par Frank Capra, sorti en 1941, a été nommé à L'Oscar de la meilleure histoire originale
+*Autres liens*: [Gratuit](https://upload.wikimedia.org/wikipedia/commons/f/f4/Meet_John_Doe_%281941%29.webm)
+
+- **La femme en vert** (1945) - [Gratuit](https://archive.org/details/SherlockHolmes-TheWomanInGreenVost-fr) (The Woman in green) ou Sherlock Holmes et la femme en vert est un film [policier](http://cinetimes.org/tags/policier/) américain sorti en 1945 réalisé par Roy William Neill.
+
+- **La Fille du Docteur Jekyll** - [Gratuit](http://cinetimes.org/La_Fille_du_Docteur_Jekyll/) - Long métrage en [noir et blanc](http://cinetimes.org/categorie/films/#noir_et_blanc) réalisé par Edgar G. Ulmer sorti en 1957
+
+- **La Nuit Des Morts Vivants** - [Gratuit](https://archive.org/details/night_of_the_living_dead_dvd) - Film d'[épouvante](http://cinetimes.org/categorie/films/#epouvante_horreur) réalisé par George A. Romero en 1968. Le succès de ce film a petit budget en a fait le film le plus rentable du cinéma indépendant. Ce film est dans le domaine public suite a un oubli d'insertion du copyright lors d'un changement de titre.
+*Autres liens*: [wikimedia](https://upload.wikimedia.org/wikipedia/commons/2/24/Night_of_the_Living_Dead_%281968%29.webm)
+
+- **La Vallée de la vengeance** (1951) - [Gratuit](https://cinetimes.org/la-vallee-de-la-vengeance/) - *Vengeance Valley* en anglais est un Western de Richard Thorpe avec Burt Lancaster, Robert Walker, Joanne Dru.
+
+- **Le Banni** - [Gratuit](https://cinetimes.org/le-banni/) - *The Outlaw* est un western américain de 1943 réalisé et produit par le milliardaire Howard Hughes. 
+*autres liens: [streaming](https://upload.wikimedia.org/wikipedia/commons/3/3f/The_Outlaw_%281943%29.webm)*
+
+- **Le Carnaval des âmes** - [Gratuit](http://cinetimes.org/Le-Carnaval-des-ames/) - Film [Fantastique](http://cinetimes.org/tags/fantastique/) américain réalisé par Herk Harvey, sorti en 1962.
+*Autres liens*: [Gratuit](https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Carnival_of_Souls%2C_1962.ogv/Carnival_of_Souls%2C_1962.ogv.240p.webm)
+
+- **Le Livre de la Jungle** - [Gratuit](http://cinetimes.org/le-livre-de-la-jungle-1942/) - Réalisé par Zoltan Korda, tourné avec des animaux sauvages. (1942)
+
+- **Le juif Süss** - [Gratuit](http://archive.org/details/LeJuifSussVostfr) - *(en allemand : Jud Süß)* est un film de propagande nazie, [antisémite et anti-féministe](https://fr.wikipedia.org/wiki/Le_Juif_S%C3%BCss_(film,_1940) paru en 1940. Lors de sa projection en france en 1941, les étudiants catholiques lyonnais perturbent la projection au cri de : *« Pas de films nazis : rendez-nous nos pommes de terre et gardez vos navets ! »*
+
+- **Plus Fort Que Le Diable** - [Gratuit](https://cinetimes.org/plus-fort-que-le-diable/) - Film américano-britannique réalisé par John Huston, sorti en 1953. Son titre original est *Beat the devil*
+
+## Films d'Alfred Hitchcock
 - **Les 39 Marches** - [Gratuit](http://cinetimes.org/les-39-marches/) - Film Britanique réalisé par Alfred Hitchcock, sorti en 1935, Hitchcock fait un caméo à la septième minute du film. 
 - **Bon Voyage** - [Gratuit](http://cinetimes.org/bon-voyage-alfred-hitchcock/) - Court-métrage de propagande britannique l'un des deux seuls que *Alfred Hitchcock* ait réalisé avec *Aventure Malgache*. Bon voyage est sorti en 1944
 *Autres liens*: [Gratuit](https://archive.org/details/BonVoyage1944)
@@ -157,24 +163,24 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 *Autres liens*: [Gratuit](https://www.bitchute.com/video/aJ84xN3EfKFU/)
 
 
-##### Charles Chaplin
-- **Charlot entre le bar et l'amour** - [Gratuit](https://archive.org/details/CC_1914_03_16_HisFavoritePasttime) - Charlot entre le bar et l'amour ou *Charlot est trop galant* est une comédie américaine de George Nichols avec Charlie Chaplin sortie en 1914.
-- **Charlot garçon de théâtre** - [Gratuit](https://archive.org/details/CC_1914_08_01_CharolotGargonDeTheater) - Comédie burlesque américaine de et avec **Charles Chaplin**, sortie en 1914.
+## Films de Charlie Chaplin
+- **Charlot entre le bar et l'amour** - [Gratuit](https://cinetimes.org/charlot-entre-le-bar-et-lamour/) - Charlot entre le bar et l'amour ou *Charlot est trop galant* est une comédie américaine de George Nichols avec Charlie Chaplin sortie en 1914.
+- **Charlot garçon de théâtre** - [Gratuit](https://cinetimes.org/charlot-garcon-de-theatre/) - Comédie burlesque américaine de et avec **Charles Chaplin**, sortie en 1914.
 - **Le Kid** - [Gratuit](http://cinetimes.org/the-kid-charlie-chaplin-francais/) - *Charles Chaplin* a écrit produit et réalisé *Le kid (The kid en anglais)*. C'est aussi son premier long métrage. Il remporte un succès phénoménal dès sa sortie en 1921.
 *Autres lien: [Gratuit](https://vimeo.com/163164359) - [Gratuit](https://archive.org/details/Brzdac1921) - [Gratuit](https://www.youtube.com/watch?v=TqXfTsagqKw)*
-- **La Ruée Vers l'or** - [Gratuit](https://www.youtube.com/watch?v=nt-_DXC-aik) - Charles Chaplin a écrit, dirigé et joué dans *La ruée vers l'or*. Il est fière de ce film. Charles Chaplin a déclaré a plusieurs reprises que si il y a un film pour lequel on se devait se rapeler de lui, il voudrait que ce soit celui-là.
+- **La Ruée Vers l'or** - [Gratuit](https://cinetimes.org/la-ruee-vers-lor/) - Charles Chaplin a écrit, dirigé et joué dans *La ruée vers l'or*. Il est fière de ce film. Charles Chaplin a déclaré a plusieurs reprises que si il y a un film pour lequel on se devait se rapeler de lui, il voudrait que ce soit celui-là.
 
 
-##### François Truffaut
-- **Tirez sur le pianiste** [Gratuit](https://archive.org/details/TirezSurLePianistefrancoisTruffaut1960) - Film noir français réalisé par François Truffaut, sorti en 1960. Tourné à paris, ce film [Dramatique](http://cinetimes.org/tags/drame/) permettra à Charles Aznavour de gagner en notoriété aux États-Unis.
-- **L’Enfant sauvage** [Gratuit](https://archive.org/details/L.enfant.sauvage) - Film français dramatique inspiré de l'histoire de Victor de l'Aveyron et sorti en 1970. Le réalisateur, François Truffaut utilisa la propriété d'un ami pour tourner une partie du film afin d'être au calme. Il a reçu le prix méliès 1970
+## Films de François Truffaut
+- **Tirez sur le pianiste** [Gratuit](https://cinetimes.org/tirez-sur-le-pianiste/) - Film noir français réalisé par François Truffaut, sorti en 1960. Tourné à paris, ce film [Dramatique](http://cinetimes.org/tags/drame/) permettra à Charles Aznavour de gagner en notoriété aux États-Unis.
+- **L’Enfant sauvage** [Gratuit](https://cinetimes.org/lenfant-sauvage/) - Film français dramatique inspiré de l'histoire de Victor de l'Aveyron et sorti en 1970. Le réalisateur, François Truffaut utilisa la propriété d'un ami pour tourner une partie du film afin d'être au calme. Il a reçu le prix méliès 1970
 
 
-##### Georges Méliès
-- **L'Affaire Dreyfus** - [Gratuit](https://archive.org/details/TheDreyfusAffair_49) -  Film Politique qui traite de manière réaliste l'affaire Dreyfus. Par et avec Georges Méliès. (1899) 
+## Films de Georges Méliès
+- **L'Affaire Dreyfus** - [Gratuit](https://cinetimes.org/laffaire-dreyfus/) -  Film Politique qui traite de manière réaliste l'affaire Dreyfus. Par et avec Georges Méliès. (1899) 
 *autres liens: [streaming](https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/The_Dreyfus_Affair_%281899_film%29.webm/The_Dreyfus_Affair_%281899_film%29.webm.360p.webm)*
 - **Le Voyage dans la Lune** [Gratuit](http://cinetimes.org/le-voyage-dans-la-lune/) - Film de [Science-Fiction](http://cinetimes.org/categorie/films/#science_fiction), réalisé par Georges Méliès, inspiré des romans De la Terre à la Lune de Jules Verne et Les Premiers Hommes dans la Lune de H. G. Wells. (1902)
-- **Le Voyage de Gulliver à Lilliput et chez les géants** - [Gratuit](https://archive.org/details/LeVoyageDeGulliverLilliputEtChezLesGGants) -  film réalisé par Georges Méliès, sorti en 1902.
+- **Le Voyage de Gulliver à Lilliput et chez les géants** - [Gratuit](https://cinetimes.org/le-voyage-de-gulliver-a-lilliput-et-chez-les-geants/) -  film réalisé par Georges Méliès, sorti en 1902.
 - **Le juif errant** - [Gratuit](https://archive.org/details/LeJuifErrant) - Film français réalisé par Georges Méliès, sorti en 1904.
 *autres liens: [streaming](https://www.youtube.com/watch?v=SvmM_YSnWX8)*
 
