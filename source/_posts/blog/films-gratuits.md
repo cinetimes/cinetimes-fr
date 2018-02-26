@@ -2,12 +2,12 @@
 layout: blog-post
 title: "70 Films Gratuits en Français à Voir en Streaming"
 serp: "70 Films Gratuits en Français à Voir en Streaming (où à Télécharger)"
-description: "Des Films gratuits. Ça vous tente ? Tant mieux car des millers de films sont tombés dans le domaine public et n'attendent plus que vous. Des Films gratuits en français etc."
+description: "Des Films gratuits. Ça vous tente ? Tant mieux car des millers de films sont tombés dans le domaine public et n'attendent plus que vous. Des Films gratuits en français..."
 share: true
 topshare: true
 comments: true
 featured: true
-updated: 02/11/2018
+updated: 02/26/2018
 # film gratuit                          100k - 1M
 # film en streaming                     100k - 1M
 # films streaming gratuit illimité      100k - 1M
@@ -23,7 +23,7 @@ Plusieurs millers de films sont tombés dans le domaine public...
 
 Vous pouvez maintenant les voir gratuitement en ligne ou les télécharger!
 
-Voici une liste régulièrement mise à jour contenant déja plus de 60 films gratuits à voir en streaming.
+Voici une liste régulièrement mise à jour contenant déja plus de 70 films gratuits à voir en streaming.
 
 Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
