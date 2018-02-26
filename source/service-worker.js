@@ -1,6 +1,6 @@
 'use strict'
 
-var CACHE_NAME = 'my-site-cache-v6';
+var CACHE_NAME = 'my-site-cache-v7';
 var urlsToCache = [
     '/',
     '/css/style.css',
