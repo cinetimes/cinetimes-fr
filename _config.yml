@@ -96,8 +96,8 @@ deploy:
   branch: master
 
 # open graph
-twitter_site: '@CinetimesFR'
-twitter_creator: '@CinetimesFR'
+twitter_site: 'CinetimesFR'
+twitter_creator: 'CinetimesFR'
 google_plus:
 fb_app_id:
 og_locale: fr_FR
