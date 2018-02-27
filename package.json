@@ -20,6 +20,7 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.2.2",
+    "hexo-tag-tweetable-quote": "^1.0.0",
     "jquery": "^3.2.1",
     "rrssb": "^1.14.0",
     "slick-carousel": "^1.8.1",
