@@ -27,8 +27,9 @@ Voici une liste régulièrement mise à jour contenant déja plus de 70 films gr
 
 Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
+
 ## Films Gratuits en Français
-- **Archimède le clochard** - [Gratuit](https://archive.org/details/ArchimedeLeClochard-1959-GillesGrangier) - Film français réalisé par Gilles Grangier, avec un scénarion de Jean Gabin qu'il signera de son véritale nom: Jean Moncorgé. Sorti en 1959
+- **Archimède le clochard** - [Gratuit](https://archive.org/details/ArchimedeLeClochard-1959-GillesGrangier) - Film français réalisé par Gilles Grangier, avec un scénario de Jean Gabin qu'il signera de son véritale nom: Jean Moncorgé. Sorti en 1959
 *autres liens: [gratuit](https://www.youtube.com/watch?v=4xreawXS4DU)*
 
 - **En attendant Godot** [Gratuit](https://archive.org/details/SamuelBeckett_En-attendant-Godot) - Pièce de théatre en français écrite en 1948 par l'écrivain, poète et dramaturge irlandais *Samuel Beckett*.
@@ -189,12 +190,17 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 - **Le juif errant** - [Gratuit](https://archive.org/details/LeJuifErrant) - Film français réalisé par Georges Méliès, sorti en 1904.
 *autres liens: [streaming](https://www.youtube.com/watch?v=SvmM_YSnWX8)*
 
+  
+{% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %}
+
 ###### Sources utilisées pour créer cette liste:
 - [De grands classiques tombés dans le domaine public - ParisFaitSonCinema](http://www.parisfaitsoncinema.com/autour-du-cinema/culture/classiques-domaine-public.html)
 - [20 films cultes tombés dans le domaine public - apar.tv](http://www.apar.tv/cinema/20-films-cultes-tombes-dans-le-domaine-public-a-decouvrir-en-integralite-ici/)
 - [Youpi ! 6000 films et 180 000 images sont disponibles gratuitement - TV5 Monde](http://information.tv5monde.com/info/web-6000-films-et-180-000-images-disponibles-gratuitement-84641)
 - [1,150 Free Movies Online - Open Culture](http://www.openculture.com/freemoviesonline)
 - [Films dans le Domaine Public - Wikipédia](https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Film_dans_le_domaine_public)
+- [Liste des films disponibles gratuitement - Sens Critique](https://www.senscritique.com/liste/La_liste_des_films_disponibles_gratuitement/495126)
+- [Archive.org](https://archive.org/details/moviesandfilms)
 
 
 
