@@ -111,3 +111,7 @@ autoprefixer:
     - '*.min.css'
   browsers:
     - 'last 2 versions'
+
+sitemap:
+    path: sitemap.xml
+    template: ./sitemap_template.xml
