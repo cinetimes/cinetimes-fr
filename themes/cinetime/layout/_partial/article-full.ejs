@@ -159,9 +159,17 @@
 				<% } %> -->
 		</div>
 
+
+
+
 		<div class="col-lg-4 col-xs-12">
 				<div class="d-flex flex-column">
 					<ul class="list-unstyled mt-3">
+
+							<%-
+							popular_posts( {} , item )
+							%>
+
 						<% var i = 0 %>
 						<% list_related_posts({maxCount: 12}).forEach(function(post) { %>
 							<% if(post.layout != 'blog-post') { %>
