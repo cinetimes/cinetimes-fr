@@ -3,12 +3,14 @@
       categories.push(category.name);
   }); -->
   <%
-  var tags = [];
-  item.tags.forEach(function(tag){
-      tags.push(tag.name);
-  });
+  if (item.tags) {
+    var tags = [];
+    item.tags.forEach(function(tag){
+        tags.push(tag.name);
+    });
+  }
   poster_path = item.poster_path ? item.poster_path : url_for("img/") + 'cover_' + item.img_name ;
-%>
+  %>
 
 
 
