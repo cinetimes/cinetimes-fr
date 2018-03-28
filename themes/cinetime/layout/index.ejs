@@ -44,7 +44,7 @@ const maxCount = 21;
 							<div class="col-12 card-deck y-scroll movie-carousel">
 							<!-- Popular posts -->
 							<% let allPosts = build_popular_posts(env.popularPosts, site) %>
-							<% allPosts = allPosts.slice(0, 21) %>
+							<% allPosts = allPosts.slice(0, maxCount) %>
 							<% allPosts.forEach(post => { %>
 								<%- partial('_partial/article-excerpt', {item: post}) %>
 							<% }) %>
