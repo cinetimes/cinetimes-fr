@@ -957,8 +957,8 @@ a.label:focus {
 
 
 
-/* Making webtorrent (& archive.org iframe) Video keep a 16:9 ratio */
-#video_webtorrent, #nav-archive {
+/* Making webtorrent (& archive.org & dailymotion iframe) Video keep a 16:9 ratio */
+#video_webtorrent, #nav-archive, #nav-dailymotion {
   position: relative;
   padding-bottom: 56.25%; /*16:9*/
   /* padding-top: 30px; */
@@ -970,7 +970,8 @@ a.label:focus {
 #video_webtorrent object,
 #video_webtorrent embed,
 #video_webtorrent video,
-#nav-archive iframe {
+#nav-archive iframe,
+#nav-dailymotion iframe {
   position: absolute;
   top: 0;
   left: 0;
