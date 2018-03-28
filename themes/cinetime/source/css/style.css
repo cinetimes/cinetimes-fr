@@ -1223,6 +1223,7 @@ a.label:focus {
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  max-width: 170px;
 }
 
 .poster-image {
@@ -1269,6 +1270,75 @@ a.label:focus {
     margin: 1em 5px;
   }
  }
+
+
+.movie-carousel-next {
+
+  display: none !important;
+
+  color: black;
+  background: rgba(20,20,20,.5);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 20;
+  width: 4%;
+  text-align: center;
+  border: none;
+  
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+}
+.movie-carousel-prev {
+
+  display: none !important;
+
+  color: black;
+  background: rgba(20,20,20,.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 20;
+  width: 4%;
+  text-align: center;
+  border: none;
+  
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.movie-carousel-next:hover, .movie-carousel-prev:hover {
+  cursor: pointer;
+}
+
+.movie-carousel-next::before {
+  content: '→';
+}
+
+.movie-carousel-prev::before {
+  content: '←';
+}
+
+.movie-carousel:hover > .movie-carousel-next, .movie-carousel:hover > .movie-carousel-prev {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+
+
 
 /* Ridiculously Responsive Social Sharing Buttons CSS
  *
@@ -1359,3 +1429,5 @@ fill: #2aa9e0;
 /* 
  *  END CLICK TO TWEET
  */
+
+

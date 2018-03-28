@@ -16,7 +16,7 @@ function buildPopularPosts(pathAndViews, site) {
                         title: post.title,
                         author: post.author,
                         img_name: post.img_name,
-                        permalink: post.permalink,
+                        path: post.path,
                         viewCount: pathAndView[1]
                     })
                     // console.log(pathAndView[0], ' = ', post.path);
