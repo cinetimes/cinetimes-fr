@@ -1,6 +1,6 @@
 'use strict'
 
-var CACHE_NAME = 'my-site-cache-v8';
+var CACHE_NAME = 'my-site-cache-v9';
 var urlsToCache = [
     '/',
     '/css/style.css',
@@ -15,14 +15,32 @@ var urlsToCache = [
     '/js/carousel.js'
 ];
 
+// self.addEventListener('install', function(event) {
+//     // Preform install steps
+//     event.waitUntil(
+//         caches.open(CACHE_NAME)
+//         .then(function(cache) {
+//             console.log('Opened cache');
+//             return cache.addAll(urlsToCache);
+//         })
+//     );
+// });
+
 self.addEventListener('install', function(event) {
     // Preform install steps
     event.waitUntil(
         caches.open(CACHE_NAME)
-        .then(function(cache) {
-            console.log('Opened cache');
-            return cache.addAll(urlsToCache);
-        })
+        .then((cache) => cache.addAll([
+            new Request('/', { cache: 'no-cache' }),
+            new Request('/css/style.css', { cache: 'no-cache' }),
+            new Request('/bower_components/plyr/dist/plyr.css', { cache: 'no-cache' }),
+            new Request('/bower_components/slick-carousel/slick/slick.css', { cache: 'no-cache' }),
+            new Request('/bower_components/slick-carousel/slick/slick-theme.css', { cache: 'no-cache' }),
+            new Request('/js/app.js', { cache: 'no-cache' }),
+            new Request('/js/bundle.js', { cache: 'no-cache' }),
+            new Request('/bower_components/corejs-typeahead/dist/typeahead.bundle.min.js', { cache: 'no-cache' }),
+            new Request('/js/carousel.js', { cache: 'no-cache' }),
+        ]))
     );
 });
 
@@ -91,7 +109,7 @@ self.addEventListener('fetch', function(event) {
                     caches.open(CACHE_NAME)
                     .then(function(cache) {
                         cache.put(event.request, responseToCache);
-                        console.log('cache new requests cumulatively');
+                        // console.log('cache new requests cumulatively');
                     });
 
                     return response;
