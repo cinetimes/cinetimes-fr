@@ -13,6 +13,7 @@ category:
 tags: 
 - Fantastique
 - Horreur
+- Érotique
 youtube_url: 'https://www.youtube.com/watch?v=5677yai5tKY' #https://www.youtube.com/watch?v=KDz8IKcVtn0
 vimeo_url: ''
 archive_url: 'https://archive.org/embed/GirlSlavesOfMorganaLeFay1971'
