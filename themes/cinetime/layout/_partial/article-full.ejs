@@ -176,26 +176,26 @@
 								
 
 
-						<% var i = 0 %>
+						<% let i = 0 %>
 						<% list_related_posts({maxCount: 12}).forEach(function(post) { %>
 							<% if(post.layout != 'blog-post') { %>
 
 								<%
-								i += 1;
-								if (i == 4 || i == 7 ) {
+								if (i === 0 ) {
+									i++;
 								%>
-								<li class="mb-3">
-								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-								<ins class="adsbygoogle"
-										style="display:block"
-										data-ad-format="fluid"
-										data-ad-layout-key="-el-2z-79-32+1hq"
-										data-ad-client="ca-pub-3093835180445554"
-										data-ad-slot="1571795069"></ins>
-								<script>
-										(adsbygoogle = window.adsbygoogle || []).push({});
-								</script>
-								</li>
+									<li class="mb-3">
+									<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+									<ins class="adsbygoogle"
+											style="display:block"
+											data-ad-format="fluid"
+											data-ad-layout-key="-el-2z-79-32+1hq"
+											data-ad-client="ca-pub-3093835180445554"
+											data-ad-slot="1571795069"></ins>
+									<script>
+											(adsbygoogle = window.adsbygoogle || []).push({});
+									</script>
+									</li>
 								<% } %>
 
 								<li class="media mb-3">
