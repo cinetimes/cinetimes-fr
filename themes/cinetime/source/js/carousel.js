@@ -60,20 +60,49 @@ responsive: [
       settings: 'unslick'
     },
     {
-			breakpoint: 950,
-			settings: 
-			{
-				slidesToShow: 5,
-				slidesToScroll: 4,
-			}
+        breakpoint: 940,
+        settings: 
+        {
+            slidesToShow: 5,
+            slidesToScroll: 4,
+        }
     },
     {
-			breakpoint: 1260,
-			settings: 
-			{
-				slidesToShow: 6,
-				slidesToScroll: 5,
-			}
+        breakpoint: 1120,
+        settings: 
+        {
+            slidesToShow: 6,
+            slidesToScroll: 5,
+        }
     },
+    {
+        breakpoint: 1300,
+        settings: 
+        {
+            slidesToShow: 7,
+            slidesToScroll: 6,
+        }
+    },
+// responsive: [
+//     {
+//       breakpoint: 768,
+//       settings: 'unslick'
+//     },
+//     {
+// 			breakpoint: 950,
+// 			settings: 
+// 			{
+// 				slidesToShow: 5,
+// 				slidesToScroll: 4,
+// 			}
+//     },
+//     {
+// 			breakpoint: 1260,
+// 			settings: 
+// 			{
+// 				slidesToShow: 6,
+// 				slidesToScroll: 5,
+// 			}
+//     },
 ]
 });
