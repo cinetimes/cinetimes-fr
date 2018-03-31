@@ -1241,6 +1241,37 @@ a.label:focus {
   filter: brightness(120%);
 }
 
+/*  */
+@media (max-width: 768px)  {
+  .poster-image img, .poster-image {
+    height: 168.75px !important;
+    width: 127.5px !important;
+  }
+  .poster-title, .title-wrapper button {
+    font-size: 0.8rem;
+  }
+
+  .title-wrapper {
+    margin-top: 10px;
+    /* margin-bottom: 7px; */
+    flex-direction: row !important;
+  }
+
+  .poster-wrapper > a {
+    width: 127.5px;
+  }
+
+  .poster-wrapper {
+    width: 127.5px;
+  }
+
+  .home .row #background h1  {
+    font-size: 1.5rem;
+    margin-bottom: 19px;
+  }
+}
+
+  
 .poster-title {
   margin: auto;
   text-align: center;
