@@ -2,7 +2,7 @@
 tmdb_id: '145977'
 title: Terreur au cirque
 original_title: Terror on the Midway
-author: Dave Fleischer
+author: Superman
 img_name: terrorOnMidway.jpg
 release_date: '1942-08-30'
 synopsis: ''

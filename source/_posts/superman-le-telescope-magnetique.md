@@ -2,7 +2,7 @@
 tmdb_id: '99678'
 title: Le téléscope magnétique
 original_title: The Magnetic Telescope
-author: Dave Fleischer
+author: Superman
 img_name: theMagneticTelescope.jpg
 release_date: '1942-04-24'
 synopsis: ''

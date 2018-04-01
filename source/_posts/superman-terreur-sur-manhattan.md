@@ -2,7 +2,7 @@
 tmdb_id: '145967'
 title: Terreur sur Manhattan
 original_title: Electric Earthquake
-author: Dave Fleischer
+author: Superman
 img_name: electricEarthquake.jpg
 release_date: '1942-05-15'
 synopsis: ''

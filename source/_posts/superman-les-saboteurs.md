@@ -2,7 +2,7 @@
 tmdb_id: '71128'
 title: Les saboteurs
 original_title: Japoteurs
-author: Seymour Kneitel
+author: Superman
 img_name: japoteurs.jpg
 release_date: '1942-09-17'
 synopsis: ''

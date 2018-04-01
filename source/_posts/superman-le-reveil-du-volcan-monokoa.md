@@ -2,7 +2,7 @@
 tmdb_id: '145969'
 title: Le réveil du volcan Monokoa
 original_title: Volcano
-author: Dave Fleischer
+author: Superman
 img_name: volcano.jpg
 release_date: '1942-07-10'
 synopsis: ''

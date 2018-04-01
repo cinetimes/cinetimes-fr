@@ -2,7 +2,7 @@
 tmdb_id: '145931'
 title: L'attaque du train postal
 original_title: Billion Dollar Limited
-author: Dave Fleischer
+author: Superman
 img_name: billionDollarLimited.jpg
 release_date: '1942-01-09'
 synopsis: ''

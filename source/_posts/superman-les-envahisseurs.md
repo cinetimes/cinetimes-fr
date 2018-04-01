@@ -2,7 +2,7 @@
 tmdb_id: '145963'
 title: Les envahisseurs
 original_title: The Bulleteers
-author: Dave Fleischer
+author: Superman
 img_name: bulleteers.jpg
 release_date: '1942-03-26'
 synopsis: ''

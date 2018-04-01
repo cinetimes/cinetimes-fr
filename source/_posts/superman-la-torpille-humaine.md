@@ -2,7 +2,7 @@
 tmdb_id: '146059'
 title: La torpille humaine
 original_title: 'Destruction, Inc.'
-author: Izzy Sparber
+author: Superman
 img_name: destructionInc.jpg
 release_date: '1942-12-25'
 synopsis: ''

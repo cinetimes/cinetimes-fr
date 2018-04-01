@@ -2,7 +2,7 @@
 tmdb_id: '146062'
 title: Les tambours de la jungle
 original_title: Jungle Drums
-author: Dan Gordon
+author: Superman
 img_name: jungleDrums.jpg
 release_date: '1943-03-26'
 synopsis: ''

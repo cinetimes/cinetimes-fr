@@ -2,7 +2,7 @@
 tmdb_id: '145961'
 title: Le monstre des glaces
 original_title: The Arctic Giant
-author: Dave Fleischer
+author: Superman
 img_name: arcticGiant.jpg
 release_date: '1942-02-26'
 synopsis: ''

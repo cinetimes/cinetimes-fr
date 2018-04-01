@@ -2,7 +2,7 @@
 tmdb_id: '95414'
 title: Le scientifique fou
 original_title: The Mad Scientist
-author: Dave Fleischer
+author: Superman
 img_name: madScientist.jpg
 release_date: '1941-09-26'
 synopsis: ''

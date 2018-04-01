@@ -2,7 +2,7 @@
 tmdb_id: '146072'
 title: Le peuple souterrain
 original_title: The Underground World
-author: Seymour Kneitel
+author: Superman
 img_name: undergroundWorld.jpg
 release_date: '1943-06-18'
 synopsis: ''

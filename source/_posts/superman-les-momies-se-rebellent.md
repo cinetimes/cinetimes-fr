@@ -2,7 +2,7 @@
 tmdb_id: '146061'
 title: Les momies se rebellent
 original_title: The Mummy Strikes
-author: Izzy Sparber
+author: Superman
 img_name: mummyStrikes.jpg
 release_date: '1943-02-19'
 synopsis: ''
