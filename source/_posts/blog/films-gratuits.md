@@ -146,8 +146,8 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 - **La Fille du Docteur Jekyll** - [Gratuit](http://cinetimes.org/La_Fille_du_Docteur_Jekyll/) - Long métrage en [noir et blanc](http://cinetimes.org/categorie/films/#noir_et_blanc) réalisé par Edgar G. Ulmer sorti en 1957
 
-- **La Nuit Des Morts Vivants** - [Gratuit](https://archive.org/details/night_of_the_living_dead_dvd) - Film d'[épouvante](http://cinetimes.org/categorie/films/#epouvante_horreur) réalisé par George A. Romero en 1968. Le succès de ce film a petit budget en a fait le film le plus rentable du cinéma indépendant. Ce film est dans le domaine public suite a un oubli d'insertion du copyright lors d'un changement de titre.
-*Autres liens*: [wikimedia](https://upload.wikimedia.org/wikipedia/commons/2/24/Night_of_the_Living_Dead_%281968%29.webm)
+- **La Nuit Des Morts Vivants** - [Gratuit](http://cinetimes.org/la-nuit-des-morts-vivants/) - Film d'[épouvante](http://cinetimes.org/categorie/films/#epouvante_horreur) réalisé par George A. Romero en 1968. Le succès de ce film a petit budget en a fait le film le plus rentable du cinéma indépendant. Ce film est dans le domaine public suite a un oubli d'insertion du copyright lors d'un changement de titre.
+*Autres liens*: [gratuit](https://upload.wikimedia.org/wikipedia/commons/2/24/Night_of_the_Living_Dead_%281968%29.webm) [gratuit](https://archive.org/details/night_of_the_living_dead_dvd)
 
 - **La Vallée de la vengeance** (1951) - [Gratuit](https://cinetimes.org/la-vallee-de-la-vengeance/) - *Vengeance Valley* en anglais est un Western de Richard Thorpe avec Burt Lancaster, Robert Walker, Joanne Dru.
 
