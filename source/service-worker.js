@@ -1,6 +1,6 @@
 'use strict'
 
-var CACHE_NAME = 'my-site-cache-v18';
+var CACHE_NAME = 'my-site-cache-v19';
 var urlsToCache = [
     '/',
     '/bootstrap-4.0.0-dist/bootstrap.min.css',
@@ -57,42 +57,60 @@ self.addEventListener('activate', function(event) {
 // Retrieve results cached by our service worker &&
 // Cache new request cumulatively (dynamic caching)
 self.addEventListener('fetch', function(event) {
-    event.respondWith(
-        caches.match(event.request)
-        .then(function(response) {
-            // Cache hit - return response
-            if (response) {
-                return response;
-            }
-            
-            // IMPORTANT Clone request. A request is a stream and
-            // can only be consumed ONCE. Since we are consuming this
-            // once by cache and once by the browser for fetch, we need
-            // to clone the response.
-            var fetchRequest = event.request.clone();
-            
-            return fetch(fetchRequest).then(
-                function(response) {
-                    //check if we recieved a valid response
-                    if(!response || response.status !== 200 || response.type !== 'basic') {
-                        return response;
-                    }
 
-                    // IMPORTANT: Clone the response as the response is 
-                    // a stream and because we want the browser to consume
-                    // the response as well as the cache consuming the response,
-                    // we need to clone it so we have two streams.
-                    var responseToCache = response.clone();
-
-                    caches.open(CACHE_NAME)
-                    .then(function(cache) {
-                        cache.put(event.request, responseToCache);
-                        // console.log('cache new requests cumulatively');
-                    });
-
+		// If the request is not an image, serve from the cache first, then update the cache from network
+		if (!event.request.url.endsWith('.jpg')) {
+			event.respondWith(
+				caches.open(CACHE_NAME).then(function (cache) {
+					return cache.match(event.request).then(function (response) {
+						var fetchPromise = fetch(event.request).then(function (networkResponse) {
+							cache.put(event.request, networkResponse.clone());
+							return networkResponse;
+						})
+						return response || fetchPromise;
+					})
+				})
+			);
+		}
+		// Serve from the cache or fetch it and cache it
+    else {
+        event.respondWith(
+            caches.match(event.request)
+            .then(function(response) {
+                // Cache hit - return response
+                if (response) {
                     return response;
                 }
-            );
-        })
-    );
+                
+                // IMPORTANT Clone request. A request is a stream and
+                // can only be consumed ONCE. Since we are consuming this
+                // once by cache and once by the browser for fetch, we need
+                // to clone the response.
+                var fetchRequest = event.request.clone();
+                
+                return fetch(fetchRequest).then(
+                    function(response) {
+                        //check if we recieved a valid response
+                        if(!response || response.status !== 200 || response.type !== 'basic') {
+                            return response;
+                        }
+    
+                        // IMPORTANT: Clone the response as the response is 
+                        // a stream and because we want the browser to consume
+                        // the response as well as the cache consuming the response,
+                        // we need to clone it so we have two streams.
+                        var responseToCache = response.clone();
+    
+                        caches.open(CACHE_NAME)
+                        .then(function(cache) {
+                            cache.put(event.request, responseToCache);
+                            // console.log('cache new requests cumulatively');
+                        });
+    
+                        return response;
+                    }
+                );
+            })
+        );
+    }
 });
