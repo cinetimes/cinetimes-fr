@@ -1,8 +1,9 @@
 'use strict'
 
-var CACHE_NAME = 'my-site-cache-v17';
+var CACHE_NAME = 'my-site-cache-v18';
 var urlsToCache = [
     '/',
+    '/bootstrap-4.0.0-dist/bootstrap.min.css',
     '/css/style.css',
     '/bower_components/plyr/dist/plyr.css',
     '/bower_components/slick-carousel/slick/slick.css',
@@ -10,53 +11,30 @@ var urlsToCache = [
 
 
     '/js/app.js',
+    '/bootstrap-4.0.0-dist/bootstrap.bundle.min.js',
     '/js/bundle.js',
     '/bower_components/corejs-typeahead/dist/typeahead.bundle.min.js',
     '/js/carousel.js'
 ];
 
-// self.addEventListener('install', function(event) {
-//     // Preform install steps
-//     event.waitUntil(
-//         caches.open(CACHE_NAME)
-//         .then(function(cache) {
-//             console.log('Opened cache');
-//             return cache.addAll(urlsToCache);
-//         })
-//     );
-// });
 
-self.addEventListener('install', function(event) {
-    // Preform install steps
+// Cache busting on install event
+self.addEventListener('install', event => {
     event.waitUntil(
-        caches.open(CACHE_NAME)
-        .then((cache) => cache.addAll([
-            new Request('/', { cache: 'no-cache' }),
-            new Request('/css/style.css', { cache: 'no-cache' }),
-            new Request('/bower_components/plyr/dist/plyr.css', { cache: 'no-cache' }),
-            new Request('/bower_components/slick-carousel/slick/slick.css', { cache: 'no-cache' }),
-            new Request('/bower_components/slick-carousel/slick/slick-theme.css', { cache: 'no-cache' }),
-            new Request('/js/app.js', { cache: 'no-cache' }),
-            new Request('/js/bundle.js', { cache: 'no-cache' }),
-            new Request('/bower_components/corejs-typeahead/dist/typeahead.bundle.min.js', { cache: 'no-cache' }),
-            new Request('/js/carousel.js', { cache: 'no-cache' }),
-        ]))
+      caches.open(CACHE_NAME)
+        .then(cache => Promise.all(
+            urlsToCache.map(url => {
+                // cache-bust using a random query string
+                return fetch(`${url}?${Math.random()}`).then(response => {
+                    // fail on 404, 500 etc
+                    if (!response.ok) throw Error('Not ok');
+                    return cache.put(url, response);
+                })
+          })
+        ))
     );
 });
 
-
-// self.addEventListener("activate", function (e) {
-//     var t = new Set(urlsToCacheKeys.values());
-//     e.waitUntil(caches.open(cacheName).then(function (e) {
-//         return e.keys().then(function (n) {
-//             return Promise.all(n.map(function (n) {
-//                 if (!t.has(n.url)) return e.delete(n)
-//             }))
-//         })
-//     }).then(function () {
-//         return self.clients.claim()
-//     }))
-// })
 
 self.addEventListener('activate', function(event) {
     // Delete any cache that is not in the whitelist
@@ -118,5 +96,3 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
-
-

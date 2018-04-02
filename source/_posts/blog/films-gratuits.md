@@ -210,6 +210,14 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 <link rel="prefetch" href="/morgane-et-ses-nymphes/">
 
 <!-- 
+Plan 9 from outter space
+Dementia 13
+Abraham lincoln
+Last woman on earth
+his girl friday
+sherlock holmes et la clef
+la maison du dr edwardes
+la nuit des morts vivants
 
 Les Babysitters (film complet en entier français)
 Secrètement amoureuse de Michael Beltran, dont elle garde les enfants, Shirley Lyner ne le repousse pas lorsqu'il l'embrasse fiévreusement. Pour se déculpabiliser, il lui offre un montant substantiel. En devenant sa maîtresse, Shirley y voit un moyen inespéré de payer ses études : elle met alors sur pied un véritable réseau de prostitution sous couvert d'un service de babysitting, exigeant 20% des recettes de ses employées, recrutées parmi ses amies de lycée. Cependant, ses règles sont remises en question par certaines filles, qui tentent de la doubler...
