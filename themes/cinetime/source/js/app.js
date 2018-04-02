@@ -27,7 +27,7 @@ if('serviceWorker' in navigator) {
 
 function lazyLoadImages(images) {
 	var options = {
-		rootMargin: "50px 20px",
+		rootMargin: "50px 100px",
 		threshold: 0.01
 	};
 
