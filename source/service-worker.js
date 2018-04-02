@@ -1,6 +1,6 @@
 'use strict'
 
-var CACHE_NAME = 'my-site-cache-v19';
+var CACHE_NAME = 'my-site-cache-v20';
 var urlsToCache = [
     '/',
     '/bootstrap-4.0.0-dist/bootstrap.min.css',
