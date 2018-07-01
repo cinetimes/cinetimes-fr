@@ -134,9 +134,9 @@ gulp.task('thumbnail-cover', function(){
 });
 
 gulp.task('compress', function(cb) {
-    runSequence([ 'minify-html', 'minify-css', 'minify-img', 'minify-js'], cb);
+    runSequence([ 'minify-html', 'minify-css'], cb);
 });
-//removed :
+//removed : 'minify-img' 'minify-js'
 
 gulp.task('resize', function(){
     runSequence(['thumbnail-card', 'thumbnail-poster', 'thumbnail-cover', 'thumbnail-next']);

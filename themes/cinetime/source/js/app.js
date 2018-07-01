@@ -62,3 +62,38 @@ function lazyLoadImages(images) {
 		} 
 	}, 5000)
 })();
+
+
+// Get country code from cloudflare server headers and do something accordingly
+// function parseTrace(url){
+//     let trace = [];
+//     $.ajax(url,
+//         {
+//             success: function(response){
+//                 let lines = response.split('\n');
+//                 let keyValue;
+
+//                 lines.forEach(function(line){
+//                     keyValue = line.split('=');
+//                     trace[keyValue[0]] = decodeURIComponent(keyValue[1] || '');
+
+//                     if(keyValue[0] === 'loc' && trace['loc'] !== 'XX'){
+//                         alert(trace['loc']);
+//                     }
+
+//                     if(keyValue[0] === 'ip'){
+//                         alert(trace['ip']);
+//                     }
+
+//                 });
+
+//                 return trace;
+//             },
+//             error: function(){
+//                 return trace;
+//             }
+//         }
+//     );
+// };
+
+// let cfTrace = parseTrace('/cdn-cgi/trace');

@@ -27,6 +27,10 @@ Voici une liste régulièrement mise à jour contenant déja plus de 70 films gr
 
 Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banière in blog posts -->
+<ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
+<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
 ## Films Gratuits en Français
 - **Archimède le clochard** - [Gratuit](https://archive.org/details/ArchimedeLeClochard-1959-GillesGrangier) - Film français réalisé par Gilles Grangier, avec un scénario de Jean Gabin qu'il signera de son véritale nom: Jean Moncorgé. Sorti en 1959
@@ -108,6 +112,7 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## Films Muets
 
@@ -118,6 +123,8 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 - **Metropolis** - [Gratuit](http://cinetimes.org/metropolis-fritz-lang/) - Réalisé en 1927 par *Fritz Lang*, un cinéaste autrichien, *Metropolis* est un film de [science fiction](http://cinetimes.org/tags/science-fiction/), [muet](http://cinetimes.org/tags/muet/) et en [noir et blanc](http://cinetimes.org/tags/noir-et-blanc/) écrit par Fritz Lang et sa femme Thea von Harbou.
 
+<!-- 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
 
 ## 'Vieux' Films Domaine Public VOSTFR 
 
@@ -163,6 +170,8 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 - **Plus Fort Que Le Diable** - [Gratuit](https://cinetimes.org/plus-fort-que-le-diable/) - Film américano-britannique réalisé par John Huston, sorti en 1953. Son titre original est *Beat the devil*
 
+<!-- <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
+
 ## Films d'Alfred Hitchcock
 - **Les 39 Marches** - [Gratuit](http://cinetimes.org/les-39-marches/) - Film Britanique réalisé par Alfred Hitchcock, sorti en 1935, Hitchcock fait un caméo à la septième minute du film. 
 - **Bon Voyage** - [Gratuit](http://cinetimes.org/bon-voyage-alfred-hitchcock/) - Court-métrage de propagande britannique l'un des deux seuls que *Alfred Hitchcock* ait réalisé avec *Aventure Malgache*. Bon voyage est sorti en 1944
@@ -173,6 +182,8 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 *Autres liens*: [Gratuit](https://www.bitchute.com/video/aJ84xN3EfKFU/)
 
 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ## Films de Charlie Chaplin
 - **Charlot entre le bar et l'amour** - [Gratuit](https://cinetimes.org/charlot-entre-le-bar-et-lamour/) - Charlot entre le bar et l'amour ou *Charlot est trop galant* est une comédie américaine de George Nichols avec Charlie Chaplin sortie en 1914.
 - **Charlot garçon de théâtre** - [Gratuit](https://cinetimes.org/charlot-garcon-de-theatre/) - Comédie burlesque américaine de et avec **Charles Chaplin**, sortie en 1914.
@@ -180,10 +191,16 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 *Autres lien: [Gratuit](https://vimeo.com/163164359) - [Gratuit](https://archive.org/details/Brzdac1921) - [Gratuit](https://www.youtube.com/watch?v=TqXfTsagqKw)*
 - **La Ruée Vers l'or** - [Gratuit](https://cinetimes.org/la-ruee-vers-lor/) - Charles Chaplin a écrit, dirigé et joué dans *La ruée vers l'or*. Il est fière de ce film. Charles Chaplin a déclaré a plusieurs reprises que si il y a un film pour lequel on se devait se rapeler de lui, il voudrait que ce soit celui-là.
 
+<!-- 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
+
 
 ## Films de François Truffaut
 - **Tirez sur le pianiste** [Gratuit](https://cinetimes.org/tirez-sur-le-pianiste/) - Film noir français réalisé par François Truffaut, sorti en 1960. Tourné à paris, ce film [Dramatique](http://cinetimes.org/tags/drame/) permettra à Charles Aznavour de gagner en notoriété aux États-Unis.
 - **L’Enfant sauvage** [Gratuit](https://cinetimes.org/lenfant-sauvage/) - Film français dramatique inspiré de l'histoire de Victor de l'Aveyron et sorti en 1970. Le réalisateur, François Truffaut utilisa la propriété d'un ami pour tourner une partie du film afin d'être au calme. Il a reçu le prix méliès 1970
+
+<!-- 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
 
 
 ## Films de Georges Méliès
@@ -194,8 +211,14 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 - **Le juif errant** - [Gratuit](https://archive.org/details/LeJuifErrant) - Film français réalisé par Georges Méliès, sorti en 1904.
 *autres liens: [streaming](https://www.youtube.com/watch?v=SvmM_YSnWX8)*
 
+
+
+<!-- Banière in blog posts -->
+<ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
+<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+
   
-{% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %}
+<!-- {% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %} -->
 
 ###### Sources utilisées pour créer cette liste:
 - [De grands classiques tombés dans le domaine public - ParisFaitSonCinema](http://www.parisfaitsoncinema.com/autour-du-cinema/culture/classiques-domaine-public.html)

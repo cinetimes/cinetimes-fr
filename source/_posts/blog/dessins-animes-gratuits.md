@@ -13,6 +13,13 @@ updated: 02/03/2018
 *autres liens*: [streaming](https://upload.wikimedia.org/wikipedia/commons/8/87/Gullivers_Travels_%281939%29.webm)
 - **Woody Woodpecker**  - [Gratuit](http://cinetimes.org/Woody-Woodpecker-Le-ballet-nautique/) - Le ballet nautique, Seul épisode de woody présentement dans le domaine public.
 *autres liens*: [streaming](https://archive.org/details/woody_woodpecker_pantry_panic)
+  
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banière in blog posts -->
+<ins class="adsbygoogle my-4"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
+<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+  
 
 ##### Dessins Animés Gratuits d'une Qualité à Couper le Souffle
 - **Agent 327** [HD] - [Gratuit](http://cinetimes.org/agent-327/) - Agent 327 Opération Barbershop est un court métrage hilarant de *Bleder Institute*, basé sur l'univers de Martin Lodewijk. Ce court métrage est un teaser, en attandant la sortie du long métrage, qui sera lui aussi gratuit.
@@ -71,6 +78,12 @@ updated: 02/03/2018
 - Mais c’est une ruine 
 - Ça ce sont des chaussons de danse (the green dancing shoes) 
 - Ski de haut vol 
+
+
+<!-- Banière in blog posts -->
+<ins class="adsbygoogle my-4"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
+<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+
 
 ###### Sources utilisées pour créer cette liste
 ...

@@ -45,6 +45,6 @@
     "run-sequence": "^2.2.0"
   },
   "scripts": {
-    "build": "gulp build && gulp compress && hexo deploy"
+    "build": "gulp build && hexo deploy"
   }
 }

@@ -20,7 +20,7 @@ tags:
 - Érotique
 category:
 - Films
-youtube_url: 'https://www.youtube.com/watch?v=K7LrjbWUZkQ'
+youtube_url: 
 vimeo_url: ''
 archive_url: ''
 dailymotion_url: //www.dailymotion.com/embed/video/x1qinuw
