@@ -6,6 +6,7 @@
     "version": "3.3.9"
   },
   "dependencies": {
+    "ga-analytics": "0.0.7",
     "hexo": "^3.3.9",
     "hexo-autonofollow": "^1.0.1",
     "hexo-autoprefixer": "^1.0.0",
@@ -45,6 +46,6 @@
     "run-sequence": "^2.2.0"
   },
   "scripts": {
-    "build": "gulp build && gulp compress && hexo deploy"
+    "build": "gulp build && hexo deploy"
   }
 }

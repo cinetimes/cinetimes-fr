@@ -8,8 +8,9 @@
 
 	<!-- Bootstrap 4.0.0 css -->
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	 crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="<%- url_for('bootstrap-4.0.0-dist/bootstrap.min.css') %>">
 
 	<!-- Plyr stylesheet  -->
 	<link rel="stylesheet" href="<%- url_for('bower_components/plyr/dist/plyr.css') %>">
@@ -60,13 +61,13 @@
 	<%- partial('meta', {page: page, description: description}) %>
 
 	<!-- Google propriété cejotaazamat-->
-	<meta name="google-site-verification" content="9X-hXdUKMi4uuw6ZyhwU9QnPMobAbVtOeq-Xdh1vYc4" />
+	<!-- <meta name="google-site-verification" content="9X-hXdUKMi4uuw6ZyhwU9QnPMobAbVtOeq-Xdh1vYc4" /> -->
 
 	<!-- Add sumome -->
 	<!-- <script src="//load.sumome.com/" data-sumo-site-id="5508c8ba1b43361b2f624d24362b11c55996ee20aaabd10d48407a29df599472" async="async"></script> -->
 
 	<!-- Hotjar Tracking Code for cinetimes.org -->
-	<script>
+	<!-- <script>
 		(function(h,o,t,j,a,r){
 			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
 			h._hjSettings={hjid:778450,hjsv:6};
@@ -75,7 +76,7 @@
 			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 			a.appendChild(r);
 		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
+	</script> -->
 	<style>
 		/* RM annoying button on video fullscreen */
 		._hj-f5b2a1eb-9b07_widget {
@@ -137,12 +138,12 @@
 	</script>
 
 	<!-- Google Automatic Ads -->
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<script>
 		(adsbygoogle = window.adsbygoogle || []).push({
 			google_ad_client: "ca-pub-3093835180445554",
 			enable_page_level_ads: true
 		});
-	</script>
+	</script> -->
 
 </head>

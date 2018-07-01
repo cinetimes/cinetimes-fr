@@ -5,21 +5,24 @@
 					<div class="tab-content" id="nav-tabContent">
 					<% if (item.youtube_url) { %>
 						<div class="tab-pane fade show active" id="nav-youtube" role="tabpanel" aria-labelledby="nav-youtube-tab">
-							<!-- plyr -->
 							<div data-type="youtube" class="js-player" data-video-id="<%- item.youtube_url %>"></div>
 						</div>
 						<% } if (item.vimeo_url) { %>
 						<div class="tab-pane fade <%- item.youtube_url ? '' : 'show active' %>" id="nav-vimeo" role="tabpanel" aria-labelledby="nav-vimeo-tab">
 							<div data-type="vimeo" class="js-player" data-video-id="<%- item.vimeo_url %>"></div>
 						</div>
+						<% } if (item.dailymotion_url) { %>
+							<div class="tab-pane fade <%- (item.vimeo_url || item.youtube_url)  ? '' : 'show active' %>" id="nav-dailymotion" role="tabpanel" aria-labelledby="nav-dailymotion-tab">
+								<iframe src="<%- item.dailymotion_url %>" allowfullscreen="" allow="autoplay"frameborder="0"></iframe>
+							</div>
 						<% } if (item.archive_url) { %>
-						<div class="tab-pane fade <%- (item.vimeo_url || item.youtube_url)  ? '' : 'show active' %>" id="nav-archive" role="tabpanel" aria-labelledby="nav-archive-tab">
-							
-							<iframe src="<%- item.archive_url %>" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
+						<div class="tab-pane fade <%- (item.vimeo_url || item.youtube_url || item.dailymotion_url )  ? '' : 'show active' %>" id="nav-archive" role="tabpanel" aria-labelledby="nav-archive-tab">
+							<iframe src="<%- item.archive_url %>" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 						</div>
+
 						<% } if (item.webtorrent_magnet) { %>
-						<div class="tab-pane fade <%- (item.vimeo_url || item.youtube_url || item.archive_url)  ? '' : 'show active' %>" id="nav-webtorrent" role="tabpanel" aria-labelledby="nav-webtorrent-tab">
+						<div class="tab-pane fade <%- (item.vimeo_url || item.youtube_url || item.dailymotion_url || item.archive_url)  ? '' : 'show active' %>" id="nav-webtorrent" role="tabpanel" aria-labelledby="nav-webtorrent-tab">
 							<div class="video" id="video_webtorrent" >
 
 							</div>
@@ -35,6 +38,18 @@
 						<% } %>
 					</div>
 
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Before description -->
+					<ins class="adsbygoogle mt-4"
+							style="display:block"
+							data-ad-client="ca-pub-3093835180445554"
+							data-ad-slot="1463045123"
+							data-ad-format="auto"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+
+
 					<div class="row mx-0">
 						<div class="col-12 px-0">
 							<nav class="nav " id="myTab" role="tablist">
@@ -42,6 +57,8 @@
 								  <a class="nav-item nav-link active text-dark" id="nav-youtube-tab" data-toggle="tab" href="#nav-youtube" role="tab" aria-controls="nav-youtube" aria-selected="true"> Youtube <i class="fab fa-youtube mx-1" aria-hidden="true"></i></a>
 								<% } if (item.vimeo_url) { %>
 								<a class="nav-item nav-link text-dark" id="nav-vimeo-tab" data-toggle="tab" href="#nav-vimeo" role="tab" aria-controls="nav-vimeo" aria-selected="false">Vimeo <i class="fab fa-vimeo-square mx-1" style="color:#00ADEF;" aria-hidden="true"></i></a>
+								<% } if (item.dailymotion_url) { %>
+								<a class="nav-item nav-link text-dark" id="nav-dailymotion-tab" data-toggle="tab" href="#nav-dailymotion" role="tab" aria-controls="nav-dailymotion" aria-selected="false">Dailymotion <i class="fab fa-vimeo-square mx-1" style="color:#00b4fc;" aria-hidden="true"></i></a>
 								<% } if (item.webtorrent_magnet) { %>
 								<a class="nav-item nav-link text-dark" id="nav-webtorrent-tab" data-toggle="tab" href="#nav-webtorrent" role="tab" aria-controls="nav-webtorrent" aria-selected="false">Webtorrent <i class="fa fa-heart mx-1" aria-hidden="true"></i></a></a>
 								<% } if (item.archive_url) { %>
@@ -67,6 +84,7 @@
 							<% } %>
 						</div> -->
 					</div>
+
 
 					<div class="videoDescription px-4 text-left d-flex justify-content-between">
 						<h1 class="py-2 mb-0" id="video-title"><%- item.title %></h1>
@@ -125,20 +143,17 @@
 							
 						<% } %>
 
-						<!-- 
-							Google ad 
-							After Description
-						-->
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- Related-Media -->
-						<ins class="adsbygoogle"
+						<!-- Google ad -->
+						<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+						<!-- After description -->
+						<!-- <ins class="adsbygoogle"
 							style="display:block"
 							data-ad-client="ca-pub-3093835180445554"
 							data-ad-slot="9851887562"
 							data-ad-format="auto"></ins>
 						<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
+						</script> -->
 
 				    </div>
 
@@ -162,31 +177,49 @@
 				<% } %> -->
 		</div>
 
+
+
+
 		<div class="col-lg-4 col-xs-12">
 				<div class="d-flex flex-column">
 					<ul class="list-unstyled mt-3">
-						<% var i = 0 %>
+
+						<div class="mx-0 mt-0 mb-3">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- À Suivre, Annonces textuelles et graphiques -->
+							<ins class="adsbygoogle"
+									style="display:block"
+									data-ad-client="ca-pub-3093835180445554"
+									data-ad-slot="2287771435"
+									data-ad-format="auto"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>	
+						</div>
+								
+
+
+						<% let i = 0 %>
 						<% list_related_posts({maxCount: 12}).forEach(function(post) { %>
 							<% if(post.layout != 'blog-post') { %>
 
-								<%
-								i += 1;
-								if (i == 1) {
+								<!-- <%
+								if (i === 0 ) {
+									i++;
 								%>
-								<!-- InFeed Related -->
-								<li class="mb-3">
-								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-								<ins class="adsbygoogle"
-										style="display:block"
-										data-ad-format="fluid"
-										data-ad-layout-key="-el-2z-79-32+1hq"
-										data-ad-client="ca-pub-3093835180445554"
-										data-ad-slot="1571795069"></ins>
-								<script>
-										(adsbygoogle = window.adsbygoogle || []).push({});
-								</script>
-								</li>
-								<% } %>
+									<li class="mb-3">
+									<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+									<ins class="adsbygoogle"
+											style="display:block"
+											data-ad-format="fluid"
+											data-ad-layout-key="-el-2z-79-32+1hq"
+											data-ad-client="ca-pub-3093835180445554"
+											data-ad-slot="1571795069"></ins>
+									<script>
+											(adsbygoogle = window.adsbygoogle || []).push({});
+									</script>
+									</li>
+								<% } %> -->
 
 								<li class="media mb-3">
 									<a href="<%- url_for(post.path) %>" class="next-link" title="<%- post.title %>">
@@ -238,6 +271,6 @@
 	  "uploadDate": "<%- item.date %>",
 	  "duration": "<%- item.runtime %>",
 	  "contentUrl": "<%- item.video_path ? item.video_path : '' %>",
-	  "embedUrl": "<%- item.youtube_url || item.vimeo_url || item.archive_url %>"
+	  "embedUrl": "<%- item.youtube_url || item.vimeo_url || item.archive_url || item.dailymotion_url %>"
 	}
 </script>

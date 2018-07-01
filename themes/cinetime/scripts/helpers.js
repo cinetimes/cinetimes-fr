@@ -49,3 +49,18 @@ hexo.extend.helper.register('get_description', function(page, config, site) {
 	}
 	return description;
 });
+
+hexo.extend.helper.register('get_latest_releases', (site, maxCount) => {
+	var posts = []
+	// Remove posts without release date from the array
+	site.posts.forEach( post => {
+		post.release_date === undefined 
+		? '' 
+		: posts.push(post) ;
+	})
+
+	// Return sorted array by release date and sliced
+	return posts.sort((a,b) => {
+		return new Date(b.release_date) - new Date(a.release_date)
+	}).slice(0, maxCount);
+});

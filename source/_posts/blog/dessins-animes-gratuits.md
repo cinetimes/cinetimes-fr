@@ -13,6 +13,13 @@ updated: 02/03/2018
 *autres liens*: [streaming](https://upload.wikimedia.org/wikipedia/commons/8/87/Gullivers_Travels_%281939%29.webm)
 - **Woody Woodpecker**  - [Gratuit](http://cinetimes.org/Woody-Woodpecker-Le-ballet-nautique/) - Le ballet nautique, Seul épisode de woody présentement dans le domaine public.
 *autres liens*: [streaming](https://archive.org/details/woody_woodpecker_pantry_panic)
+  
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banière in blog posts -->
+<ins class="adsbygoogle my-4"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
+<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+  
 
 ##### Dessins Animés Gratuits d'une Qualité à Couper le Souffle
 - **Agent 327** [HD] - [Gratuit](http://cinetimes.org/agent-327/) - Agent 327 Opération Barbershop est un court métrage hilarant de *Bleder Institute*, basé sur l'univers de Martin Lodewijk. Ce court métrage est un teaser, en attandant la sortie du long métrage, qui sera lui aussi gratuit.
@@ -28,19 +35,19 @@ updated: 02/03/2018
 
 
 ##### Superman - [Gratuit](http://cinetimes.org/superman/)
-- **Terreur sur Manhattan** *(Electric Earthquake) - 1942*
-- **Le réveil du volcan** *(Monokoa Volcano) - 1942*
-- **Le peuple souterrain** *(The Underground World) - 1943*
-- **Le scientifique fou** *(The Mad Scientist) - 1941*
-- **Les momies se rebellent** *(The Mummy Strikes) - 1943*
-- **Terreur au cirque** *(Terror on the Midway) - 1942*
-- **Le monstre des glaces** *(The Arctic Giant) - 1942*
-- **L'attaque du train postal** *(Billion Dollar Limited) - 1942*
-- **Les envahisseurs** *(The Bulleteers) - 1942*
-- **La torpille humaine** *(Destruction, Inc) - 1942*
-- **Les saboteurs** *(Japoteurs) - 1942*
-- **Les tambours de la jungle** *(Jungle Drums) - 1943*
-- **Le téléscope magnétique** *(The Magnetic Telescope) - 1942*
+- **[Terreur sur Manhattan](https://cinetimes.org/superman-terreur-sur-manhattan)** *(Electric Earthquake) - 1942*
+- **[Le réveil du volcan](https://cinetimes.org/superman-le-reveil-du-volcan-monokoa/)** *(Monokoa Volcano) - 1942* - 
+- **[Le peuple souterrain](https://cinetimes.org/superman-le-peuple-souterrain/)** *(The Underground World) - 1943* 
+- **[Le scientifique fou](https://cinetimes.org/superman-le-scientifique-fou/)** *(The Mad Scientist) - 1941* 
+- **[Les momies se rebellent](https://cinetimes.org/superman-les-momies-se-rebellent/)** *(The Mummy Strikes) - 1943* 
+- **[Terreur au cirque](https://cinetimes.org/superman-terreur-au-cirque/)** *(Terror on the Midway) - 1942* 
+- **[Le monstre des glaces](https://cinetimes.org/superman-le-monstre-des-glaces/)** *(The Arctic Giant) - 1942* 
+- **[L'attaque du train postal](https://cinetimes.org/superman-l-attaque-du-train-postal/)** *(Billion Dollar Limited) - 1942* 
+- **[Les envahisseurs](https://cinetimes.org/superman-les-envahisseurs/)** *(The Bulleteers) - 1942* 
+- **[La torpille humaine](https://cinetimes.org/superman-la-torpille-humaine/)** *(Destruction, Inc) - 1942* 
+- **[Les saboteurs](https://cinetimes.org/superman-les-saboteurs/)** *(Japoteurs) - 1942*
+- **[Les tambours de la jungle](https://cinetimes.org/superman-les-tambours-de-la-jungle/)** *(Jungle Drums) - 1943* 
+- **[Le téléscope magnétique](https://cinetimes.org/superman-le-telescope-magnetique/)** *(The Magnetic Telescope) - 1942* 
 
 ### Popeye le Marin
 ##### Popeye Volume 1 - [Gratuit](http://cinetimes.org/popeye-volume-1/)
@@ -71,6 +78,12 @@ updated: 02/03/2018
 - Mais c’est une ruine 
 - Ça ce sont des chaussons de danse (the green dancing shoes) 
 - Ski de haut vol 
+
+
+<!-- Banière in blog posts -->
+<ins class="adsbygoogle my-4"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
+<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+
 
 ###### Sources utilisées pour créer cette liste
 ...

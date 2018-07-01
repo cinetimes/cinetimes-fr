@@ -12,30 +12,101 @@ var categories = [];
 for (var category in site.data.categories) {
 	categories.push(category)
 }
+const maxCount = 21;
 %>
 
 <%- partial('_partial/p-presentation') %>
 
 <div class="container-fluid home">
 		<div class="row">
-				<div class="col-md-3 col-xs-12 mt-2">
+				<!-- <div class="col-md-3 col-xs-12 mt-2">
 						<nav id="navbar-main-side" class="list-group sticky-top">
+									<a class="list-group-item list-group-item-action" href="#popular-posts">Tendances</a>
 							<% categories.forEach(function(category) { %>
 									<a class="list-group-item list-group-item-action" href="#<%- _.snakeCase(category) %>"><%- category %></a>
 							<% }); %>
 						</nav>
-				</div>
-				<div class="col-md-9 col-xs-12" id="background">
+				</div> -->
+				<div class="col-md-12 col-xs-12" id="background">
+
+					<!-- 
+						POPULAIRES
+					 -->
+
+						<!-- Popular Posts Title-->
+						<div class="d-flex flex-md-row flex-column justify-content-between align-items-start align-items-md-center">
+								<h1 id="popular-posts"><strong>Populaires</strong></h1>
+								<!-- <a href="<%- config.category_dir + url_for(_.kebabCase(category)) %>/"><button type="button" class="btn btn-outline-danger mb-3 mb-md-0">Voir plus</button></a> -->
+						</div>
+
+						<!-- Popular Posts card deck-->
+						<div class="row mx-md-0">
+							<div class="col-12 card-deck y-scroll movie-carousel">
+							<!-- Popular posts -->
+							<% let allPosts = build_popular_posts(env.popularPosts, site) %>
+							<% allPosts = allPosts.slice(0, maxCount) %>
+							<% allPosts.forEach(post => { %>
+								<%- partial('_partial/article-excerpt', {item: post}) %>
+							<% }) %>
+							</div>
+						</div>
+
+
+					<!-- 
+						DERNIERS AJOUTS
+					-->
+
+						<!-- Latest Uploads Title-->
+						<div class="d-flex flex-md-row flex-column justify-content-between align-items-start align-items-md-center title-wrapper">
+								<h1 id="popular-posts"><strong>Derniers Ajouts</strong></h1>
+								<!-- <a href="<%- config.category_dir + url_for(_.kebabCase(category)) %>/"><button type="button" class="btn btn-outline-danger mb-3 mb-md-0">Voir plus</button></a> -->
+						</div>
+
+						<!-- Latest Uploads card deck-->
+						<div class="row mx-md-0">
+							<div class="col-12 card-deck y-scroll movie-carousel">
+							<!-- Latest Uploads -->
+							<% if( page.posts ) { %> <!-- Scoping -->
+								<% let i = 0 %>
+								<% page.posts.forEach(post => { %>
+									<% if (post.layout === 'post' && i < maxCount) { %>  <%- partial('_partial/article-excerpt', {item: post}) %> <% } %> 
+									<% i++ %>
+								<% }) %>
+							<% } %>
+							</div>
+						</div>
+
+
+
+						<!-- Latest Releases Title-->
+						<div class="d-flex flex-md-row flex-column justify-content-between align-items-start align-items-md-center title-wrapper">
+								<h1 id="popular-posts"><strong>Dernières Sorties</strong></h1>
+								<!-- <a href="<%- config.category_dir + url_for(_.kebabCase(category)) %>/"><button type="button" class="btn btn-outline-danger mb-3 mb-md-0">Voir plus</button></a> -->
+						</div>
+
+						<!-- Latest Releases card deck-->
+						<div class="row mx-md-0">
+							<div class="col-12 card-deck y-scroll movie-carousel">
+							<!-- Latest Releases -->
+							<% get_latest_releases(site, maxCount).forEach( post => { %>
+								<% if (post.layout === 'post') { %>  <%- partial('_partial/article-excerpt', {item: post}) %> <% } %> 
+							<% }) %>
+			
+							</div>
+						</div>
+
+
+
 						<% categories.forEach(function(category) { %>
-							<div class="d-flex flex-md-row flex-column justify-content-between align-items-start align-items-md-center">
+							<div class="d-flex flex-md-row flex-column justify-content-between align-items-start align-items-md-center title-wrapper">
 									<h1 id="<%- _.snakeCase(category) %>"><strong><%- category %></strong></h1>
 									<a href="<%- config.category_dir + url_for(_.kebabCase(category)) %>/"><button type="button" class="btn btn-outline-danger mb-3 mb-md-0">Voir plus</button></a>
 							</div>
-								<div class="row" class="col-12 scrollspy-example" data-spy="scroll" data-target="#navbar-main-side" data-offset="40">
-											<div class="col-12 card-deck y-scroll">
+								<div class="row mx-md-0" class="col-12 scrollspy-example" data-spy="scroll" data-target="#navbar-main-side" data-offset="40">
+											<div class="col-12 card-deck y-scroll movie-carousel">
+
 													<!-- Initiate a counter -->
 													<% 
-													const maxCount = 10;
 													var count = 0; 
 													%>
 												  <!-- For each post in the home page -->

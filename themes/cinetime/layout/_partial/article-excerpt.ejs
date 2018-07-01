@@ -3,12 +3,14 @@
       categories.push(category.name);
   }); -->
   <%
-  var tags = [];
-  item.tags.forEach(function(tag){
-      tags.push(tag.name);
-  });
+  if (item.tags) {
+    var tags = [];
+    item.tags.forEach(function(tag){
+        tags.push(tag.name);
+    });
+  }
   poster_path = item.poster_path ? item.poster_path : url_for("img/") + 'cover_' + item.img_name ;
-%>
+  %>
 
 
 
@@ -25,6 +27,8 @@
       <a href="<%- url_for(item.path) %>">
         <div class="poster-image">
           <img class="lazy" data-src="<%- poster_path %>" style="width:170px; height:225px; border-radius:5px" alt="<%- item.title + ', ' + site.data.metadata.alt_intro %>">
+          <!-- <img src="<%- poster_path %>" style="width:170px; height:225px; border-radius:5px" alt="<%- item.title + ', ' + site.data.metadata.alt_intro %>"> -->
+          <link rel="prefetch" href="<%- poster_path %>">
         </div>
         <div class="poster-title text-dark"> <%- item.title %> </div>
       </a>
@@ -55,6 +59,7 @@
       <a href="<%- url_for(item.path) %>">
         <div class="poster-image">
           <img class="lazy" data-src="<%- poster_path %>" style="width:170px; height:225px; border-radius:5px" alt="<%- `${item.title}, ${site.data.metadata[page.category]} ${site.data.metadata.free_in_streaming}, ${tag}` %>" >
+          <link rel="prefetch" href="<%- poster_path %>">
         </div>
         <div class="poster-title text-dark"> <%- item.title %> </div>
       </a>
@@ -65,11 +70,21 @@
 <!-- alt="<%- `${item.title}, ${site.data.metadata.free_movie_from} ${item.author} ${site.data.metadata.in_streaming}` %>" -->
 
 <% if (is_tag()) { %>
-  <div class="card">
+  <!-- <div class="card">
     <a href="<%- url_for(item.path) %>"><img width="302" height="181" class="card-img-top" data-src="<%- url_for('img/')%>card_<%- item.img_name %>" alt="<%- item.title + ', ' + site.data.metadata.alt_intro %>"></a>
     <div class="card-body">
       <h4 class="card-title"><%- item.title %></h4>
       <h6 class="card-subtitle text-muted"><%- _.startCase(item.author) %></h6>
     </div>
-  </div>
+  </div> -->
+      <!-- POSTER as IMAGE -->
+    <div class="poster-wrapper">
+      <a href="<%- url_for(item.path) %>">
+        <div class="poster-image">
+          <!-- <img class="lazy" data-src="<%- poster_path %>" style="width:170px; height:225px; border-radius:5px" alt="<%- `${item.title}` %>" > -->
+          <img src="<%- poster_path %>" style="width:170px; height:225px; border-radius:5px" alt="<%- `${item.title}` %>" >
+        </div>
+        <div class="poster-title text-dark"> <%- item.title %> </div>
+      </a>
+    </div>
 <% } %>

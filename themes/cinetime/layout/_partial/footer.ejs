@@ -24,7 +24,7 @@
             </ul>
           </div>
 
-          <div class="col-sm-12 col-md-5">
+          <!-- <div class="col-sm-12 col-md-5">
             <h3 class="text-white mb-2"> Populaire </h3>
             <ul class="list-unstyled">
               <% site.posts.forEach((post) => { %>
@@ -39,7 +39,24 @@
                 <% } %>
               <% }); %>
             </ul>
+          </div> -->
+          <div class="col-sm-12 col-md-5">
+            <h3 class="text-white mb-2"> Populaire </h3>
+            <ul class="list-unstyled">
+              <!-- Popular posts -->
+							<% let allPosts = build_popular_posts(env.popularPosts, site) %>
+							<% allPosts = allPosts.slice(0, 5) %>
+							<% allPosts.forEach(post => { %>
+                <li class="mb-2">
+                    <a class="text-light" href="<%- url_for(post.path) %>">
+                        <%- post.title + ' - ' + post.author %>
+                    </a>
+                </li>
+							<% }) %>
+            </ul>
           </div>
+
+
           <div class="col-sm-12 col-md-2 pr-0">
             <h3 class="text-white mb-2"> Pages </h3>
             <ul class="list-unstyled">

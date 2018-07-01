@@ -1,7 +1,7 @@
 ---
 layout: blog-post
-title: "70 Films Gratuits en Français à Voir en Streaming"
-serp: "70 Films Gratuits en Français à Voir en Streaming (où à Télécharger)"
+title: "71 Films Gratuits en Français à Voir en Streaming"
+serp: "71 Films Gratuits en Français à Voir en Streaming (où à Télécharger)"
 description: "Des Films gratuits. Ça vous tente ? Tant mieux car des millers de films sont tombés dans le domaine public et n'attendent plus que vous. Des Films gratuits en français..."
 share: true
 topshare: true
@@ -27,6 +27,10 @@ Voici une liste régulièrement mise à jour contenant déja plus de 70 films gr
 
 Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banière in blog posts -->
+<ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
+<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
 ## Films Gratuits en Français
 - **Archimède le clochard** - [Gratuit](https://archive.org/details/ArchimedeLeClochard-1959-GillesGrangier) - Film français réalisé par Gilles Grangier, avec un scénario de Jean Gabin qu'il signera de son véritale nom: Jean Moncorgé. Sorti en 1959
@@ -102,8 +106,13 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 
 - **Va, vis et deviens** [Gratuit](https://archive.org/details/Va.Vis.Et.Deviens.ethiopie.juive.French) - Film dramatique franco-israélien réalisé par Radu Mihaileanu. Basé sur l'histoire vraie des Falashas.
 
-- **Zéro de conduite** - [Gratuit](https://archive.org/details/zero_de_conduite) -  Film français de Jean Vigo pour lequel il s'est inspiré de ses propres souvenirs. Il a été interdit par la censure de sa sortie en 1933 jusqu'en 1945.
+- **Zéro de conduite** - [Gratuit](https://cinetimes.org/zero-de-conduite/) -  Film français de Jean Vigo pour lequel il s'est inspiré de ses propres souvenirs. Il a été interdit par la censure de sa sortie en 1933 jusqu'en 1945.
 
+- **La revanche des mortes vivantes** - [Gratuit](https://www.dailymotion.com/video/x1qinuw) - Premier film 'gore' français réalisé par Pierre B. Reinhard, avec Cornélia Wilms et Kathryn Charly. Sorti en 1986
+autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
+
+
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## Films Muets
 
@@ -114,6 +123,8 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 
 - **Metropolis** - [Gratuit](http://cinetimes.org/metropolis-fritz-lang/) - Réalisé en 1927 par *Fritz Lang*, un cinéaste autrichien, *Metropolis* est un film de [science fiction](http://cinetimes.org/tags/science-fiction/), [muet](http://cinetimes.org/tags/muet/) et en [noir et blanc](http://cinetimes.org/tags/noir-et-blanc/) écrit par Fritz Lang et sa femme Thea von Harbou.
 
+<!-- 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
 
 ## 'Vieux' Films Domaine Public VOSTFR 
 
@@ -142,8 +153,8 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 
 - **La Fille du Docteur Jekyll** - [Gratuit](http://cinetimes.org/La_Fille_du_Docteur_Jekyll/) - Long métrage en [noir et blanc](http://cinetimes.org/categorie/films/#noir_et_blanc) réalisé par Edgar G. Ulmer sorti en 1957
 
-- **La Nuit Des Morts Vivants** - [Gratuit](https://archive.org/details/night_of_the_living_dead_dvd) - Film d'[épouvante](http://cinetimes.org/categorie/films/#epouvante_horreur) réalisé par George A. Romero en 1968. Le succès de ce film a petit budget en a fait le film le plus rentable du cinéma indépendant. Ce film est dans le domaine public suite a un oubli d'insertion du copyright lors d'un changement de titre.
-*Autres liens*: [wikimedia](https://upload.wikimedia.org/wikipedia/commons/2/24/Night_of_the_Living_Dead_%281968%29.webm)
+- **La Nuit Des Morts Vivants** - [Gratuit](http://cinetimes.org/la-nuit-des-morts-vivants/) - Film d'[épouvante](http://cinetimes.org/categorie/films/#epouvante_horreur) réalisé par George A. Romero en 1968. Le succès de ce film a petit budget en a fait le film le plus rentable du cinéma indépendant. Ce film est dans le domaine public suite a un oubli d'insertion du copyright lors d'un changement de titre.
+*Autres liens*: [gratuit](https://upload.wikimedia.org/wikipedia/commons/2/24/Night_of_the_Living_Dead_%281968%29.webm) [gratuit](https://archive.org/details/night_of_the_living_dead_dvd)
 
 - **La Vallée de la vengeance** (1951) - [Gratuit](https://cinetimes.org/la-vallee-de-la-vengeance/) - *Vengeance Valley* en anglais est un Western de Richard Thorpe avec Burt Lancaster, Robert Walker, Joanne Dru.
 
@@ -159,6 +170,8 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 
 - **Plus Fort Que Le Diable** - [Gratuit](https://cinetimes.org/plus-fort-que-le-diable/) - Film américano-britannique réalisé par John Huston, sorti en 1953. Son titre original est *Beat the devil*
 
+<!-- <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
+
 ## Films d'Alfred Hitchcock
 - **Les 39 Marches** - [Gratuit](http://cinetimes.org/les-39-marches/) - Film Britanique réalisé par Alfred Hitchcock, sorti en 1935, Hitchcock fait un caméo à la septième minute du film. 
 - **Bon Voyage** - [Gratuit](http://cinetimes.org/bon-voyage-alfred-hitchcock/) - Court-métrage de propagande britannique l'un des deux seuls que *Alfred Hitchcock* ait réalisé avec *Aventure Malgache*. Bon voyage est sorti en 1944
@@ -169,6 +182,8 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 *Autres liens*: [Gratuit](https://www.bitchute.com/video/aJ84xN3EfKFU/)
 
 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ## Films de Charlie Chaplin
 - **Charlot entre le bar et l'amour** - [Gratuit](https://cinetimes.org/charlot-entre-le-bar-et-lamour/) - Charlot entre le bar et l'amour ou *Charlot est trop galant* est une comédie américaine de George Nichols avec Charlie Chaplin sortie en 1914.
 - **Charlot garçon de théâtre** - [Gratuit](https://cinetimes.org/charlot-garcon-de-theatre/) - Comédie burlesque américaine de et avec **Charles Chaplin**, sortie en 1914.
@@ -176,10 +191,16 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 *Autres lien: [Gratuit](https://vimeo.com/163164359) - [Gratuit](https://archive.org/details/Brzdac1921) - [Gratuit](https://www.youtube.com/watch?v=TqXfTsagqKw)*
 - **La Ruée Vers l'or** - [Gratuit](https://cinetimes.org/la-ruee-vers-lor/) - Charles Chaplin a écrit, dirigé et joué dans *La ruée vers l'or*. Il est fière de ce film. Charles Chaplin a déclaré a plusieurs reprises que si il y a un film pour lequel on se devait se rapeler de lui, il voudrait que ce soit celui-là.
 
+<!-- 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
+
 
 ## Films de François Truffaut
 - **Tirez sur le pianiste** [Gratuit](https://cinetimes.org/tirez-sur-le-pianiste/) - Film noir français réalisé par François Truffaut, sorti en 1960. Tourné à paris, ce film [Dramatique](http://cinetimes.org/tags/drame/) permettra à Charles Aznavour de gagner en notoriété aux États-Unis.
 - **L’Enfant sauvage** [Gratuit](https://cinetimes.org/lenfant-sauvage/) - Film français dramatique inspiré de l'histoire de Victor de l'Aveyron et sorti en 1970. Le réalisateur, François Truffaut utilisa la propriété d'un ami pour tourner une partie du film afin d'être au calme. Il a reçu le prix méliès 1970
+
+<!-- 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
 
 
 ## Films de Georges Méliès
@@ -190,8 +211,14 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 - **Le juif errant** - [Gratuit](https://archive.org/details/LeJuifErrant) - Film français réalisé par Georges Méliès, sorti en 1904.
 *autres liens: [streaming](https://www.youtube.com/watch?v=SvmM_YSnWX8)*
 
+
+
+<!-- Banière in blog posts -->
+<ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
+<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+
   
-{% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %}
+<!-- {% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %} -->
 
 ###### Sources utilisées pour créer cette liste:
 - [De grands classiques tombés dans le domaine public - ParisFaitSonCinema](http://www.parisfaitsoncinema.com/autour-du-cinema/culture/classiques-domaine-public.html)
@@ -202,6 +229,41 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 - [Liste des films disponibles gratuitement - Sens Critique](https://www.senscritique.com/liste/La_liste_des_films_disponibles_gratuitement/495126)
 - [Archive.org](https://archive.org/details/moviesandfilms)
 
+
+<link rel="prefetch" href="/morgane-et-ses-nymphes/">
+
+<!-- 
+Plan 9 from outter space
+Dementia 13
+Abraham lincoln
+Last woman on earth
+his girl friday
+sherlock holmes et la clef
+la maison du dr edwardes
+la nuit des morts vivants
+
+Les Babysitters (film complet en entier français)
+Secrètement amoureuse de Michael Beltran, dont elle garde les enfants, Shirley Lyner ne le repousse pas lorsqu'il l'embrasse fiévreusement. Pour se déculpabiliser, il lui offre un montant substantiel. En devenant sa maîtresse, Shirley y voit un moyen inespéré de payer ses études : elle met alors sur pied un véritable réseau de prostitution sous couvert d'un service de babysitting, exigeant 20% des recettes de ses employées, recrutées parmi ses amies de lycée. Cependant, ses règles sont remises en question par certaines filles, qui tentent de la doubler...
+
+Sexy Webcam -  français
+Realisateur : Eric Steven Stahl
+Acteurs : Beau Bridges, Rosanna Arquette, Mathew Botuchis, Shiri Appleby
+Ce film porte aussi le nom en français de : AMERICAN VOYEURS
+Titre anglais : I-See-You.Com
+
+The Pornographer
+https://www.dailymotion.com/video/x4y5wl
+
+Sexy à tout prix ! (The Hottie & the Nottie) est un film américain réalisé par Tom Putnam, sorti en 2008.
+https://www.dailymotion.com/video/x3t2vdh
+
+Un amour d'emmerdeuse (1980) Film complet
+https://www.dailymotion.com/video/x3uhbno
+
+
+Un documentaire sur la prostitution, dans la France des années 70.
+Des témoignages authentiques de prostituées : les anecdotes, leur vision de la vie, leurs espérances, leurs difficultés... Un documentaire poignant de vérité, sans racolage.
+https://www.dailymotion.com/video/xf00rg -->
 
 
 
