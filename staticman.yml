@@ -77,8 +77,7 @@ comments:
   branch: "source"
   commitMessage: "New comment on his way"
   
-  filename: "{options.slug}"
-  # filename: "{@timestamp}"
+  filename: "{@timestamp}"
   # "json", "yaml" or "frontmatter"
   format: "yaml"
 
@@ -93,8 +92,7 @@ comments:
   # Name of the site. Used in notification emails.
   name: "cinetimes.org"
 
-  path: "_data/comments"
-  # path: "_data/comments/{options.slug}"
+  path: "_data/comments/{options.slug}"
 
   requiredFields: ["name", "email", "message"]
 
