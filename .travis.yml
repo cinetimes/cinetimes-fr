@@ -8,6 +8,8 @@ env:
 node_js:
 - 6.0.0
 
+before_install:
+- openssl aes-256-cbc -K $encrypted_6f87ceee0c54_key -iv $encrypted_6f87ceee0c54_iv -in google-services-private-key.pem.enc -out google-services-private-key.pem -d
 
 install: 
 - npm install
