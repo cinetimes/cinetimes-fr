@@ -106,7 +106,7 @@ og_locale: fr_FR
 # Disqus Comments Shortname
 disqus_shortname: cinetimes
 
-# Hexo autoprefixer
+# Hexo autoprefixer 
 autoprefixer:
   exclude:
     - '*.min.css'
