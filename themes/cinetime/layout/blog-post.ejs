@@ -26,12 +26,21 @@
     </div>
 
     <% if (page.share) { %>
-        <div style="max-width: 700px;margin: auto;" class="mb-5">
-            <%- partial('_partial/share', {item: page}) %>
+        <div class="d-flex justify-content-end">
+            <div style="max-width: 200px;" class="text-right">
+                <%- partial('_partial/share', {item: page}) %>
+            </div>
         </div>
     <% } %>
 </div>
 
+<div class="col-md-8 col-xs-12 mx-auto py-3 px-md-5 px-sm-1 mb-5">
+        <%- partial('_partial/comment-list') %>
+    </div>
+
+    <div class="col-md-8 col-xs-12 mx-auto py-3 px-md-5 px-sm-1 mb-5">
+        <%- partial('_partial/comment-form') %>
+    </div>
 
 
 <% if((config.disqus_shortname) && !(page.comments == false)){ %>

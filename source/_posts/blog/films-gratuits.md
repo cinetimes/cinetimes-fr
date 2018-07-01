@@ -17,9 +17,9 @@ updated: 02/26/2018
 
 Des Films gratuits. Ça vous tente?
 
-Plusieurs millers de films sont tombés dans le domaine public...
+Plusieurs millers de films sont tombés dans le domaine public.
 
-... des films gratuits en français, des films du domaine public en vostfr, des 'vieux' films gratuits etc.
+Des films gratuits en français, des films du domaine public en vostfr, des 'vieux' films gratuits etc...
 
 Vous pouvez maintenant les voir gratuitement en ligne ou les télécharger!
 
@@ -211,24 +211,32 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 - **Le juif errant** - [Gratuit](https://archive.org/details/LeJuifErrant) - Film français réalisé par Georges Méliès, sorti en 1904.
 *autres liens: [streaming](https://www.youtube.com/watch?v=SvmM_YSnWX8)*
 
-
+<br> 
 
 <!-- Banière in blog posts -->
-<ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
+<!-- <ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
-  
+   -->
 <!-- {% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %} -->
 
-###### Sources utilisées pour créer cette liste:
+<!-- ###### Sources utilisées pour créer cette liste:
 - [De grands classiques tombés dans le domaine public - ParisFaitSonCinema](http://www.parisfaitsoncinema.com/autour-du-cinema/culture/classiques-domaine-public.html)
 - [20 films cultes tombés dans le domaine public - apar.tv](http://www.apar.tv/cinema/20-films-cultes-tombes-dans-le-domaine-public-a-decouvrir-en-integralite-ici/)
 - [Youpi ! 6000 films et 180 000 images sont disponibles gratuitement - TV5 Monde](http://information.tv5monde.com/info/web-6000-films-et-180-000-images-disponibles-gratuitement-84641)
 - [1,150 Free Movies Online - Open Culture](http://www.openculture.com/freemoviesonline)
 - [Films dans le Domaine Public - Wikipédia](https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Film_dans_le_domaine_public)
 - [Liste des films disponibles gratuitement - Sens Critique](https://www.senscritique.com/liste/La_liste_des_films_disponibles_gratuitement/495126)
-- [Archive.org](https://archive.org/details/moviesandfilms)
+- [Archive.org](https://archive.org/details/moviesandfilms) -->
 
+### À Votre tour !
+Je veux savoir ce que vous avez pensé de cette liste de films!
+
+- Lequel de ces films est votre préféré ?
+- Vous connaissez d'autres films du domaine public ?
+- Lequel allez-vous voir en premier ?
+
+**Faites-le-moi savoir dans les commentaires**
 
 <link rel="prefetch" href="/morgane-et-ses-nymphes/">
 
