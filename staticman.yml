@@ -92,7 +92,7 @@ comments:
   # Name of the site. Used in notification emails.
   name: "cinetimes.org"
 
-  path: "_data/comments/{options.slug}"
+  path: "source/_data/comments/{options.slug}"
 
   requiredFields: ["name", "email", "message"]
 
