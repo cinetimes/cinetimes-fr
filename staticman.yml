@@ -62,11 +62,41 @@ posts:
   archive_url: "{fields.archive_url}"
   other_url: "{fields.other_url}"
 
-like:
-  allowedFields: ['like']
-  branch: "source"
-  format: "yml"
+# like:
+#   allowedFields: ['like']
+#   branch: "source"
+#   format: "yml"
+#   allowedOrigins: ["localhost", "cinetimes.org"]
+#   moderation: false
+#   path: "_data/likes/{options.slug}"
+#   filename: "{@timestamp}{options.slug}"
+
+comments:
+  allowedFields: ["name", "email", "url", "message"]
   allowedOrigins: ["localhost", "cinetimes.org"]
-  moderation: false
-  path: "_data/likes/{options.slug}"
-  filename: "{@timestamp}{options.slug}"
+  branch: "source"
+  commitMessage: "New comment on his way"
+  
+  filename: "{options.slug}"
+  # filename: "{@timestamp}"
+  # "json", "yaml" or "frontmatter"
+  format: "yaml"
+
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
+
+  moderation: true
+
+  # Name of the site. Used in notification emails.
+  name: "cinetimes.org"
+
+  path: "_data/comments"
+  # path: "_data/comments/{options.slug}"
+
+  requiredFields: ["name", "email", "message"]
+
+  transforms:
+    email: md5
