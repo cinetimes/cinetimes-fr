@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid movie-page-container">
 	<div class="row">
 		<div class="col-lg-8 col-xs-12 pr-lg-0" id="video_et_description">
 
@@ -165,22 +165,12 @@
 				<!--     <%- partial('article-categories', {item: item}) %>-->
 
 				<script src="<%- url_for('js/social.js') %>"></script>
-
-				<!-- Comments
-				<% if(!(page.comments == false)){ %>
-				<div class="col-md-8 col-xs-12 mx-auto py-3 px-5 mb-1">
-						<h3 class="text-center my-2 font-weight-bold">Laisser un commentaire</h3>
-				</div>
-				<div class="col-md-12 col-xs-12 mx-auto py-3 px-md-3 px-sm-1 mb-5 bg-color-white">
-					<%- partial('comments') %>
-				</div>
-				<% } %> -->
 		</div>
 
 
 
 
-		<div class="col-lg-4 col-xs-12">
+		<div class="col-lg-4 col-xs-12 sidebar">
 				<div class="d-flex flex-column">
 					<ul class="list-unstyled mt-3">
 
@@ -242,15 +232,15 @@
 				</div>
 		</div>
 
-			<!-- Comments -->
-			<% if(!(page.comments == false)){ %>
-				<div class="col-lg-8 col-xs-12">
-						<h3 class="text-center my-2 font-weight-bold">Laisser un commentaire</h3>
-				</div>
-				<div class="col-lg-8 col-xs-12 py-3 px-md-3 px-sm-1 mb-5 mx-3 bg-color-white">
-					<%- partial('comments') %>
-				</div>
-			<% } %>
+		<div class="col-lg-8 col-xs-12 py-3 px-md-3 px-sm-1 mb-5 mx-3">
+			<%- partial('comment-list') %>
+		</div>
+
+		<div class="col-lg-8 col-xs-12 py-3 px-md-3 px-sm-1 mb-5 mx-3">
+			<%- partial('comment-form') %>
+		</div>
+
+
 
 	</div>
 </div>

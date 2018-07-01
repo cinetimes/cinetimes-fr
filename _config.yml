@@ -101,7 +101,7 @@ fb_app_id:
 og_locale: fr_FR
 
 # Disqus Comments Shortname
-disqus_shortname: cinetimes
+# disqus_shortname: cinetimes
 
 # Hexo autoprefixer 
 autoprefixer:

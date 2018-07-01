@@ -1,0 +1,15 @@
+<% if (page.comments !== false) {  %>
+	<% const comments = get_comments(site, page.path) %>
+  <% if (comments !== undefined) { %>
+    <h2 class="text-center my-2 font-weight-bold mb-5"> <%- comments.length %> Commentaires</h2>
+    <div class="d-flex flex-column col-12">
+    <% comments.forEach(comment => { %>
+      <div class="mx-auto my-1 bg-color-white w-100 col-12 col-sm-9 rounded border border-white pt-3 px-3">
+        <span class="font-weight-bold"> <%- comment.name %> </span>
+        <br>
+        <p class="font-weight-light">	<%- comment.message %> </p>
+      </div>
+    <% }) %>
+    </div>
+  <% } %>
+<% } %>

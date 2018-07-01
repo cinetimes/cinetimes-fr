@@ -64,3 +64,18 @@ hexo.extend.helper.register('get_latest_releases', (site, maxCount) => {
 		return new Date(b.release_date) - new Date(a.release_date)
 	}).slice(0, maxCount);
 });
+
+hexo.extend.helper.register('get_comments', (site, slug) => {
+	let comments = [];
+	Object.keys(site.data).forEach(key => {
+		if (key.startsWith(`comments/${slug}`)) {
+			comments.push({
+				name: site.data[`${key}`].name,
+				email: site.data[`${key}`]['email'],
+				message: site.data[`${key}`]['message'],
+				url: site.data[`${key}`]['url'] || null,
+			})
+		}
+	})
+	return comments;
+});

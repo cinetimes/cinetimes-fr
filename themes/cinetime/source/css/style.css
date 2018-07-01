@@ -1371,6 +1371,24 @@ a.label:focus {
 }
 
 
+/* Move comments up */
+@media (min-width: 992px) { 
+  .sidebar {
+    position: absolute;
+    right: 0;
+  }
+  .movie-page-container {
+    min-height: 1648px;
+  } 
+  .media-body h5 {
+    overflow: hidden;
+    max-height: 46px
+  }
+  .media-body p {
+    overflow: hidden;
+    max-height: 46px;
+  }
+}
 
 
 /* Ridiculously Responsive Social Sharing Buttons CSS
