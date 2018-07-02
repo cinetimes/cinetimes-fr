@@ -213,6 +213,17 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 <br> 
 
+### À Votre tour !
+Je veux savoir ce que vous avez pensé de cette liste de films!
+
+- Lequel de ces films est votre préféré ?
+- Vous connaissez d'autres films du domaine public ?
+- Lequel allez-vous voir en premier ?
+
+**Faites-le-moi savoir dans les commentaires**
+
+
+
 <!-- Banière in blog posts -->
 <!-- <ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
@@ -229,14 +240,6 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 - [Liste des films disponibles gratuitement - Sens Critique](https://www.senscritique.com/liste/La_liste_des_films_disponibles_gratuitement/495126)
 - [Archive.org](https://archive.org/details/moviesandfilms) -->
 
-### À Votre tour !
-Je veux savoir ce que vous avez pensé de cette liste de films!
-
-- Lequel de ces films est votre préféré ?
-- Vous connaissez d'autres films du domaine public ?
-- Lequel allez-vous voir en premier ?
-
-**Faites-le-moi savoir dans les commentaires**
 
 <link rel="prefetch" href="/morgane-et-ses-nymphes/">
 
