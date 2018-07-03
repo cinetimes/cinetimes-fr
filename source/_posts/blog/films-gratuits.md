@@ -1,13 +1,13 @@
 ---
 layout: blog-post
-title: "71 Films Gratuits en Français à Voir en Streaming"
-serp: "71 Films Gratuits en Français à Voir en Streaming (où à Télécharger)"
+title: "76 Films Gratuits en Français à Voir en Streaming"
+serp: "76 Films Gratuits en Français à Voir en Streaming (où à Télécharger)"
 description: "Des Films gratuits. Ça vous tente ? Tant mieux car des millers de films sont tombés dans le domaine public et n'attendent plus que vous. Des Films gratuits en français..."
 share: true
 topshare: true
 comments: true
 featured: true
-updated: 07/02/2018
+updated: 07/03/2018
 # film gratuit                          100k - 1M
 # film en streaming                     100k - 1M
 # films streaming gratuit illimité      100k - 1M
@@ -32,6 +32,16 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 <ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
+**Dans cet article :**
+
+1. [**Films Gratuits en Français**](#Films-Gratuits-en-Francais)
+1. [**Films Muets**](#Films-Muets)
+1. [**Films en VOSTFR**](#‘Vieux’-Films-Domaine-Public-VOSTFR)
+1. [**Films d'Alfred Hitchcock**](#Films-d’Alfred-Hitchcock)
+1. [**Films de Charlie Chaplin**](#Films-de-Charlie-Chaplin)
+1. [**Films de François Truffaut**](#Films-de-Francois-Truffaut)
+1. [**Films de Georges Méliès**](#Films-de-Georges-Melies)
+
 ## Films Gratuits en Français
 - **Archimède le clochard** - [Gratuit](https://archive.org/details/ArchimedeLeClochard-1959-GillesGrangier) - Film français réalisé par Gilles Grangier, avec un scénario de Jean Gabin qu'il signera de son véritale nom: Jean Moncorgé. Sorti en 1959
 *autres liens: [gratuit](https://www.youtube.com/watch?v=4xreawXS4DU)*
@@ -47,6 +57,8 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 
 - **La Classe Américaine, le grand détournement** [Gratuit](https://vimeo.com/26249810) - Téléfilm français sorti en 1993, composé exclusivement d'extraits de films de Warner Bros afin de créer un film inédit. 
 *Autres liens: [Gratuit](https://www.youtube.com/watch?v=l44WKAtZLjI)*
+
+- **La Dernière Femme Sur Terre** (1960) - [Gratuit](/la-derniere-femme-sur-terre/) - *Last Woman on Earth* en anglais, est un film américain réalisé par Roger Corman. Deux hommes et une femme découvrent qu'ils sont les seuls survivants de la race humaine.
 
 - **La Grêve** - [Gratuit](http://cinetimes.org/la-greve/) - Réalisé en 1924 par le cinéaste Russe *Sergueï Eisenstein*. C'est le premier long métrage qu'il ait réalisé. C'est un remarquable film de propagande destiné à éduquer les masses.
 *Autres liens*: [Gratuit](https://upload.wikimedia.org/wikipedia/commons/c/c9/Strike_%281925%29.webm)
@@ -121,7 +133,11 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 - **La Passion de Jeanne d'Arc** - [Gratuit](https://cinetimes.org/la-passion-de-jeanne-darc/) - Film francçais réalisé par Carl Theodor Dreyer en 1927. Il fut initialement conçu comme un film parlant, mais les limitations techniques du studio on limité la réalisation à un film [muet](http://cinetimes.org/categorie/films/#muet).
 *Autres liens*: [Internet Archive](https://archive.org/details/DreyersThePassionOfJoanOfArc) - [vimeo](https://vimeo.com/169369684)
 
+
 - **Metropolis** - [Gratuit](http://cinetimes.org/metropolis-fritz-lang/) - Réalisé en 1927 par *Fritz Lang*, un cinéaste autrichien, *Metropolis* est un film de [science fiction](http://cinetimes.org/tags/science-fiction/), [muet](http://cinetimes.org/tags/muet/) et en [noir et blanc](http://cinetimes.org/tags/noir-et-blanc/) écrit par Fritz Lang et sa femme Thea von Harbou.
+
+
+- **La Chute de la maison Usher** (1928) - [Gratuit](https://archive.org/details/JeanEpsteinLaChuteDeLaMaisonUsher1928) Film français muet, réalisé par Jean Epstein avec Jean Debucourt, Marguerite Gance, Charles Lamy. Une des plus remarquables adaptations cinèmatographiques de l'oeuvre de Poe.
 
 <!-- 
 <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
@@ -138,6 +154,8 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 - **Détour** - [Gratuit](https://archive.org/details/DetourVostfr) - Film noir réalisé par Edgar George Ulmer, Adaptation du roman éponyme de Martin Goldsmith. Sorti en 1945.
 
+- **Dementia 13** (1963) - [Gratuit](/dementia-13/) - Thriller épattant de Francis Ford Coppola. C'est son premier long métrage. Film rare et méconnu. Avec William Campbell et Luana Anders.
+
 - **De près, personne n'est normal** - [Gratuit](https://vimeo.com/65807754) - Film Espagnol sorti en 2009, réalisé par Marcelo Mosenson. 
 
 - **Il marchait la nuit** (1948) - [Gratuit](https://archive.org/details/HeWalkedByNight) (He Walked By Night) est un [Thriller](http://cinetimes.org/tags/thriller/)  [policier](http://cinetimes.org/tags/policier/) réalisé par Alfred Werker et Anthony Mann avec Richard Basehart sorti en 1948.
@@ -148,6 +166,8 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 - **L'Homme de la rue** - [Gratuit](http://cinetimes.org/L'Homme-de-la-rue/) - Réalisé par Frank Capra, sorti en 1941, a été nommé à L'Oscar de la meilleure histoire originale
 *Autres liens*: [Gratuit](https://upload.wikimedia.org/wikipedia/commons/f/f4/Meet_John_Doe_%281941%29.webm)
+
+- **La Dame du Vendredi** (1940) - [Gratuit](/la-dame-du-vendredi/) - *His Girl Friday* en anglais, est une comédie américaine avec Cary Grant et Rosalind Russell. Un chef d’œuvre qui vient de ressurgir dans les salles obscures.
 
 - **La femme en vert** (1945) - [Gratuit](https://archive.org/details/SherlockHolmes-TheWomanInGreenVost-fr) (The Woman in green) ou Sherlock Holmes et la femme en vert est un film [policier](http://cinetimes.org/tags/policier/) américain sorti en 1945 réalisé par Roy William Neill.
 
@@ -167,6 +187,8 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 - **Le Livre de la Jungle** - [Gratuit](http://cinetimes.org/le-livre-de-la-jungle-1942/) - Réalisé par Zoltan Korda, tourné avec des animaux sauvages. (1942)
 
 - **Le juif Süss** - [Gratuit](http://archive.org/details/LeJuifSussVostfr) - *(en allemand : Jud Süß)* est un film de propagande nazie, [antisémite et anti-féministe](https://fr.wikipedia.org/wiki/Le_Juif_S%C3%BCss_(film,_1940) paru en 1940. Lors de sa projection en france en 1941, les étudiants catholiques lyonnais perturbent la projection au cri de : *« Pas de films nazis : rendez-nous nos pommes de terre et gardez vos navets ! »*
+
+- **Plan 9 From Outter Space** (1959) - [Gratuit](/plan-9-from-outer-space/) - est un Western de Edward D. Wood Jr. avec  Gregory Walcott Mona McKinnon et Duke Moore. Film culte bien que n'ayant suscité que de l'indifférence à sa sortie.
 
 - **Plus Fort Que Le Diable** - [Gratuit](https://cinetimes.org/plus-fort-que-le-diable/) - Film américano-britannique réalisé par John Huston, sorti en 1953. Son titre original est *Beat the devil*
 
@@ -223,35 +245,18 @@ Je veux savoir ce que vous avez pensé de cette liste de films!
 **Faites-le-moi savoir dans les commentaires**
 
 
-
-<!-- Banière in blog posts -->
-<!-- <ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
-<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
-
-   -->
-<!-- {% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %} -->
-
-<!-- ###### Sources utilisées pour créer cette liste:
-- [De grands classiques tombés dans le domaine public - ParisFaitSonCinema](http://www.parisfaitsoncinema.com/autour-du-cinema/culture/classiques-domaine-public.html)
-- [20 films cultes tombés dans le domaine public - apar.tv](http://www.apar.tv/cinema/20-films-cultes-tombes-dans-le-domaine-public-a-decouvrir-en-integralite-ici/)
-- [Youpi ! 6000 films et 180 000 images sont disponibles gratuitement - TV5 Monde](http://information.tv5monde.com/info/web-6000-films-et-180-000-images-disponibles-gratuitement-84641)
-- [1,150 Free Movies Online - Open Culture](http://www.openculture.com/freemoviesonline)
-- [Films dans le Domaine Public - Wikipédia](https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Film_dans_le_domaine_public)
-- [Liste des films disponibles gratuitement - Sens Critique](https://www.senscritique.com/liste/La_liste_des_films_disponibles_gratuitement/495126)
-- [Archive.org](https://archive.org/details/moviesandfilms) -->
-
-
 <link rel="prefetch" href="/morgane-et-ses-nymphes/">
 
+
+
 <!-- 
-Plan 9 from outter space
-Dementia 13
-Abraham lincoln
-Last woman on earth
-his girl friday
+
 sherlock holmes et la clef
 la maison du dr edwardes
-la nuit des morts vivants
+
+- **Abraham Lincoln** () - [Gratuit]() - 
+
+
 
 Les Babysitters (film complet en entier français)
 Secrètement amoureuse de Michael Beltran, dont elle garde les enfants, Shirley Lyner ne le repousse pas lorsqu'il l'embrasse fiévreusement. Pour se déculpabiliser, il lui offre un montant substantiel. En devenant sa maîtresse, Shirley y voit un moyen inespéré de payer ses études : elle met alors sur pied un véritable réseau de prostitution sous couvert d'un service de babysitting, exigeant 20% des recettes de ses employées, recrutées parmi ses amies de lycée. Cependant, ses règles sont remises en question par certaines filles, qui tentent de la doubler...
@@ -355,10 +360,7 @@ Drame.
 Roberto Rossellini avec Edmund Moeschke, Ingetraud Hinze, Franz-Otto Krüger
 https://archive.org/details/AllemagneAnneeZero1948_201602
 
-**La Chute de la maison Usher** (1928) - [Gratuit]()
-Drame et muet.
-Jean Epstein avec Jean Debucourt, Marguerite Gance, Charles Lamy
-https://archive.org/details/JeanEpsteinLaChuteDeLaMaisonUsher1928
+
 
 **Aventures Fantastiques** (1958) - [Gratuit]()
 Vynález zkázy
@@ -485,3 +487,23 @@ https://archive.org/details/LeGoutDesAutres
 **Le Passe-Muraille** - [Gratuit](https://archive.org/details/LePasseMurailletelefilm1977) - 
 
  -->
+
+
+
+
+
+<!-- Banière in blog posts -->
+<!-- <ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
+<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+
+   -->
+<!-- {% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %} -->
+
+<!-- ###### Sources utilisées pour créer cette liste:
+- [De grands classiques tombés dans le domaine public - ParisFaitSonCinema](http://www.parisfaitsoncinema.com/autour-du-cinema/culture/classiques-domaine-public.html)
+- [20 films cultes tombés dans le domaine public - apar.tv](http://www.apar.tv/cinema/20-films-cultes-tombes-dans-le-domaine-public-a-decouvrir-en-integralite-ici/)
+- [Youpi ! 6000 films et 180 000 images sont disponibles gratuitement - TV5 Monde](http://information.tv5monde.com/info/web-6000-films-et-180-000-images-disponibles-gratuitement-84641)
+- [1,150 Free Movies Online - Open Culture](http://www.openculture.com/freemoviesonline)
+- [Films dans le Domaine Public - Wikipédia](https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Film_dans_le_domaine_public)
+- [Liste des films disponibles gratuitement - Sens Critique](https://www.senscritique.com/liste/La_liste_des_films_disponibles_gratuitement/495126)
+- [Archive.org](https://archive.org/details/moviesandfilms) -->

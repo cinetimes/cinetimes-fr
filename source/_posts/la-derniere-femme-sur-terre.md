@@ -6,7 +6,8 @@ author: Roger Corman
 img_name: laDerniereFemmeSurTerre.jpg
 release_date: '1960-08-05'
 runtime: '02:18:41'
-synopsis: ''
+synopsis: >-
+  Un couple et leur avocat partent faire une croisière sur leur yacht, suivi d'une excursion sous-marine au moment même où, en surface, les plantes arrêtent de produire de l'oxygène durant quelques minutes. Une fois de retour, ils découvrent que l'humanité est morte asphyxiée et qu'ils sont les trois seuls survivants.
 tags: 
 - Mystère
 - Romance
