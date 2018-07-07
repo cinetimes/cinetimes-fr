@@ -26,15 +26,15 @@
     </div>
 
     <% if (page.share) { %>
-        <div class="d-flex justify-content-end">
-            <div style="max-width: 200px;" class="text-right">
-                <%- partial('_partial/share', {item: page}) %>
-            </div>
-        </div>
+    <div class="d-flex justify-content-end">
+    <div class="text-right bottom-share">
+        <%- partial('_partial/share', {item: page}) %>
+    </div>
+    </div>
     <% } %>
 </div>
 
-<div class="col-md-8 col-xs-12 mx-auto py-3 px-md-5 px-sm-1 mb-5">
+    <div class="col-md-8 col-xs-12 mx-auto py-3 px-md-5 px-sm-1 mb-5">
         <%- partial('_partial/comment-list') %>
     </div>
 
