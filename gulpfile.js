@@ -13,15 +13,15 @@ var minifycss = require('gulp-clean-css');
 var imagemin = require('gulp-imagemin');
 var imageResize = require('gulp-image-resize');
 var rename = require('gulp-rename');
+const babel = require('gulp-babel');
 var uglify = require('gulp-uglify');
+var concat = require('gulp-concat');
 var del = require('del');
 var runSequence = require('run-sequence');
-const babel = require('gulp-babel');
 
 // var minify = require("gulp-babel-minify");
 // var htmlclean = require('gulp-htmlclean');
 // var gutil = require('gulp-util');
-var concat = require('gulp-concat');
 
 
 gulp.task('clean', function() {
@@ -67,9 +67,6 @@ gulp.task('minify-html', function() {
 });
 
 
-
-
-
 // gulp.task("uglify", () => {
 //     gulp.src('./public/**/*.js'),
 //     uglify(),
@@ -82,15 +79,15 @@ gulp.task('minify-html', function() {
 //     .pipe(gulp.dest('./public'));
 // });
 
-// gulp.task("babelify", () => {
-//   gulp.src('./public/**/*.js')
-//     .pipe(babel({
-//         presets: ['env']
-//     }))
-//     .pipe(concat('all.js'))
-//     .pipe(uglify('all.js'))
-//     .pipe(gulp.dest("./public"));
-// });
+gulp.task("minify-js", () => {
+  gulp.src('./public/**/*.js')
+    .pipe(babel({
+        presets: ['env']
+    }))
+    // .pipe(concat('all.js'))
+    // .pipe(uglify('all.js'))
+    .pipe(gulp.dest("./public"));
+});
 
 
 gulp.task('minify-img', function() {
@@ -155,7 +152,7 @@ gulp.task('thumbnail-cover', function(){
 gulp.task('compress', function(cb) {
     runSequence([ 'minify-html', 'minify-css', 'minify-img'], cb);
 });
-//removed :  'minify-js'
+//removed : 'minify-js'
 
 gulp.task('resize', function(){
     runSequence(['thumbnail-card', 'thumbnail-poster', 'thumbnail-cover', 'thumbnail-next']);
