@@ -3,12 +3,13 @@
       categories.push(category.name);
   }); -->
   <%
+  var tags = [];
   if (item.tags) {
     var tags = [];
     item.tags.forEach(function(tag){
         tags.push(tag.name);
     });
-  }
+  } 
   poster_path = item.poster_path ? item.poster_path : url_for("img/") + 'cover_' + item.img_name ;
   %>
 
@@ -36,24 +37,8 @@
 <% } %>
 
 <% if (is_category()) { %>
-  <% if (tags.includes(tag)) { %>
-    <!-- CARD -->
-    <!-- <div class="card">
-      <a href="<%- url_for(item.path) %>"><img width="302" height="181" class="card-img-top" data-src="<%- url_for('img/')%>card_<%- item.img_name %>" alt="<%- item.title + ', ' + site.data.metadata.alt_intro %>"></a>
-      <div class="card-body">
-        <h4 class="card-title"><%- item.title %></h4>
-        <h6 class="card-subtitle text-muted"><%- _.startCase(item.author) %></h6>
-      </div>
-    </div> -->
-    <!-- POSTER as BACKGROUND -->
-    <!-- <div class="poster-wrapper">
-      <a href="<%- url_for(item.path) %>">
-        <div style="background-image: url('<%- poster_path %>');" class="poster-image">
-    
-        </div>
-        <div class="poster-title text-dark"> <%- item.title %> </div>
-      </a>
-    </div> -->
+  <% if ((tags.length > 0) && (tags.includes(tag))) { %>
+
     <!-- POSTER as IMAGE -->
     <div class="poster-wrapper">
       <a href="<%- url_for(item.path) %>">
@@ -64,6 +49,18 @@
         <div class="poster-title text-dark"> <%- item.title %> </div>
       </a>
     </div>
+  <% } else if(typeof notag !== 'undefined') { %>
+    <% if (notag) { %>
+      <div class="poster-wrapper">
+        <a href="<%- url_for(item.path) %>">
+          <div class="poster-image">
+            <img class="lazy" data-src="<%- poster_path %>" style="width:170px; height:225px; border-radius:5px" alt="<%- item.title + ', ' + site.data.metadata.alt_intro %>">
+            <link rel="prefetch" href="<%- poster_path %>">
+          </div>
+          <div class="poster-title text-dark"> <%- item.title %> </div>
+        </a>
+      </div>
+    <% } %>
   <% } %>
 <% } %>
 

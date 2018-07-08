@@ -17,10 +17,12 @@ function buildPopularPosts(pathAndViews, site) {
                         author: post.author,
                         img_name: post.img_name,
                         path: post.path,
+                        category: post.categories.data[0].name,
                         viewCount: pathAndView[1]
                     })
                     // console.log(pathAndView[0], ' = ', post.path);
                     // console.log('viewCount: ', pathAndView[1]);
+                    // console.log(post.categories.data[0].name);
                 }
             }
             // console.log(pathAndView[0], 'DO NOT MATCH', post.path)
