@@ -33,7 +33,7 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 <!-- <ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
 <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> -->
 
-<a href="https://scriptor.io/creer-un-blog/" ><img src="/img/ad-creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public" class="mw-100 mr-md-5 mx-xs-0" ></a>
+<a href="https://scriptor.io/creer-un-blog/" ><img src="/img/ad-creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public"></a>
 
 **Dans cet article :**
 
