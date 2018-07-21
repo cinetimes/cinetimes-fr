@@ -28,10 +28,12 @@ Voici une liste régulièrement mise à jour contenant déja plus de 70 films gr
 
 Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
 <!-- Banière in blog posts -->
-<ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
-<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+<!-- <ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
+<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> -->
+
+<a href="https://scriptor.io/creer-un-blog/" ><img src="/img/ad-creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public" class="mw-100 mr-md-5 mx-xs-0" ></a>
 
 **Dans cet article :**
 
