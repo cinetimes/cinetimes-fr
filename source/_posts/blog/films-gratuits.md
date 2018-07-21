@@ -28,7 +28,11 @@ Voici une liste régulièrement mise à jour contenant déja plus de 70 films gr
 
 Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
-<a href="https://scriptor.io/creer-un-blog/" ><img src="/img/ad-creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public"></a>
+
+<div><a href="https://scriptor.io/creer-un-blog/"> <img src="/img/ad-creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public"></a></div>
+
+
+![films gratuits](/img/ad-creer-site.jpg)
 
 **Dans cet article :**
 
@@ -123,6 +127,7 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 
 <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 
 ## Films Muets
 
