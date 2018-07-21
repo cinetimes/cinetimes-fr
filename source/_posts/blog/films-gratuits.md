@@ -29,7 +29,7 @@ Voici une liste régulièrement mise à jour contenant déja plus de 70 films gr
 Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
 
-<div><a href="https://scriptor.io/creer-un-blog/"> <img src="/img/creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public"></a></div>
+<div><a href="https://scriptor.io/creer-un-blog/"> <img src="/img/creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public" class="mw-100"></a></div>
 
 
 **Dans cet article :**
@@ -145,7 +145,7 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 ## 'Vieux' Films Domaine Public VOSTFR 
 
-<a href="https://scriptor.io/creer-un-blog/" ><img src="/img/ad-creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public"></a>
+<a href="https://scriptor.io/creer-un-blog/" ><img src="/img/creer-site.jpg" alt="films gratuits" class="mw-100" title="Meilleurs Films du Domaine Public"></a>
 
 
 - **12 Hommes en colère** - [Gratuit](https://cinetimes.org/12-hommes-en-colere/) - Premier film de Sidney Lumet, sorti en 1957. Nominé aux oscars en 1958. Gagnant du prix Edgar-Allan-Poe du meilleur scénario pour Reginald Rose. 
