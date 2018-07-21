@@ -28,11 +28,6 @@ Voici une liste régulièrement mise à jour contenant déja plus de 70 films gr
 
 Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
-<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-<!-- Banière in blog posts -->
-<!-- <ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="5575323170"data-ad-format="link"></ins>
-<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script> -->
-
 <a href="https://scriptor.io/creer-un-blog/" ><img src="/img/ad-creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public"></a>
 
 **Dans cet article :**
@@ -147,6 +142,9 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 ## 'Vieux' Films Domaine Public VOSTFR 
 
+<a href="https://scriptor.io/creer-un-blog/" ><img src="/img/ad-creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public"></a>
+
+
 - **12 Hommes en colère** - [Gratuit](https://cinetimes.org/12-hommes-en-colere/) - Premier film de Sidney Lumet, sorti en 1957. Nominé aux oscars en 1958. Gagnant du prix Edgar-Allan-Poe du meilleur scénario pour Reginald Rose. 
 
 - **Association criminelle** (1955) - [Gratuit](https://archive.org/details/TheBigCombo-Vostr-fr) (The Big Combo) est un [Thriller](http://cinetimes.org/tags/thriller/) [policier](http://cinetimes.org/tags/policier/) sorti en 1955, réalisé par Joseph H. Lewis avec Jean Wallace.
@@ -237,6 +235,7 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 *autres liens: [streaming](https://www.youtube.com/watch?v=SvmM_YSnWX8)*
 
 <br> 
+
 
 ## À Votre tour !
 Je veux savoir ce que vous avez pensé de cette liste de films!
