@@ -198,7 +198,6 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 *Autres liens*: [Gratuit](https://www.bitchute.com/video/aJ84xN3EfKFU/)
 
 
-<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## Films de Charlie Chaplin
 - **Charlot entre le bar et l'amour** - [Gratuit](https://cinetimes.org/charlot-entre-le-bar-et-lamour/) - Charlot entre le bar et l'amour ou *Charlot est trop galant* est une comédie américaine de George Nichols avec Charlie Chaplin sortie en 1914.
