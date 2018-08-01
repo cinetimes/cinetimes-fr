@@ -29,7 +29,7 @@ Voici une liste régulièrement mise à jour contenant déja plus de 70 films gr
 Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
 
-<div><a href="https://scriptor.io/creer-un-blog/"> <img src="/img/creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public" class="mw-100"></a></div>
+<!-- <div><a href="https://scriptor.io/creer-un-blog/"> <img src="/img/creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public" class="mw-100"></a></div> -->
 
 
 **Dans cet article :**
@@ -124,8 +124,6 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 
-<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
-
 
 ## Films Muets
 
@@ -140,13 +138,7 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 - **La Chute de la maison Usher** (1928) - [Gratuit](https://archive.org/details/JeanEpsteinLaChuteDeLaMaisonUsher1928) Film français muet, réalisé par Jean Epstein avec Jean Debucourt, Marguerite Gance, Charles Lamy. Une des plus remarquables adaptations cinèmatographiques de l'oeuvre de Poe.
 
-<!-- 
-<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
-
 ## 'Vieux' Films Domaine Public VOSTFR 
-
-<a href="https://scriptor.io/creer-un-blog/" ><img src="/img/creer-site.jpg" alt="films gratuits" class="mw-100" title="Meilleurs Films du Domaine Public"></a>
-
 
 - **12 Hommes en colère** - [Gratuit](https://cinetimes.org/12-hommes-en-colere/) - Premier film de Sidney Lumet, sorti en 1957. Nominé aux oscars en 1958. Gagnant du prix Edgar-Allan-Poe du meilleur scénario pour Reginald Rose. 
 
@@ -196,8 +188,6 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 - **Plus Fort Que Le Diable** - [Gratuit](https://cinetimes.org/plus-fort-que-le-diable/) - Film américano-britannique réalisé par John Huston, sorti en 1953. Son titre original est *Beat the devil*
 
-<!-- <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
-
 ## Films d'Alfred Hitchcock
 - **Les 39 Marches** - [Gratuit](http://cinetimes.org/les-39-marches/) - Film Britanique réalisé par Alfred Hitchcock, sorti en 1935, Hitchcock fait un caméo à la septième minute du film. 
 - **Bon Voyage** - [Gratuit](http://cinetimes.org/bon-voyage-alfred-hitchcock/) - Court-métrage de propagande britannique l'un des deux seuls que *Alfred Hitchcock* ait réalisé avec *Aventure Malgache*. Bon voyage est sorti en 1944
@@ -217,16 +207,11 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 *Autres lien: [Gratuit](https://vimeo.com/163164359) - [Gratuit](https://archive.org/details/Brzdac1921) - [Gratuit](https://www.youtube.com/watch?v=TqXfTsagqKw)*
 - **La Ruée Vers l'or** - [Gratuit](https://cinetimes.org/la-ruee-vers-lor/) - Charles Chaplin a écrit, dirigé et joué dans *La ruée vers l'or*. Il est fière de ce film. Charles Chaplin a déclaré a plusieurs reprises que si il y a un film pour lequel on se devait se rapeler de lui, il voudrait que ce soit celui-là.
 
-<!-- 
-<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
-
 
 ## Films de François Truffaut
 - **Tirez sur le pianiste** [Gratuit](https://cinetimes.org/tirez-sur-le-pianiste/) - Film noir français réalisé par François Truffaut, sorti en 1960. Tourné à paris, ce film [Dramatique](http://cinetimes.org/tags/drame/) permettra à Charles Aznavour de gagner en notoriété aux États-Unis.
 - **L’Enfant sauvage** [Gratuit](https://cinetimes.org/lenfant-sauvage/) - Film français dramatique inspiré de l'histoire de Victor de l'Aveyron et sorti en 1970. Le réalisateur, François Truffaut utilisa la propriété d'un ami pour tourner une partie du film afin d'être au calme. Il a reçu le prix méliès 1970
 
-<!-- 
-<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"data-ad-format="fluid" data-ad-client="ca-pub-3093835180445554" data-ad-slot="2817297894"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script> -->
 
 
 ## Films de Georges Méliès
