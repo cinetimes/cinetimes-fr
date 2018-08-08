@@ -223,6 +223,19 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 <br> 
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banière in blog posts -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3093835180445554"
+     data-ad-slot="5575323170"
+     data-ad-format="link"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 
 ## À Votre tour !
 Je veux savoir ce que vous avez pensé de cette liste de films!
