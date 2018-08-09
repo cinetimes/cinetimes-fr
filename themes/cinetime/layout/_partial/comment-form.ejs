@@ -27,7 +27,12 @@
 				<label for="message">Commentaire</label>
 				<textarea class="form-control" id="message" rows="4"name="fields[message]"></textarea>
 			</div>
-	
+			
+			<script src='https://www.google.com/recaptcha/api.js'></script>
+			<input type="hidden" name="options[reCaptcha][siteKey]" value="6LfFGmkUAAAAAIFkMaiHZIGSw6tGStITHybJ2va-">
+      <input type="hidden" name="options[reCaptcha][secret]" value="WMsKahgjDzKfKQiimVdwCRVOv5eosk9XO7h3iTRJzcqFRWd91GjnXgbJ6drZlbcEgNQRGrZ5iLCnBp8EJTTjL+093sWNOQ2jdgcJ3Bm0jAYkHZlZgnZr85YL8PJtsPgPwKWTM9zZXa0emb88kYF8TQfHX2gDRMfl/Ed+xLxyN+c=">
+			<div class="g-recaptcha" data-sitekey="6LfFGmkUAAAAAIFkMaiHZIGSw6tGStITHybJ2va-"></div>
+			
 			<button type="submit" class="btn btn-success">Commenter</button>
 		</div>
 
