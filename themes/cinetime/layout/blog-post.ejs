@@ -12,9 +12,11 @@
     </h1>
 
     <% if (page.topshare) { %>
+        
         <div class="floating-share">
-            <%- partial('_partial/share', {item: page}) %>
+            <%- partial('_partial/sticky-social-bar', {item: page}) %>
         </div>
+
     <% } %>
     
 
