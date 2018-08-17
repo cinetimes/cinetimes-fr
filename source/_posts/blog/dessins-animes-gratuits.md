@@ -83,9 +83,7 @@ updated: 02/03/2018
      data-ad-slot="5575323170"
      data-ad-format="link"
      data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
 
 ### À Votre tour !
