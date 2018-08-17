@@ -227,9 +227,7 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 - **Le juif errant** - [Gratuit](https://archive.org/details/LeJuifErrant) - Film français réalisé par Georges Méliès, sorti en 1904.
 *autres liens: [streaming](https://www.youtube.com/watch?v=SvmM_YSnWX8)*
 
-<br> 
-
-
+**Partagez :**
 {% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %}
 
 

@@ -14,7 +14,8 @@ updated: 02/03/2018
 *autres liens*: [streaming](https://upload.wikimedia.org/wikipedia/commons/8/87/Gullivers_Travels_%281939%29.webm)
 - **Woody Woodpecker**  - [Gratuit](http://cinetimes.org/Woody-Woodpecker-Le-ballet-nautique/) - Le ballet nautique, seul épisode de Woody présentement dans le domaine public.
 *autres liens*: [streaming](https://archive.org/details/woody_woodpecker_pantry_panic)
-  
+
+{% clickToTweet 'Dessins animés Gratuits (à voir en streaming)' 'https://cinetimes.org/blog/dessins-animes-gratuits/' %}  
 
 ##### Dessins Animés Gratuits d'une Qualité à Couper le Souffle
 - **Agent 327** [HD] - [Gratuit](http://cinetimes.org/agent-327/) - Agent 327 Opération Barbershop est un court métrage hilarant de *Bleder Institute*, basé sur l'univers de Martin Lodewijk. Ce court métrage est un teaser, en attendant la sortie du long métrage, qui sera lui aussi gratuit.
@@ -74,16 +75,9 @@ updated: 02/03/2018
 - Ça, ce sont des chaussons de danse (the green dancing shoes) 
 - Ski de haut vol 
 
-<br>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Banière in blog posts -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3093835180445554"
-     data-ad-slot="5575323170"
-     data-ad-format="link"
-     data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({}); </script>
+**Partagez :**
+
+{% clickToTweet 'Dessins animés Gratuits (en Streaming)' 'https://cinetimes.org/blog/dessins-animes-gratuits/' %}  
 
 
 ### À Votre tour !
