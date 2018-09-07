@@ -15,6 +15,8 @@ tags:
 - Noir et Blanc
 - Espionnage
 date: '2018-01-17T23:58:44.720Z'
+synopsis: >-
+  Dans un train en provenance d'Europe centrale, Iris Henderson voyage en compagnie de Miss Froy, une vieille dame, britannique comme elle, dont elle a fait connaissance dans un hôtel la veille. Au cours du voyage, Miss Froy disparaît mystérieusement. La jeune femme s’inquiète, mais personne ne veut la croire et on tente de la convaincre qu'elle a tout imaginé. Le train est en fait rempli d'espions. Seul Gilbert Redman, un musicien rencontré lui aussi à l'hôtel, sera en mesure d'aider Iris. Quatre autres Britanniques seront embarqués dans l'histoire : deux amateurs de cricket obsédés par l'idée d'arriver à temps à Londres pour un match, et un couple d'amants qui souhaitent rester discrets.
 ---
 
 

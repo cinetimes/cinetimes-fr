@@ -106,18 +106,21 @@
 					
 					<span id="magnet" class="d-none"><%- item.webtorrent_magnet %></span>
 
-				    <div class="videoDescription px-4 pb-2 text-left">
+				    <div class="videoDescription px-4 pb-2 text-left font-weight-light">
 						<% if(item.synopsis) { %>
 							<% 
 							var cast = item.cast ? item.cast.split(',') : '';
 							var crew = item.crew ? item.crew.split(',') : '';
 							%>
-							<h4 class="text-left">Synopsis</h4>
+
+						<% if (!item.content) { %>
+							<h1>Synopsis</h1>
 							<p class="text-left"> 
 								<%- item.synopsis %> 
 								<br>
 								<% if(item.amazon) { %><span><a href="<%- item.amazon %>"><%- item.title %> en DVD</a></span> <% } %>
 							</p>
+						<% } %>
 
 							<%- item.content %>
 

@@ -5,7 +5,6 @@ original_title: Le voyage de Gulliver à Lilliput et chez les géants
 author: Georges Méliès
 img_name: gulliverLilliput.jpg
 release_date: '1902-01-01'
-synopsis: ''
 category:
 - Films
 tags: 
@@ -21,4 +20,6 @@ imdb_id: tt0229024
 adult: 'false'
 date: '2018-02-17T23:37:12.384Z'
 slug: le-voyage-de-gulliver-a-lilliput-et-chez-les-geants
+synopsis: >-
+  Adaptation du roman Les Voyages de Gulliver, de Jonathan Swift.
 ---

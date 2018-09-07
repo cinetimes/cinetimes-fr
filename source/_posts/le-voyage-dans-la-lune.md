@@ -13,6 +13,10 @@ tags:
 - Science-Fiction
 - Noir et Blanc
 date: '2018-02-01T23:58:44.720Z'
+synopsis: >-
+  Lors d'un colloque d'astronomie, le professeur Barbenfouillis surprend l'auditoire en faisant part de son projet de voyage dans la Lune. Il organise ensuite pour ses confrères la visite de l'atelier où l'obus spatial est en chantier. Il sera propulsé en direction de la Lune au moyen d'un canon géant de 300 mètres de long.
+
+  Le lancement réussi, les six astronomes découvrent l'environnement lunaire et assistent à un lever de Terre. Épuisés par leur voyage, ils se couchent à même le sol et s'endorment. Apparaissent sept étoiles représentant la Grande Ourse, puis une étoile double, Phœbé et Saturne. Survient une tempête de neige provoquée par Phœbé, qui les réveille ; ils s'engouffrent dans une ouverture au sol où ils découvrent des champignons géants et des Sélénites, population autochtone de la Lune, qui les emprisonnent et les présentent à leur roi. L'un des prisonniers se précipite sur le souverain, le jette au sol et ils parviennent tous à s'échapper, poursuivis par les Sélénites. L'un des poursuivants reste accroché au fuselage de l'obus qui prend la direction de la Terre. De retour, après être tombés dans la mer, les savants sont accueillis en héros et exposent triomphalement leur capture. Ensuite, une statue représentant Barbenfouillis est érigée sur la place de la ville avec l'inscription latine Labor omnia vincit (Un travail acharné vient à bout de tout).
 ---
 
 

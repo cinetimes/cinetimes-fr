@@ -11,7 +11,9 @@ category:
 tags:
 - Open Blender Movies
 date: '2018-01-17T23:58:44.720Z'
+synopsis: >-
+  Deuxième dessin animé de l'institut Blender. Raconte l'histoire en HD d'un lapin énorme avec un coeur encore plus grand.
 ---
 
 # Synopsis
-Deuxième dessin animé de l'institut *Blender*. Raconte l'histoire en HD d'un lapin énorme avec un coeur encore plus grand.
+<!-- Deuxième dessin animé de l'institut *Blender*. Raconte l'histoire en HD d'un lapin énorme avec un coeur encore plus grand. -->

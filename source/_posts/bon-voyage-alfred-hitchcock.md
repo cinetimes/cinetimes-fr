@@ -13,6 +13,9 @@ tags:
 - Propagande
 - Thriller
 date: '2018-01-17T23:58:44.720Z'
+synopsis: >-
+  Le film commence dans un bureau des services de renseignements français à Londres. Un officier, du deuxième bureau, assisté de son homologue anglais, interroge John Dougall, sergent de la RAF qui s'est enfui d'Allemagne en compagnie d'un autre détenu, sur les conditions de son arrivée dans la capitale britannique. John Dougall s'exécute de bonne grâce...
+
 ---
 
 

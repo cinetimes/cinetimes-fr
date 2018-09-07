@@ -15,6 +15,8 @@ tags:
 - Policier
 - Thriller
 date: '2018-01-18T23:58:44.720Z'
+synopsis: >-
+  À Londres, le Canadien Richard Hannay rencontre, au terme d'un spectacle musical interrompu bien singulièrement, une demoiselle qui se prétend poursuivie. Il accepte de la cacher chez lui, où l'on assassine cette dernière. Craignant d'être accusé, il comprend qu'il ne pourra prouver son innocence de ce meurtre que s'il s'implique dans une intrigue d'espionnage. Il n'a que deux indices, une phrase qu'elle lui a dite, « les 39 marches », et le nom d'un lieu en Écosse…
 ---
 
 

@@ -14,6 +14,8 @@ tags:
 - Science-Fiction
 - Fantastique
 date: '2018-01-17T23:58:44.720Z'
+synopsis: >-
+  Des ouvriers travaillent dans les souterrains d'une fabuleuse métropole de l'an 2026. Ils assurent le bonheur des nantis qui vivent dans les jardins suspendus de la ville. Un androïde mène les ouvriers vers la révolte.
 ---
 
 

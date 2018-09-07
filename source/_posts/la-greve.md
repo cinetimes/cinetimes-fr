@@ -16,6 +16,8 @@ tags:
 - Noir et Blanc
 - Drame
 date: '2018-01-17T23:58:44.720Z'
+synopsis: >-
+  En 1912, dans l'Empire russe, les ouvriers d'une usine sont poussés à bout par des conditions de travail éreintantes, et des espions choisis parmi le lumpenprolétariat sont chargés de dénicher les meneurs syndicalistes. Un ouvrier est accusé à tort d'avoir volé un micromètre. Sous la pression, il se pend. Ses collègues décident de se mettre en grève, mais celle-ci sera réprimée de manière sanglante par l'armée tsariste.
 ---
 
 

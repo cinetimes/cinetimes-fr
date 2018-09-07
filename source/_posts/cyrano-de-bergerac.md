@@ -11,6 +11,8 @@ category:
 tags:
 - Comédie Dramatique
 date: '2018-01-17T23:58:44.720Z'
+synopsis: >-
+  Paris, XVIIème siècle, les cadets de Gascogne sont répités pour leur bravoure et leur aisance à croiser le fer. L'un d'entre eux, et non, le moindre, Cyrano de Bergerac est plus connu pour son grandissime nez et pour sa verve que pour ses exploits de soldats. Malgrè l'amour secret qu'il porte pour sa cousine Roxane, Cyrano accepte de rédiger des lettres enflammées à la demande de son compagnon d'art Christian de Neuvillette, tombé lui aussi sous le charme de la jeune femme... 
 ---
 
 

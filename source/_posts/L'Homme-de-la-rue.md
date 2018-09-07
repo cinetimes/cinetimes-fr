@@ -14,8 +14,10 @@ tags:
 - Comédie Dramatique
 - Noir et Blanc
 date: '2018-01-17T23:58:44.720Z'
+synopsis: >-
+  Pour retrouver son poste, la journaliste Ann Mitchell invente un personnage nommé John Doe qu'elle fait passer pour réel dans une lettre de suicide dénonçant le malaise social ambiant. Elle engage alors un dénommé John Willoughby pour se faire passer pour ce fameux John Doe. Mais, celui-ci se prend au jeu.
 ---
 
 
-# Synopsis
-[L'Homme de la rue, de Frank Capra](https://www.amazon.fr/gp/product/B008DRNO96/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=ctimes-21&camp=1642&creative=6746&linkCode=as2&creativeASIN=B008DRNO96&linkId=b55ae139dab691248c747a2447f654f4). Pour retrouver son poste, la journaliste Ann Mitchell invente un personnage nommé John Doe qu'elle fait passer pour réel dans une lettre de suicide dénonçant le malaise social ambiant. Elle engage alors un dénommé John Willoughby pour se faire passer pour ce fameux John Doe. Mais, celui-ci se prend au jeu.
+<!-- # Synopsis
+[L'Homme de la rue, de Frank Capra](https://www.amazon.fr/gp/product/B008DRNO96/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=ctimes-21&camp=1642&creative=6746&linkCode=as2&creativeASIN=B008DRNO96&linkId=b55ae139dab691248c747a2447f654f4). Pour retrouver son poste, la journaliste Ann Mitchell invente un personnage nommé John Doe qu'elle fait passer pour réel dans une lettre de suicide dénonçant le malaise social ambiant. Elle engage alors un dénommé John Willoughby pour se faire passer pour ce fameux John Doe. Mais, celui-ci se prend au jeu. -->

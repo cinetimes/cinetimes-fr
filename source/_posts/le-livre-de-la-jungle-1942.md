@@ -11,6 +11,9 @@ category:
 tags:
 - Aventure
 date: '2018-01-10T23:58:44.720Z'
+synopsis: >- 
+  Dans un village de l'Inde britannique, une jeune memsahib anglaise entend par hasard un vieux conteur, Buldeo, parler des dangers de la jungle. Elle lui demande de lui raconter une histoire et il raconte alors celle de Mowgli... Alors que Buldeo était plus jeune, les hommes décident de construire un village dans la jungle, empiétant sur la vie sauvage. Shere Khan, le tigre redouté, revenant sur ses terres de prédilection, rôde autour du village. Pendant ce temps, Mowgli échappe à la surveillance de ses parents pour se perdre dans la jungle. Son père part à sa recherche mais rencontrant Shere Khan, ce dernier le tue. Mowgli est recueilli par les loups qui le protègent du tigre, l’élèvent et lui apprennent le langage des animaux. Quelques années après, Mowgli, adolescent, est trouvé par des habitants du village. Ils se divisent en deux clans quant à leur opinion au sujet de l'avenir de l'enfant sauvage. Certains, dont Buldeo, le considèrent comme un mauvais signe qui risque d'attirer les animaux sauvages dans le village. D'autres préfèrent l’accueillir comme un homme. Messua, la mère de Mowgli, bien qu'elle ne reconnaisse pas son fils, décide de recueillir l'enfant. Bientôt, ce dernier veut faire découvrir la jungle à Mahala, la fille de Buldeo, avec laquelle il avait sympathisé... Mowgli va découvrir peu à peu la cupidité des hommes et devra choisir entre la civilisation et la jungle.
+
 ---
 
 

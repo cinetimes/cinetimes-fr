@@ -15,6 +15,10 @@ tags:
 - Comédie Dramatique
 - Muet
 date: '2018-02-17T23:00:44.720Z'
+synopsis: >-
+  La mère d'un jeune enfant, ne pouvant le faire vivre, décide de l'abandonner dans la voiture d'une famille fortunée. C'est alors que deux voyous décident de voler cette même voiture. Quelques rues plus loin, les voleurs entendent pleurer le bambin. Ils l'abandonnent dans une ruelle où passe un peu plus tard Charlot, un vitrier miséreux. Gêné par sa découverte, il tente d'abord de s'en défaire, avant de s'attacher à lui. Il l'éduque de son mieux, malgré les conditions difficiles. Cinq années passent ainsi dans la débrouillardise, mais surtout l'amour et la tendresse. Malheureusement, les services sociaux s'en mêlent…
+
+  De son côté, devenue riche, la mère de l’enfant cherche à retrouver son fils.
 ---
 
 
