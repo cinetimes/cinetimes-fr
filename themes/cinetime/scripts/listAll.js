@@ -26,6 +26,8 @@ hexo.extend.tag.register('listMovies', site => {
     <p> 
       <a href="/${movie.path}"> <strong> ${movie.title} </strong> </a> <em>${originalTitle}</em> 
       <br />
+      <img class="my-2 rounded" src="/img/next_${movie.img_name}" alt="film libre de droit" title="Illustration de ${movie.title}" width="300">
+      <br />
       <span class="font-weight-light"> 
       ${movie.synopsis}  
       <br />
@@ -33,6 +35,7 @@ hexo.extend.tag.register('listMovies', site => {
       ${year} 
       </span>
     </p>
+    <hr />
     `;
   });
 
