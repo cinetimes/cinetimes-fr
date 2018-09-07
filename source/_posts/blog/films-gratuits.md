@@ -42,7 +42,16 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 1. [**Films de François Truffaut**](#Films-de-Francois-Truffaut)
 1. [**Films de Georges Méliès**](#Films-de-Georges-Melies)
 
-{% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %}
+<!-- {% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %} -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banière in blog post -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3093835180445554"
+     data-ad-slot="7117957134"
+     data-ad-format="link"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## Films Gratuits en Français
 - **Archimède le clochard** - [Gratuit](https://archive.org/details/ArchimedeLeClochard-1959-GillesGrangier) - Film français réalisé par Gilles Grangier, avec un scénario de Jean Gabin qu'il signera de son véritale nom: Jean Moncorgé. Sorti en 1959
