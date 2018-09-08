@@ -77,12 +77,13 @@ $('#commentForm').submit(function () {
 			error: function (response) {
 				console.log('** ERROR!');
 				console.log(response);
+				showToast('Il faut remplir le formulaire...', null, true);
 			}
 		});
 
 		$(this).get(0).reset();
 	}
-	showToast('Il faut remplir le formulaire...', null, true);
+	// showToast('Il faut remplir le formulaire...', null, true);
 	return false;
 });
 
