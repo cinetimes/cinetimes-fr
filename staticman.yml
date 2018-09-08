@@ -30,7 +30,8 @@ posts:
       type: slugify
       options:
         field: title
-  format: "md"
+  format: "frontmatter"
+  extension: "md"
   moderation: true
   name: "Cinetimes"
   path: "source/_drafts"
