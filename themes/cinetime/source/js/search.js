@@ -1,31 +1,9 @@
 $(function () {
 
-  var medias = new Bloodhound({
-    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('title', 'author'),
-    queryTokenizer: Bloodhound.tokenizers.whitespace,
-    local: movies
-  });
-
-  $('#q .typeahead').typeahead({
-    highlight: true,
-    minLength: 1
-  },
-  {
-    limit: 10,
-    source: medias.ttAdapter(),
-    display: 'title',
-    templates: {
-      // header: '<h3 class="league-name">NBA Teams</h3>',
-      suggestion: Handlebars.compile(
-        '<div><a href="{{url}}"> {{title}} – {{author}}</div></a>'
-      )
-    }
-  });
-
-
   var input = document.getElementById("tmdb-search");
   // Let the filter be done by TMDB API.
   var awesomeplete = new Awesomplete(input);
+
 
   $('#tmdb-search').on('input', () => {
     let value = document.getElementById("tmdb-search").value;
@@ -96,3 +74,25 @@ $(function () {
   });
 });
 
+
+// var medias = new Bloodhound({
+//   datumTokenizer: Bloodhound.tokenizers.obj.whitespace('title', 'author'),
+//   queryTokenizer: Bloodhound.tokenizers.whitespace,
+//   local: movies
+// });
+
+// $('#q .typeahead').typeahead({
+//   highlight: true,
+//   minLength: 1
+// },
+// {
+//   limit: 10,
+//   source: medias.ttAdapter(),
+//   display: 'title',
+//   templates: {
+//     // header: '<h3 class="league-name">NBA Teams</h3>',
+//     suggestion: Handlebars.compile(
+//       '<div><a href="{{url}}"> {{title}} – {{author}}</div></a>'
+//     )
+//   }
+// });

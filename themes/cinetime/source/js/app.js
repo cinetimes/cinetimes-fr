@@ -24,25 +24,6 @@ function showToast(content = "succès", icon = null, error = false) {
 	setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 5000);
 }
 
-// const submitComment = async (event) => {
-// 	event.preventDefault();
-// 	try {
-// 		const response = await fetch('https://api.staticman.net/v2/entry/cinetimes/cinetimes-fr/source/comments', {
-// 			method: 'POST',
-// 			body:  event.target,
-// 		});
-// 		const result = await response.json();
-// 		if (result.success !== true) {
-// 			console.log(result)
-// 			console.log(event.target.elements)
-// 			return
-// 		}
-// 		showToast('Merci ! Votre commentaire apparaîtra bientôt sur le site');
-
-// 	} catch(err) {
-// 		console.log(err)
-// 	}
-// } 
 
 $('#commentForm').submit(function () {
 	var formData = $(this).serializeArray();
@@ -179,3 +160,24 @@ function lazyLoadImages(images) {
 // };
 
 // let cfTrace = parseTrace('/cdn-cgi/trace');
+
+
+// const submitComment = async (event) => {
+// 	event.preventDefault();
+// 	try {
+// 		const response = await fetch('https://api.staticman.net/v2/entry/cinetimes/cinetimes-fr/source/comments', {
+// 			method: 'POST',
+// 			body:  event.target,
+// 		});
+// 		const result = await response.json();
+// 		if (result.success !== true) {
+// 			console.log(result)
+// 			console.log(event.target.elements)
+// 			return
+// 		}
+// 		showToast('Merci ! Votre commentaire apparaîtra bientôt sur le site');
+
+// 	} catch(err) {
+// 		console.log(err)
+// 	}
+// } 
