@@ -1,0 +1,27 @@
+_id: a2b9ca20-b384-11e8-985b-03898128f0da
+tmdb_id: '11420'
+title: The Corporation
+original_title: The Corporation
+author: Mark Achbar
+poster_path: 'https://image.tmdb.org/t/p/original/7S5rkHsVfMAQEHFQavx3nm74hNH.jpg'
+release_date: '2003-09-10'
+synopsis: >-
+  Ce documentaire montre l'évolution des "Sociétés Anonymes" (appelées
+  Corporations en anglais) aux USA, reprenant leur histoire depuis leur
+  apparition avec la Révolution industrielle, où elles étaient conçues pour
+  répondre au bien public mais furent détournées de cet objectif par la
+  recherche du profit.
+genres: Documentaire
+youtube_url: ''
+vimeo_url: ''
+archive_url: 'http://archive.org/details/TheCorporationLaCorporationFR'
+webtorrent_magnet:
+  - ''
+  - ''
+backdrop_path: 'https://image.tmdb.org/t/p/original/9Qmqp2EF9tQX95ZaxsLHa7Cu8nl.jpg'
+cast: 'Jane Akre,Ray Anderson,Maude Barlow,Chris Barrett,Michael Moore'
+crew: 'Mark Achbar,Mark Achbar,Bart Simpson,Leonard J. Paul,Mark Achbar'
+imdb_id: tt0379225
+adult: 'false'
+date: '2018-09-08T16:31:28.549Z'
+slug: the-corporation
