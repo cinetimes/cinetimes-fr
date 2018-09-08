@@ -10,6 +10,75 @@ if('serviceWorker' in navigator) {
 	});
 }
 
+function showToast(content = "succès") {
+	var toast = document.createElement('div');
+	toast.id ='snackbar';
+	toast.textContent = content;
+	document.body.appendChild(toast);
+	toast.className = "show";
+	setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 5000);
+}
+
+// const submitComment = async (event) => {
+// 	event.preventDefault();
+// 	try {
+// 		const response = await fetch('https://api.staticman.net/v2/entry/cinetimes/cinetimes-fr/source/comments', {
+// 			method: 'POST',
+// 			body:  event.target,
+// 		});
+// 		const result = await response.json();
+// 		if (result.success !== true) {
+// 			console.log(result)
+// 			console.log(event.target.elements)
+// 			return
+// 		}
+// 		showToast('Merci ! Votre commentaire apparaîtra bientôt sur le site');
+
+// 	} catch(err) {
+// 		console.log(err)
+// 	}
+// } 
+
+$('#commentForm').submit(function () {
+	var formData = $(this).serializeArray();
+	var fieldsWithErrors = [];
+
+	$(formData).each((function (index, element) {
+		var required = $(this).find('[name="' + element.name + '"]').attr('required');
+		var empty = (element.value.trim().length === 0);
+
+		if (required && empty) {
+			fieldsWithErrors.push(element.name);
+		}
+	}).bind(this));
+
+	if (fieldsWithErrors.length === 0) {
+		var postUrl = $(this).attr('action');
+		var payload = $.param(formData);
+
+		showToast('en attente...');
+
+		$.ajax({
+			type: 'POST',
+			url: postUrl,
+			data: payload,
+			success: function (response) {
+				var message = response.success ? 'Merci pour votre commentaire ! Il apparaîtra bientôt sur le site' : 'Oops! Une erreur s\'est produite. Réessayez dans un momment';
+
+				showToast(message);
+			},
+			error: function (response) {
+				console.log('** ERROR!');
+				console.log(response);
+			}
+		});
+
+		$(this).get(0).reset();
+	}
+
+	return false;
+});
+
 
 // Lazy load images with the intersection observer
 (() => {
@@ -62,6 +131,11 @@ function lazyLoadImages(images) {
 		} 
 	}, 5000)
 })();
+
+
+
+
+
 
 
 // Get country code from cloudflare server headers and do something accordingly

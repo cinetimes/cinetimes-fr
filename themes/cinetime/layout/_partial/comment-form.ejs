@@ -2,9 +2,9 @@
 <% if (page.comments !== false) {  %>
 	<h3 class="text-center my-2 font-weight-bold mb-5">Laisser un commentaire</h3>
 
-	<form method="POST" action="https://api.staticman.net/v2/entry/cinetimes/cinetimes-fr/source/comments">
+	<form method="POST" id="commentForm" action="https://api.staticman.net/v2/entry/cinetimes/cinetimes-fr/source/comments" > <!-- onsubmit="submitComment(event)" -->
 		<div class="col-12 col-md-8 m-auto">
-			<input name="options[redirect]" type="hidden" value="<%= config.url +"/"+ page.path %>">
+			<!-- <input name="options[redirect]" type="hidden" value="<%= config.url +"/"+ page.path %>"> -->
 			<!-- e.g. "2016-01-02-this-is-a-post" -->
 			<input name="options[slug]" type="hidden" value="<%- page.path %>">
 			
@@ -34,9 +34,10 @@
 			<div class="g-recaptcha" data-sitekey="6LfFGmkUAAAAAIFkMaiHZIGSw6tGStITHybJ2va-"></div>
 			
 			<button type="submit" class="btn btn-success">Commenter</button>
-		</div>
-
+		</div>		
 	</form>
+
+	<div id="snackbar">Merci pour votre commentaire ! <br /> Il apparaîtra bientôt sur le site</div>
 
 <% } else if((config.disqus_shortname) && !(page.comments === false)){ %>
 	<div id="disqus_thread"></div>
