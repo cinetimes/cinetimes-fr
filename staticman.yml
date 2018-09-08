@@ -30,7 +30,7 @@ posts:
       type: slugify
       options:
         field: title
-  format: "yaml"
+  format: "md"
   moderation: true
   name: "Cinetimes"
   path: "source/_drafts"
@@ -52,7 +52,7 @@ posts:
 
   cast: ["{fields.cast}"]
   crew: ["{fields.crew}"]
-  genres: "{fields.genres}"
+  tags: "{fields.genres}"
   category:
     - Films
 
