@@ -10,10 +10,15 @@ if('serviceWorker' in navigator) {
 	});
 }
 
-function showToast(content = "succès") {
+function showToast(content = "succès", icon = null, error = false) {
 	var toast = document.createElement('div');
 	toast.id ='snackbar';
-	toast.textContent = content;
+	if (icon !== null) {
+		toast.innerHTML = icon + content
+	} else {
+		toast.textContent = content;
+	}
+	if (error) toast.style.backgroundColor = '#db3737';
 	document.body.appendChild(toast);
 	toast.className = "show";
 	setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 5000);
@@ -56,16 +61,18 @@ $('#commentForm').submit(function () {
 		var postUrl = $(this).attr('action');
 		var payload = $.param(formData);
 
-		showToast('en attente...');
+		showToast('', '<i class="fas fa-spinner fa-spin"></i>');
 
 		$.ajax({
 			type: 'POST',
 			url: postUrl,
 			data: payload,
 			success: function (response) {
-				var message = response.success ? 'Merci pour votre commentaire ! Il apparaîtra bientôt sur le site' : 'Oops! Une erreur s\'est produite. Réessayez dans un momment';
-
-				showToast(message);
+				if (response.success) {
+					showToast('Merci pour votre commentaire ! Il apparaîtra bientôt sur le site')
+				} else {
+					showToast('Oops! Une erreur s\'est produite. Réessayez dans un momment', null, true)
+				}
 			},
 			error: function (response) {
 				console.log('** ERROR!');
@@ -75,7 +82,7 @@ $('#commentForm').submit(function () {
 
 		$(this).get(0).reset();
 	}
-
+	showToast('Il faut remplir le formulaire...', null, true);
 	return false;
 });
 
