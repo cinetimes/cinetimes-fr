@@ -15,7 +15,15 @@ updated: 02/03/2018
 - **Woody Woodpecker**  - [Gratuit](http://cinetimes.org/Woody-Woodpecker-Le-ballet-nautique/) - Le ballet nautique, seul épisode de Woody présentement dans le domaine public.
 *autres liens*: [streaming](https://archive.org/details/woody_woodpecker_pantry_panic)
 
-{% clickToTweet 'Dessins animés Gratuits (à voir en streaming)' 'https://cinetimes.org/blog/dessins-animes-gratuits/' %}  
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banière in blog post -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3093835180445554"
+     data-ad-slot="7117957134"
+     data-ad-format="link"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ##### Dessins Animés Gratuits d'une Qualité à Couper le Souffle
 - **Agent 327** [HD] - [Gratuit](http://cinetimes.org/agent-327/) - Agent 327 Opération Barbershop est un court métrage hilarant de *Bleder Institute*, basé sur l'univers de Martin Lodewijk. Ce court métrage est un teaser, en attendant la sortie du long métrage, qui sera lui aussi gratuit.

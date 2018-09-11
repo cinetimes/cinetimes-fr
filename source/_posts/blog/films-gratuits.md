@@ -40,9 +40,9 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 1. [**Films d'Alfred Hitchcock**](#Films-d’Alfred-Hitchcock)
 1. [**Films de Charlie Chaplin**](#Films-de-Charlie-Chaplin)
 1. [**Films de François Truffaut**](#Films-de-Francois-Truffaut)
-1. [**Films de Georges Méliès**](#Films-de-Georges-Melies)
+1. [**Films de Georges Méliès**](#Films-de-Georges-Melies) 
 
-<!-- {% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %} -->
+  
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Banière in blog post -->
 <ins class="adsbygoogle"
