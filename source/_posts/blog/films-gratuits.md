@@ -16,6 +16,11 @@ updated: 07/03/2018
 # telecharger film gratuit              10k - 100k
 ---
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive Blog -->
+<ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="1381029230"data-ad-format="auto"data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+
 Des Films gratuits. Ça vous tente?
 
 Plusieurs millers de films sont tombés dans le domaine public.
@@ -42,13 +47,6 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 1. [**Films de François Truffaut**](#Films-de-Francois-Truffaut)
 1. [**Films de Georges Méliès**](#Films-de-Georges-Melies) 
 
-  
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Banière in blog post -->
-<!-- <ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="7117957134" data-ad-format="link" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script> -->
-
-<!-- Responsive Blog -->
-<ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="1381029230"data-ad-format="auto"data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## Films Gratuits en Français
 - **Archimède le clochard** - [Gratuit](https://archive.org/details/ArchimedeLeClochard-1959-GillesGrangier) - Film français réalisé par Gilles Grangier, avec un scénario de Jean Gabin qu'il signera de son véritale nom: Jean Moncorgé. Sorti en 1959
@@ -129,9 +127,13 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 - **Zéro de conduite** - [Gratuit](https://cinetimes.org/zero-de-conduite/) -  Film français de Jean Vigo pour lequel il s'est inspiré de ses propres souvenirs. Il a été interdit par la censure de sa sortie en 1933 jusqu'en 1945.
 
 - **La revanche des mortes vivantes** - [Gratuit](https://www.dailymotion.com/video/x1qinuw) - Premier film 'gore' français réalisé par Pierre B. Reinhard, avec Cornélia Wilms et Kathryn Charly. Sorti en 1986
-autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
+autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)  
 
-{% clickToTweet 'Films en Français dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %}
+
+<!-- Banière in blog post -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"style="display:block" data-ad-client="ca-pub-3093835180445554" data-ad-slot="7117957134"  data-ad-format="link" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## Films Muets
 
