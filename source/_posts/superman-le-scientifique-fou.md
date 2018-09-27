@@ -19,5 +19,5 @@ cast: 'Bud Collyer,Jack Mercer,Jackson Beck,Julian Noa,Joan Alexander'
 crew: 'Dave Fleischer,Jerry Siegel,Joe Shuster,Max Fleischer,Izzy Sparber'
 imdb_id: tt0034247
 adult: 'false'
-date: '2018-03-30T13:15:55.170Z'
+date: '2017-03-30T13:15:55.170Z'
 ---

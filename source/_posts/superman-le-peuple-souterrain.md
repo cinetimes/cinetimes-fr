@@ -19,5 +19,5 @@ cast: 'Bud Collyer,Joan Alexander,Jackson Beck,Julian Noa'
 crew: 'Seymour Kneitel,Jerry Siegel,Joe Shuster,Jay Morton,Edgar Rice Burroughs'
 imdb_id: tt0036475
 adult: 'false'
-date: '2018-03-30T13:14:55.119Z'
+date: '2017-03-30T13:14:55.119Z'
 ---

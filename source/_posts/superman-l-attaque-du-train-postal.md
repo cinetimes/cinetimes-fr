@@ -19,6 +19,6 @@ cast: 'Joan Alexander,Bud Collyer,Julian Noa'
 crew: 'Dave Fleischer,Seymour Kneitel,Izzy Sparber,Jerry Siegel,Joe Shuster'
 imdb_id: tt0034515
 adult: 'false'
-date: '2018-03-30T13:20:56.499Z'
+date: '2017-03-30T13:20:56.499Z'
 slug: lattaque-du-train-postal
 ---

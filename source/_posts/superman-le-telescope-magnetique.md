@@ -19,5 +19,5 @@ cast: 'Bud Collyer,Joan Alexander'
 crew: 'Dave Fleischer,Jerry Siegel,Joe Shuster,Dan Gordon,Max Fleischer'
 imdb_id: tt0035014
 adult: 'false'
-date: '2018-03-30T13:25:45.091Z'
+date: '2017-03-30T13:25:45.091Z'
 ---

@@ -19,5 +19,5 @@ cast: 'Joan Alexander,Jackson Beck,Bud Collyer,Julian Noa,Jack Mercer'
 crew: 'Izzy Sparber,Jerry Siegel,Joe Shuster,Jay Morton'
 imdb_id: tt0034648
 adult: 'false'
-date: '2018-03-30T13:23:11.220Z'
+date: '2017-03-30T13:23:11.220Z'
 ---

@@ -19,5 +19,5 @@ cast: 'Joan Alexander,Jackson Beck,Bud Collyer,Jack Mercer,Julian Noa'
 crew: 'Dan Gordon,Jerry Siegel,Joe Shuster,Orestes Calpini,Robert Little'
 imdb_id: tt0036060
 adult: 'false'
-date: '2018-03-30T13:24:31.704Z'
+date: '2017-03-30T13:24:31.704Z'
 ---

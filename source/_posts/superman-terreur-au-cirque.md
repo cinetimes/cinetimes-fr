@@ -19,5 +19,5 @@ cast: 'Joan Alexander,Bud Collyer,Jack Mercer,Julian Noa'
 crew: 'Dave Fleischer,Jerry Siegel,Joe Shuster,Jay Morton,Dan Gordon'
 imdb_id: tt0035422
 adult: 'false'
-date: '2018-03-30T13:18:55.988Z'
+date: '2017-03-30T13:18:55.988Z'
 ---

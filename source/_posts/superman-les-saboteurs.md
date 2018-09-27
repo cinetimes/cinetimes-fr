@@ -19,5 +19,5 @@ cast: 'Bud Collyer,Joan Alexander,Julian Noa'
 crew: Seymour Kneitel
 imdb_id: tt0034913
 adult: 'false'
-date: '2018-03-30T13:23:46.271Z'
+date: '2017-03-30T13:23:46.271Z'
 ---
