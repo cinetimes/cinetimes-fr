@@ -19,7 +19,6 @@ updated: 09/28/2018
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Responsive Blog -->
 <ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="1381029230"data-ad-format="auto"data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-<br />
 
 Des Films gratuits. Ça vous tente?
 
