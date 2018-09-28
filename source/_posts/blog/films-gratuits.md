@@ -200,7 +200,7 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 
 ## Films d'Alfred Hitchcock
 
-{% clickToTweet 'Alfred Hitchcock: Films en streaming' 'http://bit.ly/films-gratuits' %}
+<!-- {% clickToTweet 'Alfred Hitchcock: Films en streaming' 'http://bit.ly/films-gratuits' %} -->
 
 - **Les 39 Marches** - [Gratuit](http://cinetimes.org/les-39-marches/) - Film Britanique réalisé par Alfred Hitchcock, sorti en 1935, Hitchcock fait un caméo à la septième minute du film. 
 - **Bon Voyage** - [Gratuit](http://cinetimes.org/bon-voyage-alfred-hitchcock/) - Court-métrage de propagande britannique l'un des deux seuls que *Alfred Hitchcock* ait réalisé avec *Aventure Malgache*. Bon voyage est sorti en 1944
@@ -219,7 +219,7 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 *Autres lien: [Gratuit](https://vimeo.com/163164359) - [Gratuit](https://archive.org/details/Brzdac1921) - [Gratuit](https://www.youtube.com/watch?v=TqXfTsagqKw)*
 - **La Ruée Vers l'or** - [Gratuit](https://cinetimes.org/la-ruee-vers-lor/) - Charles Chaplin a écrit, dirigé et joué dans *La ruée vers l'or*. Il est fière de ce film. Charles Chaplin a déclaré a plusieurs reprises que si il y a un film pour lequel on se devait se rapeler de lui, il voudrait que ce soit celui-là.
 
-{% clickToTweet 'Films de Charlie Chaplin dans le Domaine Public' 'http://bit.ly/films-gratuits' %}
+<!-- {% clickToTweet 'Films de Charlie Chaplin dans le Domaine Public' 'http://bit.ly/films-gratuits' %} -->
 
 ## Films de François Truffaut
 - **Tirez sur le pianiste** [Gratuit](https://cinetimes.org/tirez-sur-le-pianiste/) - Film noir français réalisé par François Truffaut, sorti en 1960. Tourné à paris, ce film [Dramatique](http://cinetimes.org/tags/drame/) permettra à Charles Aznavour de gagner en notoriété aux États-Unis.
@@ -235,8 +235,8 @@ autres liens: [Gratuit](https://www.youtube.com/watch?v=K7LrjbWUZkQ)
 - **Le juif errant** - [Gratuit](https://archive.org/details/LeJuifErrant) - Film français réalisé par Georges Méliès, sorti en 1904.
 *autres liens: [streaming](https://www.youtube.com/watch?v=SvmM_YSnWX8)*
 
-**Partagez :**
-{% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %}
+<!-- **Partagez :** -->
+<!-- {% clickToTweet '70 films tombés dans le domaine public (à voir en streaming)' 'http://bit.ly/films-gratuits' %} -->
 
 
 ## À Votre tour !
