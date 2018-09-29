@@ -1,0 +1,87 @@
+<link rel="stylesheet" type="text/css" href="/css/cookieconsent.min.css" />
+<script src="/js/cookieconsent.min.js"></script>
+<script>
+  window.cookieconsent.initialise({
+    container: document.getElementById("content"),
+    "palette": {
+      "popup": {
+        "background": "#346bc2",
+        "text": "#ffffff"
+      },
+      "button": {
+        "background": "transparent",
+        "text": "#ffffff",
+        "border": "#ffffff"
+      }
+    },
+    revokable:true,
+    onInitialise: function (status) {
+      var type = this.options.type;
+      var didConsent = this.hasConsented();
+      if (type == 'opt-in' && didConsent) {
+
+        // Hotjar
+        (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:778450,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+        // Google Analytics
+        (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-78677033-1', 'auto');
+        ga('require', 'GTM-PPDHDBL');
+        ga('send', 'pageview');
+      }
+    },
+    onStatusChange: function(status, chosenBefore) {
+      var type = this.options.type;
+      var didConsent = this.hasConsented();
+      if (type == 'opt-in' && didConsent) {
+        
+        // Hotjar
+        (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:778450,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+    		// Google Analytics
+        (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-78677033-1', 'auto');
+        ga('require', 'GTM-PPDHDBL');
+        ga('send', 'pageview');
+      }
+    },
+    "type": "opt-in",
+    "content": {
+      "message": "Ce site web utilise des cookies pour s'assurer que vous ayez la meilleure expérience possible",
+      "allow": "Autoriser",
+      "deny": "refuser",
+      "link": "En savoir plus",
+      "href": "https://cinetimes.org/apropos/mentions-legales-politique-de-confidentialite/",
+      "target": "_blank",
+      "policy": "Cookies",
+    },
+    law: {
+      regionalLaw: false,
+    },
+    location: true,
+  });
+</script>
