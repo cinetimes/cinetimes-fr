@@ -121,8 +121,10 @@ function lazyLoadImages(images) {
 	}, 5000)
 })();
 
-
-
+// Enable tooltips
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 
 
