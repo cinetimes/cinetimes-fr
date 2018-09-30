@@ -121,6 +121,16 @@ function lazyLoadImages(images) {
 	}, 5000)
 })();
 
+function patreonEvent() {
+	console.log("Patreon event sent");
+	ga('send', {
+		hitType: 'event',
+		eventCategory: 'Patreon FR',
+		eventAction: 'click',
+		eventLabel: 'Navigation Button'
+		});
+}
+
 // Enable tooltips
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
