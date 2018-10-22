@@ -1599,3 +1599,15 @@ fill: #2aa9e0;
 }
 
 /* END TOAST */
+
+
+.tt-suggestion, .tt-selectable {
+  color: #333;
+}
+
+.tt-suggestion:hover, .tt-selectable:hover {
+  background-color: #346bc2;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+

@@ -92,7 +92,8 @@ $('#q .typeahead').typeahead({
   templates: {
     // header: '<h3 class="league-name">NBA Teams</h3>',
     suggestion: Handlebars.compile(
-      '<div><a href="{{url}}"> {{title}} – {{author}}</div></a>'
-    )
+      '<a href="{{url}}" class="d-block">  {{title}} – {{author}}</a> '
+    ),
+    notFound: ['<div class="text-danger text-center"> Aucun résultat </div>']
   }
 });
