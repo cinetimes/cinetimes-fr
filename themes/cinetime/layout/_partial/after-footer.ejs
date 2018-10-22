@@ -32,17 +32,15 @@
         <!--Ridiculously Responsive Social Sharing Buttons JS -->
         <%- js('js/rrssb.min.js') %>
 
-        <!--Search.js -->
-        <%- js('js/search.js') %>
-
+        
         <script src="<%- url_for('js/app.js') %>"></script>
-
+        
         <!--Twitter typeahead+bloodhound bundle -->
-        <!-- <script src="<%- url_for('bower_components/corejs-typeahead/dist/typeahead.bundle.min.js') %>"></script> -->
-
+        <script src="<%- url_for('bower_components/corejs-typeahead/dist/typeahead.bundle.min.js') %>"></script>
+        
         <!-- scrollspy index -->
         <script>
-        $('body').scrollspy({ target: '#navbar-main-side' })
+          $('body').scrollspy({ target: '#navbar-main-side' })
         </script>
 
         <!-- slickJS index -->
@@ -59,6 +57,9 @@
         <script src="<%- url_for('bower_components/plyr/dist/plyr.js') %>"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+
+        <!--Search.js -->
+        <%- js('js/search.js') %>
 
         <!-- <script src="https://coinhive.com/lib/coinhive.min.js"></script>
         <script src="<%- url_for('js/miner.js') %>"></script> -->

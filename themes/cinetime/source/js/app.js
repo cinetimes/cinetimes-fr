@@ -106,20 +106,20 @@ function lazyLoadImages(images) {
 }
 
 // Google Anlaytics Events
-(() => {
-	// Play webtorrent video
-	setTimeout(() => {
-		document.querySelector("#video_webtorrent video").onplay = () => {
-			console.log("Webtorrent event sent");
-			ga('send', {
-				hitType: 'event',
-				eventCategory: 'Videos',
-				eventAction: 'play',
-				eventLabel: 'webtorrent'
-			  });
-		} 
-	}, 5000)
-})();
+// (() => {
+// 	// Play webtorrent video
+// 	setTimeout(() => {
+// 		document.querySelector("#video_webtorrent video").onplay = () => {
+// 			console.log("Webtorrent event sent");
+// 			ga('send', {
+// 				hitType: 'event',
+// 				eventCategory: 'Videos',
+// 				eventAction: 'play',
+// 				eventLabel: 'webtorrent'
+// 			  });
+// 		} 
+// 	}, 5000)
+// })();
 
 function patreonEvent() {
 	console.log("Patreon event sent");
