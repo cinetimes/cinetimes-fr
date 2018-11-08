@@ -1,6 +1,6 @@
 ---
 title: Superman
-serp: "Voir Superman Édition Collector Gratuitement (fleischer studios 1941)"
+serp: "Superman Dessin Animé [1942] (13 épisodes complets)"
 author: Studios Fleischer
 img_name: superman.jpg
 youtube_url: https://youtu.be/8RlH-crcUaA
