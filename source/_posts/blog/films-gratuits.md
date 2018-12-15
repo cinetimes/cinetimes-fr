@@ -16,9 +16,6 @@ updated: 09/29/2018
 # telecharger film gratuit              10k - 100k
 ---
 
-<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-<!-- Responsive Blog -->
-<!-- <ins class="adsbygoogle"style="display:block"data-ad-client="ca-pub-3093835180445554"data-ad-slot="1381029230"data-ad-format="auto"data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script> -->
 
 Des Films gratuits. Ça vous tente?
 
@@ -33,9 +30,6 @@ Voici une liste régulièrement mise à jour contenant déja plus de 70 films gr
 Pour des documentaires captivants, allez voir notre [liste des documentaires gratuits à voir en streaming](http://cinetimes.org/blog/documentaires/) 
 
 
-<!-- <div><a href="https://scriptor.io/creer-un-blog/"> <img src="/img/creer-site.jpg" alt="films gratuits" title="Meilleurs Films du Domaine Public" class="mw-100"></a></div> -->
-
-
 **Dans cet article :**
 
 1. [**Films Gratuits en Français**](#Films-Gratuits-en-Francais)
@@ -46,6 +40,8 @@ Pour des documentaires captivants, allez voir notre [liste des documentaires gra
 1. [**Films de François Truffaut**](#Films-de-Francois-Truffaut)
 1. [**Films de Georges Méliès**](#Films-de-Georges-Melies) 
 
+
+<div class="my-2"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3093835180445554" data-ad-slot="1381029230" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
 
 ## Films Gratuits en Français
 - **Archimède le clochard** - [Gratuit](https://archive.org/details/ArchimedeLeClochard-1959-GillesGrangier) - Film français réalisé par Gilles Grangier, avec un scénario de Jean Gabin qu'il signera de son véritale nom: Jean Moncorgé. Sorti en 1959
