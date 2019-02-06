@@ -1,0 +1,117 @@
+<h1 id="Migrating-to-typeahead-js-v0-10-0"><a href="#Migrating-to-typeahead-js-v0-10-0" class="headerlink" title="Migrating to typeahead.js v0.10.0"></a>Migrating to typeahead.js v0.10.0</h1><h2 id="Preamble"><a href="#Preamble" class="headerlink" title="Preamble"></a>Preamble</h2><p>v0.10.0 of typeahead.js ended up being almost a complete rewrite. Many things<br>stayed the same, but there were a handful of changes you need to be aware of<br>if you plan on upgrading from an older version. This document aims to call out<br>those changes and explain what you need to do in order to have an painless<br>upgrade.</p>
+<h2 id="Notable-Changes"><a href="#Notable-Changes" class="headerlink" title="Notable Changes"></a>Notable Changes</h2><h3 id="First-Argument-to-the-jQuery-Plugin"><a href="#First-Argument-to-the-jQuery-Plugin" class="headerlink" title="First Argument to the jQuery Plugin"></a>First Argument to the jQuery Plugin</h3><p>In v0.10.0, the first argument to <code>jQuery#typeahead</code> is an options hash that<br>can be used to configure the behavior of the typeahead. This is in contrast<br>to previous versions where <code>jQuery#typeahead</code> expected just a series of datasets<br>to be passed to it:</p>
+<pre><code class="javascript"><span class="comment">// pre-v0.10.0</span>
+$(<span class="string">'.typeahead'</span>).typeahead(myDataset);
+
+<span class="comment">// v0.10.0</span>
+$(<span class="string">'.typeahead'</span>).typeahead({
+  highlight: <span class="literal">true</span>,
+  hint: <span class="literal">false</span>
+}, myDataset);
+</code></pre>
+<p>If you’re fine with the default configuration, you can just pass <code>null</code> as the<br>first argument:</p>
+<pre><code class="javascript">$(<span class="string">'.typeahead'</span>).typeahead(<span class="literal">null</span>, myDataset);
+</code></pre>
+<h3 id="Bloodhound-Suggestion-Engine"><a href="#Bloodhound-Suggestion-Engine" class="headerlink" title="Bloodhound Suggestion Engine"></a>Bloodhound Suggestion Engine</h3><p>The most notable change in v0.10.0 is that typeahead.js has been decomposed into<br>a suggestion engine and a UI view. As part of this change, the way you configure<br>datasets has changed. Previously, a dataset config would have looked like:</p>
+<pre><code class="javascript">{
+  valueKey: <span class="string">'num'</span>,
+  local: [{ <span class="attr">num</span>: <span class="string">'one'</span> }, { <span class="attr">num</span>: <span class="string">'two'</span> }, { <span class="attr">num</span>: <span class="string">'three'</span> }],
+  prefetch: <span class="string">'/prefetch'</span>,
+  remote: <span class="string">'/remote?q=%QUERY'</span>
+}
+</code></pre>
+<p>In v0.10.0, an equivalent dataset config would look like:</p>
+<pre><code class="javascript">{
+ displayKey: <span class="string">'num'</span>,
+ source: mySource
+}
+</code></pre>
+<p>As you can see, <code>local</code>, <code>prefetch</code>, and <code>remote</code> are no longer defined at the<br>dataset level. Instead, all you set in a dataset config is <code>source</code>. <code>source</code> is<br>expected to be a function with the signature <code>function(query, callback)</code>. When a<br>typeahead’s query changes, suggestions will be requested from  <code>source</code>. It’s<br>expected <code>source</code> will compute the suggestion set and invoke <code>callback</code> with an array<br>of suggestion objects. The typeahead will then go on to render those suggestions.</p>
+<p>If you’re wondering if you can still configure <code>local</code>, <code>prefetch</code>, and<br><code>remote</code>, don’t worry, that’s where the Bloodhound suggestion engine comes in.<br>Here’s how you would define <code>mySource</code> which was referenced in the previous<br>code snippet:</p>
+<pre><code>var mySource = new Bloodhound({
+  datumTokenizer: function(d) { 
+    return Bloodhound.tokenizers.whitespace(d.num); 
+  },
+  queryTokenizer: Bloodhound.tokenizers.whitespace,
+  local: [{ num: &apos;one&apos; }, { num: &apos;two&apos; }, { num: &apos;three&apos; }],
+  prefetch: &apos;/prefetch&apos;,
+  remote: &apos;/remote?q=%QUERY&apos;
+});
+
+// this kicks off the loading and processing of local and prefetch data
+// the suggestion engine will be useless until it is initialized
+mySource.initialize();
+</code></pre><p>In the above snippet, a Bloodhound suggestion engine is initialized and that’s<br>what will be used as the source of your dataset. There’s still one last thing<br>that needs to be done before you can use a Bloodhound suggestion engine as the<br>source of a dataset. Because datasets expect <code>source</code> to be function, the<br>Bloodhound instance needs to be wrapped in an adapter so it can meet that<br>expectation.</p>
+<pre><code>mySource = mySource.ttAdapter();
+</code></pre><p>Put it all together:</p>
+<pre><code class="javascript"><span class="keyword">var</span> mySource = <span class="keyword">new</span> Bloodhound({
+  datumTokenizer: <span class="function"><span class="keyword">function</span>(<span class="params">d</span>) </span>{ 
+    <span class="keyword">return</span> Bloodhound.tokenizers.whitespace(d.num); 
+  },
+  queryTokenizer: Bloodhound.tokenizers.whitespace,
+  local: [{ <span class="attr">num</span>: <span class="string">'one'</span> }, { <span class="attr">num</span>: <span class="string">'two'</span> }, { <span class="attr">num</span>: <span class="string">'three'</span> }],
+  prefetch: <span class="string">'/prefetch'</span>,
+  remote: <span class="string">'/remote?q=%QUERY'</span>
+});
+
+mySource.initialize();
+
+$(<span class="string">'.typeahead'</span>).typeahead(<span class="literal">null</span>, {
+  displayKey: <span class="string">'num'</span>,
+  source: mySource.ttAdapter()
+});
+</code></pre>
+<h3 id="Tokenization-Methods-Must-Be-Provided"><a href="#Tokenization-Methods-Must-Be-Provided" class="headerlink" title="Tokenization Methods Must Be Provided"></a>Tokenization Methods Must Be Provided</h3><p>The Bloodhound suggestion engine is token-based, so how datums and queries are<br>tokenized plays a vital role in the quality of search results. Pre-v0.10.0,<br>it was not possible to configure the tokenization method. Starting in v0.10.0,<br>you <strong>must</strong> specify how you want datums and queries tokenized. </p>
+<p>The most common tokenization methods split a given string on whitespace or<br>non-word characters. Bloodhound provides implementations for those methods<br>out of the box:</p>
+<pre><code class="javascript"><span class="comment">// returns ['one', 'two', 'twenty-five']</span>
+Bloodhound.tokenizers.whitespace(<span class="string">'  one two  twenty-five'</span>);
+
+<span class="comment">// returns ['one', 'two', 'twenty', 'five']</span>
+Bloodhound.tokenizers.nonword(<span class="string">'  one two  twenty-five'</span>);
+</code></pre>
+<p>For query tokenization, you’ll probably want to use one of the above methods.<br>For datum tokenization, this is where you may want to do something a tad bit<br>more advanced.</p>
+<p>For datums, sometimes you want tokens to be dervied from more than one property.<br>For example, if you were building a search engine for GitHub repositories, it’d<br>probably be wise to have tokens derived from the repo’s name, owner, and<br>primary language:</p>
+<pre><code class="javascript"><span class="keyword">var</span> repos = [
+  { <span class="attr">name</span>: <span class="string">'example'</span>, <span class="attr">owner</span>: <span class="string">'John Doe'</span>, <span class="attr">language</span>: <span class="string">'JavaScript'</span> },
+  { <span class="attr">name</span>: <span class="string">'another example'</span>, <span class="attr">owner</span>: <span class="string">'Joe Doe'</span>, <span class="attr">language</span>: <span class="string">'Scala'</span> }
+];
+
+<span class="function"><span class="keyword">function</span> <span class="title">customTokenizer</span>(<span class="params">datum</span>) </span>{
+  <span class="keyword">var</span> nameTokens = Bloodhound.tokenizers.whitespace(datum.name);
+  <span class="keyword">var</span> ownerTokens = Bloodhound.tokenizers.whitespace(datum.owner);
+  <span class="keyword">var</span> languageTokens = Bloodhound.tokenizers.whitespace(datum.language);
+
+  <span class="keyword">return</span> nameTokens.concat(ownerTokens).concat(languageTokens);
+}
+</code></pre>
+<p>There may also be the scenario where you want datum tokenization to be performed<br>on the backend. The best way to do that is to just add a property to your datums<br>that contains those tokens. You can then provide a tokenizer that just returns<br>the already existing tokens:</p>
+<pre><code class="javascript"><span class="keyword">var</span> sports = [
+  { <span class="attr">value</span>: <span class="string">'football'</span>, <span class="attr">tokens</span>: [<span class="string">'football'</span>, <span class="string">'pigskin'</span>] },
+  { <span class="attr">value</span>: <span class="string">'basketball'</span>, <span class="attr">tokens</span>: [<span class="string">'basketball'</span>, <span class="string">'bball'</span>] }
+];
+
+<span class="function"><span class="keyword">function</span> <span class="title">customTokenizer</span>(<span class="params">datum</span>) </span>{ <span class="keyword">return</span> datum.tokens; }
+</code></pre>
+<p>There are plenty of other ways you could go about tokenizing datums, it really<br>just depends on what you are trying to accomplish.</p>
+<h3 id="String-Datums-Are-No-Longer-Supported"><a href="#String-Datums-Are-No-Longer-Supported" class="headerlink" title="String Datums Are No Longer Supported"></a>String Datums Are No Longer Supported</h3><p>Dropping support for string datums was a difficult choice, but in the end it<br>made sense for a number of reasons. If you still want to hydrate the suggestion<br>engine with string datums, you’ll need to use the <code>filter</code> function:</p>
+<pre><code class="javascript"><span class="keyword">var</span> engine = <span class="keyword">new</span> Bloodhound({
+  prefetch: {
+    url: <span class="string">'/data'</span>,
+    filter: <span class="function"><span class="keyword">function</span>(<span class="params">data</span>) </span>{
+      <span class="comment">// assume data is an array of strings e.g. ['one', 'two', 'three']</span>
+      <span class="keyword">return</span> $.map(data, <span class="function"><span class="keyword">function</span>(<span class="params">str</span>) </span>{ <span class="keyword">return</span> { <span class="attr">value</span>: str }; });
+    },
+    datumTokenizer: <span class="function"><span class="keyword">function</span>(<span class="params">d</span>) </span>{ 
+      <span class="keyword">return</span> Bloodhound.tokenizers.whitespace(d.value); 
+    },
+    queryTokenizer: Bloodhound.tokenizers.whitespace
+  }
+});
+</code></pre>
+<h3 id="Precompiled-Templates-Are-Now-Required"><a href="#Precompiled-Templates-Are-Now-Required" class="headerlink" title="Precompiled Templates Are Now Required"></a>Precompiled Templates Are Now Required</h3><p>In previous versions of typeahead.js, you could specify a string template along<br>with the templating engine that should be used to compile/render it. In<br>v0.10.0, you can no longer specify templating engines; instead you must provide<br>precompiled templates. Precompiled templates are functions that take one<br>argument: the context the template should be rendered with. </p>
+<p>Most of the popular templating engines allow for the creation of precompiled<br>templates. For example, you can generate one using Handlebars by doing the<br>following:</p>
+<pre><code class="javascript"><span class="keyword">var</span> precompiledTemplate = Handlebars.compile(<span class="string">'&lt;p&gt;{{value}}&lt;/p&gt;'</span>);
+</code></pre>
+<h3 id="CSS-Class-Changes"><a href="#CSS-Class-Changes" class="headerlink" title="CSS Class Changes"></a>CSS Class Changes</h3><p><code>tt-is-under-cursor</code> is now <code>tt-cursor</code> - Applied to a hovered-on suggestion (either via cursor or arrow key).</p>
+<p><code>tt-query</code> is now <code>tt-input</code> - Applied to the typeahead input field.</p>
+<h2 id="Something-Missing"><a href="#Something-Missing" class="headerlink" title="Something Missing?"></a>Something Missing?</h2><p>If something is missing from this migration guide, pull requests are accepted :)</p>

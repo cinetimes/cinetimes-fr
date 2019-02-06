@@ -1,0 +1,41 @@
+<h1 id="Awesomplete"><a href="#Awesomplete" class="headerlink" title="Awesomplete"></a>Awesomplete</h1><p><a href="https://www.npmjs.com/package/awesomplete" rel="external nofollow noopener noreferrer" target="_blank"><img src="https://img.shields.io/npm/v/awesomplete.svg" alt="npm version"></a><br><a href="https://travis-ci.org/LeaVerou/awesomplete" rel="external nofollow noopener noreferrer" target="_blank"><img src="https://img.shields.io/travis/LeaVerou/awesomplete/gh-pages.svg" alt="Build Status"></a><br><a href="https://codeclimate.com/github/LeaVerou/awesomplete" rel="external nofollow noopener noreferrer" target="_blank"><img src="https://img.shields.io/codeclimate/github/LeaVerou/awesomplete.svg" alt="Code Climate"></a><br><a href="https://codeclimate.com/github/LeaVerou/awesomplete/coverage" rel="external nofollow noopener noreferrer" target="_blank"><img src="https://img.shields.io/codeclimate/coverage/github/LeaVerou/awesomplete.svg" alt="Test Coverage"></a></p>
+<p><a href="http://leaverou.github.io/awesomplete/" rel="external nofollow noopener noreferrer" target="_blank">http://leaverou.github.io/awesomplete/</a></p>
+<p>Awesomplete is an ultra lightweight, customizable, simple autocomplete widget with zero dependencies, built with modern standards for modern browsers.</p>
+<h2 id="Basic-Usage"><a href="#Basic-Usage" class="headerlink" title="Basic Usage"></a>Basic Usage</h2><p>Before you try anything, you need to include awesomplete.css and awesomplete.js in your page, via the usual tags:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"awesomplete.css"</span> /&gt;</span>
+<span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"awesomplete.js"</span> <span class="attr">async</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span>
+</code></pre>
+<p>Then you can add an Awesomplete widget by adding the following input tag:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">"awesomplete"</span></span>
+<span class="tag">       <span class="attr">data-list</span>=<span class="string">"Ada, Java, JavaScript, Brainfuck, LOLCODE, Node.js, Ruby on Rails"</span> /&gt;</span>
+</code></pre>
+<p>Add <code>class=&quot;awesomplete&quot;</code> for it to be automatically processed (you can still specify many options via HTML attributes)<br>Otherwise you can instantiate with a few lines of JS code, which allow for more customization.</p>
+<p>There are many ways to link an input to a list of suggestions.<br>The simple example above could have also been made with the following markup, which provides a nice native fallback in case the script doesn’t load:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">"awesomplete"</span> <span class="attr">list</span>=<span class="string">"mylist"</span> /&gt;</span>
+<span class="tag">&lt;<span class="name">datalist</span> <span class="attr">id</span>=<span class="string">"mylist"</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">option</span>&gt;</span>Ada<span class="tag">&lt;/<span class="name">option</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">option</span>&gt;</span>Java<span class="tag">&lt;/<span class="name">option</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">option</span>&gt;</span>JavaScript<span class="tag">&lt;/<span class="name">option</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">option</span>&gt;</span>Brainfuck<span class="tag">&lt;/<span class="name">option</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">option</span>&gt;</span>LOLCODE<span class="tag">&lt;/<span class="name">option</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">option</span>&gt;</span>Node.js<span class="tag">&lt;/<span class="name">option</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">option</span>&gt;</span>Ruby on Rails<span class="tag">&lt;/<span class="name">option</span>&gt;</span>
+<span class="tag">&lt;/<span class="name">datalist</span>&gt;</span>
+</code></pre>
+<p>Or the following, if you don’t want to use a <code>&lt;datalist&gt;</code>, or if you don’t want to use IDs (since any selector will work in data-list):</p>
+<pre><code class="html"><span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">"awesomplete"</span> <span class="attr">data-list</span>=<span class="string">"#mylist"</span> /&gt;</span>
+<span class="tag">&lt;<span class="name">ul</span> <span class="attr">id</span>=<span class="string">"mylist"</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">li</span>&gt;</span>Ada<span class="tag">&lt;/<span class="name">li</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">li</span>&gt;</span>Java<span class="tag">&lt;/<span class="name">li</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">li</span>&gt;</span>JavaScript<span class="tag">&lt;/<span class="name">li</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">li</span>&gt;</span>Brainfuck<span class="tag">&lt;/<span class="name">li</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">li</span>&gt;</span>LOLCODE<span class="tag">&lt;/<span class="name">li</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">li</span>&gt;</span>Node.js<span class="tag">&lt;/<span class="name">li</span>&gt;</span>
+    <span class="tag">&lt;<span class="name">li</span>&gt;</span>Ruby on Rails<span class="tag">&lt;/<span class="name">li</span>&gt;</span>
+<span class="tag">&lt;/<span class="name">ul</span>&gt;</span>
+</code></pre>
+<p>There are multiple customizations and properties able to be instantiated within the JS. Libraries and definitions of the properties are available in the Links below.</p>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>Awesomplete is released under the MIT License. See <a href="https://github.com/LeaVerou/awesomplete/blob/gh-pages/LICENSE" rel="external nofollow noopener noreferrer" target="_blank">LICENSE</a> file for<br>details.</p>
+<h2 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h2><p>The official site for the library is at <a href="http://leaverou.github.io/awesomplete/" rel="external nofollow noopener noreferrer" target="_blank">http://leaverou.github.io/awesomplete/</a>.</p>
+<p>Documentation for the API and other topics is at<br><a href="http://leaverou.github.io/awesomplete/#api" rel="external nofollow noopener noreferrer" target="_blank">http://leaverou.github.io/awesomplete/#api</a>.</p>
+<p>Created by Lea Verou and other fantastic contributors.</p>

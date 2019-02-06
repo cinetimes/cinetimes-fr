@@ -1,0 +1,555 @@
+<h1 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h1><h2 id="v2-0-18"><a href="#v2-0-18" class="headerlink" title="v2.0.18"></a>v2.0.18</h2><ul>
+<li>Fix for YouTube .getVideoData() issue (fixes #709)</li>
+</ul>
+<h2 id="v2-0-17"><a href="#v2-0-17" class="headerlink" title="v2.0.17"></a>v2.0.17</h2><ul>
+<li>Vimeo controls fix (fixes #697)</li>
+<li>SVG4everybody compatibility fix</li>
+<li>Allow Plyr.setup event listeners to be set up as separate event listeners (<a href="https://github.com/sampotts/plyr/pull/703" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/sampotts/plyr/pull/703</a>)</li>
+<li>Added title to the layer html template (for custom controls) (<a href="https://github.com/sampotts/plyr/pull/649" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/sampotts/plyr/pull/649</a>)</li>
+<li>Target is null bug fix (<a href="https://github.com/sampotts/plyr/pull/617" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/sampotts/plyr/pull/617</a>)</li>
+<li>fix #684 memory leaks issues after destroy (<a href="https://github.com/sampotts/plyr/pull/700" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/sampotts/plyr/pull/700</a>)</li>
+</ul>
+<h2 id="v2-0-16"><a href="#v2-0-16" class="headerlink" title="v2.0.16"></a>v2.0.16</h2><ul>
+<li>Fullscreen bug fix (fixes #664)</li>
+</ul>
+<h2 id="v2-0-15"><a href="#v2-0-15" class="headerlink" title="v2.0.15"></a>v2.0.15</h2><ul>
+<li>Demo fix</li>
+</ul>
+<h2 id="v2-0-14"><a href="#v2-0-14" class="headerlink" title="v2.0.14"></a>v2.0.14</h2><ul>
+<li>CDN URL updates. Sorry, still working on V3 as hard as I can…</li>
+</ul>
+<h2 id="v2-0-13"><a href="#v2-0-13" class="headerlink" title="v2.0.13"></a>v2.0.13</h2><ul>
+<li>Repo moved and Vimeo demo fix</li>
+</ul>
+<h2 id="v2-0-12"><a href="#v2-0-12" class="headerlink" title="v2.0.12"></a>v2.0.12</h2><ul>
+<li>Ability to set custom <code>blankUrl</code> for source changes (<a href="https://github.com/sampotts/plyr/pull/504" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/sampotts/plyr/pull/504</a>)</li>
+<li>Ability to set caption button listener (<a href="https://github.com/sampotts/plyr/pull/468" rel="external nofollow noopener noreferrer" target="_blank">https://github.com/sampotts/plyr/pull/468</a>)</li>
+</ul>
+<h2 id="v2-0-11"><a href="#v2-0-11" class="headerlink" title="v2.0.11"></a>v2.0.11</h2><ul>
+<li>Fix for <code>cleanUp</code> being called twice (thanks to @sebastiancarlsson)</li>
+<li>Fix for YouTube controls on iPad (fixes #391)</li>
+</ul>
+<h2 id="v2-0-10"><a href="#v2-0-10" class="headerlink" title="v2.0.10"></a>v2.0.10</h2><ul>
+<li>Added seek event fixes for Vimeo and YouTube (fixes #409)</li>
+<li>Added support for embed URLs rather than ID only (fixes #345)</li>
+</ul>
+<h2 id="v2-0-9"><a href="#v2-0-9" class="headerlink" title="v2.0.9"></a>v2.0.9</h2><ul>
+<li>Temporary patch for the YouTube API issues with <code>getDuration()</code> (relates to #374)</li>
+</ul>
+<h2 id="v2-0-8"><a href="#v2-0-8" class="headerlink" title="v2.0.8"></a>v2.0.8</h2><ul>
+<li>Added <code>isPaused()</code> API method (thanks to @darrena092)</li>
+<li>Allowed <code>.on()</code> API method to be chainable (thanks to @gurupras) (fixes #357)</li>
+<li>Improved the “awful” rendering of captions on small screens in fullscreen mode (fixes #390)</li>
+<li>Fix for Firefox VTT compatibility (thanks to @magourex)</li>
+<li>Fix for Firefox Developer Edition blank video due to <code>-webkit-mask-image</code> issue (fixes #392)</li>
+<li>Added Issue and PR templates with the aim of reducing duplicate or duff issues</li>
+</ul>
+<h2 id="v2-0-7"><a href="#v2-0-7" class="headerlink" title="v2.0.7"></a>v2.0.7</h2><ul>
+<li>Fixed <code>getCurrentTime()</code> method (fixes #351)</li>
+<li>Added <code>getVolume()</code> , <code>isMuted()</code> and <code>getDuration()</code> API methods (fixes #346)</li>
+</ul>
+<h2 id="v2-0-6"><a href="#v2-0-6" class="headerlink" title="v2.0.6"></a>v2.0.6</h2><ul>
+<li>Fixed merge issue with <code>Updated define to work with AMD imports #326</code> PR</li>
+<li>Code formatting</li>
+</ul>
+<h2 id="v2-0-5"><a href="#v2-0-5" class="headerlink" title="v2.0.5"></a>v2.0.5</h2><ul>
+<li>Fix for Vimeo in IE9 &amp; IE10</li>
+<li>Fix for HTML5 elements not firing <code>ready</code> event</li>
+</ul>
+<h2 id="v2-0-4"><a href="#v2-0-4" class="headerlink" title="v2.0.4"></a>v2.0.4</h2><ul>
+<li>Fix for Firefox full screen (fixes #343)</li>
+</ul>
+<h2 id="v2-0-3"><a href="#v2-0-3" class="headerlink" title="v2.0.3"></a>v2.0.3</h2><ul>
+<li>Set ‘global’ keyboard shortcut option to false as default, added <code>&lt;textarea&gt;</code> to editable elements to be ignored</li>
+</ul>
+<h2 id="v2-0-2"><a href="#v2-0-2" class="headerlink" title="v2.0.2"></a>v2.0.2</h2><ul>
+<li>Added ‘global’ keyboard shortcut option</li>
+</ul>
+<h2 id="v2-0-1"><a href="#v2-0-1" class="headerlink" title="v2.0.1"></a>v2.0.1</h2><ul>
+<li>Version bump for NPM (sorry for folks who upgraded to the now deleted v1.9.0 through NPM)</li>
+</ul>
+<h1 id="v2-0-0"><a href="#v2-0-0" class="headerlink" title="v2.0.0"></a>v2.0.0</h1><p>This version contains several potential <strong><em>breaking changes</em></strong>:</p>
+<ul>
+<li><code>setup()</code> has been reverted to pre v1.8.0 behaviour; meaning it will return the <em>instance</em> rather than the <em>element</em>. This is because the reference to the instance is no longer added to the original element (see below).</li>
+<li>The reference to the <code>plyr</code> instance is now added to the media element rather than original container. This is because if a container with multiple children was passed to <code>setup()</code> the references to all instances would have been added to the container, creating issues. I would recommend using the return value from <code>setup()</code> or the new <code>get()</code> method to access the instance.</li>
+<li>Players will always be wrapped in their own div now - this makes <code>setup()</code> and <code>destroy()</code> cleaner. This <em>may</em> break any custom styling based on DOM position.</li>
+<li>Players no longer seek to 0 on ‘ended’ - this is to fix a bug with Microsoft Edge as it triggers ‘ended’ on media change for whatever reason. They’ll never change ;-)</li>
+</ul>
+<p>And some other changes and bug fixes:</p>
+<ul>
+<li>New <code>get()</code> method on the global plyr object to get all instances inside a container</li>
+<li>New API methods:<ul>
+<li><code>getOriginal()</code> to get the original, <em>unmodified</em> element plyr was setup on (<code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code> or empty <code>&lt;div&gt;</code> for YouTube and Vimeo)</li>
+<li><code>getContainer()</code> to get the players outer wrapper element</li>
+<li><code>getMedia()</code> to get the players media element (<code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code> or empty <code>&lt;div&gt;</code> for YouTube and Vimeo)</li>
+<li><code>getEmbed()</code> to access the YouTube or Vimeo API directly</li>
+<li><code>getType()</code> to get the type of the player</li>
+<li><code>isReady()</code> to determine if an instance has completed setup and necessary APIs are loaded (for YouTube / Vimeo)</li>
+<li><code>on()</code> to provide an easy way to listen to events</li>
+<li><code>stop()</code> to, you guessed it, stop the player</li>
+</ul>
+</li>
+<li><code>destroy()</code> now works correctly for YouTube and Vimeo (fixes #272)</li>
+<li>New <code>destroyed</code> event when <code>destroy()</code> has completed (original element is passed as event.target)</li>
+<li>Default volume is now 10 (max) rather than 5</li>
+<li>Sprite is only loaded once (fixes #259)</li>
+<li>Fixes for Vimeo post message bugs on source change or destroy (fixes #318)</li>
+<li>Save caption state in storage (fixes #311)</li>
+<li>Added keyboard shortcuts to the current focused player (with <code>keyboardShortcuts</code> boolean option to disable) (fixes #309)</li>
+<li>Fix for captions bug (fixes #332)</li>
+<li>Change to AMD (fixes #298)</li>
+</ul>
+<h2 id="v1-8-12"><a href="#v1-8-12" class="headerlink" title="v1.8.12"></a>v1.8.12</h2><ul>
+<li>Vimeo keyboard focus fix (Fixes #317)</li>
+<li>Fix for Vimeo on basic support devices</li>
+</ul>
+<h2 id="v1-8-11"><a href="#v1-8-11" class="headerlink" title="v1.8.11"></a>v1.8.11</h2><ul>
+<li>Fix for keyboard navigation on Vimeo (Fixes #317)</li>
+<li>Fix for bug introduced in v1.8.9 related to additional controls</li>
+<li>Vimeo API upgrade</li>
+<li>Fix for YouTube bug introduced in v1.8.9</li>
+<li>Added support for passing array to .setup() (Fixes #319)</li>
+</ul>
+<h2 id="v1-8-10"><a href="#v1-8-10" class="headerlink" title="v1.8.10"></a>v1.8.10</h2><ul>
+<li>Fix for seek issues introduced in v1.8.9</li>
+</ul>
+<h2 id="v1-8-9"><a href="#v1-8-9" class="headerlink" title="v1.8.9"></a>v1.8.9</h2><ul>
+<li>Fix for fullscreen not being defined (Fixes #295)</li>
+<li>Fix for multiline captions (Fixes #314)</li>
+<li>Clean up of type checks and fix for <code>restart()</code> (Fixes #315)</li>
+<li>Fix for <code>MEDIA_ERR_SRC_NOT_SUPPORTED</code> when calling <code>.source()</code> API method</li>
+</ul>
+<h2 id="v1-8-8"><a href="#v1-8-8" class="headerlink" title="v1.8.8"></a>v1.8.8</h2><ul>
+<li>Added getCurrentTime API method (fixes #292)</li>
+<li>Fix for !hideControls on touch devices (fixes #303)</li>
+</ul>
+<h2 id="v1-8-7"><a href="#v1-8-7" class="headerlink" title="v1.8.7"></a>v1.8.7</h2><ul>
+<li>Line height fix</li>
+</ul>
+<h2 id="v1-8-6"><a href="#v1-8-6" class="headerlink" title="v1.8.6"></a>v1.8.6</h2><ul>
+<li>Reverted font size change</li>
+</ul>
+<h2 id="v1-8-5"><a href="#v1-8-5" class="headerlink" title="v1.8.5"></a>v1.8.5</h2><ul>
+<li>Fixed overflow issues (fixes #286)</li>
+</ul>
+<h2 id="v1-8-4"><a href="#v1-8-4" class="headerlink" title="v1.8.4"></a>v1.8.4</h2><ul>
+<li>Fix for large play button on small videos</li>
+</ul>
+<h2 id="v1-8-3"><a href="#v1-8-3" class="headerlink" title="v1.8.3"></a>v1.8.3</h2><ul>
+<li>Disabled iPad support for YouTube and Vimeo due to iOS limitations with iFrame playback</li>
+<li>Fixed IE11 icon loading (fixes #269)</li>
+<li>Updated screenshot (fixes #281)</li>
+<li>Added WordPress plugin (fixes #239)</li>
+<li>Added Neos plugin</li>
+<li>Added HLS, Shaka and dash.js examples (see #235 for more)</li>
+<li>Improvements for controls hiding and showing on touch devices</li>
+</ul>
+<h2 id="v1-8-2"><a href="#v1-8-2" class="headerlink" title="v1.8.2"></a>v1.8.2</h2><ul>
+<li>Fixed event bubbling</li>
+</ul>
+<h2 id="v1-8-1"><a href="#v1-8-1" class="headerlink" title="v1.8.1"></a>v1.8.1</h2><ul>
+<li>Fixed inaccurate log message</li>
+</ul>
+<h1 id="v1-8-0"><a href="#v1-8-0" class="headerlink" title="v1.8.0"></a>v1.8.0</h1><ul>
+<li><strong><em>(Important)</em></strong> <code>setup()</code> now returns the element Plyr was setup on rather than the <code>plyr</code> object. This means <code>var player = plyr.setup()[0];</code> would now be <code>var player = plyr.setup()[0].plyr;</code>. This improves support for React and other virtual dom frameworks as mentioned in #254</li>
+<li>Fixed using a relative URL for <code>iconUrl</code> in IE (fixes #269)</li>
+</ul>
+<h1 id="v1-7-0"><a href="#v1-7-0" class="headerlink" title="v1.7.0"></a>v1.7.0</h1><ul>
+<li>SASS cleanup (fixes #265)</li>
+<li>Docs tidy up to help quick start (fixes #253)</li>
+<li>Fix for issues with data attribute options passing (fixes #257)</li>
+<li><strong><em>(Important)</em></strong> Removed the requirement for a wrapper div to setup Plyr and removed the dependency on the <code>plyr</code> classname as a JS hook. By default it will now look for <code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code> and <code>[data-type]</code> elements. If you are just calling <code>setup()</code> with a <code>&lt;div class=&quot;plyr&quot;&gt;</code> you may want to give it a good test after upgrading. You can probably remove the wrapper div. The reason behind this is to make setup easier for newcomers and prevent the styling being used on unsupported players (because the plyr classname was used as a CSS and JS hook - which isn’t ideal)</li>
+<li>Renamed the ‘docs’ folder to <code>demo</code> to avoid confusion - the readme is the docs after all</li>
+</ul>
+<h2 id="v1-6-20"><a href="#v1-6-20" class="headerlink" title="v1.6.20"></a>v1.6.20</h2><ul>
+<li>Fix for multiple sprites being requested (fixes #259)</li>
+</ul>
+<h2 id="v1-6-19"><a href="#v1-6-19" class="headerlink" title="v1.6.19"></a>v1.6.19</h2><ul>
+<li>Fix for scroll direction issues on volume control (fixes #258)</li>
+</ul>
+<h2 id="v1-6-18"><a href="#v1-6-18" class="headerlink" title="v1.6.18"></a>v1.6.18</h2><ul>
+<li>Reduced rounding of seek value from 1 decimal point to 4 (fixes #242)</li>
+</ul>
+<h2 id="v1-6-17"><a href="#v1-6-17" class="headerlink" title="v1.6.17"></a>v1.6.17</h2><ul>
+<li>Added <code>disableContextMenu</code> option to hide the right click context menu (fixes #248 and #225)</li>
+</ul>
+<h2 id="v1-6-16"><a href="#v1-6-16" class="headerlink" title="v1.6.16"></a>v1.6.16</h2><ul>
+<li>Always hide standard controls (fixes #225)</li>
+<li>Fix for Tooltips overflowing (fixes #230)</li>
+</ul>
+<h2 id="v1-6-15"><a href="#v1-6-15" class="headerlink" title="v1.6.15"></a>v1.6.15</h2><ul>
+<li>Restore scroll position when exiting full screen (fixes #236)</li>
+</ul>
+<h2 id="v1-6-14"><a href="#v1-6-14" class="headerlink" title="v1.6.14"></a>v1.6.14</h2><ul>
+<li>SVG sprite loading automatically for an easier setup</li>
+<li>Touch devices now show controls on touch rather than pausing playback</li>
+</ul>
+<h2 id="v1-6-13"><a href="#v1-6-13" class="headerlink" title="v1.6.13"></a>v1.6.13</h2><ul>
+<li>Decreased sensitivity and inverted scroll on volume slider (scroll up to increase, down to decrease)</li>
+</ul>
+<h2 id="v1-6-12"><a href="#v1-6-12" class="headerlink" title="v1.6.12"></a>v1.6.12</h2><ul>
+<li>Fix for undefined buffer error</li>
+<li>Add scroll listener on volume slider (PR #227 bty @igoradamenko)</li>
+</ul>
+<h2 id="v1-6-11"><a href="#v1-6-11" class="headerlink" title="v1.6.11"></a>v1.6.11</h2><ul>
+<li>Fix for Vimeo fullscreen (fixes #214)</li>
+</ul>
+<h2 id="v1-6-10"><a href="#v1-6-10" class="headerlink" title="v1.6.10"></a>v1.6.10</h2><ul>
+<li>Changed default icon prefix from ‘icon’ to ‘plyr’ to avoid clashes</li>
+</ul>
+<h2 id="v1-6-9"><a href="#v1-6-9" class="headerlink" title="v1.6.9"></a>v1.6.9</h2><ul>
+<li>Added ‘latest’ CDN option</li>
+<li>Renamed <code>sprite.svg</code> to <code>plyr.svg</code> to be inline with the other package files</li>
+</ul>
+<h2 id="v1-6-8"><a href="#v1-6-8" class="headerlink" title="v1.6.8"></a>v1.6.8</h2><ul>
+<li>Fix for bug introduced in v1.6.7</li>
+</ul>
+<h2 id="v1-6-7"><a href="#v1-6-7" class="headerlink" title="v1.6.7"></a>v1.6.7</h2><ul>
+<li>Fixes for using <code>source</code> API method on iOS</li>
+</ul>
+<h2 id="v1-6-6"><a href="#v1-6-6" class="headerlink" title="v1.6.6"></a>v1.6.6</h2><ul>
+<li>Icons cleaned up</li>
+<li>IE11 button fix for tooltips (fixes #210)</li>
+</ul>
+<h2 id="v1-6-5"><a href="#v1-6-5" class="headerlink" title="v1.6.5"></a>v1.6.5</h2><ul>
+<li>IE UI bug fixes</li>
+</ul>
+<h2 id="v1-6-4"><a href="#v1-6-4" class="headerlink" title="v1.6.4"></a>v1.6.4</h2><ul>
+<li>Bug fix for undefined progress bar</li>
+</ul>
+<h2 id="v1-6-3"><a href="#v1-6-3" class="headerlink" title="v1.6.3"></a>v1.6.3</h2><ul>
+<li>Seek back to 0 for all media on ended</li>
+<li>Check for HTML5 video on ended reload</li>
+<li>Update to docs for <code>showPosterOnEnd</code> option</li>
+</ul>
+<h2 id="v1-6-2"><a href="#v1-6-2" class="headerlink" title="v1.6.2"></a>v1.6.2</h2><ul>
+<li>Fix for tooltip displaying when duration is not set (fixes #177)</li>
+<li><code>showPosterOnEnd</code> option to show poster when HTML5 video ended (fixes #59)</li>
+<li>Error handler for YouTube (fixes #189)</li>
+<li>Initial SoundCloud support (fixes #194)</li>
+<li>Other minor bug fixes</li>
+</ul>
+<h2 id="v1-6-1"><a href="#v1-6-1" class="headerlink" title="v1.6.1"></a>v1.6.1</h2><ul>
+<li>Tooltip changes for accessibility</li>
+</ul>
+<h2 id="v1-6-0"><a href="#v1-6-0" class="headerlink" title="v1.6.0"></a>v1.6.0</h2><ul>
+<li>New, cleaner, UI:<ul>
+<li>Controls are now overlaid, maintaining the video’s ratio and making sizing easier</li>
+<li>A large play button can now be overlaid over videos</li>
+<li>Default number of control buttons reduced</li>
+<li>New play, pause, rewind and fast forward icons</li>
+<li>Flexbox all the things!</li>
+</ul>
+</li>
+<li>Tidied up the LESS (and SCSS) as part of the above, variables and mixins in seprate files amking customization and upgrades easier</li>
+<li>Toggle mute bug fix; if a player was muted previously and the user refreshed, unmuting would have meant volume was still zero (effectively muted), now the config default value is used. Not ideal but good for now</li>
+<li>New <code>iconUrl</code> option allowing specifying a same origin SVG sprite location. Loading this way means you don’t need the AJAX sprite loading JavaScript</li>
+<li><code>click</code> option renamed to <code>clickToPlay</code> to make it a bit more self explanatory. Unfortunately cross origin SVG sprites is not supported in any browser yet :-(</li>
+<li><code>hideControls</code> is now a global option, rather than being exclusive to fullscreen. Controls are now hidden after 2 seconds of no mouse movement. Controls are always shown when media is paused or stopped. This is defaulted to true.</li>
+<li><code>sass</code> folder in <code>src</code> renamed from to <code>scss</code></li>
+</ul>
+<h2 id="v1-5-21"><a href="#v1-5-21" class="headerlink" title="v1.5.21"></a>v1.5.21</h2><ul>
+<li>Bug fix for embeds: <code>play</code> not being defined (fixes #185 and #186)</li>
+</ul>
+<h2 id="v1-5-20"><a href="#v1-5-20" class="headerlink" title="v1.5.20"></a>v1.5.20</h2><ul>
+<li>Bug fix for autoplay option</li>
+</ul>
+<h2 id="v1-5-19"><a href="#v1-5-19" class="headerlink" title="v1.5.19"></a>v1.5.19</h2><ul>
+<li>Fix for accessing <code>embed</code> property after <code>ready</code> event fired</li>
+</ul>
+<h2 id="v1-5-18"><a href="#v1-5-18" class="headerlink" title="v1.5.18"></a>v1.5.18</h2><ul>
+<li>Added ‘ready’ event for initial setup complete or source change occurs</li>
+<li>Fixed SASS stylesheet references to transparentize</li>
+<li>Added default font stack to controls</li>
+<li>Docs fixes inc controls HTML (fixes #180)</li>
+</ul>
+<h2 id="v1-5-17"><a href="#v1-5-17" class="headerlink" title="v1.5.17"></a>v1.5.17</h2><ul>
+<li>Expose YouTube and Vimeo API (docs update required) (fixes #176)</li>
+<li>Auto set title based on YouTube getVideoData() title property</li>
+<li>Bug fix for Vimeo API change (Uncaught TypeError: Cannot read property ‘value’ of undefined) due to a change their end</li>
+</ul>
+<h2 id="v1-5-16"><a href="#v1-5-16" class="headerlink" title="v1.5.16"></a>v1.5.16</h2><ul>
+<li>Cancel requests on source change (fixes #174)</li>
+</ul>
+<h2 id="v1-5-15"><a href="#v1-5-15" class="headerlink" title="v1.5.15"></a>v1.5.15</h2><ul>
+<li>Fix for CustomEvent polyfill and related bug (see #172)</li>
+</ul>
+<h2 id="v1-5-14"><a href="#v1-5-14" class="headerlink" title="v1.5.14"></a>v1.5.14</h2><ul>
+<li>Volume storage fix (fixes #171)</li>
+</ul>
+<h2 id="v1-5-13"><a href="#v1-5-13" class="headerlink" title="v1.5.13"></a>v1.5.13</h2><ul>
+<li>Fix for manual caption rendering</li>
+</ul>
+<h2 id="v1-5-12"><a href="#v1-5-12" class="headerlink" title="v1.5.12"></a>v1.5.12</h2><ul>
+<li>Added a duration option to pass the duration of the file</li>
+<li>Added the ability to set options per element by setting a data-plyr attribute on the target elements (this might be useful for the duration option for example)</li>
+<li>Fixes for Chrome and Safari caption rendering, they now use the default texttrack and cuechange events</li>
+<li>Firefox bug fix for event not defined</li>
+</ul>
+<h2 id="v1-5-11"><a href="#v1-5-11" class="headerlink" title="v1.5.11"></a>v1.5.11</h2><ul>
+<li>iOS embed bug fixes (fixes #166)</li>
+<li>Hide IE/Edge <input type="range"> tooltip (since we have a styled one) (fixes #160)</li>
+<li>SASS bug fix for default values (fixes #158)</li>
+</ul>
+<h2 id="v1-5-9-v1-5-10"><a href="#v1-5-9-v1-5-10" class="headerlink" title="v1.5.9 + v1.5.10"></a>v1.5.9 + v1.5.10</h2><ul>
+<li>NPM bug fixes</li>
+</ul>
+<h2 id="v1-5-8"><a href="#v1-5-8" class="headerlink" title="v1.5.8"></a>v1.5.8</h2><ul>
+<li>Fix for touch device seek tooltip</li>
+<li>Seek improvements</li>
+</ul>
+<h2 id="v1-5-7"><a href="#v1-5-7" class="headerlink" title="v1.5.7"></a>v1.5.7</h2><ul>
+<li>Fix for control tooltips always showing</li>
+</ul>
+<h2 id="v1-5-6"><a href="#v1-5-6" class="headerlink" title="v1.5.6"></a>v1.5.6</h2><ul>
+<li>Seek tooltip (option for tooltips changed, please check docs)</li>
+<li>SASS compile error fixes (fixes #148)</li>
+<li>Fullscreen fixes for controls not always hiding/showing (fixes #149)</li>
+<li>Screen reader icon fixes (title was being read twice due to the tooltip/hidden label)</li>
+</ul>
+<h2 id="v1-5-5"><a href="#v1-5-5" class="headerlink" title="v1.5.5"></a>v1.5.5</h2><ul>
+<li>Fixed controls.md example</li>
+<li>Bug fix for docs error page</li>
+<li>Bug fix for controls tooltips</li>
+</ul>
+<h2 id="v1-5-4"><a href="#v1-5-4" class="headerlink" title="v1.5.4"></a>v1.5.4</h2><ul>
+<li>Minor bug fix for clicking video to play/pause after source change</li>
+</ul>
+<h2 id="v1-5-3"><a href="#v1-5-3" class="headerlink" title="v1.5.3"></a>v1.5.3</h2><ul>
+<li>Minor bug fix for occasional display of 0:00 as the media duration</li>
+</ul>
+<h2 id="v1-5-2"><a href="#v1-5-2" class="headerlink" title="v1.5.2"></a>v1.5.2</h2><ul>
+<li><code>handlers</code> option renamed to <code>listeners</code></li>
+<li>Added event listeners for all types to the plyr container (playback, fullscreen, captions etc - see docs)</li>
+<li>Removed onSetup config option (use the ‘setup’ event instead, plyr element is event.plyr)</li>
+<li>Style bug fixes</li>
+<li>Vimeo seek bug fix (requires whole seconds when seeking)</li>
+<li>Fix for fullscreen player (using class hook, not browser fullscreen)</li>
+</ul>
+<h2 id="v1-5-1"><a href="#v1-5-1" class="headerlink" title="v1.5.1"></a>v1.5.1</h2><ul>
+<li>Fix for event listeners being duplicated on source change</li>
+</ul>
+<h1 id="v1-5-0"><a href="#v1-5-0" class="headerlink" title="v1.5.0"></a>v1.5.0</h1><ul>
+<li>Vimeo support (fixes #8)</li>
+<li>New options for initialization (you can now pass a selector, HTMLElement or NodeList) (fixes #118)</li>
+<li>Switched to BEM methodology (you will need to change CSS and probably HTML)</li>
+<li>Decoupled CSS and JS hooks (fixes #129)</li>
+<li>Custom controls container (fixes #98)</li>
+<li>Fix for private/incognito mode local storage bug (fixes #131)</li>
+<li>UMD module setup (fixes #121)</li>
+<li>Specify iframe title for Vimeo and YouTube (fixes #124)</li>
+<li>Better handling of mission controls (fixes #132)</li>
+<li>Retain classname on source change (fixes #120)</li>
+<li>Increased thumb size on seek (partially fixes #130)</li>
+<li>Passing no argument to <code>source</code> api method, now returns current source (by @gurupras)</li>
+<li>Ability to add custom handlers to controls prior to Plyr bindings (by @gurupras)</li>
+<li>Keyboard navigation improvements (focus on seek, focus trap in fullscreen) (fixes #135)</li>
+</ul>
+<h2 id="v1-3-5"><a href="#v1-3-5" class="headerlink" title="v1.3.5"></a>v1.3.5</h2><ul>
+<li>Fixed bug with API use on basic supported browsers</li>
+</ul>
+<h2 id="v1-3-4"><a href="#v1-3-4" class="headerlink" title="v1.3.4"></a>v1.3.4</h2><ul>
+<li>Code cleanup by @calvintam236</li>
+</ul>
+<h2 id="v1-3-3"><a href="#v1-3-3" class="headerlink" title="v1.3.3"></a>v1.3.3</h2><ul>
+<li>Removed captions being read by screen readers</li>
+</ul>
+<h2 id="v1-3-2"><a href="#v1-3-2" class="headerlink" title="v1.3.2"></a>v1.3.2</h2><ul>
+<li>Voiceover fix for captions</li>
+</ul>
+<h2 id="v1-3-1"><a href="#v1-3-1" class="headerlink" title="v1.3.1"></a>v1.3.1</h2><ul>
+<li>ARIA improvements for captions being read</li>
+</ul>
+<h2 id="v1-3-0"><a href="#v1-3-0" class="headerlink" title="v1.3.0"></a>v1.3.0</h2><ul>
+<li>Internationalization support (i18n) using default controls (required markup changes to controls)</li>
+<li>ARIA enhancements for controls (required markup changes to controls)</li>
+<li>Captions legibility improvements</li>
+<li>YouTube bug fixes</li>
+</ul>
+<h2 id="v1-2-6"><a href="#v1-2-6" class="headerlink" title="v1.2.6"></a>v1.2.6</h2><ul>
+<li>SASS updates and fixes (cheers @ChristianPV)</li>
+</ul>
+<h2 id="v1-2-5"><a href="#v1-2-5" class="headerlink" title="v1.2.5"></a>v1.2.5</h2><ul>
+<li>Fix for YouTube quality (let them decide quality)</li>
+</ul>
+<h2 id="v1-2-4"><a href="#v1-2-4" class="headerlink" title="v1.2.4"></a>v1.2.4</h2><ul>
+<li>Fix for omitted kind attribute on <track> (fixes #88)</li>
+</ul>
+<h2 id="v1-2-3"><a href="#v1-2-3" class="headerlink" title="v1.2.3"></a>v1.2.3</h2><ul>
+<li>Fix for YouTube on iPhone or unsupported browsers (fallback to YouTube native)</li>
+<li>Docs tidy up</li>
+<li>Fullscreen for Safari fix (fixes #96)</li>
+</ul>
+<h2 id="v1-2-2"><a href="#v1-2-2" class="headerlink" title="v1.2.2"></a>v1.2.2</h2><ul>
+<li>Fix for :focus keyboard vs mouse (fixes #61)</li>
+<li>Fix for caption positioning in full screen (fixes #92)</li>
+</ul>
+<h2 id="v1-2-1"><a href="#v1-2-1" class="headerlink" title="v1.2.1"></a>v1.2.1</h2><ul>
+<li>Tooltip bug fix</li>
+</ul>
+<h1 id="v1-2-0"><a href="#v1-2-0" class="headerlink" title="v1.2.0"></a>v1.2.0</h1><ul>
+<li>Added YouTube support</li>
+</ul>
+<h2 id="v1-1-13"><a href="#v1-1-13" class="headerlink" title="v1.1.13"></a>v1.1.13</h2><ul>
+<li>Added icon prefix option for when using default controls</li>
+</ul>
+<h2 id="v1-1-13-1"><a href="#v1-1-13-1" class="headerlink" title="v1.1.13"></a>v1.1.13</h2><ul>
+<li>Logic tweaks for hiding controls in fullscreen</li>
+</ul>
+<h2 id="v1-1-12"><a href="#v1-1-12" class="headerlink" title="v1.1.12"></a>v1.1.12</h2><ul>
+<li>Bug fix for Chrome Canary</li>
+</ul>
+<h2 id="v1-1-11"><a href="#v1-1-11" class="headerlink" title="v1.1.11"></a>v1.1.11</h2><ul>
+<li>Bug fix</li>
+</ul>
+<h2 id="v1-1-10"><a href="#v1-1-10" class="headerlink" title="v1.1.10"></a>v1.1.10</h2><ul>
+<li>Bug fix</li>
+</ul>
+<h2 id="v1-1-9"><a href="#v1-1-9" class="headerlink" title="v1.1.9"></a>v1.1.9</h2><ul>
+<li>Bug fix for 1.1.8</li>
+</ul>
+<h2 id="v1-1-8"><a href="#v1-1-8" class="headerlink" title="v1.1.8"></a>v1.1.8</h2><ul>
+<li>setVolume API method improvements (fixes #83)</li>
+</ul>
+<h2 id="v1-1-7"><a href="#v1-1-7" class="headerlink" title="v1.1.7"></a>v1.1.7</h2><ul>
+<li>Restore classname on destroy()</li>
+</ul>
+<h2 id="v1-1-6"><a href="#v1-1-6" class="headerlink" title="v1.1.6"></a>v1.1.6</h2><ul>
+<li>New API methods (fixes #77), Fix for non strict mode (fixes #78)</li>
+</ul>
+<h2 id="v1-1-5"><a href="#v1-1-5" class="headerlink" title="v1.1.5"></a>v1.1.5</h2><ul>
+<li>Fix for incorrect <code>isFullscreen()</code> return value in Mozilla (fixes #38)</li>
+</ul>
+<h2 id="v1-1-4"><a href="#v1-1-4" class="headerlink" title="v1.1.4"></a>v1.1.4</h2><ul>
+<li>Minor bug fixes</li>
+</ul>
+<h2 id="v1-1-3"><a href="#v1-1-3" class="headerlink" title="v1.1.3"></a>v1.1.3</h2><ul>
+<li>Fixes for random id used in controls with multiple instances and one call to setup</li>
+<li>Audio player UI improvements</li>
+</ul>
+<h2 id="v1-1-2"><a href="#v1-1-2" class="headerlink" title="v1.1.2"></a>v1.1.2</h2><ul>
+<li>Added an onSetup callback option</li>
+<li>Added fullscreen API methods <code>toggleFullscreen()</code> (must be user iniated), and <code>isFullscreen()</code></li>
+</ul>
+<h2 id="v1-1-1"><a href="#v1-1-1" class="headerlink" title="v1.1.1"></a>v1.1.1</h2><ul>
+<li>Fix for unsupported browser handling</li>
+<li>Fix for config.controls having no effect</li>
+</ul>
+<h2 id="v1-1-0"><a href="#v1-1-0" class="headerlink" title="v1.1.0"></a>v1.1.0</h2><ul>
+<li>Added config option to set which controls are shown (if using the default controls html) and better handling of missing controls</li>
+</ul>
+<h2 id="v1-0-31"><a href="#v1-0-31" class="headerlink" title="v1.0.31"></a>v1.0.31</h2><ul>
+<li>Display duration on <code>metadataloaded</code></li>
+</ul>
+<h2 id="v1-0-30"><a href="#v1-0-30" class="headerlink" title="v1.0.30"></a>v1.0.30</h2><ul>
+<li>Fixed bug with media longer than 60 minutes (fixes #69)</li>
+</ul>
+<h2 id="v1-0-29"><a href="#v1-0-29" class="headerlink" title="v1.0.29"></a>v1.0.29</h2><ul>
+<li>Added option to hide controls on fullscreen (default <code>true</code>) while palying, after 1s. Pause, mouse hover on progress, or focus on a child control re-shows the controls. On touch a tap of the video (which plays/pauses the video by default) is required. (fixes #47)</li>
+<li>Fixed a bug with caption toggle in 1.0.28</li>
+</ul>
+<h2 id="v1-0-28"><a href="#v1-0-28" class="headerlink" title="v1.0.28"></a>v1.0.28</h2><ul>
+<li>Added API support for browsers that don’t have full plyr support (pretty much &lt;=IE9 and <code>&lt;video&gt;</code> on iPhone/iPod)</li>
+</ul>
+<h2 id="v1-0-27"><a href="#v1-0-27" class="headerlink" title="v1.0.27"></a>v1.0.27</h2><ul>
+<li>Keyboard accessibility improvements (fixes #66)</li>
+</ul>
+<h2 id="v1-0-26"><a href="#v1-0-26" class="headerlink" title="v1.0.26"></a>v1.0.26</h2><ul>
+<li>Fixes for SASS (cheers @brunowego)</li>
+<li>Indentation reset to 4 spaces</li>
+</ul>
+<h2 id="v1-0-25"><a href="#v1-0-25" class="headerlink" title="v1.0.25"></a>v1.0.25</h2><ul>
+<li>Fixes for iOS volume controls (hidden)</li>
+<li>Classnames for left/right controls changed</li>
+</ul>
+<h2 id="v1-0-24"><a href="#v1-0-24" class="headerlink" title="v1.0.24"></a>v1.0.24</h2><ul>
+<li>Added tooltip option to display labels as tooltips (fixes #50)</li>
+</ul>
+<h2 id="v1-0-23"><a href="#v1-0-23" class="headerlink" title="v1.0.23"></a>v1.0.23</h2><ul>
+<li>Handling loading states in the UI (fixes #36)</li>
+</ul>
+<h2 id="v1-0-22"><a href="#v1-0-22" class="headerlink" title="v1.0.22"></a>v1.0.22</h2><ul>
+<li>Added support() API method for checking mimetype support</li>
+<li>Added source() API method for setting media source(s) (fixes #44)</li>
+<li>Added poster() API method for setting poster source</li>
+<li>Refactored captions logic for manual captions</li>
+</ul>
+<h2 id="v1-0-21"><a href="#v1-0-21" class="headerlink" title="v1.0.21"></a>v1.0.21</h2><ul>
+<li>Added an <input type="range"> for seeking to improve experience (and support dragging) (fixes #40, #42)</li>
+<li>Icons for restart and captions improved (and some IDs changed) (fixes #49)</li>
+</ul>
+<h2 id="v1-0-20"><a href="#v1-0-20" class="headerlink" title="v1.0.20"></a>v1.0.20</h2><ul>
+<li>Default controls included (Fixes #45)</li>
+<li>Volume changes on <code>input</code> as well as <code>change</code> (fixes #43)</li>
+<li>Fix for undefined Play text</li>
+<li>License changed to MIT</li>
+</ul>
+<h2 id="v1-0-19"><a href="#v1-0-19" class="headerlink" title="v1.0.19"></a>v1.0.19</h2><ul>
+<li>Fixed firefox fullscreen issue (fixes #38)</li>
+</ul>
+<h2 id="v1-0-18"><a href="#v1-0-18" class="headerlink" title="v1.0.18"></a>v1.0.18</h2><ul>
+<li>Added CDN references</li>
+</ul>
+<h2 id="v1-0-17"><a href="#v1-0-17" class="headerlink" title="v1.0.17"></a>v1.0.17</h2><ul>
+<li>SASS support added (thanks to @brunowego)</li>
+<li>Docs completely separated to avoid any confusion</li>
+<li>New gulp tasks (will add more documentation for this)</li>
+</ul>
+<h2 id="v1-0-16"><a href="#v1-0-16" class="headerlink" title="v1.0.16"></a>v1.0.16</h2><ul>
+<li>Aria label is now dynamic</li>
+</ul>
+<h2 id="v1-0-15"><a href="#v1-0-15" class="headerlink" title="v1.0.15"></a>v1.0.15</h2><ul>
+<li>Fix for seek time display in controls</li>
+<li>More documentation for controls html</li>
+</ul>
+<h2 id="v1-0-14"><a href="#v1-0-14" class="headerlink" title="v1.0.14"></a>v1.0.14</h2><ul>
+<li>Minor change for bootstrap compatibility</li>
+</ul>
+<h2 id="v1-0-13"><a href="#v1-0-13" class="headerlink" title="v1.0.13"></a>v1.0.13</h2><ul>
+<li>Minor tweaks</li>
+</ul>
+<h2 id="v1-0-12"><a href="#v1-0-12" class="headerlink" title="v1.0.12"></a>v1.0.12</h2><ul>
+<li>Handle native events (issue #34)</li>
+</ul>
+<h2 id="v1-0-11"><a href="#v1-0-11" class="headerlink" title="v1.0.11"></a>v1.0.11</h2><ul>
+<li>Bug fixes for fullscreen mode</li>
+</ul>
+<h2 id="v1-0-10"><a href="#v1-0-10" class="headerlink" title="v1.0.10"></a>v1.0.10</h2><ul>
+<li>Bower includes src files now</li>
+<li>Folder re-arrangement</li>
+</ul>
+<h2 id="v1-0-9"><a href="#v1-0-9" class="headerlink" title="v1.0.9"></a>v1.0.9</h2><ul>
+<li>Added buffer progress bar</li>
+<li>Fixed Safari 8 caption track (it needs to be removed from the DOM like in Safari 7)</li>
+<li>Added validation (it works or it doesn’t basically) of the <code>html</code> option passed</li>
+</ul>
+<h2 id="v1-0-8"><a href="#v1-0-8" class="headerlink" title="v1.0.8"></a>v1.0.8</h2><ul>
+<li>Bug fix</li>
+</ul>
+<h2 id="v1-0-7"><a href="#v1-0-7" class="headerlink" title="v1.0.7"></a>v1.0.7</h2><ul>
+<li>Storing user selected volume in local storage</li>
+</ul>
+<h2 id="v1-0-6"><a href="#v1-0-6" class="headerlink" title="v1.0.6"></a>v1.0.6</h2><ul>
+<li>Fullscreen fallback for older browsers to use “full window”</li>
+</ul>
+<h2 id="v1-0-5"><a href="#v1-0-5" class="headerlink" title="v1.0.5"></a>v1.0.5</h2><ul>
+<li>More minor bug fixes and improvements</li>
+</ul>
+<h2 id="v1-0-4"><a href="#v1-0-4" class="headerlink" title="v1.0.4"></a>v1.0.4</h2><ul>
+<li>Fixed caption legibility issues</li>
+</ul>
+<h2 id="v1-0-3"><a href="#v1-0-3" class="headerlink" title="v1.0.3"></a>v1.0.3</h2><ul>
+<li>Minor bug fixes</li>
+</ul>
+<h2 id="v1-0-2"><a href="#v1-0-2" class="headerlink" title="v1.0.2"></a>v1.0.2</h2><ul>
+<li>Added OGG to <audio> example for Firefox</audio></li>
+<li>Fixed IE11 fullscreen issues</li>
+</ul>
+<h2 id="v1-0-1"><a href="#v1-0-1" class="headerlink" title="v1.0.1"></a>v1.0.1</h2><ul>
+<li>Bug fixes for IE (as per usual)</li>
+<li>Added CSS hooks for media type</li>
+<li>Return instances of Plyr to the element</li>
+</ul>
+<h2 id="v1-0-0"><a href="#v1-0-0" class="headerlink" title="v1.0.0"></a>v1.0.0</h2><ul>
+<li>Initial release</li>
+</ul>

@@ -1,0 +1,93 @@
+<h1 id="Controls"><a href="#Controls" class="headerlink" title="Controls"></a>Controls</h1><p>This is the markup that is rendered for the Plyr controls. You can use the default controls or provide a customized version of markup based on your needs.</p>
+<h2 id="Internationalization-using-default-controls"><a href="#Internationalization-using-default-controls" class="headerlink" title="Internationalization using default controls"></a>Internationalization using default controls</h2><p>You can provide an <code>i18n</code> object as one of your options when initialising the plugin which we be used when rendering the controls.</p>
+<h3 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h3><pre><code class="javascript">i18n: {
+    restart:            <span class="string">"Restart"</span>,
+    rewind:             <span class="string">"Rewind {seektime} secs"</span>,
+    play:               <span class="string">"Play"</span>,
+    pause:              <span class="string">"Pause"</span>,
+    forward:            <span class="string">"Forward {seektime} secs"</span>,
+    buffered:           <span class="string">"buffered"</span>,
+    currentTime:        <span class="string">"Current time"</span>,
+    duration:           <span class="string">"Duration"</span>,
+    volume:             <span class="string">"Volume"</span>,
+    toggleMute:         <span class="string">"Toggle Mute"</span>,
+    toggleCaptions:     <span class="string">"Toggle Captions"</span>,
+    toggleFullscreen:   <span class="string">"Toggle Fullscreen"</span>
+}
+</code></pre>
+<p>Note: <code>{seektime}</code> will be replaced with your configured seek time or the default. For example “Forward {seektime} secs” would render as “Forward 10 secs”.</p>
+<h2 id="Using-custom-HTML"><a href="#Using-custom-HTML" class="headerlink" title="Using custom HTML"></a>Using custom HTML</h2><p>You can specify the HTML for the controls using the <code>html</code> option.</p>
+<p>The classes and data attributes used in your template should match the <code>selectors</code> option.</p>
+<p>You need to add several placeholders to your html template that are replaced when rendering:</p>
+<ul>
+<li><code>{id}</code> - the dynamically generated ID for the player (for form controls)</li>
+<li><code>{seektime}</code> - the seek time specified in options for fast forward and rewind</li>
+<li><code>{title}</code> - the title of your media, if specified</li>
+</ul>
+<p>You can include only the controls you need when specifying custom html.</p>
+<h3 id="Example-1"><a href="#Example-1" class="headerlink" title="Example"></a>Example</h3><p>This is an example <code>html</code> option with all controls.</p>
+<pre><code class="javascript"><span class="keyword">var</span> controls = [<span class="string">"&lt;div class='plyr__controls'&gt;"</span>,
+    <span class="string">"&lt;button type='button' data-plyr='restart'&gt;"</span>,
+        <span class="string">"&lt;svg&gt;&lt;use xlink:href='#plyr-restart'&gt;&lt;/use&gt;&lt;/svg&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__sr-only'&gt;Restart&lt;/span&gt;"</span>,
+    <span class="string">"&lt;/button&gt;"</span>,
+    <span class="string">"&lt;button type='button' data-plyr='rewind'&gt;"</span>,
+        <span class="string">"&lt;svg&gt;&lt;use xlink:href='#plyr-rewind'&gt;&lt;/use&gt;&lt;/svg&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__sr-only'&gt;Rewind {seektime} secs&lt;/span&gt;"</span>,
+    <span class="string">"&lt;/button&gt;"</span>,
+    <span class="string">"&lt;button type='button' data-plyr='play'&gt;"</span>,
+        <span class="string">"&lt;svg&gt;&lt;use xlink:href='#plyr-play'&gt;&lt;/use&gt;&lt;/svg&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__sr-only'&gt;Play&lt;/span&gt;"</span>,
+    <span class="string">"&lt;/button&gt;"</span>,
+    <span class="string">"&lt;button type='button' data-plyr='pause'&gt;"</span>,
+        <span class="string">"&lt;svg&gt;&lt;use xlink:href='#plyr-pause'&gt;&lt;/use&gt;&lt;/svg&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__sr-only'&gt;Pause&lt;/span&gt;"</span>,
+    <span class="string">"&lt;/button&gt;"</span>,
+    <span class="string">"&lt;button type='button' data-plyr='fast-forward'&gt;"</span>,
+        <span class="string">"&lt;svg&gt;&lt;use xlink:href='#plyr-fast-forward'&gt;&lt;/use&gt;&lt;/svg&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__sr-only'&gt;Forward {seektime} secs&lt;/span&gt;"</span>,
+    <span class="string">"&lt;/button&gt;"</span>,
+    <span class="string">"&lt;span class='plyr__progress'&gt;"</span>,
+        <span class="string">"&lt;label for='seek{id}' class='plyr__sr-only'&gt;Seek&lt;/label&gt;"</span>,
+        <span class="string">"&lt;input id='seek{id}' class='plyr__progress--seek' type='range' min='0' max='100' step='0.1' value='0' data-plyr='seek'&gt;"</span>,
+        <span class="string">"&lt;progress class='plyr__progress--played' max='100' value='0' role='presentation'&gt;&lt;/progress&gt;"</span>,
+        <span class="string">"&lt;progress class='plyr__progress--buffer' max='100' value='0'&gt;"</span>,
+            <span class="string">"&lt;span&gt;0&lt;/span&gt;% buffered"</span>,
+        <span class="string">"&lt;/progress&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__tooltip'&gt;00:00&lt;/span&gt;"</span>,
+    <span class="string">"&lt;/span&gt;"</span>,
+    <span class="string">"&lt;span class='plyr__time'&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__sr-only'&gt;Current time&lt;/span&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__time--current'&gt;00:00&lt;/span&gt;"</span>,
+    <span class="string">"&lt;/span&gt;"</span>,
+    <span class="string">"&lt;span class='plyr__time'&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__sr-only'&gt;Duration&lt;/span&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__time--duration'&gt;00:00&lt;/span&gt;"</span>,
+    <span class="string">"&lt;/span&gt;"</span>,
+    <span class="string">"&lt;button type='button' data-plyr='mute'&gt;"</span>,
+        <span class="string">"&lt;svg class='icon--muted'&gt;&lt;use xlink:href='#plyr-muted'&gt;&lt;/use&gt;&lt;/svg&gt;"</span>,
+        <span class="string">"&lt;svg&gt;&lt;use xlink:href='#plyr-volume'&gt;&lt;/use&gt;&lt;/svg&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__sr-only'&gt;Toggle Mute&lt;/span&gt;"</span>,
+    <span class="string">"&lt;/button&gt;"</span>,
+    <span class="string">"&lt;span class='plyr__volume'&gt;"</span>,
+        <span class="string">"&lt;label for='volume{id}' class='plyr__sr-only'&gt;Volume&lt;/label&gt;"</span>,
+        <span class="string">"&lt;input id='volume{id}' class='plyr__volume--input' type='range' min='0' max='10' value='5' data-plyr='volume'&gt;"</span>,
+        <span class="string">"&lt;progress class='plyr__volume--display' max='10' value='0' role='presentation'&gt;&lt;/progress&gt;"</span>,
+    <span class="string">"&lt;/span&gt;"</span>,
+    <span class="string">"&lt;button type='button' data-plyr='captions'&gt;"</span>,
+        <span class="string">"&lt;svg class='icon--captions-on'&gt;&lt;use xlink:href='#plyr-captions-on'&gt;&lt;/use&gt;&lt;/svg&gt;"</span>,
+        <span class="string">"&lt;svg&gt;&lt;use xlink:href='#plyr-captions-off'&gt;&lt;/use&gt;&lt;/svg&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__sr-only'&gt;Toggle Captions&lt;/span&gt;"</span>,
+    <span class="string">"&lt;/button&gt;"</span>,
+    <span class="string">"&lt;button type='button' data-plyr='fullscreen'&gt;"</span>,
+        <span class="string">"&lt;svg class='icon--exit-fullscreen'&gt;&lt;use xlink:href='#plyr-exit-fullscreen'&gt;&lt;/use&gt;&lt;/svg&gt;"</span>,
+        <span class="string">"&lt;svg&gt;&lt;use xlink:href='#plyr-enter-fullscreen'&gt;&lt;/use&gt;&lt;/svg&gt;"</span>,
+        <span class="string">"&lt;span class='plyr__sr-only'&gt;Toggle Fullscreen&lt;/span&gt;"</span>,
+    <span class="string">"&lt;/button&gt;"</span>,
+<span class="string">"&lt;/div&gt;"</span>].join(<span class="string">""</span>);
+
+<span class="comment">// Setup the player</span>
+plyr.setup(<span class="string">'.js-player'</span>, {
+    html: controls
+});
+</code></pre>

@@ -1,0 +1,85 @@
+<p><a href="https://travis-ci.org/corejavascript/typeahead.js" rel="external nofollow noopener noreferrer" target="_blank"><img src="https://travis-ci.org/corejavascript/typeahead.js.svg?branch=master" alt="Build Status"></a><br><a href="https://gitter.im/corejavascript/typeahead.js?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge" rel="external nofollow noopener noreferrer" target="_blank"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter"></a><br><a href="https://www.bithound.io/github/corejavascript/typeahead.js" rel="external nofollow noopener noreferrer" target="_blank"><img src="https://www.bithound.io/github/corejavascript/typeahead.js/badges/score.svg" alt="bitHound Score"></a><br><a href="https://www.bithound.io/github/corejavascript/typeahead.js/master/dependencies/npm" rel="external nofollow noopener noreferrer" target="_blank"><img src="https://www.bithound.io/github/corejavascript/typeahead.js/badges/dependencies.svg" alt="bitHound Dependencies"></a><br><a href="https://raw.githubusercontent.com/iron/iron/master/LICENSE" rel="external nofollow noopener noreferrer" target="_blank"><img src="http://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a></p>
+<h1 id="corejs-typeahead"><a href="#corejs-typeahead" class="headerlink" title="corejs-typeahead"></a><a href="https://typeahead.js.org/" rel="external nofollow noopener noreferrer" target="_blank">corejs-typeahead</a></h1><p>This is a maintained fork of <a href="https://twitter.com" rel="external nofollow noopener noreferrer" target="_blank">twitter.com</a>‘s autocomplete search library, <a href="https://github.com/twitter/typeahead.js" rel="external nofollow noopener noreferrer" target="_blank">typeahead.js</a>.</p>
+<p>The typeahead.js library consists of 2 components: the suggestion engine,<br><a href="https://github.com/corejavascript/typeahead.js/blob/master/doc/bloodhound.md" rel="external nofollow noopener noreferrer" target="_blank">Bloodhound</a>, and the UI view, <a href="https://github.com/corejavascript/typeahead.js/blob/master/doc/jquery_typeahead.md" rel="external nofollow noopener noreferrer" target="_blank">Typeahead</a>.<br>The suggestion engine is responsible for computing suggestions for a given<br>query. The UI view is responsible for rendering suggestions and handling DOM<br>interactions. Both components can be used separately, but when used together,<br>they can provide a rich typeahead experience.</p>
+<h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><p>How you acquire typeahead.js is up to you:</p>
+<ul>
+<li><p>Install with <a href="https://bower.io/" rel="external nofollow noopener noreferrer" target="_blank">Bower</a>: <code>$ bower install corejs-typeahead</code></p>
+</li>
+<li><p>Install with <a href="https://www.npmjs.com" rel="external nofollow noopener noreferrer" target="_blank">npm</a>: <code>$ npm install corejs-typeahead</code></p>
+</li>
+<li><p><a href="https://github.com/corejavascript/typeahead.js/archive/master.zip" rel="external nofollow noopener noreferrer" target="_blank">Download zipball of latest release</a></p>
+</li>
+<li><p>Download the latest dist files individually:</p>
+<ul>
+<li><a href="https://github.com/corejavascript/typeahead.js/raw/master/dist/bloodhound.js" rel="external nofollow noopener noreferrer" target="_blank">bloodhound.js</a> (standalone suggestion engine)</li>
+<li><a href="https://github.com/corejavascript/typeahead.js/raw/master/dist/typeahead.jquery.js" rel="external nofollow noopener noreferrer" target="_blank">typeahead.jquery.js</a> (standalone UI view)</li>
+<li><a href="https://github.com/corejavascript/typeahead.js/raw/master/dist/typeahead.bundle.js" rel="external nofollow noopener noreferrer" target="_blank">typeahead.bundle.js</a> (<em>bloodhound.js</em> + <em>typeahead.jquery.js</em>)</li>
+<li><a href="https://github.com/corejavascript/typeahead.js/raw/master/dist/typeahead.bundle.min.js" rel="external nofollow noopener noreferrer" target="_blank">typeahead.bundle.min.js</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Note:</strong> both <em>bloodhound.js</em> and <em>typeahead.jquery.js</em> have a dependency on<br><a href="http://jquery.com/" rel="external nofollow noopener noreferrer" target="_blank">jQuery</a> 1.9+.</p>
+<h2 id="Documentation"><a href="#Documentation" class="headerlink" title="Documentation"></a>Documentation</h2><ul>
+<li><a href="https://github.com/corejavascript/typeahead.js/blob/master/doc/jquery_typeahead.md" rel="external nofollow noopener noreferrer" target="_blank">Typeahead Docs</a></li>
+<li><a href="https://github.com/corejavascript/typeahead.js/blob/master/doc/bloodhound.md" rel="external nofollow noopener noreferrer" target="_blank">Bloodhound Docs</a></li>
+</ul>
+<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><p>For some working examples of typeahead.js, visit the <a href="https://typeahead.js.org/examples" rel="external nofollow noopener noreferrer" target="_blank">examples page</a>.</p>
+<h2 id="Browser-Support"><a href="#Browser-Support" class="headerlink" title="Browser Support"></a>Browser Support</h2><ul>
+<li>Chrome</li>
+<li>Firefox 3.5+</li>
+<li>Safari 4+</li>
+<li>Internet Explorer 8+</li>
+<li>Opera 11+</li>
+</ul>
+<p><strong>NOTE:</strong> typeahead.js is not tested on mobile browsers.</p>
+<h2 id="Customer-Support"><a href="#Customer-Support" class="headerlink" title="Customer Support"></a>Customer Support</h2><p>For general questions about typeahead.js, tweet at <a href="https://twitter.com/typeahead" rel="external nofollow noopener noreferrer" target="_blank">@typeahead</a>.</p>
+<p>For technical questions, you should post a question on <a href="http://stackoverflow.com/" rel="external nofollow noopener noreferrer" target="_blank">Stack Overflow</a> and tag<br>it with <a href="http://stackoverflow.com/questions/tagged/typeahead.js" rel="external nofollow noopener noreferrer" target="_blank">typeahead.js</a>.</p>
+<h2 id="Issues"><a href="#Issues" class="headerlink" title="Issues"></a>Issues</h2><p>Discovered a bug? Please create an issue here on GitHub!</p>
+<p><a href="https://github.com/corejavascript/typeahead.js/issues" rel="external nofollow noopener noreferrer" target="_blank">github.com/corejavascript/typeahead.js/issues</a></p>
+<h2 id="Versioning"><a href="#Versioning" class="headerlink" title="Versioning"></a>Versioning</h2><p>For transparency and insight into our release cycle, releases will be numbered<br>with the following format:</p>
+<p><code>&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;</code></p>
+<p>And constructed with the following guidelines:</p>
+<ul>
+<li>Breaking backwards compatibility bumps the major</li>
+<li>New additions without breaking backwards compatibility bumps the minor</li>
+<li>Bug fixes and misc changes bump the patch</li>
+</ul>
+<p>For more information on semantic versioning, please visit <a href="http://semver.org/" rel="external nofollow noopener noreferrer" target="_blank">semver.org</a>.</p>
+<h2 id="Testing"><a href="#Testing" class="headerlink" title="Testing"></a>Testing</h2><p>Tests are written using <a href="http://jasmine.github.io/" rel="external nofollow noopener noreferrer" target="_blank">Jasmine</a> and ran with <a href="http://karma-runner.github.io/" rel="external nofollow noopener noreferrer" target="_blank">Karma</a>. To run<br>the test suite with PhantomJS, run <code>$ npm test</code>.</p>
+<h2 id="Developers"><a href="#Developers" class="headerlink" title="Developers"></a>Developers</h2><p>If you plan on contributing to typeahead.js, be sure to read the<br><a href="https://github.com/corejavascript/typeahead.js/blob/master/contributing.md" rel="external nofollow noopener noreferrer" target="_blank">contributing guidelines</a>. A good starting place for new contributors are issues<br>labeled with <a href="https://github.com/corejavascript/typeahead.js/issues?&amp;labels=entry-level&amp;state=open" rel="external nofollow noopener noreferrer" target="_blank">entry-level</a>. Entry-level issues tend to require minor changes<br>and provide developers a chance to get more familiar with typeahead.js before<br>taking on more challenging work.</p>
+<p>In order to build and test typeahead.js, you’ll need to install its dev<br>dependencies (<code>$ npm install</code>) and have <a href="https://github.com/gruntjs/grunt-cli" rel="external nofollow noopener noreferrer" target="_blank">grunt-cli</a><br>installed (<code>$ npm install -g grunt-cli</code>). Below is an overview of the available<br>Grunt tasks that’ll be useful in development.</p>
+<ul>
+<li><code>grunt build</code> – Builds <em>typeahead.js</em> from source.</li>
+<li><code>grunt lint</code> – Runs source and test files through JSHint.</li>
+<li><code>grunt watch</code> – Rebuilds <em>typeahead.js</em> whenever a source file is modified.</li>
+<li><code>grunt server</code> – Serves files from the root of typeahead.js on localhost:8888.<br>Useful for using <em>test/playground.html</em> for debugging/testing.</li>
+<li><code>grunt dev</code> – Runs <code>grunt watch</code> and <code>grunt server</code> in parallel.</li>
+</ul>
+<h2 id="Maintainers"><a href="#Maintainers" class="headerlink" title="Maintainers"></a>Maintainers</h2><ul>
+<li><p><a href="https://github.com/orgs/corejavascript/teams/collaborators" rel="external nofollow noopener noreferrer" target="_blank">CoreJS Collaborators</a></p>
+</li>
+<li><p><strong>You?</strong></p>
+</li>
+</ul>
+<h2 id="Authors"><a href="#Authors" class="headerlink" title="Authors"></a>Authors</h2><ul>
+<li><p><strong>Jake Harding</strong></p>
+<ul>
+<li><a href="https://twitter.com/JakeHarding" rel="external nofollow noopener noreferrer" target="_blank">@JakeHarding</a></li>
+<li><a href="https://github.com/jharding" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a></li>
+</ul>
+</li>
+<li><p><strong>Veljko Skarich</strong></p>
+<ul>
+<li><a href="https://twitter.com/vskarich" rel="external nofollow noopener noreferrer" target="_blank">@vskarich</a></li>
+<li><a href="https://github.com/vskarich" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a></li>
+</ul>
+</li>
+<li><p><strong>Tim Trueman</strong></p>
+<ul>
+<li><a href="https://twitter.com/timtrueman" rel="external nofollow noopener noreferrer" target="_blank">@timtrueman</a></li>
+<li><a href="https://github.com/timtrueman" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>Copyright 2013 Twitter, Inc.</p>
+<p>Licensed under the MIT License</p>

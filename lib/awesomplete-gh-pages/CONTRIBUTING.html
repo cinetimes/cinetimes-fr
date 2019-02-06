@@ -1,0 +1,32 @@
+<p>##Contributing</p>
+<p><strong>Prerequisites</strong></p>
+<p>Install <a href="https://nodejs.org/" rel="external nofollow noopener noreferrer" target="_blank">Node.js</a> and <a href="https://www.npmjs.com/" rel="external nofollow noopener noreferrer" target="_blank">npm</a>. On OSX with <a href="http://brew.sh/" rel="external nofollow noopener noreferrer" target="_blank">Homebrew</a> installed it is as easy as:</p>
+<pre><code>brew install node
+</code></pre><p>Install dependencies:</p>
+<pre><code>npm install
+</code></pre><p><strong>Running tests</strong></p>
+<p>Run tests once and exit:</p>
+<pre><code>npm test
+</code></pre><p>Continuous mode. Whenever any source or test file changes, tests will run automatically:</p>
+<pre><code>karma start
+</code></pre><p>Chrome starts automatically and stops on <code>Ctrl+C</code>. You can also open <code>http://localhost:9876/</code> in any other browser and it will run the tests as long as the tab is open.</p>
+<p><strong>Adding a test</strong></p>
+<p><a href="http://jasmine.github.io/" rel="external nofollow noopener noreferrer" target="_blank">Jasmine</a> is the testing framework used by Awesomplete.</p>
+<p>To write a test (or suite of tests) start by adding a <code>describe</code> function which receives a string describing what is being tested and a function containing what you expect the test to do. Inside the function use the <code>it</code> block to arrange and assert a functionality.</p>
+<p>A test would look like this:</p>
+<pre><code class="javascript">describe(<span class="string">"A fact"</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>{
+    it(<span class="string">"is always true"</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>{
+        <span class="keyword">var</span> fact = <span class="literal">true</span>;
+        expect(fact).toBe(<span class="literal">true</span>);
+    });
+});
+</code></pre>
+<p>See existing tests in <code>test</code> directory as an example. More expectations and examples on how to use Jasmine can be found on the official <a href="http://jasmine.github.io/2.2/introduction.html" rel="external nofollow noopener noreferrer" target="_blank">documentation</a>.</p>
+<p><strong>Build</strong></p>
+<p>Run the build with the following command:</p>
+<pre><code>gulp
+</code></pre><p>The build will:</p>
+<ol>
+<li>Minify <code>awesomplete.js</code> and generate <code>awesomplete.min.js</code>.</li>
+<li>Merge <code>awesomplete.base.css</code> and <code>awesomplete.theme.css</code> and generate <code>awesomplete.css</code>.</li>
+</ol>

@@ -1,0 +1,28 @@
+<h1 id="flag-icon-css"><a href="#flag-icon-css" class="headerlink" title="flag-icon-css"></a>flag-icon-css</h1><p><a href="https://badge.fury.io/js/flag-icon-css" rel="external nofollow noopener noreferrer" target="_blank"><img src="https://badge.fury.io/js/flag-icon-css.svg" alt="npm version"></a><br><a href="https://badge.fury.io/bo/flag-icon-css" rel="external nofollow noopener noreferrer" target="_blank"><img src="https://badge.fury.io/bo/flag-icon-css.svg" alt="Bower version"></a></p>
+<p>A collection of all country flags in SVG — plus the CSS for easier integration.<br>See the <a href="http://lipis.github.io/flag-icon-css/" rel="external nofollow noopener noreferrer" target="_blank">demo</a>.</p>
+<h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><p>You can either <a href="https://github.com/lipis/flag-icon-css/archive/master.zip" rel="external nofollow noopener noreferrer" target="_blank">download</a><br>the whole project as is or install it via Bower or NPM:</p>
+<pre><code class="bash">$ bower install flag-icon-css
+$ npm install flag-icon-css
+</code></pre>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><p>For using the flags inline with text add the classes <code>.flag-icon</code> and<br><code>.flag-icon-xx</code> (where <code>xx</code> is the<br><a href="https://www.iso.org/obp/ui/#search/code/" rel="external nofollow noopener noreferrer" target="_blank">ISO 3166-1-alpha-2 code</a><br>of a country) to an empty <code>&lt;span&gt;</code>. If you want to have a squared version flag<br>then add the class <code>flag-icon-squared</code> as well. Example:</p>
+<pre><code class="html"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"flag-icon flag-icon-gr"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span>
+<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"flag-icon flag-icon-gr flag-icon-squared"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span>
+</code></pre>
+<p>You could also apply this to any element, but in that case you’ll have to use the<br><code>flag-icon-background</code> instead of <code>flag-icon</code> and you’re set. This will add the<br>correct background with the following CSS properties:</p>
+<pre><code class="css"><span class="selector-tag">background-size</span>: <span class="selector-tag">contain</span>;
+<span class="selector-tag">background-position</span>: 50%;
+<span class="selector-tag">background-repeat</span>: <span class="selector-tag">no-repeat</span>;
+</code></pre>
+<p>Which means that the flag is just going to appear in the middle of an element, so<br>you will have to set manually the correct size of 4 by 3 ratio or if it’s squared<br>add also the <code>flag-icon-squared</code> class.</p>
+<h2 id="Development"><a href="#Development" class="headerlink" title="Development"></a>Development</h2><p>Run the <code>npm install</code> to install the dependencies after cloning the project and<br>you’ll be able to:</p>
+<p>To watch for changes and live reload if served</p>
+<pre><code class="bash">$ grunt
+</code></pre>
+<p>To build <code>*.less</code> files</p>
+<pre><code class="bash">$ grunt build
+</code></pre>
+<p>To serve it on <code>localhost:8000</code></p>
+<pre><code class="bash">$ grunt connect
+</code></pre>
+<p>To have only specific countries in the css file, remove the ones that you don’t<br>need from the<br><a href="https://github.com/lipis/flag-icon-css/blob/master/less/flag-icon-list.less" rel="external nofollow noopener noreferrer" target="_blank"><code>flag-icon-list.less</code></a><br>file and build it again.</p>
+<h2 id="Credits"><a href="#Credits" class="headerlink" title="Credits"></a>Credits</h2><p>This project wouldn’t exist without the awesome and now deleted collection of<br>SVG flags by <a href="https://github.com/koppi" rel="external nofollow noopener noreferrer" target="_blank">koppi</a>.</p>
