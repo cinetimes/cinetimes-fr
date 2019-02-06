@@ -88,7 +88,7 @@ comments:
       options:
         format: "timestamp-seconds"
 
-  moderation: false
+  moderation: true
 
   # Name of the site. Used in notification emails.
   name: "cinetimes.org"
